@@ -1,43 +1,63 @@
 <html>
-<head>
+<title>Live drawing</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="Description" content="Web is cool, we make it ! ! !">
-<title>
-Userless
-</title>    
-<style>
-@font-face {
-	font-family: kirvy;
-	src: url('fonts/kirvy.otf');
-}
-    * {font-family: kirvy; letter-spacing: 7px; word-spacing: 14px; line-height: 175%; font-size: 20px; font-weight: bolder; margin: 0 0 0 0; padding: 0 0 0 0; transition: 0.75s;}
-    .header {background-color: #111; color: white; width: 100%; position: absolute;}
-    .title {text-align: center; padding: 5 0 5 0; font-size: 30px;}
-    .tabs {display: inline-block; padding: 2.5 0 2.5 0; text-align: center; width: 33.33%; text-decoration: none; cursor: pointer;}
-    .logo {display: inline; width: 50px; height: 50px; padding-top: 10px;}
-    .search {border: none; background-color: transparent; width: 20%; color: #111; padding: 10 0 10 0;display: block; position: fixed; right: 0;}
-    .iframe {border: none; box-shadow: 0px 0px 25px grey; margin: 20 20 20 20; position: fixed;}
-</style>
-</head>
-<body>
-<div class="header">
-<div class="title">
-<img class="logo" src='logo/logo.jpg'> Userless.tk
-</div>
-<div class="navbar">
-<a class="tabs">a</a><a class="tabs">b</a><a class="tabs">c</a>
-</div>
-</div>
-<input type="text" class="search" placeholder="search">
-<div class="content">
-<iframe src="https://confession.ml" />
-</div>
-</body>
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<svg style="height: 100%; width: 100%; position: fixed; background: rgb(42,37,43);touch-action: none;">
+</svg>
 <script>
-function x(x) {return document.getElementsByClassName(x)[0] || document.getElementsByTagName(x)[0]};
-var scrolll = x("title").clientHeight;
-x("search").style.top=x("iframe").style.top=x('header').clientHeight;
-window.onscroll =  function() {x("search").style.top=x('header').clientHeight;if (document.body.scrollTop>=scrolll) {x("title").style.display="none";x("header").style.position="fixed"}
-else {x("title").style.display="block";x("header").style.position="absolute"}}
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var tid;
+var id;
+var socket = io('https://socketio-chat-example.now.sh/');
+socket.emit('chat message', "WARNING: ANYBODY USING THIS SOCKET, PLEASE STOP, HEAVY DATA TRANSFER IS ABOUT TO TAKE PLACE...");
+document.body.style.margin="0 0 0 0";
+var svg = document.getElementsByTagName("svg")[0];
+var art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
+art.setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
+svg.appendChild(art);
+if (wid>800) {
+var flag = false;
+window.onmousedown = function(e) {
+flag=flag?false:true;
+if (flag) {
+id = Math.floor(1000*Math.random());
+tid = Math.floor(1000*Math.random());
+window["x"+tid] = document.createElementNS("http://www.w3.org/2000/svg","polyline");
+window["x"+tid].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
+window["x"+tid].setAttribute("points","");
+svg.appendChild(window["x"+tid]);
+}
+}
+window.onmousemove = function(e) {
+if (flag) {
+window["x"+tid].setAttribute("points",window["x"+tid].getAttribute('points')+e.x+","+e.y+" ");
+socket.emit('chat message', [id,e.x/wid,e.y/hit])}
+}
+}
+socket.on('chat message', function(msg){if(msg[0]!=id) {
+if (window["x"+msg[0]]==undefined) {
+window["x"+msg[0]] = document.createElementNS("http://www.w3.org/2000/svg","polyline");
+window["x"+msg[0]].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
+window["x"+msg[0]].setAttribute("points","");
+svg.appendChild(window["x"+msg[0]]);
+}
+else {
+window["x"+msg[0]].setAttribute("points",window["x"+msg[0]].getAttribute('points')+(msg[1]*wid)+","+(msg[2]*hit)+" ");
+}
+}});
+window.addEventListener('touchstart', function(e) {
+id = Math.floor(1000*Math.random());
+tid = Math.floor(1000*Math.random());
+window["x"+tid] = document.createElementNS("http://www.w3.org/2000/svg","polyline");
+window["x"+tid].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
+window["x"+tid].setAttribute("points","");
+svg.appendChild(window["x"+tid]);
+});
+window.addEventListener('touchmove', function(e) {
+window["x"+tid].setAttribute("points",window["x"+tid].getAttribute('points')+e.touches[0].clientX+","+e.touches[0].clientY+" ");
+socket.emit('chat message', [id,e.touches[0].clientX/wid,e.touches[0].clientY/hit])
+},false);
+window.ondblclick=function() {location.reload();}
 </script>
 </html>
