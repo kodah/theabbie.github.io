@@ -9,8 +9,7 @@ var wid = window.innerWidth;
 var hit = window.innerHeight;
 var tid;
 var id;
-var socket = io('https://socketio-chat-example.now.sh/');
-socket.emit('chat message', "WARNING: ANYBODY USING THIS SOCKET, PLEASE STOP, HEAVY DATA TRANSFER IS ABOUT TO TAKE PLACE...");
+var socket = io('https://runkit.io/abhishektech/socket/branches/master');
 document.body.style.margin="0 0 0 0";
 var svg = document.getElementsByTagName("svg")[0];
 var art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
@@ -32,10 +31,10 @@ svg.appendChild(window["x"+tid]);
 window.onmousemove = function(e) {
 if (flag) {
 window["x"+tid].setAttribute("points",window["x"+tid].getAttribute('points')+e.x+","+e.y+" ");
-socket.emit('chat message', [id,e.x/wid,e.y/hit])}
+socket.emit('data', [id,e.x/wid,e.y/hit])}
 }
 }
-socket.on('chat message', function(msg){if(msg[0]!=id) {
+socket.on('data', function(msg){if(msg[0]!=id) {
 if (window["x"+msg[0]]==undefined) {
 window["x"+msg[0]] = document.createElementNS("http://www.w3.org/2000/svg","polyline");
 window["x"+msg[0]].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
@@ -56,7 +55,7 @@ svg.appendChild(window["x"+tid]);
 });
 window.addEventListener('touchmove', function(e) {
 window["x"+tid].setAttribute("points",window["x"+tid].getAttribute('points')+e.touches[0].clientX+","+e.touches[0].clientY+" ");
-socket.emit('chat message', [id,e.touches[0].clientX/wid,e.touches[0].clientY/hit])
+socket.emit('data', [id,e.touches[0].clientX/wid,e.touches[0].clientY/hit])
 },false);
 window.ondblclick=function() {location.reload();}
 </script>
