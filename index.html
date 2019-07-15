@@ -1,62 +1,13 @@
 <html>
-<title>Live drawing</title>
+<head>
+<title>Awto JS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
-<svg style="height: 100%; width: 100%; position: fixed; background: rgb(42,37,43);touch-action: none;">
-</svg>
+<style>
+body {margin: 0 0 0 0; background-color: rgb(42,37,43);}
+</style>
+</head>
+<body>
+</body>
 <script>
-var wid = window.innerWidth;
-var hit = window.innerHeight;
-var tid;
-var id;
-var socket = io('https://sokett.herokuapp.com/');
-document.body.style.margin="0 0 0 0";
-var svg = document.getElementsByTagName("svg")[0];
-var art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-art.setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
-svg.appendChild(art);
-if (wid>800) {
-var flag = false;
-window.onmousedown = function(e) {
-flag=flag?false:true;
-if (flag) {
-id = Math.floor(1000*Math.random());
-tid = Math.floor(1000*Math.random());
-window["x"+tid] = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-window["x"+tid].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
-window["x"+tid].setAttribute("points","");
-svg.appendChild(window["x"+tid]);
-}
-}
-window.onmousemove = function(e) {
-if (flag) {
-window["x"+tid].setAttribute("points",window["x"+tid].getAttribute('points')+e.x+","+e.y+" ");
-socket.emit('chat message', [id,e.x/wid,e.y/hit])}
-}
-}
-socket.on('chat message', function(msg){if(msg[0]!=id) {
-if (window["x"+msg[0]]==undefined) {
-window["x"+msg[0]] = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-window["x"+msg[0]].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
-window["x"+msg[0]].setAttribute("points","");
-svg.appendChild(window["x"+msg[0]]);
-}
-else {
-window["x"+msg[0]].setAttribute("points",window["x"+msg[0]].getAttribute('points')+(msg[1]*wid)+","+(msg[2]*hit)+" ");
-}
-}});
-window.addEventListener('touchstart', function(e) {
-id = Math.floor(1000*Math.random());
-tid = Math.floor(1000*Math.random());
-window["x"+tid] = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-window["x"+tid].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
-window["x"+tid].setAttribute("points","");
-svg.appendChild(window["x"+tid]);
-});
-window.addEventListener('touchmove', function(e) {
-window["x"+tid].setAttribute("points",window["x"+tid].getAttribute('points')+e.touches[0].clientX+","+e.touches[0].clientY+" ");
-socket.emit('chat message', [id,e.touches[0].clientX/wid,e.touches[0].clientY/hit])
-},false);
-window.ondblclick=function() {location.reload();}
 </script>
 </html>
