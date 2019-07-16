@@ -1,0 +1,259 @@
+﻿<html>
+<head>
+<title>
+Air India
+</title>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="csshake-slow.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<style>
+@font-face {
+	font-family: ubuntu regular;
+	src: url('Ubuntu-Regular.ttf');
+}
+@keyframes op {
+    from {opacity: 0.7;}
+    to {opacity: 1;}
+}
+@keyframes intro {
+    from {background-color: white;}
+    to {opacity: 0;}
+}
+html {overflow-x: hidden; max-width: 100%;}
+* {font-family: ubuntu regular; letter-spacing: 6px; word-spacing: 10px; animation: op 2s 1; transition: 0.5s;}
+body {margin: 0 0 0 0;}
+.header {background: linear-gradient(to left, #e52d27, #b31217); padding: 20 20 20 20; font-size: 75px; color: white; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19); position: fixed; width: 100%; text-align: center;}
+.footer {background: linear-gradient(to left, #e52d27, #b31217);; padding: 20 20 20 20; font-size: 20px; color: white; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19); position: relative; bottom: 0; margin-top: 0px;}
+.content {padding: 150px 0 0 0; font-size: 30px; font-weight: bold; transition: 0.5s;}
+.nav {height: 100%;width: 0;position: fixed;z-index: 1;top: 0;background-color: white ;overflow-x: hidden;transition: 0.5s;padding-top: 0px; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+img {margin: 0 0 0 0; width: 100%; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+p {text-align: center; padding: 10 10 10 10;}
+p:hover {background-color: aquamarine; cursor: pointer;}
+.chatbtn {padding: 10 10 10 10; border-radius: 50%; background-color: aqua; width: 55px; height: 55px; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19); position: fixed; right: 20; bottom: 20; text-align: center; z-index: 4;}
+.chatbtn i {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center;}
+.chatext {padding: 10 10 10 10; letter-spacing: 4px; word-spacing: 6px; font-size: 30px; border: 3px solid brown; width: 100%;}
+qbox {word-break: keep-all;display: block; position: relative; float: right; padding: 10 10 10 10; background-color: greenyellow; font-size: 20px; word-break: break-all; max-width: 40%; max-height: 115px; overflow: hidden; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+abox {word-break: keep-all;display: block; position: relative; float: left; padding: 10 10 10 10; background-color: orange; font-size: 20px; word-break: break-all; max-width: 40%; max-height: 115px; overflow: hidden; opacity: 0; transition: opacity 1s; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.user {width: 200px; height: 200px; border-radius: 50%;}
+.about {padding: 20 20 50 20}
+.strip {width: 20%; padding: 5 0 5 0; display: inline-block; position: relative; margin-bottom: 0; z-index: -1; transition: 2.5s;}
+.about img {height: 250px; width: 200px; transition: 0.5s;}
+.container:hover {filter: brightness(0.5);}
+.container:hover .middle {opacity: 1;}
+.container {position: relative; display: inline-block; transition: 0.5s;}
+button {width: 30%; padding: 20 10 20 10; background-color: aqua; border: none; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19); display: inline-block; font-weight: bolder; font-size: 15px;}
+.middle {transition: .5s;opacity: 0;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center; color: white; animation: none;}
+.log {border: none; border-bottom: 4px solid grey; background-color: transparent; padding: 10 10 10 10; width: 150px; transition: 0.75s; font-weight: bolder;}
+.log:hover {border-bottom-color: lightslategrey;}
+.log:focus {border-bottom-color: lightslategrey;}
+.intro {z-index: 5; position: fixed; width: 100%; height: 100%; background-color: rgba(0,0,0,0); animation: intro 7s 1;}
+.introtext {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center; font-size: 50px;}
+.flight {width: 90%;box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);margin: 15 15 15 15;}
+</style>
+</head>
+<body onload="check()">
+<div class="intro"><div class="introtext">Welcome</div></div>
+<div class="nav" style="left: 0;">
+<img src="logo-about.jpg" style="box-shadow: 0 0px 50px 0 rgba(0,0,0,0.2),0 0px 50px 0 rgba(0,0,0,0.19);">
+<div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div>
+<p>Home</p>
+<p>Login | Signup</p>
+<p>About</p>
+<p style="display: none">Offers</p>
+<p style="display: none;">Book Tickets</p>
+</div>
+<div class="nav" style='right: 0; z-index: 3;'>
+<input type="text" class="chatext">
+<div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div>
+<input type="button" class="send" style="padding: 10 10 10 10; background-color: aqua; color: brown; font-size: 25px; text-align: center; width: 100%; border: none; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);" Value="send" maxlength="10">
+<div class="chatbox"></div>
+</div>
+<span class="navbtn" style="font-size: 100px; position: fixed; z-index: 3; color: white; left: 30; transition: 0.5s;">&#8801;</span>
+<div class="header">
+Air India
+</div>
+<div class="content">
+<div class="home" style="font-size: 18px; padding: 0 0 0 0; line-height:200%;">
+<div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div>    
+<img>
+<div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div>    
+<br><br>
+<div style="padding: 10 30 100 20">Air India is the flag carrier airline of India. It is owned by Air India Limited, a government-owned enterprise, and operates a fleet of Airbus and Boeing aircraft serving 94 domestic and international destinations. The airline has its hub at Indira Gandhi International Airport, New Delhi, alongside several focus cities across India. Air India is the largest international carrier out of India with an 18.6% market share. Over 60 international destinations are served by Air India across four continents. Additionally, the carrier is the third largest domestic airline in India in terms of passengers carried (after IndiGo and Jet Airways) with a market share of 13.5% as of July 2017.[10] The airline became the 27th member of Star Alliance on 11 July 2014.<br><br><br>
+
+Air India also operates flights to domestic and Asian destinations through its subsidiaries Alliance Air and Air India Express. Air India's mascot is the Maharajah (Emperor) and the logo consists of a flying swan with the wheel of Konark inside it.</div>
+</div>
+<div class="about" style="display: none; text-align: center;">
+Meet The Team: <div style="width: 40%; margin: auto;"><div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div></div><br><br>
+    <div class="container"><img src="abhishek.jpg"><div class="middle">Abhishek<br><small><small><small>Developer</small></small></small><br><i class="fa fa-instagram"></i></div></div>&nbsp;<div class="container"><img src="pratik.JPG"><div class="middle" style="color: black;">Pratik<br><small><small><small>Design Manager</small></small></small><br><i class="fa fa-instagram"></i></div></div>&nbsp;<div class="container"><img src="naveen.JPG"><div class="middle">Naveen<br><small><small><small>Tester</small></small></small><br><i class="fa fa-instagram"></i></div></div>&nbsp;<div class="container"><img alt="ACCOUNT NOT FOUND (SARFARAZ)" src=""><div class="middle">Sarfaraz<br><small><small><small>Asst. Developer</small></small></small><br><i class="fa fa-google"></i></div></div>&nbsp;<div class="container"><img src=""alt="ACCOUNT NOT FOUND (SAHIL)"><div class="middle">Sahil<br><small><small><small>Supporter</small></small></small><br><i class="fa fa-instagram"></i></div></div>
+</div>
+</div>
+<div class="ticket" style="display: none;">
+<table width="100%" cellspacing="20">
+<tr><td>
+<h3>FROM:</h3><BR>
+<select>
+<option>Australia</option><option>Perth</option><option>Sydney</option><option>Austria</option><option>Bahrain</option><option>Bangladesh</option><option>Belgium</option><option>Canada</option><option>Toronto</option><option>China</option><option>Shanghai</option><option>Czech Republic</option><option>Denmark</option><option>Egypt</option><option>Ethiopia</option><option>France</option><option>Fiji</option><option>Germany</option><option>Frankfurt</option><option>Ghana</option><option>India (<span class="nowrap">Andaman and Nicobar Islands</span>)</option><option>India (Andhra Pradesh)</option><option>Vijayawada</option><option>Visakhapatnam</option><option>India (Assam)</option><option>Guwahati</option><option>Silchar</option><option>India (Bihar)</option><option>Patna</option><option>India (Chandigarh)</option><option>India (Chhattisgarh)</option><option>India (Delhi)</option><option>India (Goa)</option><option>India (Gujarat)</option><option>Jamnagar</option><option>Rajkot</option><option>Surat</option><option>Vadodara</option><option>India (Jammu and Kashmir)</option><option>Leh</option><option>Srinagar</option><option>India (Jharkhand)</option><option>India (Karnataka)</option><option>Bellary</option><option>Hubli</option><option>Mangalore</option><option>Belgaum</option><option>India (Kerala)</option><option>Kozhikode</option><option>Thiruvananthapuram</option><option>India (Madhya Pradesh)</option><option>Indore</option><option>Khajuraho</option><option>India (Maharashtra)</option><option>Mumbai</option><option>Nagpur</option><option>Nanded</option><option>Pune</option><option>India (Manipur)</option><option>India (Mizoram)</option><option>India (Nagaland)</option><option>India (Odisha)</option><option>India (Punjab)</option><option>India (Rajasthan)</option><option>Jodhpur</option><option>Udaipur</option><option>India (Tamil Nadu)</option><option>Coimbatore</option><option>Madurai</option><option>India (Telangana)</option><option>India (Tripura)</option><option>India (Uttar Pradesh)</option><option>Lucknow</option><option>Varanasi</option><option>India (West Bengal)</option><option>Bagdogra</option><option>Kolkata</option><option>Indonesia</option><option>Iran</option><option>Iraq</option><option>Israel</option><option>Italy</option><option>Rome</option><option>Japan</option><option>Tokyo</option><option>Kenya</option><option>Kuwait</option><option>Lebanon</option><option>Malaysia</option><option>Maldives</option><option>Mauritius</option><option>Myanmar</option><option>Nepal</option><option>Netherlands</option><option>Nigeria</option><option>Oman</option><option>Salalah</option><option>Pakistan</option><option>Qatar</option><option>Russia</option><option><a href="/wiki/Sheremetyevo_International_Airport" title="Sheremetyevo International Airport">Sheremetyevo International Airport</a></option><option>Saudi Arabia</option><option>Dhahran</option><option>Jeddah</option><option>Riyadh</option><option>Seychelles</option><option>Singapore</option><option>South Africa</option><option>Johannesburg</option><option>South Korea</option><option>Spain</option><option>Sri Lanka</option><option>Sweden</option><option>Switzerland</option><option>Zürich</option><option>Syria</option><option>Tanzania</option><option>Thailand</option><option><a href="/wiki/Suvarnabhumi_Airport" title="Suvarnabhumi Airport">Suvarnabhumi Airport</a></option><option>Uganda</option><option>United Arab Emirates</option><option>Al Ain</option><option>Dubai</option><option>Fujairah</option><option>Ras Al Khaimah</option><option>Sharjah</option><option>United Kingdom</option><option>London</option><option>Manchester</option><option>United States</option><option>Los Angeles</option><option>Newark</option><option>New York City</option><option>San Francisco</option><option>Washington, D.C.</option><option>Uzbekistan</option><option>Yemen</option><option>Yemen</option><option>Zambia</option><option>Zimbabwe</option>
+</select>
+</td>
+<td>
+<h3>TO:</h3><BR>
+<select>
+<option>Australia</option><option>Perth</option><option>Sydney</option><option>Austria</option><option>Bahrain</option><option>Bangladesh</option><option>Belgium</option><option>Canada</option><option>Toronto</option><option>China</option><option>Shanghai</option><option>Czech Republic</option><option>Denmark</option><option>Egypt</option><option>Ethiopia</option><option>France</option><option>Fiji</option><option>Germany</option><option>Frankfurt</option><option>Ghana</option><option>India (<span class="nowrap">Andaman and Nicobar Islands</span>)</option><option>India (Andhra Pradesh)</option><option>Vijayawada</option><option>Visakhapatnam</option><option>India (Assam)</option><option>Guwahati</option><option>Silchar</option><option>India (Bihar)</option><option>Patna</option><option>India (Chandigarh)</option><option>chattisgarh</option><option>Indira gandhi international airport</option><option>madgaon</option><option>ahmedabad</option><option>Jamnagar</option><option>Rajkot</option><option>Surat</option><option>Vadodara</option><option>India (Jammu and Kashmir)</option><option>Leh</option><option>Srinagar</option><option>Ranchi</option><option>India (Karnataka)</option><option>Bellary</option><option>Hubli</option><option>Mangalore</option><option>Belgaum</option><option>India (Kerala)</option><option>Kozhikode</option><option>Thiruvananthapuram</option><option>India (Madhya Pradesh)</option><option>Indore</option><option>Khajuraho</option><option></option><option>Mumbai</option><option>Nagpur</option><option>Nanded</option><option>Pune</option><option>India (Manipur)</option><option>Mizoram</option><option>Nagaland</option><option>India (Odisha)</option><option>Amritsar</option><option>jaipur</option><option>Jodhpur</option><option>Udaipur</option><option>India (Tamil Nadu)</option><option>Coimbatore</option><option>Madurai</option><option>hyderabad</option><option>India (Tripura)</option><option>India (Uttar Pradesh)</option><option>Lucknow</option><option>Varanasi</option><option>kolkata</option><option>Bagdogra</option><option>Kolkata</option><option>Indonesia</option><option>Iran</option><option>Iraq</option><option>Israel</option><option>Italy</option><option>Rome</option><option>Japan</option><option>Tokyo</option><option>Kenya</option><option>Kuwait</option><option>Lebanon</option><option>Malaysia</option><option>Maldives</option><option>Mauritius</option><option>Myanmar</option><option>Nepal</option><option>Netherlands</option><option>Nigeria</option><option>Oman</option><option>Salalah</option><option>Pakistan</option><option>Qatar</option><option>Russia</option><option><a href="/wiki/Sheremetyevo_International_Airport" title="Sheremetyevo International Airport">Sheremetyevo International Airport</a></option><option>Saudi Arabia</option><option>Dhahran</option><option>Jeddah</option><option>Riyadh</option><option>Seychelles</option><option>Singapore</option><option>South Africa</option><option>Johannesburg</option><option>South Korea</option><option>Spain</option><option>Sri Lanka</option><option>Sweden</option><option>Switzerland</option><option>Zürich</option><option>Syria</option><option>Tanzania</option><option>Thailand</option><option><a href="/wiki/Suvarnabhumi_Airport" title="Suvarnabhumi Airport">Suvarnabhumi Airport</a></option><option>Uganda</option><option>United Arab Emirates</option><option>Al Ain</option><option>Dubai</option><option>Fujairah</option><option>Ras Al Khaimah</option><option>Sharjah</option><option>United Kingdom</option><option>London</option><option>Manchester</option><option>United States</option><option>Los Angeles</option><option>Newark</option><option>New York City</option><option>San Francisco</option><option>Washington, D.C.</option><option>Uzbekistan</option><option>Yemen</option><option>Yemen</option><option>Zambia</option><option>Zimbabwe</option>
+</select>
+</td>
+<tr>
+<td>
+<h3>Departure:</h3><BR>
+<input type="date">
+</td>
+<td>
+<h3>Date of return:</h3><BR>
+<input type="date">
+</td>
+</tr>
+<tr><td colspan="2" align="center"><button style="padding: 15 0 15 0" onclick="flights()">CHECK</button></td></tr>
+</table>
+<div class="flightlist" style="display:none;"></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+<div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div><div class="strip"></div>
+<div class="footer">
+Air India Pvt. Ltd.<br>
+New Delhi-400614<br>
+7021317959/9969420856/9930332297
+</div>
+<span class="closelog" style="font-size: 75px; position: fixed; right: 10; transition: 0.5s; opacity: 0; z-index: 2; top: -10; animation: none;">&times;</span>
+<div class="nav" style="right: 0; padding-top: 60px; text-align: center;">
+<h2 style="padding: 10 10 10 10; background-color: hotpink;">Sign Up</h2><br><br>
+<input type="text" class="log" placeholder="username"><br>
+<input type="text" class="log" placeholder="E-mail"><br>
+<input type="password" class="log" placeholder="password"><br><br>
+<button>SIGN UP</button>
+<button>LOG IN</button>
+</div>
+<div class="chatbtn"><i class="fa fa-phone" style="font-size: 50px;"></i></div>
+<script>
+  var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+  };
+  firebase.initializeApp(config);
+var ctr,navctr,navbtnctr,l,t,from,to;
+var header = document.getElementsByClassName("header")[0];
+var content = document.getElementsByClassName("content")[0];
+var home = document.getElementsByClassName("home")[0];
+var nav = document.getElementsByClassName("nav");
+var navbtn = document.getElementsByClassName("navbtn")[0];
+var closelog = document.getElementsByClassName("closelog")[0];
+var img = document.getElementsByTagName("img")[1];
+var p = document.getElementsByTagName("p");
+var chatbtn = document.getElementsByClassName("chatbtn")[0];
+var chatext = document.getElementsByClassName("chatext")[0];
+var chatbox = document.getElementsByClassName("chatbox")[0];
+var send = document.getElementsByClassName("send")[0];
+var about = document.getElementsByClassName("about")[0];
+var abox = document.getElementsByTagName("abox");
+var i = document.getElementsByTagName("i");
+var button = document.getElementsByTagName("button");
+var userdata = document.getElementsByClassName("log");
+var style = document.getElementsByTagName("style")[0];
+var strip = document.getElementsByClassName("strip");
+var ticket = document.getElementsByClassName("ticket")[0];
+var ref = firebase.database().ref("airindia");
+var init_book_tickets =  ticket.innerHTML;
+document.body.scrollTop=0;
+var userinfo = {};
+ref.on('value', function(data) {
+userinfo = Object.assign({}, data.val());
+});
+setTimeout(function() {document.getElementsByClassName("intro")[0].style.display="none"},3500);
+for (k=0; k<strip.length; k++) {var colors = ["cadetblue","greenyellow","teal","aqua","olive"]; strip[k].style.backgroundColor=colors[(k%5)];}
+nav[0].style.width="0px";
+window.addEventListener("click", check);
+user();
+function fn() {window.scrollTo(0, 0);};
+function wid() {var wid = [Math.random(),Math.random(),Math.random(),Math.random(),Math.random()];var sum = wid[0]+wid[1]+wid[2]+wid[3]+wid[4];for (i=0;i<5;i++) {wid[i] /= sum};for (i=0; i<strip.length; i++) {strip[i].style.width=wid[i%5]*100+"%";}};
+if (localStorage.userdata==undefined) {button[1].addEventListener("click", function() {userinfo[userdata[0].value]=[userdata[0].value,userdata[1].value,userdata[2].value];ref.set(userinfo);localStorage.userdata=userdata[0].value;user();p[3].style.display="block";p[4].style.display="block";});}
+else {p[3].style.display="block";p[4].style.display="block";}
+if (button[2]!=undefined) {button[2].addEventListener("click", function() {if (userinfo[userdata[0].value]!=undefined && userinfo[userdata[0].value][2]==userdata[2].value) {swal("Logged in succesfully");localStorage.userdata=userinfo[userdata[0].value][0];;p[1].innerHTML="LogOut"; nav[2].innerHTML="<img src='user.png' class='user'><h1>"+userinfo[userdata[0].value][0]+"</h1><br><button onclick='logout()'>LogOut</button>";p[3].style.display="block";p[4].style.display="block";} else {swal("Error","Incorrect Credentials","error")}});}
+function user() {if (localStorage.userdata!=undefined) {p[1].innerHTML="LogOut"; nav[2].innerHTML="<img src='user.png' class='user'><h1>"+localStorage.userdata+"</h1><br><button onclick='logout()'>LogOut</button>";}}
+function logout() {localStorage.removeItem("userdata");document.location.reload();}
+i[0].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/abbie_shaikh/")});
+i[1].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/pratik_ugale0262001/")});
+i[2].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/the.mr.insane/")});
+i[3].addEventListener("click", function() {window.open().location.assign("https://plus.google.com/u/0/105527202098604501739")});
+i[4].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/")});
+if (localStorage.chats!=undefined) {chatbox.innerHTML=localStorage.chats;}
+function check() {if (window.innerWidth<300) {document.getElementsByClassName("introtext")[0].style.fontSize="30px";};wid();if (window.innerWidth<=600 && window.innerWidth>=150) {style.innerHTML+=".strip {padding: 3 0 3 0;}";img.style.height="250px";style.innerHTML+=".middle {opacity: 1}";header.style.fontSize="30px"; navbtn.style.fontSize="60px"; content.style.padding="90 0 0 0";ctr="100%"; navctr="50%"; navbtnctr="60%";} else if (window.innerWidth >= 600) {header.style.fontSize="75px";content.style.paddingTop="150px"; ctr="30%"; navctr="250px"; navbtnctr="280px"; navbtn.style.fontSize="100px";} else {document.body.innerHTML="<h3>Sorry This Website Can't Run Here;</h3>"}; if (nav[0].style.width=="0px") {window.removeEventListener("scroll", fn);header.innerHTML = "Air India"; header.style.position="fixed";} else {window.addEventListener("scroll",fn);document.body.scrollTop=0;};if (about.style.display=="block") {header.style.position="absolute"; navbtn.style.color="black";} else {header.style.position="fixed"; navbtn.style.colorolor="white"; clearInterval(l);};if (document.body.scrollTop<=100) {navbtn.style.color="white";};if (document.body.scrollTop >= 100) {header.style.fontSize="30px"; navbtn.style.fontSize="60px";};if (window.innerWidth<=300) {header.innerHTML="<small><small>Air<br>India</small></small>";i[5].style.padding="0 0 0 0"; navctr="65%";};p[2].style.display=((window.innerWidth<=200)?"none":"")}
+setInterval(check,1000)
+navbtn.addEventListener("click", function() {if (nav[0].style.width=="0px") {if (window.innerWidth<=1000) {header.innerHTML="&nbsp;"}; nav[0].style.width=navctr;content.style.opacity="0.5"; this.style.left=navbtnctr} else {nav[0].style.width="0px";content.style.opacity="1"; this.style.left="30";}});
+p[0].addEventListener("click", function() {home.style.display="block"; about.style.display="none";nav[0].style.width="0px";content.style.opacity="1"; navbtn.style.left="30"});
+p[1].addEventListener("click", function() {if (window.innerWidth<=540) {navbtn.style.display="none";};nav[2].style.width=ctr; closelog.style.opacity="1";nav[0].style.width="0px";content.style.opacity="1"; navbtn.style.left="30"; content.style.filter="blur(10px)"; header.style.filter="blur(10px)";});
+p[2].addEventListener("click", function() {if (window.innerWidth<=1100) {var i = 0;l = setInterval(function() {document.body.scrollTop=i;if (document.body.scrollTop!=i) {clearInterval(l);};i++;}, 10)};home.style.display="none";about.style.display="block"; nav[0].style.width="0px";content.style.opacity="1"; navbtn.style.left="30";});
+p[3].addEventListener("click", function() {swal("Sorry, currently no offers are availble...")});
+closelog.addEventListener("click", function() {if (window.innerWidth<=540) {navbtn.style.display="block";};nav[2].style.width="0px"; this.style.opacity="0"; content.style.filter=""; header.style.filter="";});
+chatbtn.addEventListener("click", function() {chatext.value="hi";send.click();chatext.focus();if (nav[1].style.width==ctr) {if (window.innerWidth<=540) {navbtn.style.display="block";};nav[1].style.width="0px"} else {if (window.innerWidth<=540) {navbtn.style.display="none";};nav[1].style.width=ctr};});
+send.addEventListener("click", function () {chatbox.innerHTML = "<qbox>"+chatext.value+"</qbox><abox>"+ans(chatext.value)+"</abox><br><br><br><br><br><br><br><br>" + chatbox.innerHTML; abox[0].style.opacity="1"; localStorage.chats=chatbox.innerHTML;});
+p[4].addEventListener("click", function() {ticket.innerHTML=init_book_tickets;ticket.style.display="block";home.style.display="none";about.style.display="none"; nav[0].style.width="0px";content.style.opacity="1"; navbtn.style.left="30";});
+function ans(x) {var store = {}; 
+store["hi"]=store["hello"]=store["hey"]=localStorage.userdata+", How can I help you?"; 
+if (x.indexOf("flight")!=-1 || x.indexOf("ticket")!=-1) {store[x]="Wait!";p[4].click()};
+if (x.indexOf("about")!=-1) {store[x]="Wait!";p[2].click()};
+if (x.indexOf("register")!=-1) {store[x]="Wait!";p[1].click()};
+if (x.indexOf("okay")!=-1) {store[x]="thank you!";chatbtn.click()};
+if (x.indexOf("offers")!=-1) {store[x]="Searching for offers!";p[3].click()};
+return ((store[x]==undefined)?("<small><small>Sorry,"+localStorage.userdata+",We Offer services you can check it in offers Tab after you log in</small></small>"):(store[x]))};
+function banner() {
+setTimeout(function() {img.setAttribute("src", "banner1.jpg")}, 0);
+setTimeout(function() {img.setAttribute("src", "banner2.jpg")}, 1500);
+setTimeout(function() {img.setAttribute("src", "banner3.jpg")}, 3000);
+setTimeout(function() {img.setAttribute("src", "banner4.jpg")}, 4500);
+setTimeout(function() {img.setAttribute("src", "banner5.jpg")}, 6000);
+}
+banner();
+setInterval(banner, 7500);
+function flights() {
+from = document.getElementsByTagName("select")[0].value;
+to = document.getElementsByTagName("select")[1].value;
+var list = document.getElementsByClassName("flightlist")[0];
+swal("searching for flights from "+from+" to "+to+"...",{buttons:false,timer:1500});
+setTimeout(function() {
+list.style.display="block";
+list.innerHTML=
+"<table class='flight' cellpadding='15'><tr><td><h3>"+"<img src='https://cdn.countryflags.com/thumbs/"+from.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 50px; width: 80px;'><br>"+from+"</h3></td><td><h3>"+"<img src='https://cdn.countryflags.com/thumbs/"+to.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 50px; width: 80px;'><br>"+to+"</h3></td><td><h3>Rs "+(5000+Math.floor(1000*Math.random()))+"</h3></td><td><h3>"+"<button onclick='book()' style='width:100%'>Book</button>"+"</h3></td></tr></table><br>"+
+"<table class='flight' cellpadding='15'><tr><td><h3>"+"<img src='https://cdn.countryflags.com/thumbs/"+from.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 50px; width: 80px;'><br>"+from+"</h3></td><td><h3>"+"<img src='https://cdn.countryflags.com/thumbs/"+to.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 50px; width: 80px;'><br>"+to+"</h3></td><td><h3>Rs "+(5000+Math.floor(1000*Math.random()))+"</h3></td><td><h3>"+"<button onclick='book()' style='width:100%'>Book</button>"+"</h3></td></tr></table><br>"+
+"<table class='flight' cellpadding='15'><tr><td><h3>"+"<img src='https://cdn.countryflags.com/thumbs/"+from.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 50px; width: 80px;'><br>"+from+"</h3></td><td><h3>"+"<img src='https://cdn.countryflags.com/thumbs/"+to.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 50px; width: 80px;'><br>"+to+"</h3></td><td><h3>Rs "+(5000+Math.floor(1000*Math.random()))+"</h3></td><td><h3>"+"<button onclick='book()' style='width:100%'>Book</button>"+"</h3></td></tr></table><br>"+
+"<table class='flight' cellpadding='15'><tr><td><h3>"+"<img src='https://cdn.countryflags.com/thumbs/"+from.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 50px; width: 80px;'><br>"+from+"</h3></td><td><h3>"+"<img src='https://cdn.countryflags.com/thumbs/"+to.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 50px; width: 80px;'><br>"+to+"</h3></td><td><h3>Rs "+(5000+Math.floor(1000*Math.random()))+"</h3></td><td><h3>"+"<button onclick='book()' style='width:100%'>Book</button>"+"</h3></td></tr></table><br>"
+},1000)
+}
+function book() {
+ticket.innerHTML=
+"<table width='100%' cellspacing='25'><tr><td><img alt='place' src='https://cdn.countryflags.com/thumbs/"+from.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 150px; width: 350px;'></td><td rowspan='2' align='center'><h2>TO</h2></td><td><img alt='place' src='https://cdn.countryflags.com/thumbs/"+to.split(" (")[0].toLowerCase().split(" ").join("-")+"/flag-400.png' style='height: 150px; width: 350px;'></td></tr>"+
+"<tr><td>"+from+"</td><td>"+to+"</td></tr><tr><td colspan='2'><h4><input type='checkbox'> I agree to proceed</h4></td></tr><tr><td colspan='2'><h4>Rs "+(5000+Math.floor(1000*Math.random()))+"</h4></td></tr><tr><td colspan='2'><button onclick='proceed()'>Proceed</button></td></tr></table>"+
+"<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+}
+function proceed() {
+ticket.innerHTML=
+"<table align='center' style='border:2px solid black;'>"+
+"<tr><td><img src='logo-about.jpg' style='box-shadow: none;'></td><td>&nbsp;</td></tr>"+
+"<tr><td>FROM:<br><h4>"+
+from+
+"</h4></td><td>TO:<br><h4>"+
+to+
+"</h4></td></tr><tr><td>PRICE:<br><h4>"+
+(5000+Math.floor(1000*Math.random()))+
+"</h4></td><td>OWNER:<br><h4>"+
+localStorage.userdata+
+"</h4></td></tr></table><center><button onclick='window.print()'>Take Printout</button></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+}
+chatext.onkeydown=function(e) {if (e.key=="Enter") {send.click();}};
+</script>
+</body>
+</HTML>

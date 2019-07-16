@@ -1,0 +1,124 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    @font-face {
+	font-family: cubano regular;
+	src: url('Cubano-Regular.otf');
+    }
+    @font-face {
+	font-family: roboto;
+	src: url('Roboto-Light.ttf');
+    }
+    @keyframes loader {
+        0% {width: 150px; height: 150px;opacity: 0.5}
+        50% {width: 200px; height: 200px;opacity: 1}
+        100% {width: 150px; height: 150px;opacity: 0.5}
+    }
+    * {font-family: cubano regular; letter-spacing: 5px; word-spacing: 10px;}
+    body {margin: 0 0 20 0;}
+    .header {background-color:orangered;padding: 10 0 5 10; color: white; font-size: 35px; font-weight: normal;box-shadow:0 0px 15px 0 rgba(0,0,0,0.2),0 0px 15px 0 rgba(0,0,0,0.19);}  
+    .content {width: 90%; margin: auto; font-size:40px; padding: 20 0 0 0;}
+    a {text-decoration: none; color: white; font-weight: normal;}
+    img {height: 40%; box-shadow:0 0px 15px 0 rgba(0,0,0,0.2),0 0px 15px 0 rgba(0,0,0,0.19); margin: 10 10 10 10; transition: 1s;}
+    video {margin: 10 0 10 0; background: black;box-shadow:0 0px 15px 0 rgba(0,0,0,0.2),0 0px 15px 0 rgba(0,0,0,0.19);}
+</style>
+<body>
+<div class="loader" style="position: fixed; width: 100%; height:100%; transition: 1s; background: white;">
+<img src="pictures/heart.png" style="animation: loader 1s infinite; box-shadow: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%)">
+</div>
+<div class="header">
+    <span>Kaya 05072909</span><br>
+    <span style="font-size: 20px; line-height: 30px;"><a>Info</a> | <a>Gallery</a> | <a>Videos</a> | <a>Before you</a></span>
+</div>
+<div class="content">
+<div class="home">
+1 Year special
+<p style="font-family:roboto; font-size: 20px; font-weight: bolder;">
+Hey! It's been an year today since the time I actually spoke to you. It's been 365 days and I'm still in awe of you.
+You're the best thing that could've happened to me Jaan. I love you and I always will.
+</p>
+After you
+<p style="font-family:roboto; font-size: 20px; font-weight: bolder;">
+Lemme think.. Nothing here!<br>
+I'm just a passionate pervert
+</p>
+</div>
+<div class="gallery" style="display: none; text-align: center;">
+<center>Memories together</center>
+</div>
+<div class="beforeyou" style="display: none; font-family:roboto; font-size: 25px; font-weight: bolder;">
+<p style="font-size: 40px;"> Before you ...</p>
+Being honest, I literally didn't give a damn about what people thought about me since the very beginning. I was stubborn, rude and despised egoistic bastard's. I was what they called a spoilt brat..<br><br>
+Then, due to god's will, I came here and saw a girl and trust me, it was love at first sight. After searching up a little and using the mirror on the ground floor, I found out your name.<br><br>
+Each and every day I spend with you is the best day of my life.. And this year is proving to be great.
+I Love you my adamant princess.
+</div>
+<div class="info" style="display: none; font-family:roboto; font-size: 25px; font-weight: bolder;">
+<p style="font-size: 40px;"> Info ...</p>
+About 7 months and 14 days ago.. Nah! About an year ago, there was a boy named aryan who was in love with a girl but didn't really have the guts to ask her out, thinking that she belonged to a conservative background. This boy was in love with her since the very first time he saw her, walking back from school comfortable in her blazer. Her curly hair all messed up and hanging over her temples.<br><br>
+
+At that moment, 'my horrible flirting skills' made me go to close to her. So close that I could've knocked her down. When she didn't notice or used to come up with a sudden 'Hi', he used to run away as fast as he could.<br>
+
+And yes! That 'He' we're talking about is me.<br><br>
+
+I am that (not so good  at flirting) Aryan.
+This is how we both fell for each other and are gonna complete 8 months together.<br><br>
+
+This is kinda like a 1 yr. meeting anniversary!<br>
+
+So, happy anniversary babe!<br><br>
+<big><center style="color: hotpink">I Love You</center></big><br><br>
+</div>
+<div class="videos" style="display: none; text-align: center;">
+Recorded memories    <br>
+<video style="width: 50%; height: 40%;" controls>
+  <source src="videos/1.mp4" type="video/mp4">
+</video>
+<video style="width: 50%; height: 40%;" controls>
+  <source src="videos/2.mp4" type="video/mp4">
+</video>
+<video style="width: 50%; height: 40%;" controls>
+  <source src="videos/3.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</body>
+<script>
+var flag=0;
+var wid = window.innerWidth;
+function x(x) {return document.getElementsByClassName(x)[0] || document.getElementsByTagName(x)[0]};
+setTimeout(function() {
+x("loader").style.height="0";
+x("loader").style.opacity="0";
+setTimeout(function() {x("loader").style.display="none";},1000)   
+},3000)
+document.getElementsByTagName("a")[0].addEventListener("click",function() {setTimeout(function() {
+x("home").style.display="none";x("info").style.display="block";x("gallery").style.display="none";x("videos").style.display="none";x("beforeyou").style.display="none";
+},700)})
+document.getElementsByTagName("a")[1].addEventListener("click",function() {setTimeout(function() {
+x("home").style.display="none";x("info").style.display="none";x("gallery").style.display="block";x("videos").style.display="none";x("beforeyou").style.display="none";
+},700)})
+document.getElementsByTagName("a")[2].addEventListener("click",function() {setTimeout(function() {
+x("home").style.display="none";x("info").style.display="none";x("gallery").style.display="none";x("videos").style.display="block";x("beforeyou").style.display="none";
+},700)})
+document.getElementsByTagName("a")[3].addEventListener("click",function() {setTimeout(function() {
+x("home").style.display="none";x("info").style.display="none";x("gallery").style.display="none";x("videos").style.display="none";x("beforeyou").style.display="block";
+},700)})
+x("span").addEventListener("click",function() {setTimeout(function() {
+x("home").style.display="block";x("info").style.display="none";x("gallery").style.display="none";x("videos").style.display="none";x("beforeyou").style.display="none";
+},700)})
+for (i=1; i<=17; i++) {
+x("gallery").innerHTML+="<img src='pictures/"+i+".jpg' style='width:"+(wid>=550?wid/4:(wid>=270?wid/3:wid/1.5))+"px'>";
+}
+for (i=1; i<=17; i++) {
+document.getElementsByTagName("img")[i].addEventListener("click",function() {if (flag!=1) {
+this.style.position="fixed";this.style.top=this.style.left="0";this.style.margin="0 0 0 0";this.style.height="50%";this.style.width=(wid<=500?"100%":"50%");flag=1;
+}
+else {
+this.style.position="relative";this.style.top=this.style.left="initial";this.style.margin="10 10 10 10";this.style.height="40%";this.style.width=(wid>=550?wid/4:(wid>=270?wid/3:wid/1.5));flag=0;
+}
+})
+}
+if (wid<=550) {for (i=0;i<3;i++) {document.getElementsByTagName("video")[i].style.width="75%";}}
+</script>
+</html>
