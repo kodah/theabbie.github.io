@@ -1,0 +1,14 @@
+<html>
+<body>
+<div style="background-color: {{ color }}">{{ content }}</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+function x(x) {return document.getElementsByClassName(x)[0] || document.getElementsByTagName(x)[0]};
+x("body").style.margin="0 0 0 0";
+var changes = new Vue({
+  el: 'div',
+  data: {content: 'Hello Vue!'}
+})
+</script>
+</html>

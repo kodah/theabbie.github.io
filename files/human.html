@@ -1,0 +1,52 @@
+<html>
+<svg style="height: 100%; width: 100%;">
+<line style="stroke: black; stroke-width: 10;" />
+<line style="stroke: black; stroke-width: 10;" />
+<line style="stroke: black; stroke-width: 10;" />
+<line style="stroke: black; stroke-width: 10;" />
+<line style="stroke: black; stroke-width: 10;" />
+<circle style="fill: burlywood;" />
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+document.body.style.margin="0 0 0 0";
+var head=document.getElementsByTagName("circle")[0];
+var waist=document.getElementsByTagName("line")[0];
+var handl=document.getElementsByTagName("line")[1];
+var handr=document.getElementsByTagName("line")[2];
+var legl=document.getElementsByTagName("line")[3];
+var legr=document.getElementsByTagName("line")[4];
+var human = {"hl":0.5,"hr":0.5,"ll":0.5,"lr":0.5,"px":"","py":"","h":""}
+function move(tm,hl1,hr1,ll1,lr1,hl2,hr2,ll2,lr2,hl3,hr3,ll3,lr3,hl4,hr4,ll4,lr4,hl5,hr5,ll5,lr5,hl6,hr6,ll6,lr6,hl7,hr7,ll7,lr7,hl8,hr8,ll8,lr8) {
+if (hl1!=undefined && hr1!=undefined && ll1!=undefined && lr1!=undefined) {
+var t = tm==0?100:0;
+var ctr = setInterval(function() {
+handl.setAttribute("x2",human.px-75*Math.sin(human.hl+t*(hl1-human.hl)/100));handl.setAttribute("y2",human.py-human.h/4+75*Math.cos(human.hl+t*(hl1-human.hl)/100));  
+handr.setAttribute("x2",human.px+75*Math.sin(human.hr+t*(hr1-human.hr)/100));handr.setAttribute("y2",human.py-human.h/4+75*Math.cos(human.hr+t*(hr1-human.hr)/100));  
+legl.setAttribute("x2",human.px-100*Math.sin(human.ll+t*(ll1-human.ll)/100));legl.setAttribute("y2",human.py+human.h/3+100*Math.cos(human.ll+t*(ll1-human.ll)/100));  
+legr.setAttribute("x2",human.px+100*Math.sin(human.lr+t*(lr1-human.lr)/100));legr.setAttribute("y2",human.py+human.h/3+100*Math.cos(human.lr+t*(lr1-human.lr)/100));
+if (t>=100) {clearInterval(ctr);human.hl=hl1;human.hr=hr1;human.ll=ll1;human.lr=lr1;move(tm,hl2,hr2,ll2,lr2,hl3,hr3,ll3,lr3,hl4,hr4,ll4,lr4,hl5,hr5,ll5,lr5,hl6,hr6,ll6,lr6,hl7,hr7,ll7,lr7,hl8,hr8,ll8,lr8);}
+tm==0?"":t++;
+},10)
+    }
+}
+function life(px1,py1,h1,px2,py2,h2,px3,py3,h3,px4,py4,h4,px5,py5,h5,px6,py6,h6,px7,py7,h7) {
+if (px1!=undefined && py1!=undefined && h1!=undefined) {
+var t = 0;
+var ctr = setInterval(function() {
+move(0,1,1,1,1)
+head.setAttribute("r","40");head.setAttribute("cx",human.px+t*(px1-human.px)/100);head.setAttribute("cy",human.py+t*(py1-human.py)/100-h1/2);
+waist.setAttribute("x1",human.px+t*(px1-human.px)/100);waist.setAttribute("y1",human.py+t*(py1-human.py)/100-h1/2);waist.setAttribute("x2",human.px+t*(px1-human.px)/100);waist.setAttribute("y2",human.py+t*(py1-human.py)/100+h1/3);
+handl.setAttribute("x1",human.px+t*(px1-human.px)/100);handl.setAttribute("y1",human.py+t*(py1-human.py)/100-h1/6);
+handr.setAttribute("x1",human.px+t*(px1-human.px)/100);handr.setAttribute("y1",human.py+t*(py1-human.py)/100-h1/6);
+legl.setAttribute("x1",human.px+t*(px1-human.px)/100);legl.setAttribute("y1",(human.py+t*(py1-human.py)/100+h1/3));
+legr.setAttribute("x1",human.px+t*(px1-human.px)/100);legr.setAttribute("y1",(human.py+t*(py1-human.py)/100+h1/3));
+if (t>=100) {clearInterval(ctr);human.px=px1;human.py=py1;human.h=h1;life(px2,py2,h2,px3,py3,h3,px4,py4,h4,px5,py5,h5,px6,py6,h6,px7,py7,h7)}
+t++;
+},10)
+    }
+}
+</script>
+</html>

@@ -1,0 +1,47 @@
+<html>
+<svg style="height: 100%; width: 100%;">
+<circle r="10" style="fill: black;"/>
+<rect width="50" style="fill:black;"/>
+<polyline style="fill:none;stroke-width:5;stroke:black;" />
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+var player = document.getElementsByTagName("circle")[0];
+var obstacle = document.getElementsByTagName("rect")[0];
+var trace = document.getElementsByTagName("polyline")[0];
+document.body.style.margin="0 0 0 0";
+var p = {"x":0,"y":hit-10}
+var obs = {"x":wid,"y":hit,"h":50}
+var x,y;
+var points="";
+var lx = ly = 0.3;
+player.setAttribute("cy",p.y);
+obstacle.setAttribute("height",50);
+obstacle.setAttribute("y",hit-50);
+setInterval(function() {
+player.setAttribute("cx",p.x);p.x+=lx;
+points+=p.x+","+p.y+" ";
+if (p.x>wid || p.x<0) {lx*=-1;}
+},0);
+window.addEventListener("keydown",function(e) {
+clearInterval(x);
+x = setInterval(function() {ly-=0.007;
+player.setAttribute("cy",p.y);p.y-=0.3;
+//trace.setAttribute("points",points.split(" ").slice(this.length-200,this.length-1).join(" "));
+},0);
+window.addEventListener("keyup",function(e) {
+clearInterval(x);clearInterval(y);ly=0.3;
+y = setInterval(function() {
+player.setAttribute("cy",p.y);p.y+=ly;ly+=0.007;
+if (p.y>=hit-10) {ly*=-1;} else {ly=Math.abs(ly);}
+},0);
+},0);
+});
+setInterval(function() {
+obstacle.setAttribute("x",obs.x);obs.x-=lx;
+if (Math.abs(obs.x-p.x)<1 && p.y>obs.h) {svg.style.background=["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())];obstacle.style.fill=["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())]};
+},0);
+</script>
+</html>

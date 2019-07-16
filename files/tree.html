@@ -1,0 +1,33 @@
+<html>
+<svg style="height: 100%; width: 100%;filter: grayscale(50%); background: yellowgreen;">
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var clrs = ["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"];
+var svg = document.getElementsByTagName("svg")[0];
+document.body.style.margin="0 0 0 0";
+function dt(a,b,c,d) 
+{
+return Math.sqrt((c-a)**2+(d-b)**2)
+}
+function line(a,b,c,d)
+{
+svg.innerHTML+="<line x1='"+a+"' y1='"+b+"' x2='"+c+"' y2='"+d+"' style='stroke:"+clrs[Math.floor(15*Math.random())]+";stroke-width:10'/>";
+}
+function tree(a,b,c,d)
+{
+line(a,b,c,d);
+var m = (d-b)/(c-a);
+var M = 0.1;
+var m1 = (m+M)/(1-m*M);
+var m2 = (m-M)/(1+m*M);
+var l = dt(a,b,c,d)/1.08;
+setTimeout(function() {
+tree(c,d,c+l/Math.sqrt(1+m1**2),d+l*m1/Math.sqrt(1+m1**2));
+tree(c,d,c+l/Math.sqrt(1+m2**2),d+l*m2/Math.sqrt(1+m2**2));
+},0)
+}
+tree(0,hit/2,100,hit/2);
+</script>
+</html>

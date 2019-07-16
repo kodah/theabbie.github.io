@@ -1,0 +1,29 @@
+<html>
+<svg style="height: 100%; width: 100%;">
+<circle style="fill:black;"/>
+</svg>
+<script>
+var ang=0;
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+var spinner = document.getElementsByTagName("circle")[0];
+var lines = document.getElementsByTagName("line");
+document.body.style.margin="0 0 0 0";
+spinner.setAttribute("cx",wid/2);
+spinner.setAttribute("cy",hit/2);
+spinner.setAttribute("r",(wid>hit?wid:hit)/6);
+function wheel(n) {
+for (i=0;i<n;i++) {svg.innerHTML+="<line style='stroke:"+["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())]+";stroke-width:1;'/>";}
+setInterval(function() {
+for (i=0;i<n;i++) {
+lines[i].setAttribute("x1",(wid/2)+(wid/6)*Math.cos(ang+i*Math.PI/n));
+lines[i].setAttribute("y1",(hit/2)-(wid/6)*Math.sin(ang+i*Math.PI/n));
+lines[i].setAttribute("y2",(hit/2)+(wid/6)*Math.sin(ang+i*Math.PI/n));
+lines[i].setAttribute("x2",(wid/2)-(wid/6)*Math.cos(ang+i*Math.PI/n));
+}
+ang+=0.005;
+},0);
+}
+</script>
+</html>

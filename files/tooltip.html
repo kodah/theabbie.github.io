@@ -1,0 +1,23 @@
+<html>
+<style>
+*  {font-family: kirvy;}
+x {display: inline-block;}
+tooltip {padding: 5 5 5 5; background-color: darkviolet; color: white; font-size: 20px;  position: fixed; opacity: 0;}
+</style>
+<tooltip>hi</tooltip>
+<x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x><x>hi </x>
+<script>
+var x = document.getElementsByTagName("x");
+var tooltip = document.getElementsByTagName("tooltip")[0];
+for (i in x) {
+x[i].addEventListener("mouseover",function(e) {
+tooltip.style.opacity="1";
+tooltip.style.left=e.clientX;
+tooltip.style.top=e.clientY;
+})
+/*x[i].addEventListener("mouseover",function(e) {
+tooltip.style.opacity="0";
+})*/
+}
+</script>
+</html>

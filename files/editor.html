@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>html,body {overflow:hidden;}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body style="margin: 0 0 0 0;">
+<textarea ondblclick="host(this.value)" style="padding: 0 10 10 10;border:none; width: 100%; height: 100%; font-family: kirvy; font-size: 20px; letter-spacing: 4px; word-spacing: 9px; line-height: 180%;"></textarea>
+</body>
+<script>
+function host(x) {
+$.ajax({
+    url: 'https://serverers.firebaseio.com/home.json',
+    type: 'PUT',
+    data: JSON.stringify(x),
+    success: function(result) {
+        // Do something with the result
+    }
+});
+}
+window.onload=function() {
+ $.get("https://serverers.firebaseio.com/home.json", function(data, status){
+    document.getElementsByTagName("textarea")[0].value=data;
+  });
+}
+</script>
+</html>

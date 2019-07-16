@@ -1,0 +1,24 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<style>
+    .login {position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%)}
+</style>
+<div class="login">login</div>
+<script>
+  var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+  };
+firebase.initializeApp(config);
+function x(x) {return document.getElementsByClassName(x)[0] || document.getElementsByTagName(x)[0]};
+x("login").onclick = function() {
+var provider = new firebase.auth.GoogleAuthProvider();
+firebase.auth().signInWithRedirect(provider);
+}
+</script>
+</html>

@@ -1,0 +1,27 @@
+<html>
+<title>Tic Tac Toe</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    html {background-color: rgb(42,37,43);}
+    svg {position: fixed; background: rgb(42,37,43); position: fixed; left: 50%; top: 50%; transform: translate(-50%,-50%) rotateX(180deg); box-shadow: 0 0 20px rgba(0,0,0,0.5);} 
+</style>
+<svg>
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+document.body.style.margin="0 0 0 0";
+var l = svg.style.width = svg.style.height = (window.innerWidth>=500?450:window.innerWidth-50);
+for (i=1; i<=2; i++) {
+window["v"+i] = document.createElementNS("http://www.w3.org/2000/svg","line");
+window["h"+i] = document.createElementNS("http://www.w3.org/2000/svg","line");
+window["v"+i].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
+window["h"+i].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
+window["v"+i].setAttribute("x1",i*l/3);window["v"+i].setAttribute("y1","0");window["v"+i].setAttribute("x2",i*l/3);window["v"+i].setAttribute("y2",l);
+window["h"+i].setAttribute("x1","0");window["h"+i].setAttribute("y1",i*l/3);window["h"+i].setAttribute("x2",l);window["h"+i].setAttribute("y2",i*l/3);
+svg.appendChild(window["v"+i]);
+svg.appendChild(window["h"+i]);
+}
+</script>
+</html>

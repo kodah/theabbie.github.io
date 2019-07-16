@@ -1,0 +1,16 @@
+<html>
+<script>
+var countsort;
+var count = [0,0,0,0,0,0,0,0,0,0];
+setInterval(function() {
+var x = Math.floor(10*Math.random());
+countsort = count;
+if (x==count.indexOf(countsort.sort()[0])) {
+count[x]++;
+console.clear();console.log(count,countsort);
+document.body.innerHTML+=x;
+}
+},
+100);
+</script>
+</html>

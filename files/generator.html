@@ -1,0 +1,7 @@
+<html>
+<script>
+var a = b = c = 1;
+setInterval(function() {a++;setInterval(function() {b++;setInterval(function() {c++;},1000/b);},1000/a);},1000);
+setInterval(function() {console.clear();console.log((c)%10000);},1000)
+</script>
+</html>

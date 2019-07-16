@@ -1,0 +1,192 @@
+ Volume in drive C has no label.
+ Volume Serial Number is A43F-5B07
+
+ Directory of C:\confession\public
+
+02/27/2019  10:49 AM    <DIR>          .
+02/27/2019  10:49 AM    <DIR>          ..
+02/19/2019  09:00 AM             2,131 3D.html
+02/16/2019  01:13 PM             4,884 404.html
+05/11/2018  05:32 PM        26,706,263 abc.mp4
+02/11/2019  01:20 PM           135,304 apple.png
+11/04/2018  12:52 PM    <DIR>          armory
+01/23/2019  02:44 AM               840 art.html
+02/20/2019  10:14 AM             2,316 auth.html
+09/04/2018  12:47 PM           691,782 back.png
+11/28/2018  02:38 PM             6,121 bar.html
+11/15/2018  12:19 PM               330 braces.html
+08/15/2018  04:15 PM                45 c.bat
+11/11/2018  01:53 PM               332 calculus.html
+02/21/2019  10:29 AM               944 chat.html
+02/12/2019  01:59 AM            54,580 copy.json
+02/27/2019  10:10 AM               796 display.html
+02/13/2019  03:17 PM               918 editor.html
+02/03/2019  05:30 AM             2,493 encryption.html
+12/30/2018  08:43 AM            10,363 fb.JPG
+01/22/2019  07:04 AM               684 file.html
+02/27/2019  10:49 AM                 0 files.txt
+11/20/2018  10:01 PM             6,614 game.html
+11/15/2018  02:06 PM               242 generator.html
+12/30/2018  01:54 PM             3,053 giveaway.html
+01/21/2019  03:22 AM             2,165 grid.html
+11/25/2018  03:54 PM             4,982 hash.html
+12/31/2018  08:20 PM             1,152 homealt.html
+12/24/2018  11:05 PM           331,191 html2canvas.js
+01/23/2019  02:39 AM             1,940 hull.html
+11/13/2018  01:44 PM             3,342 human.html
+12/17/2018  05:21 PM             3,795 incometax.html
+10/30/2018  01:57 PM             1,398 json.html
+11/16/2018  12:45 PM             1,974 jumper.html
+03/29/2014  06:10 PM            65,828 kirvy.otf
+02/27/2019  10:10 AM             1,229 live.html
+11/22/2018  02:19 PM    <DIR>          love
+02/18/2019  08:59 AM               761 matrix.js
+01/21/2019  04:04 AM             1,396 morph.html
+11/14/2018  02:00 PM             2,016 motion.html
+12/28/2018  07:11 AM               919 pattern.html
+12/14/2018  06:01 PM           442,526 physics.docx
+11/06/2018  01:11 PM               322 predict.html
+02/23/2019  09:26 AM             8,945 prime.html
+11/16/2018  12:45 PM             1,240 random.html
+11/25/2018  03:40 PM               388 responsive.html
+02/26/2019  09:17 AM             2,657 snake.html
+02/12/2019  12:47 AM           325,640 snake.jpg
+11/14/2018  09:37 PM               912 snowflake.html
+11/09/2018  03:05 PM               427 sort.html
+11/20/2018  10:01 PM             1,184 spinner.html
+11/14/2018  01:15 PM               568 stair.html
+12/28/2018  05:53 AM             1,960 stream.png
+10/23/2018  04:52 PM            26,876 success.wav
+12/29/2018  05:50 PM             5,422 tech.jpg
+11/23/2018  03:03 PM             1,537 template.html
+09/22/2018  11:59 AM             2,451 test.html
+02/11/2019  10:39 PM             4,687 text.html
+01/28/2019  02:41 AM             1,510 threatre.html
+12/03/2018  01:19 PM             1,243 tictactoe.html
+12/28/2018  06:12 AM               995 tooltip.html
+11/18/2018  01:18 PM             1,052 tree.html
+09/06/2018  02:42 PM            72,376 usernames.txt
+02/09/2019  08:53 PM             1,359 video.html
+12/17/2018  03:36 PM    <DIR>          website
+02/12/2019  03:09 AM           600,804 words.html
+02/07/2019  04:09 PM             3,941 youtube.html
+              62 File(s)     29,566,145 bytes
+
+ Directory of C:\confession\public\armory
+
+11/04/2018  12:52 PM    <DIR>          .
+11/04/2018  12:52 PM    <DIR>          ..
+11/06/2018  03:00 PM             1,257 home.html
+               1 File(s)          1,257 bytes
+
+ Directory of C:\confession\public\love
+
+11/22/2018  02:19 PM    <DIR>          .
+11/22/2018  02:19 PM    <DIR>          ..
+11/22/2018  01:17 PM            12,712 Cubano-Regular.otf
+11/26/2018  01:05 PM             6,985 love.html
+12/21/2018  03:09 PM    <DIR>          pictures
+01/09/2013  12:00 AM           170,420 Roboto-Light.ttf
+11/22/2018  02:20 PM    <DIR>          videos
+               3 File(s)        190,117 bytes
+
+ Directory of C:\confession\public\love\pictures
+
+12/21/2018  03:09 PM    <DIR>          .
+12/21/2018  03:09 PM    <DIR>          ..
+11/22/2018  01:24 PM           182,169 1.jpg
+11/22/2018  01:24 PM           196,606 10.jpg
+11/22/2018  01:24 PM           112,409 11.jpg
+11/22/2018  01:24 PM           113,763 12.jpg
+11/22/2018  01:24 PM            98,698 13.jpg
+11/22/2018  01:24 PM           175,200 14.jpg
+11/22/2018  01:24 PM           136,271 15.jpg
+11/22/2018  01:24 PM           180,828 16.jpg
+11/22/2018  01:24 PM            83,386 17.jpg
+11/22/2018  01:24 PM            93,973 2.jpg
+11/22/2018  01:24 PM           159,131 3.jpg
+11/22/2018  01:24 PM           115,189 4.jpg
+11/22/2018  01:24 PM            88,559 5.jpg
+11/22/2018  01:24 PM           158,058 6.jpg
+11/22/2018  01:24 PM           160,784 7.jpg
+11/22/2018  01:24 PM           117,474 8.jpg
+11/22/2018  01:24 PM           149,440 9.jpg
+12/21/2018  03:09 PM           961,068 CHEMICAL KINETICS _ - Google Search.html
+12/21/2018  03:09 PM    <DIR>          CHEMICAL KINETICS _ - Google Search_files
+11/24/2018  01:27 PM            13,788 heart.png
+              19 File(s)      3,296,794 bytes
+
+ Directory of C:\confession\public\love\pictures\CHEMICAL KINETICS _ - Google Search_files
+
+12/21/2018  03:09 PM    <DIR>          .
+12/21/2018  03:09 PM    <DIR>          ..
+12/21/2018  03:09 PM               231 a.html
+12/21/2018  03:09 PM    <DIR>          a_data
+12/21/2018  03:09 PM           185,579 cbgapi.loaded_0
+12/21/2018  03:09 PM               219 email_grey600_24dp.png
+12/21/2018  03:09 PM               270 fb_32x32.png
+12/21/2018  03:09 PM             1,698 gplus_32x32.png
+12/21/2018  03:09 PM            12,712 images.jpg
+12/21/2018  03:09 PM             4,273 images.png
+12/21/2018  03:09 PM             3,033 images_002.jpg
+12/21/2018  03:09 PM             6,327 images_002.png
+12/21/2018  03:09 PM             3,049 images_003.jpg
+12/21/2018  03:09 PM             9,728 images_004.jpg
+12/21/2018  03:09 PM             5,298 images_005.jpg
+12/21/2018  03:09 PM            11,137 images_006.jpg
+12/21/2018  03:09 PM             9,331 images_007.jpg
+12/21/2018  03:09 PM             8,318 images_008.jpg
+12/21/2018  03:09 PM            41,441 md0xvhcQ7Rsec
+12/21/2018  03:09 PM               403 mE5jc1c
+12/21/2018  03:09 PM            45,470 mN6VQ1Uuupec
+12/21/2018  03:09 PM           296,278 msb_wizaaasyncfootipv6mmuqisfstrsscxz7cCdqik19baam1TqZ1Udb
+12/21/2018  03:09 PM             6,562 mtnqaTqtf
+12/21/2018  03:09 PM           151,058 rsAA2YrTvE6PRrOkWvBq08twtPD5M6EzmGzA
+12/21/2018  03:09 PM           403,380 rsACT90oHUNvEXwpOAAdBg1uwy3aVN_ox2mQ
+12/21/2018  03:09 PM               414 twitter_32x32.png
+12/21/2018  03:09 PM             2,696 winter-solstice-2018-northern-hemisphere-5609689915064320-s.png
+              24 File(s)      1,208,905 bytes
+
+ Directory of C:\confession\public\love\pictures\CHEMICAL KINETICS _ - Google Search_files\a_data
+
+12/21/2018  03:09 PM    <DIR>          .
+12/21/2018  03:09 PM    <DIR>          ..
+12/21/2018  03:09 PM            31,249 dn.js
+               1 File(s)         31,249 bytes
+
+ Directory of C:\confession\public\love\videos
+
+11/22/2018  02:20 PM    <DIR>          .
+11/22/2018  02:20 PM    <DIR>          ..
+11/22/2018  01:25 PM         5,573,241 1.mp4
+11/22/2018  01:25 PM         6,177,110 2.mp4
+11/22/2018  01:25 PM         6,173,661 3.mp4
+               3 File(s)     17,924,012 bytes
+
+ Directory of C:\confession\public\website
+
+12/17/2018  03:36 PM    <DIR>          .
+12/17/2018  03:36 PM    <DIR>          ..
+08/02/2018  12:48 PM            51,677 abhishek.jpg
+09/14/2018  02:46 PM           183,590 banner1.jpg
+09/14/2018  02:46 PM           191,549 banner2.jpg
+09/14/2018  02:46 PM           129,489 banner3.jpg
+09/14/2018  02:46 PM           239,176 banner4.jpg
+09/14/2018  02:46 PM           137,897 banner5.jpg
+09/17/2018  12:07 PM             1,150 favicon.ico
+02/01/2019  06:42 PM            31,048 index.html
+09/14/2018  03:52 PM            23,704 logback.jpg
+09/14/2018  12:47 PM            17,442 logo-about.jpg
+09/20/2018  01:07 PM            34,503 monika.jpg
+09/18/2018  01:59 PM            80,312 naveen.JPG
+09/16/2018  02:31 PM            44,044 pratik.JPG
+09/19/2018  01:11 PM         4,111,722 raw.jpg
+08/30/2018  02:17 PM             8,752 sahil.jpg
+12/15/2010  12:00 AM           279,384 Ubuntu-Regular.ttf
+06/11/2018  03:30 AM             4,678 user.jpg
+12/16/2018  04:29 PM            29,651 user.png
+              18 File(s)      5,599,768 bytes
+
+     Total Files Listed:
+             131 File(s)     57,818,247 bytes
+              23 Dir(s)  93,702,959,104 bytes free

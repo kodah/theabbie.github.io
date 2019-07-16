@@ -1,0 +1,26 @@
+<html>
+<body style="background-attachment: fixed; background-size: cover; background-position: center;">
+</body>
+<script>
+var canvas = document.createElement('canvas');
+canvas.width = window.innerWidth/100;
+canvas.height = window.innerHeight/100;
+canvas.style.display="none";
+var ctx = canvas.getContext('2d');
+document.body.appendChild(canvas);   
+function randomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+setInterval(function() {
+var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+for (var i = 0; i < imgData.data.length; i += 4) {
+  imgData.data[i] = randomInt(0, 255); // red
+  imgData.data[i+1] = randomInt(0, 255); // green
+  imgData.data[i+2] = randomInt(0, 255); // blue
+  imgData.data[i+3] = 255; // alpha
+}
+ctx.putImageData(imgData, 0, 0); 
+document.body.style.backgroundImage="url('"+canvas.toDataURL()+"')";
+},50)
+</script>
+</html>

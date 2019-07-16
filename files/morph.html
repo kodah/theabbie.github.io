@@ -1,0 +1,34 @@
+<html>
+<body style="margin: 0 0 0 0;">
+<img src="website/monika.jpg" style="height: 300px; width: 33.33%; display: inline-block;">
+<canvas style="height: 300px; width: 33.33%; display: inline-block;"></canvas>
+<img src="website/pratik.JPG" style="height: 300px; width: 33.33%; display: inline-block;"> 
+</body>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var canvas=document.getElementsByTagName("canvas")[0];
+var ctx = canvas.getContext("2d");
+var img1=document.getElementsByTagName("img")[0];
+var img2=document.getElementsByTagName("img")[1];
+function morph() {
+ctx.drawImage(img1, 0, 0, img1.clientWidth, img1.clientHeight);
+var imgdata1 = ctx.getImageData(0, 0, img1.clientWidth, img1.clientHeight);
+ctx.drawImage(img2, 0, 0, img2.clientWidth, img2.clientHeight);
+var imgdata2 = ctx.getImageData(0, 0, img2.clientWidth, img2.clientHeight);
+var t = 0;
+var ctr = setInterval(function() {
+if (t>=100) {clearInterval(ctr);}
+for (i = 0; i < imgdata1.data.length; i += 4) {
+imgdata1.data[i] = imgdata1.data[i]+t*(imgdata2.data[i]-imgdata1.data[i])/100;
+imgdata1.data[i+1] = imgdata1.data[i+1]+t*(imgdata2.data[i+1]-imgdata1.data[i+1])/100;
+imgdata1.data[i+2] = imgdata1.data[i+2]+t*(imgdata2.data[i+2]-imgdata1.data[i+2])/100;
+imgdata1.data[i+3] = 255;
+}
+ctx.putImageData(imgdata1,0,0);
+t++;
+},100)
+}
+setTimeout(morph,1000)
+</script>
+</html>

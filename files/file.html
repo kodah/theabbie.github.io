@@ -1,0 +1,25 @@
+<html>
+<input type="file" /><button onclick='doit()'>copy</button>
+<script>
+var dataurl;
+var selector = document.getElementsByTagName("input")[0]; 
+selector.click();
+selector.addEventListener("change",function(e) {
+var file = e.target.files[0];
+var reader = new FileReader();
+reader.readAsDataURL(file);
+reader.onload = function () {
+dataurl = reader.result;
+};
+});
+function copyit(text){
+    var dummy = document.createElement("input");
+    document.body.appendChild(dummy);
+    dummy.setAttribute('value', text);
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+}
+function doit() {copyit(dataurl)}
+</script>
+</html>

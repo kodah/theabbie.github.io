@@ -1,0 +1,125 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style>* {font-family: century gothic;}</style>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+  };
+  firebase.initializeApp(config);
+  var path = window.location.pathname.substring(1)!=""?window.location.pathname.substring(1):"home";
+  var database = firebase.database();
+  var ref = database.ref("main/"+path);
+  var p = document.createElement("p");
+  var sitedata = {};
+  sitedata.extra = {"":""};
+  p.innerHTML = "<textarea oninput='publish()' id='publish' style='width: 100%;letter-spacing: 3px; line-height: 150%;word-spacing: 70%;'></textarea><br><input type='file' multiple value='upload' id='filebutton'><br><input type='text' ondblclick='upload(this.value)'><br><input type='checkbox' id='code'>Show As Code <br> <input type='checkbox' id='script'>Execute script <br> <input type='checkbox' id='mod'>Modify Page <br> <input type='checkbox' id='head'>Add head content";
+  var head = document.createElement("head");
+  document.getElementsByTagName("html")[0].append(head);
+  var body = document.createElement("body");
+  document.getElementsByTagName("html")[0].append(body);
+  var script = document.createElement("script");
+  head.append(script);
+  var mod = document.createElement("div");
+  body.append(mod);
+  var content = document.createElement("div");
+  body.append(content);
+  content.setAttribute("style", "color: black; margin:auto;padding:8px;height: 100px;width: 100%;font-family: century gothic;font-size: 40px;letter-spacing: 3px;text-align:justify;line-height: 150%;word-spacing: 70%; text-shadow: 1.5px 1.5px grey;");
+  if(window.location.hash!="#ro") {swal({
+  title: "Say Something",
+  text: "Type here and publish",
+  buttons: {
+      leave: {
+          text: "cancel",
+          value: "cancel"
+      },
+      publish: {
+          text: "publish",
+          value: "publish"
+      },
+      
+  },
+  closeOnClickOutside: false,
+  content: p
+}).then((value) => {
+if (value == "publish") {}
+else {}
+})}
+else {
+};
+ref.on('value', function(data) {
+sitedata = Object.assign({}, data.val());
+if(window.location.hash!="#ro") {
+content.innerHTML = sitedata.content;
+script.innerHTML = sitedata.script;
+mod.innerHTML = "<!--"+sitedata.body+"-->";
+head.innerHTML = sitedata.head;
+}
+else {
+document.open();
+document.write(sitedata.body);
+document.close();
+}
+});
+
+  function publish() {
+      var x = document.getElementById("publish").value;
+      if (document.getElementById("code").checked) {
+      sitedata.content = "<xmp style='margin: 0px;'>" + x + "</xmp>";
+  }
+      else if (document.getElementById("script").checked) {
+      sitedata.script = x;
+  }
+      else if (document.getElementById("mod").checked) {
+      sitedata.body = x;
+      }
+      else if (document.getElementById("head").checked) {
+      sitedata.head = x;
+      }
+      else {
+      sitedata.content =(path=="display"?x:"<pre style='margin: 0px;'>" + x + "</pre>");
+      }
+  ref.set(sitedata);
+  }
+  var filebutton = document.getElementById("filebutton");
+    filebutton.addEventListener('change', function(e) {
+        var file = e.target.files[0];
+        var storageref = firebase.storage().ref('files/' + file.name);
+        storageref.put(file).then(function(x) {download(file.name)});
+    });
+    function download(x) {firebase.storage().ref('files/'+x).getDownloadURL().then(function(url) {sitedata.content="<a href='"+JSON.stringify(url).substring(1,JSON.stringify(url).length-1)+"' download>"+x+"</a><br>"+sitedata.content;ref.set(sitedata);});return JSON.stringify(url).substring(1,JSON.stringify(url).length-1)}
+    function copyit(text){
+    var dummy = document.createElement("input");
+    document.body.appendChild(dummy);
+    dummy.setAttribute('value', text);
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+}
+function upload(url) {
+jQuery.ajax({
+        url: url,
+        cache:false,
+        xhr:function(){
+            var xhr = new XMLHttpRequest();
+            xhr.responseType= 'blob';
+            return xhr;
+        },
+        success: function(data){
+            firebase.storage().ref('files/'+url.split("/").reverse()[0]).put(data).then(function(x) {download(url.split("/").reverse()[0])});
+        },
+        error:function(){
+        return;
+        }
+    });
+}
+</script>
+</html>

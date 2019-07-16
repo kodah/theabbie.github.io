@@ -1,0 +1,44 @@
+<html>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<svg style="height: 100%; width: 100%; background: rgb(42,37,43); transform: rotateX(180deg);">
+<image xlink:href="cloud.png" height="100px" width="200px"/>
+<image xlink:href="cloud.png" height="100px" width="200px"/>
+<image xlink:href="cloud.png" height="100px" width="200px"/>
+<line style="stroke: rgb(221,172,39); stroke-width: 30;"/>
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+var plane = document.getElementsByTagName("line")[0];
+var cloud = document.getElementsByTagName("image");
+document.body.style.margin="0 0 0 0";
+cloud[0].setAttribute("y",hit-150);
+cloud[1].setAttribute("y",hit-300);
+cloud[2].setAttribute("y",hit-150);
+var i = 0;
+var j = -wid/3;
+var k = -wid/1.5;
+var l = 0;
+var h = 0;
+var ang = 0;
+var game = setInterval(function() {
+fly(ang,(l+wid/2-Math.abs(l-wid/2))/2,h);
+cloud[0].setAttribute("x",wid-i-100);
+cloud[1].setAttribute("x",wid-j-100);
+cloud[2].setAttribute("x",wid-k-100);
+i=i%wid+1;
+j=j%wid+1;
+k=k%wid+1;
+l+=0.5;h+=(ang%90)/90;
+},0);
+window.onkeypress = function(e) {e.key=="Enter"?ang+=1:ang-=1;}
+function fly(ang,l,h) {
+plane.setAttribute("x1",l-100*Math.cos(Math.PI*ang/180));
+plane.setAttribute("y1",h-100*Math.sin(Math.PI*ang/180));
+plane.setAttribute("x2",l+100*Math.cos(Math.PI*ang/180));
+plane.setAttribute("y2",h+100*Math.sin(Math.PI*ang/180));
+}
+</script>
+</html>

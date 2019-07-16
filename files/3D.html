@@ -1,0 +1,44 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="matrix.js"></script>
+<svg style="height: 100%; width: 100%; background: rgb(42,37,43);">
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+var points = document.getElementsByTagName("circle");
+var line = document.getElementsByTagName("line");
+document.body.style.margin="0 0 0 0";
+var angle = 0;
+var pts = [];
+function init_points(n) {
+for (i=0;i<n;i++) {svg.innerHTML+="<circle r='0' style='fill: white;'></circle>";pts[i]={"x":"","y":"",z:""}};
+for (i=0; i<=11; i++) {svg.innerHTML+="<line stroke-width='2' style='stroke: white;' />";}
+}
+function pos(x,y,z,n) {
+connect(0,1,0);connect(1,2,1);connect(2,3,2);connect(3,0,3);connect(4,5,4);connect(5,6,5);connect(6,7,6);connect(7,4,7);connect(1,6,8);connect(0,7,9);connect(3,4,10);connect(2,5,11);
+points[n].setAttribute("cx",x/(1+z/1000)+wid/2);pts[n].x=x/(1-z/500)+wid/2;
+points[n].setAttribute("cy",-y/(1+z/1000)+hit/2);pts[n].y=-y/(1-z/500)+hit/2;
+pts[n].z=z;
+}
+function rotate(x,y,z,n) {
+setInterval(function() {
+pos(rotater(angle,x,y,z).result[1][1],rotater(angle,x,y,z).result[2][1],rotater(angle,x,y,z).result[3][1],n);
+angle+=0.007;
+},50)
+} 
+function rotater(angle,x,y,z) {
+var rotaterX = mtp(matrix(3,3,1,0,0,0,Math.cos(angle),-Math.sin(angle),0,Math.sin(angle),Math.cos(angle)),matrix(3,1,x,y,z));
+var rotaterY = mtp(matrix(3,3,Math.cos(angle),0,Math.sin(angle),0,1,0,-Math.sin(angle),0,Math.cos(angle)),rotaterX);
+var rotaterZ = mtp(matrix(3,3,Math.cos(angle),-Math.sin(angle),0,Math.sin(angle),Math.cos(angle),0,0,0,1),rotaterY);
+return rotaterZ;
+}
+function connect(m,n,x) {
+line[x].setAttribute("x1",pts[m].x);line[x].setAttribute("y1",pts[m].y);line[x].setAttribute("x2",pts[n].x);line[x].setAttribute("y2",pts[n].y);
+}
+var h = window.innerWidth>=300?100:window.innerWidth/1.414;
+init_points(8);
+rotate(h,h,h,0);rotate(h,-h,h,1);rotate(-h,-h,h,2);rotate(-h,h,h,3);rotate(-h,h,-h,4);rotate(-h,-h,-h,5);rotate(h,-h,-h,6);rotate(h,h,-h,7);
+</script>
+</html>

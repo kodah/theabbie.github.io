@@ -1,0 +1,19 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<svg style="height: 100%; width: 100%; background: white; cursor: none;">
+<circle r="15" style="fill: black;" />
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+var cursor = document.getElementsByTagName("circle")[0];
+document.body.style.margin="0 0 0 0";
+svg.onmousemove = function(e) {cursor.setAttribute("cx",e.x);cursor.setAttribute("cy",e.y);cursor.style.fill=["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())];}
+svg.onmouseout = function() {clearTimeout(p);var p = setTimeout(function() {cursor.style.fill="transparent";},0)}
+svg.onclick = function() {cursor.setAttribute("r",100);setTimeout(function() {cursor.setAttribute("r",15)},100)}
+function writer(text,x,y,size) {
+svg.innerHTML+="<text fill='black' x='"+x+"' y='"+y+"' style='font: "+(size!=undefined?size:30)+"px kirvy;'>"+text+"</text>";
+}
+</script>
+</html>

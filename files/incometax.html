@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Income Tax Department</title>   
+<style>
+    * {font-family: kirvy; letter-spacing: 8px; word-spacing: 12px;}
+    body {margin: 0 0 0 0;}   
+    .navbtn {position: fixed; padding: 15 15 15 35; font-size: 50px; color: white;text-shadow: 0px 0px 10px white;}
+    .header {padding: 30 30 30 30; background-color: mediumseagreen; color: white; font-size: 30px; text-align: center; box-shadow: 0px 0px 50px grey; text-shadow: 0px 0px 10px white;}
+    .content {padding: 50 50 0 100; font-size: 18px; font-weight: bolder; text-shadow: 0px 0px 20px grey;}
+    .navbar {height: 0px; opacity: 0; background-color: dodgerblue; transition: 1s; color: white; box-shadow: 0px 0px 50px grey; text-shadow: 0px 0px 10px white;}
+    .tab {display: inline-block; width: 33.33%; text-align: center; padding: 10 0 10 0; transition: 0.5s; white-space: nowrap;}
+    .tab:hover {background-color: slateblue;}
+    .login {position: absolute; left: 50%; top: 65%; transform: translate(-50%,-50%); padding: 10 20 10 20; box-shadow: 0px 0px 50px blueviolet; text-align: center; width: 50%;}
+    .txt {border: none; border-bottom: 2px solid blueviolet; padding: 10 10 10 10; background-color: transparent;}
+    button {background-color: blueviolet; color: white; font-weight: bolder; padding: 5 5 5 5; font-size: 25px; border: 2px solid blueviolet; border-style: outset; text-align: center;}
+    a {font-size: 25px; text-decoration: none; text-shadow: 0px 0px 10px darkgoldenrod;}
+</style>
+</head>
+<body>
+<div class="navbtn">&#8801;</div>
+<div class="header">
+Income Tax Department
+</div>
+<div class="navbar">
+<span class="tab">Home</span><span class="tab">Register</span><span class="tab">Contact Us</span>
+</div>
+<div class="content">
+<div class="home">
+Income Tax Department is one of the most important departments of our country.
+
+</div>
+<div class="register">
+<div class="login">
+Register:<br><br>
+<small>Name:</small><br>
+<input type="text" class="txt"><br><br>
+<small>Email:</small><br>
+<input type="text" class="txt"><br><br>
+<small>Password:</small><br>
+<input type="password" class="txt"><br><br>
+<button>GO</button>
+</div>    
+</div>
+<div class="contactus">
+Mail to us at:<br>
+<a href="mailto:murugannaveen745@gmail.com">info@incometax.gov.in</a>
+</div>
+</div>
+</body>
+<script>
+function show(it) {document.getElementsByClassName(it)[0].style.display="block"};
+function hide(it) {document.getElementsByClassName(it)[0].style.display="none"};
+var flag = false;
+var navbtn = document.getElementsByClassName("navbtn")[0];
+var navbar = document.getElementsByClassName("navbar")[0];
+var button = document.getElementsByTagName("button")[0];
+var login = document.getElementsByClassName("login")[0];
+var content = document.getElementsByClassName("content")[0];
+var txt = document.getElementsByClassName("txt");
+var tabs = document.getElementsByClassName("tab");
+if (window.innerWidth<700) {tabs[2].innerHTML="Contact"}
+navbtn.onclick = function() {if (!flag) {navbar.style.height = "40px"; navbar.style.opacity = "1"; flag=true;} else {navbar.style.height = "0px"; navbar.style.opacity = "0";flag=false;}};
+tabs[0].onclick = function() {show("home");hide("register");hide("contactus");};
+tabs[1].onclick = function() {hide("home");show("register");hide("contactus");};
+tabs[2].onclick = function() {hide("home");hide("register");show("contactus");};
+show("home");hide("register");hide("contactus");
+navbtn.click();
+button.onclick = function() {
+setTimeout(function() {
+login.style.textAlign="left";
+login.style.padding="20 10 20 10"
+login.innerHTML="Dear "+txt[0].value+",<br>"+"Your Income tax for this year is RS "+(5000+Math.floor(1000*Math.random()))+"<br>Please pay it as soon as possible.";
+},700)
+};
+</script>
+</html>

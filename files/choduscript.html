@@ -1,0 +1,7 @@
+<html>
+<body></body>
+<script>
+var x = {content: {a:{value: 1},b:{value: 2}}};
+for (p in x.content) {var l = document.createElement(p);document.body.appendChild(l);l.innerHTML = x.content[p].value; l.style="";}
+</script>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<div style="position: fixed; top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center; font-weight: bold; font-size: 30px; font-family: century gothic; color: black;">
+<input type="text" style="Border: none; border-bottom: 4px solid black; padding: 10 10 10 10; word-spacing: 20px; letter-spacing: 7.5px; font-size: 20px;">
+<div class="data" style="padding: 15 15 15 15;">Write HELP</div>
+</div>
+<script>
+var data = {};
+var entity;
+function x(x) {return document.getElementsByClassName(x)[0] || document.getElementsByTagName(x)[0]};
+x("input").focus();
+x("input").addEventListener("keydown",function(e) {
+    if (e.key=="Escape") {x("data").innerHTML="Thank you for using DATA<sup>TM</sup>"}
+    if (e.key=="Enter") {
+    if (this.value.split("is")[0]!=this.value) {if (typeOf data[entity][this.value.split(" is ")[0]]=="object") {data[entity][this.value.split(" is ")[0]].push(this.value.split(" is ")[1]);} else {data[entity][this.value.split(" is ")[0]]=[];}}
+    if (this.value.split("create")[0]!=this.value) {data[this.value.split("create ")[1]]=data[this.value.split("create ")[1]]==undefined?{}:data[this.value.split("create ")[1]];entity=this.value.split("create ")[1];};
+    if (this.value=="HELP") {x("data").innerHTML="DATA<sup>TM</sup> is a data manipulation language"};
+    x("data").innerHTML=JSON.stringify(data);
+    }
+});
+</script>
+</html>

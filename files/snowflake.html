@@ -1,0 +1,25 @@
+<html>
+<svg style="height: 100%; width: 100%;">
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+document.body.style.margin="0 0 0 0";
+function dt(a,b,c,d) {return Math.sqrt((c-a)**2+(d-b)**2)}
+function snowflake(a,b,c,d) {
+    var p1 = {"x":(2*a+c)/3,"y":(2*b+d)/3};
+    var p2 = {"x":(a+2*c)/3,"y":(b+2*d)/3};
+    var l = dt(a,b,c,d);
+    var m = Math.atan((d-b)/(c-a));
+    var x = {"x":(a+l*Math.cos(m+0.5236)/1.732),"y":(b+l*Math.sin(m+0.5236)/1.732)};
+    svg.innerHTML+="<polyline points='"+a+","+b+" "+p1.x+","+p1.y+" "+x.x+","+x.y+" "+p2.x+","+p2.y+" "+c+","+d+"' style='fill:none;stroke-width:1;stroke:black;' />"
+    setTimeout(function() {
+    snowflake(a,b,p1.x,p1.y);
+    snowflake(p1.x,p1.y,x.x,x.y);
+    snowflake(x.x,x.y,p2.x,p2.y);
+    snowflake(p2.x,p2.y,c,d);
+    },1000)
+}
+</script>
+</html>

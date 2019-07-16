@@ -1,0 +1,20 @@
+<html>
+<svg style="height: 100%; width: 100%;">
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+document.body.style.margin="0 0 0 0";
+function draw(a,b,c,d,e,f) {
+    svg.innerHTML+="<polyline points='"+a+","+b+" "+c+","+d+" "+e+","+f+"' style='fill:none;stroke-width:5;stroke:black;' />"
+}
+function stair(a,b,c,d) {
+    draw(a,b,a,d,c,d);
+    setTimeout(function() {
+        stair(a,b,(a+c)/2,(b+d)/2);
+        stair((a+c)/2,(b+d)/2,c,d);
+    },1000)
+}
+</script>
+</html>

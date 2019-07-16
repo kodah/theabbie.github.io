@@ -1,0 +1,19 @@
+<html>
+<body>
+<iframe style="position: fixed; width: 100%; height: 100%; border: none;"></iframe>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+  };
+  firebase.initializeApp(config);
+document.body.style.margin="0 0 0 0";
+firebase.database().ref("main/display").on('value', function(data) {document.getElementsByTagName("iframe")[0].setAttribute("srcdoc",data.val().content)});
+</script>
+</html>

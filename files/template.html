@@ -1,0 +1,32 @@
+<html>
+<style>
+    * {font-family: century gothic; letter-spacing: 5px; word-spacing: 10px;}
+    body {margin: 0 0 0 0;}
+    .header {background-color:greenyellow;box-shadow:0 0px 15px 0 rgba(0,0,0,0.2),0 0px 15px 0 rgba(0,0,0,0.19);padding: 0 0 0 0; width: 100%;}  
+    .navbtn {padding: 10 20 10 20;font-size:60px;display: inline-block;transition: 0.7s;text-align: center;}
+    .navbtn:hover {background-color: yellowgreen;cursor: pointer;}
+    .title {width: 95%; text-align: center;font-size:40px;}
+    .navbar {position: fixed;height: 100%;left: -200px; transition: 1s; margin-top: 120px;}
+    .tabs {margin-bottom: 20px; background-color: blueviolet; padding: 5 10 5 10; border-radius: 5px; text-align: center; font-size: 25px; font-weight: bolder; color: white;box-shadow:0 0px 15px 0 rgba(0,0,0,0.2),0 0px 15px 0 rgba(0,0,0,0.19);cursor: pointer;}
+    .content {width: 70%; margin: auto; font-size:40px; padding: 20 0 0 0;}
+</style>
+<body>
+<div class="header">
+<span class="navbtn">&#8801;</span>
+<span class="title">Home</span>
+</div>
+<div class="navbar">
+<div class="tabs">HOME</div>    
+<div class="tabs">LOGIN</div>    
+<div class="tabs">ABOUT</div>    
+</div>
+<div class="content">
+aa
+</div>
+</body>
+<script>
+function x(x) {return document.getElementsByClassName(x)[0] || document.getElementsByTagName(x)[0]};
+x("navbtn").addEventListener("click",function() {x("navbar").style.left="20px";})
+x("navbar").addEventListener("click",function() {x("navbar").style.left="-200px";})
+</script>
+</html>

@@ -1,0 +1,13 @@
+<script>
+function braces(text,x,y,newtext) {
+    var i = text.indexOf(x);
+    var f = text.indexOf(y);
+    return text.split(text.slice(i+x.length,f)).join(newtext)
+}
+function find(a,b) {
+var index = [];
+var sum = 0;
+for (x in a.split(b)) {sum+=a.split(b)[x].length+b.length;index.push(sum);}
+return index;
+}
+</script>

@@ -1,0 +1,59 @@
+<html>
+<svg style="position: fixed; width: 100%; height: 100%; background: linear-gradient(to right, gray, black);">
+<line style="stroke: gray; stroke-width: 20; filter: blur(5px) opacity(0.5);" />
+<polyline style="stroke: black;"/>
+<circle r="10" style="fill: white;"/>
+</svg>
+<script>
+document.body.style.margin="0 0 0 0";
+var p = {"x":"","y":"","vx":"","vy":""}
+var obs,M,vel,acc;
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+var obj = document.getElementsByTagName("circle")[0];
+var hurdle = document.getElementsByTagName("polyline")[0];
+var shadow = document.getElementsByTagName("line")[0];
+function dt(a,b,c,d) {return Math.sqrt((c-a)**2+(d-b)**2)}
+function pos(x,y) {obj.setAttribute("cx",x);obj.setAttribute("cy",y);p.x=x;p.y=y;}
+function obstacle(a,b,c,d,t) {
+clearInterval(obs);
+hurdle.setAttribute("points",a+","+b+" "+c+","+d);hurdle.style.strokeWidth=t;
+M = (d-b)/(c-a);
+function obsfunc() {
+obs = setInterval(function() {
+if (Math.abs(((M*p.x)-p.y-(M*a-b))/Math.sqrt(1+M**2))<=t/2 && dt(p.x,p.y,(a+c)/2,(b+d)/2)<=dt(a,b,c,d)/2) {
+clearInterval(obs);
+var m = Math.atan(p.vy/p.vx);
+var v = (p.vx**2+p.vy**2)**0.5;
+velocity(v*Math.cos(2*Math.atan(M)+m),v*Math.sin(2*Math.atan(M)+m),)
+setTimeout(function() {obsfunc();},100)
+}
+},1)
+}
+obsfunc();
+}
+p.x=0;p.y=0;p.vx=0;p.vy=0;
+function velocity(vx,vy) {
+clearInterval(vel);
+vel = setInterval(function() {
+pos(p.x,p.y);p.x+=vx;p.y+=vy;
+p.vx=vx;p.vy=vy;
+if (p.x<=0 || p.x>=wid) {velocity(-p.vx,p.vy)}
+if (p.y<=0 || p.y>=hit) {velocity(p.vx,-p.vy)}
+shadow.setAttribute("x1",p.x);shadow.setAttribute("y1",p.y);shadow.setAttribute("x2",((p.x+wid)/(p.y+hit))*(hit-p.y)+p.x);shadow.setAttribute("y2",hit);
+},10)
+}
+function accelerate(ax,ay) {
+var vell;
+clearInterval(acc);
+acc = setInterval(function() {
+clearInterval(vell);
+vell = setInterval(function() {
+pos(p.x,p.y);p.x+=p.vx;p.y+=p.vy;
+},10)
+p.vx+=ax;p.vy+=ay;
+},200)
+}
+</script>
+</html>

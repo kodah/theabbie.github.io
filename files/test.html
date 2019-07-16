@@ -1,0 +1,31 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {height: 100%; margin: 0 0 0 0; transition: 2s; background: linear-gradient(to right, #b24592, #f15f79); border-image: linear-gradient(to bottom, #3c3b3f, #605c3c) 200 round;}
+.player {position: absolute; top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center; font-weight: bold; font-size: 70px; font-family: century gothic; transition: 1s; opacity: 0; overflow: auto; white-space: pre-wrap;}
+.text {padding: 10 10 10; border: 3px solid black; background-color: transparent;}
+</style>
+<body>
+<div class="player">
+</div>
+</body>
+<script>
+var k = 0;
+var i = 0;
+var player = document.getElementsByClassName("player")[0];
+var wid = (window.innerWidth-(window.innerWidth>=300?300:window.innerWidth))/2;
+player.style.width=(window.innerWidth>=300?300:window.innerWidth)+"px";
+var text = ["<i class='fa fa-apple' style='font-size: 75px;'></i>","<i class='fa fa-google' style='font-size: 75px;'></i>","<i class='fa fa-cloud' style='font-size: 75px;'></i>","<i class='fa fa-facebook-official' style='font-size: 75px;'></i>","<i class='fa fa-firefox' style='font-size: 75px;'></i>","hi","This Is A Website","How Are You?","Do You know That This Is Just Pure CSS?","<input type='text' class='text'>"];
+window.addEventListener("load", function() {
+document.body.style.borderLeft = wid+"px solid black";
+document.body.style.borderRight = wid+"px solid black";
+});
+setInterval(function() {
+player.style.opacity="1";
+player.innerHTML=((i<text.length?text[i]:"<i class='fa fa-square' style='font-size: 75px'></i>").length<=8?(i<text.length?text[i]:"<i class='fa fa-square' style='font-size: 75px'></i>"):((i<text.length?text[i]:"<i class='fa fa-square' style='font-size: 75px'></i>").length<=15?((i<text.length?text[i]:"<i class='fa fa-square' style='font-size: 75px'></i>").small().small()):((i<text.length?text[i]:"<i class='fa fa-square' style='font-size: 75px'></i>").length<=25?((i<text.length?text[i]:"<i class='fa fa-square' style='font-size: 75px'></i>").small().small().small().small()):((i<text.length?text[i]:"<i class='fa fa-square' style='font-size: 75px'></i>").small().small().small().small().small().small()))));
+setTimeout(function() {player.style.opacity="0";},1000);
+i++;
+},2500);
+</script>
+</html>

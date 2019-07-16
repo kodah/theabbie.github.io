@@ -1,0 +1,42 @@
+<html>
+<style>* {font-size: 15px; letter-spacing: 5px; word-spacing: 0px; font-family: kirvy; line-height: 180%;}</style>
+<table width="100%" height="100%"><tr><td colspan="2" style="height: 10%; border-bottom: 3px solid black;"><input type="text" style="width: 100%; border: none; text-align: center;"></td></tr><tr><td style="border-right: 3px solid black; padding: 10 10 0 10;"><textarea style="border: none;  width: 100%; height: 100%;"></textarea></td><td><textarea style="border: none;  width: 100%; height: 100%; padding: 10 10 0 10;"></textarea></td></tr></table>
+<script>
+document.body.style.margin="0 0 0 0";
+var map = {" ": 1,"a": 1,"b": 2,"c": 3,"d": 4,"e": 5,"f": 6,"g": 7,"h": 8,"i": 9,"j": 10,"k": 11,"l": 12,"m": 13,"n": 14,"o": 15,"p": 16,"q": 17,"r": 18,"s": 19,"t": 20,"u": 21,"v": 22,"w": 23,"x": 24,"y": 25,"z": 26,0:1,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9};
+function jumble(text,n) {
+var result="";
+go(text,n);
+function go(text,n) {
+if (text.length!=1) {
+var p = text.split("")[((n-1)%(text.length))];
+result+=p;
+go(text.slice(((n-1)%(text.length))+1,text.length)+text.slice(0,((n-1)%(text.length))),n);
+}
+else {result+=text;}
+}
+return result;
+}   
+function unjumble(text,n) {
+var result=[];
+var nums=[];
+var finalresult=[];
+for (i=0;i<text.length;i++) {nums[i]=i}
+go(nums,n);
+function go(nums,n) {
+if (nums.length!=1) {
+var p = nums[((n-1)%(nums.length))];
+result.push(p);
+go(nums.slice(((n-1)%(nums.length))+1,nums.length).concat(nums.slice(0,((n-1)%(nums.length)))),n);
+}
+else {result.push(nums[0])}
+}
+for (x in result) {finalresult[result[x]]=text[x]}
+return finalresult.join("");
+}
+function encrypt(text,key) {var result=text;for (x in key) {result=jumble(result,parseInt(map[key[x]]))};return result;}
+function decrypt(text,key) {var result=text;for (x in key.reverse()) {result=unjumble(result,parseInt(map[key[x]]))};return result;}
+document.getElementsByTagName("textarea")[0].oninput=document.getElementsByTagName("input")[0].oninput=function() {document.getElementsByTagName("textarea")[1].value=encrypt(document.getElementsByTagName("textarea")[0].value,document.getElementsByTagName("input")[0].value!=""?document.getElementsByTagName("input")[0].value.split(""):1)}
+document.getElementsByTagName("textarea")[1].oninput=function() {document.getElementsByTagName("textarea")[0].value=decrypt(document.getElementsByTagName("textarea")[1].value,document.getElementsByTagName("input")[0].value.split(""))}
+</script>
+</html>

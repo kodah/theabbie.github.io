@@ -1,0 +1,17 @@
+<html>
+<script>
+var eff = 0;
+function prime(n) {
+var flag;
+var diff = [];
+var primes = [2];
+for (i=3; i<=n; i++) {
+flag = true;
+primes.forEach(function(x) {if (x*x<=i) {if (i%x==0) {flag=false;eff++;}}})
+if (flag==true) {primes.push(i);}
+}
+primes.forEach(function(x,p) {diff[p]=primes[p+1]-x;});
+return [primes,diff];
+}
+</script>
+</html>

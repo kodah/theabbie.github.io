@@ -1,0 +1,70 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+<button id="login">Sign in</button>
+<script>
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+  };
+  firebase.initializeApp(config);
+firebase.auth().onAuthStateChanged(login);
+function login(user) {
+if (user) {
+console.log(user)
+$.get("https://www.googleapis.com/gmail/v1/users/qwertyxx99xx99@gmail.com/profile", function(data, status){
+   console.log(data);
+  });
+}
+else {
+var provider = new firebase.auth.GoogleAuthProvider();
+provider.addScope('https://mail.google.com/');
+firebase.auth().signInWithRedirect(provider);
+}
+}    
+firebase.auth().signInAnonymously();
+  firebase.auth().onAuthStateChanged(function(user) {
+  if (user) {
+  firebase.database().ref("main/users/"+user.uid).set(user.uid);
+}});
+var actionCodeSettings = {
+  url: 'https://language-settings-abada.firebaseapp.com/__/auth/handler',
+  handleCodeInApp: true,
+  dynamicLinkDomain: 'chodu.page.link'
+};
+firebase.auth().sendSignInLinkToEmail("qwertyxx99xx99@gmail.com", actionCodeSettings);
+var provider = new firebase.auth.FacebookAuthProvider();
+firebase.auth().signInWithPopup(provider).then(function(result) {
+  var token = result.credential.accessToken;
+  var user = result.user;
+})
+window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('login', {
+  'size': 'invisible',
+  'callback': function(response) {
+    onSignInSubmit();
+  }
+});
+swal("phone number:", {
+  content: "input",
+})
+.then((value) => {
+firebase.auth().signInWithPhoneNumber(value, window.recaptchaVerifier).then(function (confirmationResult) {
+swal("OTP:", {
+  content: "input",
+})
+.then((value) => {
+confirmationResult.confirm(value).then(function (result) {
+var user = result.user;console.log(user)
+});
+})
+})
+});
+
+</script>
+</html>

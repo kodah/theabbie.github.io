@@ -1,0 +1,46 @@
+<html>
+<svg style="height: 100%; width: 100%;position: fixed; background: darkturquoise;">
+</svg>
+<svg style="height: 100%; width: 100%; background-color: transparent;position: fixed;">
+<polyline style="stroke: black; stroke-width: 3; fill: none;"/>
+<line style="stroke-width:2;stroke:black;"/>
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var svg = document.getElementsByTagName("svg")[0];
+var line = document.getElementsByTagName("line")[0];
+var polyline = document.getElementsByTagName("polyline")[0];
+var ctr;
+var end = 3;
+var ang = 0;
+document.body.style.margin="0 0 0 0";
+var p = [];
+var point = "";
+function points(n) {
+for (i=0;i<n;i++) {
+p[i]={};
+p[i].x=(1/22)*wid+wid*Math.random()/1.1;
+p[i].y=(1/22)*hit+hit*Math.random()/1.1;
+svg.innerHTML+="<circle r='3' cx='"+p[i].x+"' cy='"+p[i].y+"' style='fill:black'>"
+}
+}
+function dt(x,y,p,q,m) {return Math.abs((m*x-y+q-m*p)/((1+m**2)**0.5))}
+function hull(x,y) {
+clearInterval(ctr);
+ctr = setInterval(function() {
+line.setAttribute("x1",0);line.setAttribute("y1",y-x*Math.tan(ang));
+line.setAttribute("x2",wid);line.setAttribute("y2",y+(wid-x)*Math.tan(ang));
+ang+=0.0005;
+if (dt(point.split(" ")[0].split(",")[0],point.split(" ")[0].split(",")[1],x,y,Math.tan(ang))<=1 && end==0) {clearInterval(ctr); point+=point.split(" ")[0].split(",")[0]+","+point.split(" ")[0].split(",")[1]+" ";polyline.setAttribute("points",point);line.style.display="none";}
+for (a in p) {if (dt(p[a].x,p[a].y,x,y,Math.tan(ang))<=0.5) {point+=p[a].x+","+p[a].y+" ";polyline.setAttribute("points",point);hull(p[a].x,p[a].y);p.splice(a,1);(end!=0?end--:end=0);}}
+},0);
+}
+window.onclick=function(e) {
+svg.innerHTML+="<circle r='3' cx='"+e.clientX+"' cy='"+ e.clientY+"' style='fill:black'>"
+p.push({"x":e.clientX,"y":e.clientY})
+}
+window.onkeypress=function(e) {if (e.key=="Enter") {hull(0,0);}}
+//points(14);hull(0,0);
+</script>
+</html>

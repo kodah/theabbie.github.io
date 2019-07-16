@@ -1,0 +1,24 @@
+<html>
+<STYLE>
+@keyframes change {
+        0% {stroke: teal;}
+        20% {stroke: hotpink;}
+        40% {stroke: aqua;}
+        60% {stroke: greenyellow;}
+        80% {stroke: olive;}
+        100% {stroke: teal;}
+    }    
+</STYLE>
+<svg style="height: 100%; width: 100%;">
+<polyline style="stroke:black; stroke-width: 7px; fill:none; animation: change 2s infinite;"></polyline>
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+function x(x) {return document.getElementsByClassName(x)[0] || document.getElementsByTagName(x)[0]};
+x("body").style.margin="0 0 0 0";
+var lx = 0;
+var points = "";
+window.setInterval(function() {points+=lx+","+(hit/2+60*Math.sin(lx/10))+" ";x("polyline").setAttribute("points",points);lx++;x("svg").style.width=lx;document.body.scrollLeft++;},1)
+</script>
+</html>

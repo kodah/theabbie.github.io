@@ -1,0 +1,80 @@
+<html>
+<style>
+    @keyframes change {
+        0% {stroke: teal;}
+        20% {stroke: hotpink;}
+        40% {stroke: aqua;}
+        60% {stroke: greenyellow;}
+        80% {stroke: olive;}
+        100% {stroke: teal;}
+    }
+    @keyframes message {
+        0% {opacity: 0;}
+        50% {opacity: 1;}
+        100% {opacity: 0;}
+    }
+</style>
+<div class="score" style="position: fixed; right:0; text-align: center; font-weight: bold; font-size: 20px; font-family: century gothic; color: white; letter-spacing: 5px; transition: 2s;"></div>
+<div class="object">
+</div>  
+<svg style="width:100%;height:100%;background: black;">
+<polyline style="fill:none;stroke-width:5;animation: change 2s infinite;" />
+<circle r="0" style="fill: yellowgreen;" />
+</svg>  
+<div class="message" style="position: fixed; top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center; font-weight: bold; font-size: 70px; font-family: century gothic; color: white; animation: message 2s 1;opacity: 0;transition: 2s;">HIT THE TARGETS</div>
+<div class="watermark" style="position: fixed; top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center; font-weight: bold; font-size: 70px; font-family: century gothic; color: white; opacity: 0.1;transition: 2s;">
+    <svg style="width:300px;height:100px;background: black;">  
+    <polyline style="fill:none;stroke-width:25; stroke:white;" points="0,0 300,0 300,100 0,100 0,0" />
+    <circle r="10" cx="100" cy="50" style="fill: white;" />
+    <circle r="10" cx="150" cy="50" style="fill: white;" />
+    <circle r="10" cx="200" cy="50" style="fill: white;" />
+    </svg>  
+    </div>
+<iframe style="position: fixed; bottom: 15px; right: 15px; visibility: visible;" id="IOG_CP" scrolling="no" frameborder="0" width="220" height="125" src="http://viral.iogames.space"></iframe>
+<a href="https://iogames.space" style="text-decoration: none; color: white; position: fixed; bottom: 15px; left: 10px; font-family: century gothic;">More .io Games</a>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var dx = rx = ux = lx = 0;
+var vt = 10;
+var d,r,u,l;
+var obsli=obsti=0;
+var hits = 0;
+var point = "";
+var ti = li = 0;
+function ci(a,b,c,d) {clearInterval(a);clearInterval(b);clearInterval(c);clearInterval(d);}
+function x(x) {return document.getElementsByClassName(x)[0] || document.getElementsByTagName(x)[0]};
+x("body").style.margin="0 0 0 0";
+x("object").style.position="fixed";
+x("object").style.backgroundColor="teal";
+x("object").style.width=x("object").style.height="25";
+x("object").style.borderRadius="50%";
+window.addEventListener("keydown", function(e) {
+    if (e.key=="ArrowDown") {ci(d);d = setInterval(function() {x("object").style.top=ti;ti+=ux},vt);ux+=0.5;}
+    if (e.key=="ArrowRight") {ci(r);r = setInterval(function() {x("object").style.left=li;li+=rx},vt);rx+=0.5;}
+    if (e.key=="ArrowUp") {ci(u);u = setInterval(function() {x("object").style.top=ti;ti-=dx},vt);dx+=0.5;}
+    if (e.key=="ArrowLeft") {ci(l);l = setInterval(function() {x("object").style.left=li;li-=lx},vt);lx+=0.5;}
+    if (e.key==" ") {ci(d,r,u,l);dx = rx = ux = lx = 0;}
+    if (e.key=="Escape") {ci(d,r,u,l);vt=Infinity; if(x("message").style.opacity=="0") {x("message").style.opacity="1";x("message").innerHTML="<svg style='width:100px;height:100px;background: transparent;'>  <polyline style='fill:white;stroke-width:0; stroke:white;' points='0,0 87,50 0,100' /></svg>";} else {vt=10;x("message").style.opacity="0";x("message").innerHTML=""}}
+});
+var ctr = setInterval(function() {console.clear();console.log("(",Math.round(ti),",",Math.round(li),")","\n","Horizontal Velocity-> ",Math.round(100*(rx-lx))+"px/s\n","Vertical Velocity-> ",Math.round(100*(ux-dx))+"px/s");
+if ((rx-lx)==0) {ci(r,l);rx = lx = 0} else if ((ux-dx)==0) {ci(d,u);dx = ux = 0;};
+if (li<0 || li>=wid) {rx*=-1;lx*=-1;x("object").style.backgroundColor=["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())]};
+if (ti<0 || ti>=hit) {dx*=-1;ux*=-1;x("object").style.backgroundColor=["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())]};
+if ((li-obsli)*(li-obsli)+(ti-obsti)*(ti-obsti)<=900) {rx*=-1;lx*=-1;ux*=-1;dx*=-1;obs();hits++;if (hits%3==0) {level()};/*clearTimeout(over);var over = setTimeout(function() {ci(d,r,u,l);ci(scores);x("message").innerHTML="GAME OVER";x("message").style.animation="none";setTimeout(function() {x("message").style.animation="message 2s 1";},vt);},8000);*/};
+point += eval(li+12.5)+","+eval(ti+12.5)+" ";
+x("polyline").setAttribute("points",point.split(" ").slice(this.length-50,this.length-1).join(" "));
+},vt);
+function obs() {var r = 0;obsli=(wid/5)*Math.floor(Math.random()*5)+(wid/10);obsti=(hit/10)*Math.floor(Math.random()*10)+(hit/20);x("circle").setAttribute("cx",obsli);x("circle").setAttribute("cy",obsti);var appear = setInterval(function() {x("circle").setAttribute("r",r);r+=0.125;if (r>=12.5) {ci(appear)};},1);x("circle").style.fill=["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())];x("object").style.backgroundColor=["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())];}
+var level = function() {x("message").innerHTML="Level "+Math.floor(hits/3);x("message").style.animation="none";setTimeout(function() {x("message").style.animation="message 2s 1";},vt);}
+var tx = 0;var scores = setInterval(function() {x("score").innerHTML=(Math.floor(Math.floor(tx/100)/60)==0?"":Math.floor(Math.floor(tx/100)/60)+":")+Math.floor(tx/100)%60+":"+(tx%100<10?"0"+tx%100:tx%100)+"<br>SCORE: "+hits+"<br>Level "+Math.floor(hits/3);tx++;},vt);
+function dt(a,b,c,d) {return Math.sqrt((c-a)**2+(d-b)**2)}
+function lobs(a,b,c,d) {
+    x("svg").innerHTML+="<polyline points='"+a+","+b+" "+c+","+d+"' style='stroke-width:10; stroke: white;' />";
+    setInterval(function() {
+        var m = (d-b)/(c-a);
+        if(Math.abs(((m*li)-ti-(m*a-b))/Math.sqrt(1+m*m))<=10 && dt(li,ti,(a+c)/2,(b+d)/2)<=dt(a,b,c,d)/2) {rx*=-1;lx*=-1;ux*=-1;dx*=-1;}
+    },vt)
+}
+</script>
+</html>
