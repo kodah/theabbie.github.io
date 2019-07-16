@@ -10,8 +10,8 @@
 var wid = window.innerWidth;
 var hit = window.innerHeight;
 var svg = document.getElementsByTagName("svg")[0];
-var m = 100;
-var n = 50;
+var m = wid>hit?100:50;
+var n = wid>hit?50:100;
 /*for (i=1;i<=m;i++) {
     for (j=1;j<=n;j++) {
         svg.innerHTML+=
