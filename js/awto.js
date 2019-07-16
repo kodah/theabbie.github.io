@@ -1,1 +1,1 @@
-console.log("Welcome to "+location.host)
+console.log("Welcome to "+location.host+"!")
