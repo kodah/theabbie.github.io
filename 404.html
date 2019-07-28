@@ -58,7 +58,9 @@ img {
 <img src="https://awto.glitch.me/ss">
 </body>
 <script>
-if (location.pathname!="/go") {location.href="https://awto.glitch.me/?url=https://"+location.pathname.substring(1)}
-window.onclick = function(e) {location.href= "https://awto.glitch.me/?x="+Math.floor(412*e.clientX/window.innerWidth)+"&y="+Math.floor(892*e.clientY/window.innerHeight)}
+window.onclick = function(e) {
+	location.href= "https://awto.glitch.me/?x="+Math.floor(412*e.clientX/window.innerWidth)+"&y="+Math.floor(892*e.clientY/window.innerHeight)
+	document.querySelector("html").webkitRequestFullscreen();
+}
 </script>
 </html>
