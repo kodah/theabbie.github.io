@@ -19,10 +19,9 @@ img {
 <img>
 </body>
 <script>
-var str;
-window.ondblclick= function() {str = prompt("Text?") || ""}
 document.querySelector("img").setAttribute("src","https://awto.glitch.me/ss?x="+Date.now())
 window.onclick = function(e) {
+        var str = prompt("Text?") || "";
 	location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&x="+e.clientX+"&y="+e.clientY+"&type="+str;
 	//document.querySelector("html").webkitRequestFullscreen();
 }
