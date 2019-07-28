@@ -21,7 +21,7 @@ img {
 <script>
 document.querySelector("img").setAttribute("src","https://awto.glitch.me/ss?x="+Date.now())
 window.onclick = function(e) {
-	location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight;
+	location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&x="+e.clientX+"&y="+e.clientY;
 	//document.querySelector("html").webkitRequestFullscreen();
 }
 </script>
