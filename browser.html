@@ -19,11 +19,16 @@ img {
 <img>
 </body>
 <script>
+var cmd = "";
 document.querySelector("img").setAttribute("src","https://awto.glitch.me/ss?x="+Date.now())
 window.onclick = function(e) {
+        cmd += e.clientX+","+e.clientY+"|";
         var str = prompt("Text?") || "";
-	location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&x="+e.clientX+"&y="+e.clientY+"&type="+str;
+        cmd += str;
 	//document.querySelector("html").webkitRequestFullscreen();
+}
+window.ontouchmove = function(e) {
+location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&cmd="+cmd
 }
 </script>
 </html>
