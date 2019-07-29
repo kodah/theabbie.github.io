@@ -23,7 +23,7 @@ var cmd = "";
 document.querySelector("img").setAttribute("src","https://awto.glitch.me/ss?x="+Date.now())
 window.onclick = function(e) {
         cmd += e.clientX+","+e.clientY+"|";
-        var str = prompt("Text?") || "";
+        var str = prompt("Text?") || "okay";
         cmd += str;
 	//document.querySelector("html").webkitRequestFullscreen();
 }
