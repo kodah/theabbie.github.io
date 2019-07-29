@@ -22,16 +22,16 @@ img {
 var cmd = "";
 document.querySelector("img").setAttribute("src","https://awto.glitch.me/ss?x="+Date.now())
 window.onclick = function(e) {
-        cmd += e.clientX+","+e.clientY+"|";
+        cmd += "|"+e.clientX+","+e.clientY+"|";
         var str = prompt("Text?") || "okay";
         cmd += str;
 	//document.querySelector("html").webkitRequestFullscreen();
 }
 window.ontouchmove = function(e) {
-location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&cmd="+cmd
+location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&cmd="+cmd.substring(1)
 }
 window.onkeypress = function(e) {
-if (e.keyCode==13) {location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&cmd="+cmd}
+if (e.keyCode==13) {location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&cmd="+cmd.substring(1)}
 }
 </script>
 </html>
