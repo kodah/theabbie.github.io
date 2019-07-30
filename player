@@ -1,0 +1,16 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet">
+</head>
+<body>
+  <video id='my-video' class='video-js' controls preload='auto' width='640' height='264'
+  poster='https://cdn.jsdelivr.net/gh/theabbie/awto@gh-pages/files/website/raw.jpg' data-setup='{}'>
+    <source>
+  </video>
+  <script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
+</body>
+<script>
+document.querySelector("source").setAttribute("src",location.search.substring(6))
+</script>
+</html>
