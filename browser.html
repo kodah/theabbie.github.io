@@ -26,6 +26,7 @@ window.onclick = function(e) {
 	//document.querySelector("html").webkitRequestFullscreen();
 }
 window.oncontextmenu = function(e) {
+	e.preventDefault()
         cmd.push(["t",prompt("TEXT?")])
 	//document.querySelector("html").webkitRequestFullscreen();
 }
