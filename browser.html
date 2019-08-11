@@ -19,13 +19,14 @@ img {
 <img>
 </body>
 <script>
-var cmd = "";
-var i = 0;
+var cmd = [];
 document.querySelector("img").setAttribute("src","https://awto.glitch.me/ss?x="+Date.now())
 window.onclick = function(e) {
-        cmd += "|"+e.clientX+","+e.clientY+"|";
-        var str = prompt("Text?") || "okay";
-        cmd += str;
+        cmd.push(["c",{x: e.clientX, y: e.clientY}])
+	//document.querySelector("html").webkitRequestFullscreen();
+}
+window.oncontextmenu = function(e) {
+        cmd.push(["t",prompt("TEXT?")])
 	//document.querySelector("html").webkitRequestFullscreen();
 }
 window.ontouchmove = function(e) {
