@@ -30,10 +30,10 @@ window.oncontextmenu = function(e) {
 	//document.querySelector("html").webkitRequestFullscreen();
 }
 window.ontouchmove = function(e) {
-location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&cmd="+cmd.substring(1);
+location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&cmd="+JSON.stringify(cmd);
 }
 window.onkeypress = function(e) {
-if (e.keyCode==13) {location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&cmd="+cmd.substring(1);}
+if (e.keyCode==13) {location.href= "https://awto.glitch.me/?wid="+window.innerWidth+"&hit="+window.innerHeight+"&cmd="+JSON.stringify(cmd);}
 }
 </script>
 </html>
