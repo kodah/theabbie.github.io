@@ -4,7 +4,7 @@
   "description": "Live drawing.",
   "theme_color": "#222428",
   "background_color": "#222428",
-  "start_url": "/",
+  "start_url": "/?app",
   "display": "standalone",
   "orientation": "portrait",
   "gcm_user_visible_only": true,
