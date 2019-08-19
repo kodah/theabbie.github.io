@@ -1,0 +1,81 @@
+
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/mathjs@6.0.4/dist/math.min.js"></script>
+<title>
+Image Processor
+</title>
+<style>
+html {background-color: black;}
+.frame {position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); border: 0.5px solid black; border-radius: 5px;}
+button {border: none; padding: 10 10 10 10; color: white; font-size: 20px; height: 40px; border-radius: 40px; position: fixed; bottom: 10%;  left: 50%;background-color: hotpink;
+transform: translate(-50%)
+}
+button:focus {outline: none;}
+</style>
+<body>
+<button style="top: 10%;">A</button>
+<button>Check</button>
+<canvas class="frame">
+</canvas>
+</body>
+<script>
+var l = 0;
+var temp = [];
+var k = 250;
+var video = document.createElement("video");
+var btn = document.querySelectorAll("button");
+btn[0].onclick = function() {get(btn[0].innerHTML);}
+btn[0].oncontextmenu = function(e) {e.preventDefault();btn[0].innerHTML=prompt("label?")}
+btn[1].onclick = function() {predict()}
+video.setAttribute("autoplay","true");
+var canvas = document.querySelector(".frame");
+canvas.setAttribute("width",k);
+canvas.setAttribute("height",k)
+canvas.onclick = function() {
+var fs = document.createElement("input");
+fs.setAttribute("type","file");
+fs.click();
+fs.onchange = function(e) {
+img = document.createElement("img");
+img.setAttribute("src",URL.createObjectURL(e.target.files[0]));
+img.onload = function() {
+ctx.drawImage(img, 0, 0, k, k);
+get();
+}
+}
+}
+navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
+video.srcObject = stream;
+});
+setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, k, k)},0)
+function get(label) {
+var ctx = canvas.getContext("2d");
+var data = ctx.getImageData(0, 0, k, k);
+var x = {r:[0,0,0,0,0,0],g:[0,0,0,0,0,0],b:[0,0,0,0,0,0]}
+for (i = 0; i < data.data.length; i += 4) {
+x.r[(data.data[i]-data.data[i]%50)/50]++;
+x.g[(data.data[i+1]-data.data[i+1]%50)/50]++;
+x.b[(data.data[i+2]-data.data[i+2]%50)/50]++;
+}
+if (label) {
+temp.push([Object.values(x),label]);location.hash=l++}
+return x;
+}
+function predict() {
+var d = [];
+var p = Object.values(get());
+temp.forEach(function(x) {
+d.push(math.sum(math.abs(math.subtract(p,x[0]))))
+})
+var sd = [];
+Object.assign(sd,d);
+sd.sort(function(a, b){return a-b});
+var knn = [];
+for (i=0;i<=9;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
+var t = {};
+knn.forEach(function(x) {t[x]!=undefined?t[x]++:t[x]=1})
+alert(Object.keys(t)[Object.values(t).indexOf(Math.max(...Object.values(t)))])
+}
+</script>
+</html>
