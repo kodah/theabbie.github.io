@@ -24,7 +24,11 @@ button:focus {outline: none;}
 var l = 0;
 var temp = [];
 var k = 350;
-document.querySelector("h1").onclick = function() {cg()}
+document.querySelector("h1").onclick = function() {
+navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
+video.srcObject = stream;
+});
+}
 var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
 btn[0].onclick = function() {get(btn[0].innerHTML);}
@@ -36,15 +40,9 @@ canvas.setAttribute("height",k)
 canvas.onclick = function() {
 predict();
 }
-window.flag=true;
-function cg() {
-video.srcObject = null;
-window.flag=!window.flag;
-navigator.mediaDevices.getUserMedia(window.flag?{video: { facingMode: { exact: "environment" } } }:{video: true}).then(function(stream) {
+navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 video.srcObject = stream;
 });
-}
-cg();
 setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, k, k)},0)
 function get(label) {
 var ctx = canvas.getContext("2d");
