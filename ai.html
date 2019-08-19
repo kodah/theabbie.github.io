@@ -26,9 +26,7 @@ var temp = [];
 var k = 350;
 var flag = true;
 document.querySelector("h1").onclick = function() {
-video.srcObject = null;
-flag=!flag;
-navigator.mediaDevices.getUserMedia(flag?{video: true}:{video: { facingMode: { exact: "environment" } } }).then(function(stream) {
+navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
 video.srcObject = stream;
 });
 }
