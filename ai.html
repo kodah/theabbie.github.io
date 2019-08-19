@@ -63,6 +63,7 @@ for (i=0;i<=9;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]
 var t = {};
 knn.forEach(function(x) {t[x]!=undefined?t[x]++:t[x]=1})
 alert(Object.keys(t)[Object.values(t).indexOf(Math.max(...Object.values(t)))])
+return Object.keys(t)[Object.values(t).indexOf(Math.max(...Object.values(t)))]
 }
 </script>
 </html>
