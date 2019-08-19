@@ -36,12 +36,14 @@ canvas.setAttribute("height",k)
 canvas.onclick = function() {
 predict();
 }
-function cg(flag) {
-navigator.mediaDevices.getUserMedia(flag?{video: { facingMode: { exact: "environment" } } }:{video: true}).then(function(stream) {
+window.flag=true;
+function cg() {
+window.flag=!window.flag;
+navigator.mediaDevices.getUserMedia(window.flag?{video: { facingMode: { exact: "environment" } } }:{video: true}).then(function(stream) {
 video.srcObject = stream;
 });
 }
-cg(true);
+cg();
 setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, k, k)},0)
 function get(label) {
 var ctx = canvas.getContext("2d");
