@@ -24,6 +24,8 @@ button:focus {outline: none;}
 var l = 0;
 var temp = [];
 var k = 350;
+var config = {video: { facingMode: { exact: "environment" } } };
+window.oncontextmenu = function() {config={video: true}}
 var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
 btn[0].onclick = function() {get(btn[0].innerHTML);}
@@ -35,7 +37,7 @@ canvas.setAttribute("height",k)
 canvas.onclick = function() {
 predict();
 }
-navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
+navigator.mediaDevices.getUserMedia(config).then(function(stream) {
 video.srcObject = stream;
 });
 setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, k, k)},0)
