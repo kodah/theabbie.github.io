@@ -24,7 +24,7 @@ button:focus {outline: none;}
 var l = 0;
 var temp = [];
 var k = 350;
-window.ontouchstart = function() {cg()}
+document.querySelector("h1").onclick = function() {cg()}
 var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
 btn[0].onclick = function() {get(btn[0].innerHTML);}
@@ -38,6 +38,7 @@ predict();
 }
 window.flag=true;
 function cg() {
+video.srcObject = null;
 window.flag=!window.flag;
 navigator.mediaDevices.getUserMedia(window.flag?{video: { facingMode: { exact: "environment" } } }:{video: true}).then(function(stream) {
 video.srcObject = stream;
