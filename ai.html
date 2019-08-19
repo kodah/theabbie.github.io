@@ -24,7 +24,7 @@ button:focus {outline: none;}
 var l = 0;
 var temp = [];
 var k = 350;
-window.ontouchstart = function() {config={video: true}}
+window.ontouchstart = function() {cg()}
 var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
 btn[0].onclick = function() {get(btn[0].innerHTML);}
@@ -41,7 +41,7 @@ navigator.mediaDevices.getUserMedia(flag?{video: { facingMode: { exact: "environ
 video.srcObject = stream;
 });
 }
-cg();
+cg(true);
 setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, k, k)},0)
 function get(label) {
 var ctx = canvas.getContext("2d");
