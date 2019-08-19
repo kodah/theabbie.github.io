@@ -33,7 +33,7 @@ video.srcObject = stream;
 }
 var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
-btn[0].onclick = function() {if (flag) {clearInterval(ctr);flag=false;} else {ctr = setInterval(function() {get(btn[0].innerHTML)},100);flag=true;}}
+btn[0].onclick = function() {if (flag) {clearInterval(ctr);flag=false;} else {ctr = setInterval(function() {get(btn[0].innerHTML)},300);flag=true;}}
 document.querySelector("h1").ontouchmove = function(e) {e.preventDefault();btn[0].innerHTML=prompt("label?")}
 video.setAttribute("autoplay","true");
 var canvas = document.querySelector(".frame");
