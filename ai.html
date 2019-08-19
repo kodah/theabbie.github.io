@@ -13,8 +13,7 @@ transform: translate(-50%)
 button:focus {outline: none;}
 </style>
 <body>
-<button style="top: 10%;">SAMPLE-A</button>
-<button>Check</button>
+<button style="bottom: 10%;">SAMPLE-A</button>
 <canvas class="frame">
 </canvas>
 </body>
@@ -26,23 +25,12 @@ var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
 btn[0].onclick = function() {get(btn[0].innerHTML);}
 btn[0].oncontextmenu = function(e) {e.preventDefault();btn[0].innerHTML=prompt("label?")}
-btn[1].onclick = function() {predict()}
 video.setAttribute("autoplay","true");
 var canvas = document.querySelector(".frame");
 canvas.setAttribute("width",k);
 canvas.setAttribute("height",k)
 canvas.onclick = function() {
-var fs = document.createElement("input");
-fs.setAttribute("type","file");
-fs.click();
-fs.onchange = function(e) {
-img = document.createElement("img");
-img.setAttribute("src",URL.createObjectURL(e.target.files[0]));
-img.onload = function() {
-ctx.drawImage(img, 0, 0, k, k);
-get();
-}
-}
+predict();
 }
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 video.srcObject = stream;
