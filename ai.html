@@ -21,6 +21,7 @@ button:focus {outline: none;}
 </canvas>
 </body>
 <script>
+var ctr;
 var l = 0;
 var temp = [];
 var k = 350;
@@ -31,7 +32,8 @@ video.srcObject = stream;
 }
 var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
-btn[0].onclick = function() {get(btn[0].innerHTML);}
+btn[0].ontouchstart = function() {ctr = setInterval(function() {get(btn[0].innerHTML);},300)}
+btn[0].ontouchend = function() {clearInterval(ctr)}
 btn[0].oncontextmenu = function(e) {e.preventDefault();btn[0].innerHTML=prompt("label?")}
 video.setAttribute("autoplay","true");
 var canvas = document.querySelector(".frame");
