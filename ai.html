@@ -17,7 +17,7 @@ button:focus {outline: none;}
 </style>
 <body>
 <h1>AI</h1>
-<button style="bottom: 10%;">SAMPLE-A</button>
+<button style="bottom: 10%;">WAIT</button>
 <canvas class="frame">
 </canvas>
 </body>
@@ -29,6 +29,7 @@ var temp = [];
 var k = 350;
 fetch("https://aiset.glitch.me/")
 fetch("https://aiset.glitch.me/").then(response => response.json()).then(data => {
+btn[0].innerHTML="READY";
 temp=data.map(JSON.parse);
 l=temp.length;
 })
