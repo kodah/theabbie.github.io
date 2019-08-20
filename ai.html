@@ -26,6 +26,7 @@ var ctr;
 var l = 0;
 var temp = [];
 var k = 350;
+fetch("https://aiset.glitch.me/")
 fetch("https://aiset.glitch.me/").then(response => response.json()).then(data => {
 temp=data.map(JSON.parse);
 l=temp.length;
