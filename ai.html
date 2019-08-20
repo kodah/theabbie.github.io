@@ -28,6 +28,7 @@ var temp = [];
 var k = 350;
 fetch("https://aiset.glitch.me/").then(response => response.json()).then(data => {
 temp=data.map(JSON.parse);
+l=temp.length;
 })
 document.querySelector("h1").onclick = function() {
 navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
