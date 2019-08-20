@@ -49,6 +49,9 @@ canvas.setAttribute("height",k)
 canvas.onclick = function() {
 predict();
 }
+canvas.oncontextmenu = function() {
+alert(1);
+}
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 video.srcObject = stream;
 });
