@@ -82,10 +82,9 @@ Object.assign(sd,d);
 sd.sort(function(a, b){return a-b});
 var knn = [];
 for (i=0;i<=9;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
-var t = {};
-knn.forEach(function(x) {t[x]!=undefined?t[x]++:t[x]=1})
-btn[0].innerHTML=math.mode(knn)//Object.keys(t)[Object.values(t).indexOf(Math.max(...Object.values(t)))]
-return Object.keys(t)[Object.values(t).indexOf(Math.max(...Object.values(t)))]
+var rslt = math.mode(knn);
+btn[0].innerHTML=rslt;
+return rslt;
 }
 </script>
 </html>
