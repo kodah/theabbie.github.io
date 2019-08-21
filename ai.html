@@ -81,7 +81,7 @@ var sd = [];
 Object.assign(sd,d);
 sd.sort(function(a, b){return a-b});
 var knn = [];
-for (i=0;i<=24;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
+for (i=0;i<=16;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
 var rslt = math.mode(knn);
 btn[0].innerHTML=rslt;
 return [rslt,knn];
