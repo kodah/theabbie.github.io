@@ -50,7 +50,7 @@ canvas.onclick = function() {
 predict();
 }
 canvas.oncontextmenu = function() {
-alert(1);
+alert(predict()[1]);
 }
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 video.srcObject = stream;
@@ -84,7 +84,7 @@ var knn = [];
 for (i=0;i<=9;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
 var rslt = math.mode(knn);
 btn[0].innerHTML=rslt;
-return rslt;
+return [rslt,knn];
 }
 </script>
 </html>
