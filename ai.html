@@ -76,7 +76,7 @@ fetch("https://aiset.glitch.me/push?data="+JSON.stringify([Object.values(x),labe
 return x;
 }
 function predict() {
-alert(temp)
+alert(JSON.stringify(temp))
 var d = [];
 var p = Object.values(get());
 temp.forEach(function(x) {
