@@ -34,7 +34,6 @@ fetch("https://aiset.glitch.me/")
 fetch("https://aiset.glitch.me/").then(response => response.json()).then(data => {
 btn[0].innerHTML="READY";
 temp=data.map(JSON.parse);
-alert(JSON.stringify(temp))
 l=temp.length;
 })
 document.querySelector("h1").onclick = function() {
@@ -77,6 +76,7 @@ fetch("https://aiset.glitch.me/push?data="+JSON.stringify([Object.values(x),labe
 return x;
 }
 function predict() {
+alert(temp)
 var d = [];
 var p = Object.values(get());
 temp.forEach(function(x) {
