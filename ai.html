@@ -33,8 +33,8 @@ var k = 350;
 fetch("https://aiset.glitch.me/")
 fetch("https://aiset.glitch.me/").then(response => response.json()).then(data => {
 btn[0].innerHTML="READY";
-alert(JSON.stringify(data))
 temp=data.map(JSON.parse);
+alert(JSON.stringify(temp))
 l=temp.length;
 })
 document.querySelector("h1").onclick = function() {
