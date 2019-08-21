@@ -22,6 +22,9 @@ button:focus {outline: none;}
 </canvas>
 </body>
 <script>
+window.onerror=function(e) {
+alert(JSON.stringify(e));
+}
 var flag = false;
 var ctr;
 var l = 0;
