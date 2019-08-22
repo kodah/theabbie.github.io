@@ -53,7 +53,7 @@ canvas.onclick = function() {
 predict();
 }
 canvas.oncontextmenu = function() {
-alert(predict()[1]);
+ alert(predict()[1]);
 }
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 video.srcObject = stream;
