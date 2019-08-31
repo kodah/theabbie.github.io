@@ -86,7 +86,7 @@ sd.sort(function(a, b){return a-b});
 var knn = [];
 for (i=0;i<=16;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
 var rslt = math.mode(knn);
-btn[0].innerHTML=rslt;
+document.querySelector("h1").innerHTML=rslt+"<br>#"+l;
 return [rslt,knn];
 }
 </script>
