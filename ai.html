@@ -25,6 +25,7 @@ button:focus {outline: none;}
 window.onerror=function(e) {
 alert(JSON.stringify(e));
 }
+var obj = "AI"
 var flag = false;
 var temp = [];
 var ctr;
@@ -36,6 +37,7 @@ btn[0].innerHTML="READY";
 temp=data.map(JSON.parse);
 l=temp.length;
 })
+setInterval(function() {if (temp.length>0) {obj=predict()[0];document.querySelector("h1").innerHTML=obj+"<br>#"+l;}},300)
 document.querySelector("h1").onclick = function() {
 navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
 video.srcObject = stream;
@@ -70,7 +72,7 @@ x.b[(data.data[i+2]-data.data[i+2]%51)/51]++;
 }
 if (label) {
 temp.push([Object.values(x),label]);location.hash=l++;
-document.querySelector("h1").innerHTML="AI<br>#"+l;
+document.querySelector("h1").innerHTML=obj+"<br>#"+l;
 //fetch("https://aiset.glitch.me/push?data="+JSON.stringify([Object.values(x),label]))
 }
 return x;
