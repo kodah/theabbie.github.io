@@ -34,7 +34,7 @@ btn[0].innerHTML="READY";
 temp=data.map(JSON.parse);
 l=temp.length;
 })
-setInterval(function() {if (temp.length>0) {obj=predict()[0];document.querySelector("h1").innerHTML=obj+"<br>#"+l;}},300)
+setInterval(function() {if (temp.length>0) {predict()}},300)
 document.querySelector("h1").onclick = function() {
 navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
 video.srcObject = stream;
