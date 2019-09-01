@@ -37,11 +37,6 @@ temp=data.map(JSON.parse);
 l=temp.length;
 })
 setInterval(function() {if (temp.length>0) {predict()}},300)
-canvas.onclick = function() {
-navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
-video.srcObject = stream;
-});
-}
 var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
 btn[0].onclick = function() {if (flag) {clearInterval(ctr);flag=false;} else {ctr = setInterval(function() {get(btn[0].innerHTML)},50);flag=true;}}
@@ -52,6 +47,11 @@ canvas.setAttribute("width",k);
 canvas.setAttribute("height",k)
 canvas.oncontextmenu = function() {
  alert(predict()[1]);
+}
+canvas.onclick = function() {
+navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
+video.srcObject = stream;
+});
 }
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 video.srcObject = stream;
