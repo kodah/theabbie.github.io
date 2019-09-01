@@ -34,7 +34,7 @@ fetch("https://aiset.glitch.me/").then(response => response.json()).then(data =>
 btn[0].innerHTML="READY";
 temp=data.map(JSON.parse);
 l=temp.length;
-alert(temp)
+alert(data)
 })
 setInterval(function() {if (temp.length>0) {predict()}},300)
 var video = document.createElement("video");
