@@ -25,6 +25,7 @@ button:focus {outline: none;}
 var obj = "AI"
 var flag = false;
 var temp = [];
+var k = "";
 var ctr;
 var l = 0;
 var k = 350;
@@ -35,7 +36,7 @@ temp=data.map(JSON.parse);
 l=temp.length;
 })
 setInterval(function() {if (temp.length>0) {predict()}},300)
-document.querySelector("h1").onclick = function() {
+canvas.onclick = function() {
 navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
 video.srcObject = stream;
 });
@@ -48,9 +49,6 @@ video.setAttribute("autoplay","true");
 var canvas = document.querySelector(".frame");
 canvas.setAttribute("width",k);
 canvas.setAttribute("height",k)
-canvas.onclick = function() {
-predict();
-}
 canvas.oncontextmenu = function() {
  alert(predict()[1]);
 }
@@ -69,7 +67,7 @@ x.b[(data.data[i+2]-data.data[i+2]%51)/51]++;
 }
 if (label) {
 temp.push([Object.values(x),label]);location.hash=l++;
-document.querySelector("h1").innerHTML=obj+"<br>#"+l;
+document.querySelector("h1").innerHTML=obj+"<br>#"+l+"<br>"+k;
 //fetch("https://aiset.glitch.me/push?data="+JSON.stringify([Object.values(x),label]))
 }
 return x;
@@ -84,10 +82,11 @@ var sd = [];
 Object.assign(sd,d);
 sd.sort(function(a, b){return a-b});
 var knn = [];
-for (i=0;i<=16;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
+for (i=0;i<=24;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
 var rslt = math.mode(knn);
+k = Math.floor((knn.join("").split(rslt).length-1)*4)+"%";
 obj = rslt;
-document.querySelector("h1").innerHTML=obj+"<br>#"+l;
+document.querySelector("h1").innerHTML=obj+"<br>#"+l+"<br>"+k;
 return [rslt,knn];
 }
 </script>
