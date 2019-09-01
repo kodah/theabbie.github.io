@@ -40,7 +40,7 @@ setInterval(function() {if (temp.length>0) {predict()}},300)
 var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
 btn[0].onclick = function() {if (flag) {clearInterval(ctr);flag=false;} else {ctr = setInterval(function() {get(btn[0].innerHTML)},50);flag=true;}}
-document.querySelector("h1").ontouchend = function(e) {e.preventDefault();btn[0].innerHTML=prompt("label?")}
+document.querySelector("h1").onclick = function(e) {e.preventDefault();btn[0].innerHTML=prompt("label?")}
 video.setAttribute("autoplay","true");
 var canvas = document.querySelector(".frame");
 canvas.setAttribute("width",k);
