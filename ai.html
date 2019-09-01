@@ -25,7 +25,7 @@ button:focus {outline: none;}
 var obj = "AI"
 var flag = false;
 var temp = [];
-var k = "";
+var k = t;
 var ctr;
 var l = 0;
 var k = 350;
@@ -67,7 +67,7 @@ x.b[(data.data[i+2]-data.data[i+2]%51)/51]++;
 }
 if (label) {
 temp.push([Object.values(x),label]);location.hash=l++;
-document.querySelector("h1").innerHTML=obj+"<br>#"+l+"<br>"+k;
+document.querySelector("h1").innerHTML=obj+"<br>#"+l+"<br>"+t;
 //fetch("https://aiset.glitch.me/push?data="+JSON.stringify([Object.values(x),label]))
 }
 return x;
@@ -84,9 +84,9 @@ sd.sort(function(a, b){return a-b});
 var knn = [];
 for (i=0;i<=24;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
 var rslt = math.mode(knn);
-//k = l>0?(Math.floor((knn.join("").split(rslt).length-1)*4)+"%"):"";
+var t = Math.floor((knn.join("").split(rslt).length-1)*4)+"%";
 obj = rslt;
-document.querySelector("h1").innerHTML=obj+"<br>#"+l+"<br>"+k;
+document.querySelector("h1").innerHTML=obj+"<br>#"+l+"<br>"+t;
 return [rslt,knn];
 }
 </script>
