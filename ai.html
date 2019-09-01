@@ -84,7 +84,7 @@ sd.sort(function(a, b){return a-b});
 var knn = [];
 for (i=0;i<=24;i++) {knn.push(temp[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
 var rslt = math.mode(knn);
-var t = Math.floor((knn.join("").split(rslt).length-1)*4)+"%";
+t = Math.floor((knn.join("").split(rslt).length-1)*4)+"%";
 obj = rslt;
 document.querySelector("h1").innerHTML=obj+"<br>#"+l+"<br>"+t;
 return [rslt,knn];
