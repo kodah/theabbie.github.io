@@ -1,0 +1,22 @@
+
+<html>
+<head>
+<title>Music</title>
+<style>
+button {padding: 10 10 10 10; height: 50px; border-radius: 50px; margin: 0 0 10 20; font-size: 20px; background: fuchsia; color: white; border: none; cursor: pointer;
+position: fixed; left: 50%; top: 100px;}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+</head>
+<body>
+<input type="text" class="search">
+<button>lyrics</button>
+</body>
+<script>
+document.querySelector("button").onclick=function() {
+location.href="https://typi.tk/?url=https://www.google.com/search?q="+document.querySelector("input").value+"%20lyrics&sel=span[jsname]&attribs=class"
+}
+</script>
+</html>
