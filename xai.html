@@ -3,15 +3,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <svg style="height: 100%; width: 100%; position: fixed; background: rgb(42,37,43);touch-action: none;">
 <script>
+var n = 0;
 var wid = window.innerWidth;
 var hit = window.innerHeight;
 document.body.style.margin="0 0 0 0";
 var svg = document.getElementsByTagName("svg")[0];
-var art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-art.setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
-svg.appendChild(art);
+var art = [];
+window.addEventListener('touchstart', function(e) {
+art[n] = document.createElementNS("http://www.w3.org/2000/svg","polyline");
+art[n].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
+svg.appendChild(art[n]);
+n++;
+},false);
 window.addEventListener('touchmove', function(e) {
-art.setAttribute("points",art.getAttribute('points')+e.touches[0].clientX+","+e.touches[0].clientY+" ");
+art[n].setAttribute("points",art.getAttribute('points')+e.touches[0].clientX+","+e.touches[0].clientY+" ");
 },false);
 </script>
 </html>
