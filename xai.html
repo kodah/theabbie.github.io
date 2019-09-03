@@ -27,6 +27,9 @@ frame.setAttribute("x",Math.min(...data.x));
 frame.setAttribute("y",Math.min(...data.y));
 frame.setAttribute("width",Math.max(...data.x)-Math.min(...data.x));
 frame.setAttribute("height",Math.max(...data.y)-Math.min(...data.y));
+data.x = data.x.map(x => Math.floor(1000*(x-Math.max(...data.x))/(Math.max(...data.x)-Math.min(...data.x))))
+data.y = data.y.map(y => Math.floor(1000*(y-Math.max(...data.y))/(Math.max(...data.y)-Math.min(...data.y))))
+alert(data.x);
 },false);
 </script>
 </html>
