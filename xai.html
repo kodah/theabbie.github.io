@@ -16,7 +16,7 @@ svg.appendChild(art[n]);
 n++;
 },false);
 window.addEventListener('touchmove', function(e) {
-art[n].setAttribute("points",art.getAttribute('points')+e.touches[0].clientX+","+e.touches[0].clientY+" ");
+art[n].setAttribute("points",art[n].getAttribute('points')+e.touches[0].clientX+","+e.touches[0].clientY+" ");
 },false);
 </script>
 </html>
