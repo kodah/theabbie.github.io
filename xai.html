@@ -2,19 +2,31 @@
 <title>AI drawing</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <svg style="height: 100%; width: 100%; position: fixed; background: rgb(42,37,43);touch-action: none;">
+<rect style="fill:transparent; stroke:rgb(221,172,39); stroke-width:2; opacity:1;" />
+</svg>
 <script>
+var art;
+var data = {"x": [], "y": []};
 var wid = window.innerWidth;
 var hit = window.innerHeight;
 document.body.style.margin="0 0 0 0";
-var svg = document.getElementsByTagName("svg")[0];
-var art;
+var svg = document.querySelector("svg");
+var frame = document.querySelector("rect");
 window.addEventListener('touchstart', function(e) {
 art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
 art.setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
 svg.appendChild(art);
 },false);
 window.addEventListener('touchmove', function(e) {
+data.x.push(e.touches[0].clientX);
+data.y.push(e.touches[0].clientY);
 art.setAttribute("points",art.getAttribute('points')+e.touches[0].clientX+","+e.touches[0].clientY+" ");
+},false);
+window.addEventListener('click', function(e) {
+frame.setAttribute("x",Math.min(...data.x));
+frame.setAttribute("y",Math.min(...data.y));
+frame.setAttribute("width",Math.max(...data.x)-Math.min(...data.x));
+frame.setAttribute("height",Math.max(...data.y)-Math.min(...data.y));
 },false);
 </script>
 </html>
