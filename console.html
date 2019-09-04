@@ -2,9 +2,8 @@
 <head>
 <title>Console</title>
 <style>
-button {padding: 10 10 10 10; height: 50px; border-radius: 50px; margin: 0 0 10 20; font-size: 20px; background: fuchsia; color: white; border: none; cursor: pointer;
-position: fixed; left: 50%; transform: translate(-50%,0); width: 90%;}
-button:focus {outline: none;}
+ul {margin-top: 100px; list-style-type: none;}
+li {cursor: pointer;}
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -12,42 +11,44 @@ button:focus {outline: none;}
 </head>
 <body>
 <input type="text" class="search">
-<button style="top: 75px;">lyrics</button>
-<button style="top: 150px;">movie songs</button>
-<button style="top: 225px;">live sab tv</button>
-<button style="top: 300px;">live set max</button>
-<button style="top: 375px;">live sony tv</button>
-<button style="top: 450px;">meaning</button>
-<button style="top: 525px;">Search Youtube</button>
-<button style="top: 600px;">Live Star Plus</button>
-<button style="top: 675px;">Images</button>
+<ul>
+<li>lyrics</li>
+<li>movie songs</li>
+<li>live sab tv</li>
+<li>live set max</li>
+<li>live sony tv</li>
+<li>meaning</li>
+<li>Search Youtube</li>
+<li>Live Star Plus</li>
+<li>Images</li>
+</ul>
 </body>
 <script>
-document.querySelectorAll("button")[0].onclick=function() {
+document.querySelectorAll("li")[0].onclick=function() {
 location.href="https://typi.tk/?url=https://www.google.com/search?q="+document.querySelector("input").value+"%20lyrics&sel=span[jsname]&attribs=class&t=1&join=<br>"
 }
-document.querySelectorAll("button")[1].onclick=function() {
+document.querySelectorAll("li")[1].onclick=function() {
 location.href="https://typi.tk/?url=https://www.google.com/search?q="+document.querySelector("input").value+"%20songs&sel=.title&attribs=classs&t=1&join=<br><br>";
 }
-document.querySelectorAll("button")[2].onclick=function() {
+document.querySelectorAll("li")[2].onclick=function() {
 location.href="https://typi.tk/?url=https://9xbuddy.org/process?url=https%3A%2F%2Fsonyliv.app.link%2FKibZnVbYjX&sel=.leading-normal.text-white&attribs=href&t=6000"
 }
-document.querySelectorAll("button")[3].onclick=function() {
+document.querySelectorAll("li")[3].onclick=function() {
 location.href="https://typi.tk/?url=https://9xbuddy.org/process?url=https://sonyliv.app.link/GF3hZXIQGZ&sel=.leading-normal.text-white&attribs=href&t=6000"
 }
-document.querySelectorAll("button")[4].onclick=function() {
+document.querySelectorAll("li")[4].onclick=function() {
 location.href="https://typi.tk/?url=https://9xbuddy.org/process?url=https://sonyliv.app.link/0CIrLS3QGZ&sel=.leading-normal.text-white&attribs=href&t=6000"
 }
-document.querySelectorAll("button")[5].onclick=function() {
+document.querySelectorAll("li")[5].onclick=function() {
 location.href="https://typi.tk/?url=https://www.lexico.com/en/definition/"+document.querySelector("input").value+"&sel=.ind&attribs=classs&static=true&join=<br><br>"
 }
-document.querySelectorAll("button")[6].onclick=function() {
+document.querySelectorAll("li")[6].onclick=function() {
 location.href="https://typi.tk/?url=https://m.youtube.com/results?search_query="+document.querySelector("input").value+"&sel=.compact-media-item-metadata-content&attribs=href&t=1"
 }
-document.querySelectorAll("button")[7].onclick=function() {
+document.querySelectorAll("li")[7].onclick=function() {
 location.href="https://typi.tk/?url=https://9xbuddy.org/process?url=https%3A%2F%2Fhotstar.com%2Fhls%2FaHR0cHM6Ly9zdGFycGx1c2hkLWkuYWthbWFpaGQubmV0L2hscy9saXZlLzU2OTkyOC9zdGFycGx1c2hkL21hc3Rlci5tM3U4P2ZheHM9MSZwYXJ0bmVyPWFpcnRlbCZoZG5lYT1zdD0xNTY3NTgxMDQxfmV4cD0xNTY3NTg0NjQxfmFjbD0vKn5obWFjPTc3ZmRmNjJmMGExZjM3ODYxNmI1YWJlMjYwNzAzMjdiMjdjMGFkNmEwOTRjNTIxNzQxNWY4YTc0ODdmNDI3OTM%2C&sel=.leading-normal.text-white&attribs=href&t=6000"
 }
-document.querySelectorAll("button")[8].onclick=function() {
+document.querySelectorAll("li")[8].onclick=function() {
 location.href="https://typi.tk/?url=https://www.google.com/images?q="+document.querySelector("input").value+"&sel=img&attribs=src&t=1&join= &pad=%3Cimg%20src=%22@%22%3E"
 }
 </script>
