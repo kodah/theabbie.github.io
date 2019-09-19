@@ -1,3 +1,3 @@
-# Awto JS
-An automation library
+# TheAbbie
+A web developer by passion
 
