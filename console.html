@@ -24,6 +24,7 @@ li {cursor: pointer; text-align: center;}
 <li>Cast</li>
 <li>Google Search</li>
 <li>Torrent Search</li>
+<li>Search Wikipedia</li>
 </ul>
 </body>
 <script>
@@ -62,6 +63,9 @@ location.href="https://typi.tk/?url=https://google.com/search?q="+document.query
 }
 document.querySelectorAll("li")[11].onclick=function() {
 location.href="https://typi.tk/?url=https://m.thepiratebay.org/search/"+document.querySelector("input").value+"/0/0/0&sel=td%20a[title]:nth-child(2)&attribs=href&static=true&join=%3Cbr%3E&pad=%3Ca%20href=%22$%22%3Elink%3C/a%3E";
+}
+document.querySelectorAll("li")[12].onclick=function() {
+location.href="https://typi.tk/?url=https://en.m.wikipedia.org/wiki/"+document.querySelector("input").value+"&sel=p&attribs=id&static=true&join=%3Cbr%3E&pad=%3Cp%3E@%3C/p%3E";
 }
 </script>
 </html>
