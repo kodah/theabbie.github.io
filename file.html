@@ -17,10 +17,6 @@
       <input type="file" class="custom-file-input" id="customFile" name="filename">
       <label class="custom-file-label" for="customFile">Choose file</label>
     </div>
-    <div class="mt-3">
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
-  </form>
 </div>
 
 <script>
@@ -39,7 +35,8 @@ $.post("https://thedb.now.sh/"+fileName,
     alert("Data: " + data + "\nStatus: " + status);
   });
 };
-});</script>
+});
+</script>
 
 </body>
 </html>
