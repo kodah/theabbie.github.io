@@ -1,1 +1,1 @@
-hello motherfucker
+<script>alert(1)</script>
