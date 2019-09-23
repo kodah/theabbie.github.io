@@ -12,7 +12,7 @@
 <body>
 
 <div class="container mt-3">
-  <h2>Upload File</h2>
+  <h2>Upload File</h2><br>
     <div class="custom-file mb-3">
       <input type="file" class="custom-file-input" id="customFile" name="filename">
       <label class="custom-file-label" for="customFile">Choose file</label>
@@ -24,11 +24,22 @@
 </div>
 
 <script>
-$(".custom-file-input").on("change", function() {
-  var fileName = $(this).val().split("\\").pop();
-  $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-});
-</script>
+document.querySelector(".custom-file-input").addEventListener("change",function(e) {
+var fileName = $(".custom-file-input").val().split("\\").pop();
+$(".custom-file-input").siblings(".custom-file-label").addClass("selected").html(fileName);
+var file = e.target.files[0];
+var reader = new FileReader();
+reader.readAsDataURL(file);
+reader.onload = function () {
+$.post("https://thedb.now.sh/"+fileName,
+  {
+    file: reader.result
+  },
+  function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+  });
+};
+});</script>
 
 </body>
 </html>
