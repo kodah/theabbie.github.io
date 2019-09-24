@@ -32,11 +32,10 @@ var t = "";
 var ctr;
 var l = 0;
 var k = 350;
-fetch("https://thedb.now.sh/ai").then(response => response.json()).then(data => {
+fetch("https://thedb.now.sh/ai").then(response => response.text()).then(data => {
 btn[0].innerHTML="READY";
-//temp=data.map(JSON.parse);
-//l=temp.length;
-alert(data)
+temp=data.split("\n").map(JSON.parse);
+l=temp.length;
 })
 setInterval(function() {if (temp.length>0) {predict()}},300)
 var video = document.createElement("video");
