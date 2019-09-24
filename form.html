@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Stacked form</h2>
+  <form>
+    <div class="form-group">
+      <label for="Name">Name:</label>
+      <input type="text" class="form-control" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="age">Age:</label>
+      <input type="text" class="form-control" placeholder="Enter age">
+    </div>
+    <div class="form-group">
+      <label for="gender">Gender:</label>
+      <input type="text" class="form-control" placeholder="Enter gender">
+    </div>
+    <button onclick="fetch('https://thedb.now.sh/form.csv?append='+this.form.elements[0].value+','+this.form.elements[1].value+','+this.form.elements[2].value+','+this.form.elements[3].value+'%0A')" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
