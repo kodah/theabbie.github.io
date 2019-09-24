@@ -39,7 +39,7 @@ temp=data.map(JSON.parse);
 l=temp.length;
 alert(data)
 })
-setInterval(function() {if (temp.length>0) {predict()}},300)
+setInterval(function() {if (temp.length>0) {predict()}},1500)
 var video = document.createElement("video");
 var btn = document.querySelectorAll("button");
 btn[0].onclick = function() {if (flag) {clearInterval(ctr);flag=false;} else {ctr = setInterval(function() {get(btn[0].innerHTML)},50);flag=true;}}
