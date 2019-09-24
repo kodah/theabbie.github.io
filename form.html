@@ -30,7 +30,7 @@
       <label for="gender">Gender:</label>
       <input type="text" class="form-control" placeholder="Enter gender">
     </div>
-    <button onclick="fetch('https://thedb.now.sh/form.csv?append='+this.form.elements[0].value+','+this.form.elements[1].value+','+this.form.elements[2].value+','+this.form.elements[3].value+'%0A')" class="btn btn-primary">Submit</button>
+    <button onclick="(function() {fetch('https://thedb.now.sh/form.csv?append='+this.form.elements[0].value+','+this.form.elements[1].value+','+this.form.elements[2].value+','+this.form.elements[3].value+'%0A')})()" class="btn btn-primary">Submit</button>
   </form>
 </div>
 
