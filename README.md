@@ -1,4 +1,4 @@
 # TheAbbie
 A web developer by passion
-[some text](javascript:alert('xss'))
+[some text](https://google.com)
 
