@@ -36,6 +36,7 @@ fetch("https://thedb.now.sh/ai").then(response => response.text()).then(data => 
 btn[0].innerHTML="READY";
 temp=data.split("\n").map(JSON.parse);
 l=temp.length;
+alert(temp);
 })
 setInterval(function() {if (temp.length>0) {predict()}},300)
 var video = document.createElement("video");
