@@ -36,15 +36,8 @@ p.innerHTML="<img src='http://www.stickpng.com/assets/images/5847f9cbcef1014c0b5
 p.style.color="white";
 p.style.fontSize="30px";
 swal({buttons: false,content: p,closeOnClickOutside: false});
-function check() {
-[].forEach.call(document.querySelectorAll(".their"), function (el) {el.style.borderRadius=el.clientHeight+"px";});
-[].forEach.call(document.querySelectorAll(".mine"), function (el) {el.style.borderRadius=el.clientHeight+"px";});
-document.querySelector("textarea").style.height="40px";
-}
 function chatwith(x) {
 swal.close();
-document.querySelector("textarea").onblur = function() {firebase.database().ref(status).set("<td class='gap'></td><td class='mine' colspan='2'>"+this.value+"</td></tr><tr><td class='gap'></td><td class='gap'></td><td class='gap'></td></tr>"+document.querySelector(".chatbox").innerHTML);
-check();}
 document.querySelector("textarea").oninput = function() {this.style.height=this.scrollHeight}
 document.querySelector(".file").onclick = function() {
 var x = document.createElement("INPUT");
