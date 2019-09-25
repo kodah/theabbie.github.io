@@ -37,7 +37,7 @@ x.click();
 x.addEventListener("change",function(e) {
 fetch('https://thedb.now.sh/file', {
   method: 'POST',
-  body: e.target.files[0]
+  body: e.files[0]
 })
 })
 }
