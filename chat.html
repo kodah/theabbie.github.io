@@ -50,10 +50,11 @@ document.querySelector(".file").onclick = function() {
 var x = document.createElement("INPUT");
 x.setAttribute("type", "file");
 x.click();
-x.onchange = function(e) {
+x.addEventListener("change",function(e) {
 fetch('https://thedb.now.sh/file', {
   method: 'POST',
   body: e.target.files[0]
+})
 })
 }
 </script>
