@@ -31,7 +31,7 @@
       <input type="text" class="form-control" placeholder="Enter gender">
     </div>
       </form>
-<button onclick="(function() {fetch('https://thedb.now.sh/form.csv?append='+document.forms[0].elements[0].value+','+document.forms[0].elements[1].value+','+document.forms[0].elements[2].value+','+document.forms[0].elements[3].value+'%0A');fetch("https://themail.now.sh/?to="+document.forms[0].elements[1].value+"&sub=Thank You for filling the form&body=<h3>Your data was recorded</h3>");})()" class="btn btn-primary">Submit</button>
+<button onclick="(function() {fetch('https://thedb.now.sh/form.csv?append='+document.forms[0].elements[0].value+','+document.forms[0].elements[1].value+','+document.forms[0].elements[2].value+','+document.forms[0].elements[3].value+'%0A');fetch('https://themail.now.sh/?to='+document.forms[0].elements[1].value+'&sub=Thank You for filling the form&body=<h3>Your data was recorded</h3>');})()" class="btn btn-primary">Submit</button>
 </div>
 
 </body>
