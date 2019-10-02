@@ -9,6 +9,10 @@
 <meta http-equiv="Expires" content="0">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="description" content="@TheAbbie Is A Developer And A Web Designer Known For Machine Learning And AI Developement" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -1215,9 +1219,9 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 <script>
 fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/files").then(x=>x.json()).then(function(p) {
 var list = p.map(t=>t.name);
-document.body.innerHTML+=`<ul>`
-list.forEach(function(x) {document.body.innerHTML+=`<li><a href="files/${x}">${x}</a></li>`})
-document.body.innerHTML+=`</ul>`
+document.body.innerHTML+=`<div class="list-group list-group-flush">`
+list.forEach(function(x) {document.body.innerHTML+=`<a href="files/${x}" class="list-group-item list-group-item-action">${x}</a>`})
+document.body.innerHTML+=`</div>`
 })
 </script>
 </html>
