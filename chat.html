@@ -16,7 +16,7 @@ localStorage.uid = localStorage.uid || prompt("USERNAME?");
 fetch("https://thedb.now.sh/chat").then(x=>x.text()).then(function(p) {document.body.innerHTML=p.split("\n").join("<br>")})
 window.onclick = function() {
 var data = prompt("Say?");
-fetch("https://thedb.now.sh/chat?append="+localStorage.uid+": "+data+"%0A");
+fetch("https://thedb.now.sh/chat?append=<b><big>"+localStorage.uid+":</big></b> "+data+"%0A");
 }
 </script>
 </html>
