@@ -1,6 +1,5 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <style>
 @font-face {
 	font-family: kirvy;
@@ -8,39 +7,11 @@
 }
 * {font-family: kirvy; letter-spacing: 6px; word-break: break-all;}
 body {text-align: center; margin: 0 0 0 0; background-color: rgb(15,20,24);}
-img {height: 50px; width: 50px; margin: 0 10 0 10}
-.swal-modal {
-  background-color: rgb(35,40,44);
-}
-.swal-text {
-  color: white;
-  font-weight: bolder;
-}
-.chatbox {width: 100%;}
-.their {padding: 10 15 10 15; background-color: rgb(237,142,72); font-weight: bolder; color: black;}
-.mine {padding: 10 15 10 15; background-color: rgb(71,160,138); font-weight: bolder; color: white;}
-.gap {width: 33.33%;}
-textarea {position: fixed; padding: 10 10 10 10; height: 40px; width: 50%; border-radius: 40px; left:10; bottom: 10; resize: none; overflow:hidden;}
-.file {position: fixed; padding: 10 10 10 10; height: 40px; width: 40px; background-color: aqua; bottom: 10; right: 10; border-radius: 50%;}
 </style>
 <body>
-<table class="chatbox" cellspacing="10">
-<div class="their">hello</div>
-</table>
-<textarea></textarea>
-<div class="file"></div>
+
 </body>
 <script>
-document.querySelector(".file").onclick = function() {
-var x = document.createElement("INPUT");
-x.setAttribute("type", "file");
-x.click();
-x.addEventListener("change",function(e) {
-fetch('https://thedb.now.sh/file', {
-  method: 'POST',
-  body: x.files[0]
-})
-})
-}
+fetch("https://thedb.now.sh/chat").then(x=>x.text()).then(function(p) {document.body.innerHTML=p})
 </script>
 </html>
