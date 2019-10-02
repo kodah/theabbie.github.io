@@ -15,7 +15,7 @@ body {margin: 0 10 0 10; background-color: rgb(15,20,24); color: white;}
 fetch("https://thedb.now.sh/chat").then(x=>x.text()).then(function(p) {document.body.innerHTML=p})
 window.onclick=function() {
 var data = prompt("Say?");
-fetch("https://thedb.now.sh/chat?append="+data);
+fetch("https://thedb.now.sh/chat?append="+data+"%0A");
 }
 </script>
 </html>
