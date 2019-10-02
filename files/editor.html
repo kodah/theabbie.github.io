@@ -10,16 +10,16 @@
 <script>
 function host(x) {
 $.ajax({
-    url: 'https://serverers.firebaseio.com/home.json',
-    type: 'PUT',
-    data: JSON.stringify(x),
+    url: 'https://thedb.now.sh/data',
+    type: 'POST',
+    data: x,
     success: function(result) {
         // Do something with the result
     }
 });
 }
 window.onload=function() {
- $.get("https://serverers.firebaseio.com/home.json", function(data, status){
+ $.get("https://thedb.now.sh/data", function(data, status){
     document.getElementsByTagName("textarea")[0].value=data;
   });
 }
