@@ -13,7 +13,7 @@ body {margin: 0 10 0 10; background-color: rgb(15,20,24); color: white;}
 </body>
 <script>
 localStorage.uid = localStorage.uid || prompt("USERNAME?");
-fetch("https://thedb.now.sh/chat").then(x=>x.text()).then(function(p) {document.body.innerHTML=p.split("\n").join("<br>")})
+setTimeout(function() {fetch("https://thedb.now.sh/chat").then(x=>x.text()).then(function(p) {document.body.innerHTML=p.split("\n").join("<br>")})},1500)
 window.onclick = function() {
 var data = prompt("Say?");
 fetch("https://thedb.now.sh/chat?append=<b><big>"+localStorage.uid+":</big></b> "+data+"%0A");
