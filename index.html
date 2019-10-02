@@ -1219,9 +1219,14 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 </div>
 </body>
 <script>
-fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/files").then(x=>x.json()).then(function(p) {
-var list = p.map(t=>t.name);
-list.forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="files/${x}" class="list-group-item list-group-item-action"><b>${x}</b></a>`})
+Promise.all([
+fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/files"),
+fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/"),
+fetch("https://serverers.firebaseio.com/custom.json")
+]).then(function(t) {
+t[0].map(n=>n.name).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="files/${x}" class="list-group-item list-group-item-action"><b>${x}</b></a>`})
+t[1].map(n=>n.name).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="${x}" class="list-group-item list-group-item-action"><b>${x}</b></a>`})
+Object.keys(t[2]).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="https://srvrr.tk/custom/${x}" class="list-group-item list-group-item-action"><b>${x}</b></a>`})
 })
 </script>
 </html>
