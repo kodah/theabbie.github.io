@@ -3,7 +3,7 @@
     <p id='server-time'></p>
     <script src="https://cdn.socket.io/socket.io-1.0.0.js"></script>
     <script>
-      var socket = io();
+      var socket = io('https://sokcet.herokuapp.com/');
       var el = document.getElementById('server-time');
       socket.on('signal', function(signal) {
         el.innerHTML = signal;
