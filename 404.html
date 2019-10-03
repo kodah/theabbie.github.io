@@ -1225,7 +1225,7 @@ fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/files")
 fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/").then(value => value.json()),
 fetch("https://serverers.firebaseio.com/custom.json").then(value => value.json())
 ]).then(function(t) {
-t[0].map(a=>a.name).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="files/${x}" class="list-group-item list-group-item-action"><b>${x}</b></a>`})
+t[0].map(a=>a.name).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="files+location.pathname/${x}" class="list-group-item list-group-item-action"><b>${x}</b></a>`})
 t[1].map(b=>b.name).forEach(function(y) {document.querySelector(".list-group").innerHTML+=`<a href="${y}" class="list-group-item list-group-item-action"><b>${y}</b></a>`})
 Object.keys(t[2]).forEach(function(z) {document.querySelector(".list-group").innerHTML+=`<a href="https://srvrr.tk/custom/${z}" class="list-group-item list-group-item-action"><b>${z}</b></a>`})
 })
