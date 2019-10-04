@@ -20,10 +20,11 @@
 document.querySelector("#search").oninput = function() {
 var term = document.querySelector("#search").value;
 fetch("https://typi.tk/?url=http%3A%2F%2Fsuggestqueries.google.com%2Fcomplete%2Fsearch%3Foutput%3Dtoolbar%26hl%3Den%26q%3D"+term+"&static=true&raw=true").then(x=>x.text()).then(function(p) {
-var parser = new DOMParser();
-var res = parser.parseFromString(p,"text/xml");
-var result = res.getElementsByTagName("suggestion").map(l=>l.getAttribute(data))
-alert(result)
+var res = (new DOMParser()).parseFromString(p,"application/xml");
+var result = res.querySelectorAll('suggestion');
+result.forEach(function(n) {
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item">${n.getAttribute("data")}</li>`;
+})
 })
 }
 </script>
