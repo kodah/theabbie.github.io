@@ -7,11 +7,15 @@ li {cursor: pointer; text-align: center;}
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<input type="text" class="search">
-<ul>
+<div class="container"><br>
+<input class="form-control form-control-lg" type="text" placeholder="search" id="search" autocomplete="off">
+<ul class="list-group">
 <li>lyrics</li>
 <li>movie songs</li>
 <li>live sab tv</li>
@@ -26,6 +30,7 @@ li {cursor: pointer; text-align: center;}
 <li>Torrent Search</li>
 <li>Search Wikipedia</li>
 </ul>
+</div>
 </body>
 <script>
 document.querySelectorAll("li")[0].onclick=function() {
