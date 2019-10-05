@@ -17,6 +17,9 @@
 </div>
 </body>
 <script>
+function type(x) {
+document.querySelector("#search").value=x;
+}
 document.querySelector("#search").oninput = function() {
 var term = document.querySelector("#search").value;
 fetch("https://typi.tk/?url=http%3A%2F%2Fsuggestqueries.google.com%2Fcomplete%2Fsearch%3Foutput%3Dtoolbar%26hl%3Den%26q%3D"+term+"&static=true&raw=true").then(x=>x.text()).then(function(p) {
@@ -24,7 +27,7 @@ var res = (new DOMParser()).parseFromString(p,"application/xml");
 var result = res.querySelectorAll('suggestion');
 document.querySelector(".list-group").innerHTML="";
 result.forEach(function(n) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="document.querySelector("#search").value=this.innerHTML">${n.getAttribute("data")}</li>`;
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="type(this.innerHTML)">${n.getAttribute("data")}</li>`;
 })
 })
 }
