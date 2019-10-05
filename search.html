@@ -24,7 +24,7 @@ var res = (new DOMParser()).parseFromString(p,"application/xml");
 var result = res.querySelectorAll('suggestion');
 document.querySelector(".list-group").innerHTML="";
 result.forEach(function(n) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="(function(this) {document.querySelector("#search").value=this.innerHTML})()">${n.getAttribute("data")}</li>`;
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="document.querySelector("#search").value=this.innerHTML">${n.getAttribute("data")}</li>`;
 })
 })
 }
