@@ -1,0 +1,24 @@
+<html>
+<TITLE>Motion</TITLE>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<svg style="position: fixed; width: 100%; height: 100%; background: rgb(42,37,43); transform: rotateX(180deg);">
+<circle r="15" style="fill: rgb(221,172,39); filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 1)); "/>
+</svg>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+document.body.style.margin="0 0 0 0";
+var p = {"x":wid/2,"y":hit/2,"vx":3,"vy":0,"fx":0.005,"fy":0.005,m:1};
+var svg = document.getElementsByTagName("svg")[0];
+var obj = document.getElementsByTagName("circle")[0];
+function dt(a,b,c,d) {return ((c-a)**2+(d-b)**2)**0.5}
+function pos(x,y) {obj.setAttribute("cx",x);obj.setAttribute("cy",y);}
+var world = setInterval(function() {
+pos(p.x+=p.vx,p.y+=p.vy);
+p.vx+=(p.fx/p.m);
+p.vy+=(p.fy/p.m);
+if (p.x>wid || p.x<0) {p.vx*=-1}
+if (p.y>hit || p.y<0) {p.vy*=-1}
+},0)
+</script>
+</html>
