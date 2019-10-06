@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+document.body.style.transition="all 0.5s";
+window.ondeviceorientation = function(event) {
+document.body.style.backgroundColor="rgb("+Math.floor(255*event.alpha/360)+","+Math.floor(255*event.beta/360)+","+Math.floor(255*event.gamma/360)+")";
+}
+    </script>
+  </body>
+</html>
