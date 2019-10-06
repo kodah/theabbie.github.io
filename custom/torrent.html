@@ -1,0 +1,27 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<body style="background-color: rgb(42,37,43);">
+<a class="link" style="text-decoration: none; padding: 30 30 30 30; background-color: rgb(221,172,39); position: fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); border-radius: 50%; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);"></a>
+</body>
+<script>
+var receiver = "";
+var socket = io('https://socketio-chat-example.now.sh/');
+var x = document.createElement("INPUT");
+x.setAttribute("type", "file");
+x.setAttribute("accept", "image/*");
+window.ondblclick = function() {x.click();}
+x.onchange = function(e) {
+var reader = new FileReader();
+reader.readAsDataURL(e.target.files[0]);
+reader.onload = function () {
+transmit(reader.result);
+};
+function transmit(x) {socket.emit('chat message',x)}
+}
+socket.on('chat message', function(msg){
+document.querySelector('.link').setAttribute("href",msg);
+document.querySelector('.link').style.backgroundColor="fuchsia";
+});
+</script>
+</html>
