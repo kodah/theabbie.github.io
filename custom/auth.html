@@ -1,0 +1,116 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>var data;function gotData(d) {data=d}</script>
+<script src="https://language-settings-abada.firebaseio.com/users/chat.json?callback=gotData
+"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<style>
+@font-face {
+	font-family: kirvy;
+	src: url('https://confession.ml/kirvy.otf');
+}
+* {font-family: kirvy; letter-spacing: 6px; word-break: break-all;}
+body {text-align: center; margin: 0 0 0 0; background-color: rgb(15,20,24);}
+img {height: 50px; width: 50px; margin: 0 10 0 10}
+.swal-modal {
+  background-color: rgb(35,40,44);
+}
+.swal-text {
+  color: white;
+  font-weight: bolder;
+}
+.chatbox {width: 100%;}
+.their {padding: 10 15 10 15; background-color: rgb(237,142,72); font-weight: bolder; color: black;}
+.mine {padding: 10 15 10 15; background-color: rgb(71,160,138); font-weight: bolder; color: white;}
+.gap {width: 33.33%;}
+textarea {position: fixed; padding: 10 10 10 10; height: 40px; width: 50%; border-radius: 40px; left:10; bottom: 10; resize: none; overflow:hidden;}
+.file {position: fixed; padding: 10 10 10 10; height: 40px; width: 40px; background-color: aqua; bottom: 10; right: 10; border-radius: 50%;}
+</style>
+<body>
+<table class="chatbox" cellspacing="10">
+</table>
+<textarea></textarea>
+<div class="file"></div>
+</body>
+<script>
+var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+  };
+  firebase.initializeApp(config);
+Notification.requestPermission();
+var uid,status,mine,anony;
+var p = document.createElement("div");
+p.innerHTML="<img src='http://www.stickpng.com/assets/images/5847f9cbcef1014c0b5e48c8.png'><img src='http://www.stickpng.com/assets/images/584ac2d03ac3a570f94a666d.png'><img src='http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bf3d.png'>";
+p.style.color="white";
+p.style.fontSize="30px";
+swal({buttons: false,content: p,closeOnClickOutside: false});
+document.querySelectorAll("img")[0].onclick = function() {
+var provider = new firebase.auth.GoogleAuthProvider();
+firebase.auth().signInWithRedirect(provider);
+} 
+document.querySelectorAll("img")[1].onclick = function() {
+var provider = new firebase.auth.FacebookAuthProvider();
+firebase.auth().signInWithRedirect(provider).then(function(result) {
+  console.log(result.credential.accessToken);
+  console.log(result.user);
+})
+}
+document.querySelectorAll("img")[2].onclick = function() {
+firebase.auth().signInAnonymously();
+anony=true;
+}
+firebase.auth().onAuthStateChanged(function (user) {
+if (user) {
+uid = user.uid;
+firebase.database().ref("users/chat/"+uid).set({pic: user.photoURL,name: user.displayName});
+swal.close();
+firebase.database().ref('chats/status/'+uid).on("value",function(data) {var y = document.createElement('span');y.innerHTML=data.val();y.style.color="white";swal({content: y, buttons: false})});
+}
+});
+function check() {
+[].forEach.call(document.querySelectorAll(".their"), function (el) {el.style.borderRadius=el.clientHeight+"px";});
+[].forEach.call(document.querySelectorAll(".mine"), function (el) {el.style.borderRadius=el.clientHeight+"px";});
+document.querySelector("textarea").style.height="40px";
+}
+window.ondblclick = function() {
+var users = document.createElement("div");
+users.innerHTML="";
+users.style.color="white";
+users.style.fontSize="15px";
+for (x in data) {users.innerHTML+="<img onclick=chatwith('"+x+"') src='"+data[x].pic+"'>"+data[x].name+"<br>";}
+swal({buttons: false,content: users,closeOnClickOutside: false})
+}
+function chatwith(x) {
+swal.close();
+firebase.database().ref('chats/status/'+x).set("<p onclick=chatwith('"+uid+"')>"+uid+"</p>");
+firebase.database().ref("chats/"+x+"|"+uid).once("value", function(snapshot) {if (snapshot.exists()) {status="chats/"+x+"|"+uid; mine=false;} else {status="chats/"+uid+"|"+x; mine=true;}
+firebase.database().ref(status).on("value",function(data) {document.querySelector(".chatbox").innerHTML=data.val();check();
+var notify = new Notification('Texter', {
+icon: data[x]!=undefined?data[x].pic:'http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bf3d.png',
+body: (data[x]!=undefined?data[x].name:"someone")+" wants to talk !!",
+});
+notify.onclick = function () {window.open("https://srvrr.tk/custom/auth");};
+});});
+}
+document.querySelector("textarea").onblur = function() {firebase.database().ref(status).set("<td class='gap'></td><td class='mine' colspan='2'>"+this.value+"</td></tr><tr><td class='gap'></td><td class='gap'></td><td class='gap'></td></tr>"+document.querySelector(".chatbox").innerHTML);
+check();}
+document.querySelector("textarea").oninput = function() {this.style.height=this.scrollHeight}
+document.querySelector(".file").onclick = function() {
+var x = document.createElement("INPUT");
+x.setAttribute("type", "file");
+x.click();
+x.onchange = function(e) {refs = firebase.storage().ref('test/'+e.target.files[0].name);
+refs.put(e.target.files[0]);
+refs.getDownloadURL().then(function(url) {document.querySelector("textarea").value="<a href='"+JSON.stringify(url).substring(1,JSON.stringify(url).length-1)+"' download>download</a><br>"})
+}
+}
+window.oncontextmenu = function() {firebase.auth().signOut();location.reload();}
+//function deleter(x) {firebase.storage().ref('test/'+x).delete();}
+</script>
+</html>
