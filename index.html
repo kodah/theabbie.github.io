@@ -1223,7 +1223,7 @@ try {
 Promise.all([
 fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/files").then(value => value.json()),
 fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/").then(value => value.json()),
-fetch("https://serverers.firebaseio.com/custom.json").then(value => value.json())
+fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/custom").then(value => value.json())
 ]).then(function(t) {
 t[0].map(a=>a.name).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="files/${x}" class="list-group-item list-group-item-action"><b>${x}</b></a>`})
 t[1].map(b=>b.name).forEach(function(y) {document.querySelector(".list-group").innerHTML+=`<a href="${y}" class="list-group-item list-group-item-action"><b>${y}</b></a>`})
