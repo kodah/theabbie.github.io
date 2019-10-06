@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>News</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+</head>
+<body>
+<input type="text" class="search">
+<div class="container"></div>
+</body>
+<script>
+document.querySelector('.search').onblur = function() {
+document.querySelector(".container").innerHTML="";
+$.get("https://newsapi.org/v2/everything?q="+document.querySelector('.search').value+"&apiKey=5becfbf90a534dca83aaa44198f9e387", function(data, status) {
+for (x in data.articles) {document.querySelector(".container").innerHTML+=`<div class="news" onclick="go('`+data.articles[x].url+`')">
+<img class="newsimg" src="`+data.articles[x].urlToImage+`" onerror="this.src='https://utmsi.utexas.edu/components/com_easyblog/themes/wireframe/images/placeholder-image.png'">
+<div class="desc">`+data.articles[x].title.substring(0,10)+`<br>`+data.articles[x].title.substring(10,20)+`<br>`+data.articles[x].title.substring(20,27)+`...`+`</div>
+</div>
+`}})
+}
+function go(x) {window.open(x, '_blank');window.focus();}
+window.onwheel = function(e) {
+document.querySelector(".container").scrollLeft+=e.deltaY>0?50:-50;
+}
+</script>
+</html>
