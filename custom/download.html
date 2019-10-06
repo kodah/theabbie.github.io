@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Movies</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+</head>
+<body>
+<input type="text" class="search">
+<img class="poster">
+</body>
+<script>
+document.querySelector('.search').onblur = function() {
+$.get("https://orizin.herokuapp.com/https://thepiratebay.org/search/"+document.querySelector('.search').value, function(data, status) {
+window['p'] = $(data.code);
+})
+}
+</script>
+</html>
