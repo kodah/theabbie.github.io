@@ -1,0 +1,18 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$.ajax({
+    url:"https://api.myjson.com/bins/yx7je",
+    type:"PUT",
+    data:JSON.stringify({"html":`hi`}),
+    contentType:"application/json; charset=utf-8",
+    dataType:"json",
+    success: function(data, textStatus, jqXHR){
+    document.open();
+    document.write(data.html);
+    document.close();
+    }
+});    
+</script>
