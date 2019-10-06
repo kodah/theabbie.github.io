@@ -1,0 +1,47 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<style>
+body {margin: 0 0 0 0;}
+.user {width: 100%; border-bottom: 3px solid grey; background-color:  darkturquoise; font-size: 25px; font-family: kirvy; color: white; line-height: 100px;}
+.photo {height: 75px; width: 75px; border-radius: 50%; margin: 10 10 10 10;}
+</style>
+<div class="users"></div>
+<script>
+  var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+  };
+firebase.initializeApp(config);
+var ref = firebase.database().ref("chats");
+function x(x) {return document.getElementsByClassName(x)[0] || document.getElementsByTagName(x)[0]};
+swal("Email:", {
+  content: "input",
+})
+.then((email) => {
+  swal("Password:", {
+  content: "input",
+})
+.then((password) => {
+firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+firebase.auth().createUserWithEmailAndPassword(email, password).then(function(x) {localStorage.user=x.user.uid;ref.child("users/"+x.user.uid).set(x.user.uid)})
+});
+});
+});
+var t;
+ref.child("users/").once('value', function(data) {t=Object.assign({}, data.val());for (l in t) {x('users').innerHTML+=l+"<br>"}})
+window.ondblclick=function(e) {
+swal("WHO?:", {
+  content: "input",
+})
+.then((who) => {
+ref.child(localStorage.user+"|"+who).set("hi");
+});
+}
+</script>
+</html>
