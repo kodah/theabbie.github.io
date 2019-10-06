@@ -1219,10 +1219,10 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 </div>
 </body>
 <script>
-alert(document.referrer);
+var path = document.referrer.split("https://theabbie.github.io/")[1];
 try {
-fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/"+localStorage.url).then(value => value.json()).then(function(t) {
-t.map(a=>a.name).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="${localStorage.url+x}" class="list-group-item list-group-item-action"><b>${x}</b></a>`})
+fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/"+path).then(value => value.json()).then(function(t) {
+t.map(a=>a.name).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="${path+"/"+x}" class="list-group-item list-group-item-action"><b>${x}</b></a>`})
 })
 }
 catch(err) {
