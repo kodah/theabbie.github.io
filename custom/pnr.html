@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Railway Booking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>var list;function gotData(d) {list=d}</script>
+<script src="https://language-settings-abada.firebaseio.com/main/pnr.json?callback=gotData
+"></script>
+<style>
+@font-face {
+	font-family: kirvy;
+	src: url('https://confession.ml/kirvy.otf');
+}
+* {font-family: kirvy; letter-spacing: 6px; word-spacing: 12px; line-height: 125%;}
+body {margin: 0 0 0 0; background-image: url('https://english.cdn.zeenews.com/sites/default/files/2015/12/30/446286-indian-rail.jpg'); background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover;}
+.header {position: fixed; padding: 10 10 10 10; left: 50%; transform: translate(-50%,0); text-align: center; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19); font-size: 20px; font-weight: bolder; border-radius: 5px; white-space: nowrap; background: white; top: 0;}
+.content {margin: auto; margin-top: 100px; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19); border-radius: 5px; background: white;}
+.box {border: none; border-bottom: 2px solid black; margin-bottom: 20px; margin-left: 20px;}
+button {background-color: purple; padding: 10 10 10 10; color: white; border: none; margin-bottom: 20px; margin-left: 20px; cursor: pointer; box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);}
+.label {margin-left: 20px; margin-top: 10px;}
+.switch {width: 50%; padding: 10 0 10 0; text-align: center; display: inline-block; background: grey; color: white; border-left: 2px solid black;}
+.check {display: none;}
+</style>
+</head>
+<body>
+<div class="header">
+<img src="https://www.irctc.co.in/nget/assets/images/logo.png" height="50" width="50">
+Railway Booking
+</div>
+<div class="content">
+<div style="white-space: nowrap;"><span class="switch">Register</span><span class="switch">Check</span></div>
+<div class="check">
+<div class="label">
+Enter pnr number: <br><br><input class="box" style="margin-left: 0px;"><br>
+<button>Check</button>
+</div>
+</div>
+<div class="new">
+<div class="label">
+Name: <input class="box">
+</div>
+<div class="label">
+Phone number: <input class="box">
+</div>
+<div class="label">
+From: <input class="box">
+</div>
+<div class="label">
+To: <input class="box">
+</div>
+<button>Submit</button>
+</div>
+</div>
+</body>
+<script>
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+};
+firebase.initializeApp(config);
+document.querySelector('.header').style.width=wid>600?400:wid-70;
+document.querySelector('.content').style.width=wid>1000?1000:wid-70;
+if (wid<600) {document.querySelector('img').style.display="block";document.querySelector('img').style.margin="auto";}
+document.querySelectorAll('.switch')[0].onclick=function() {document.querySelector('.new').style.display="block";document.querySelector('.check').style.display="none";}
+document.querySelectorAll('.switch')[1].onclick=function() {document.querySelector('.new').style.display="none";document.querySelector('.check').style.display="block";}
+document.querySelectorAll('button')[0].onclick=function() {
+if (list[document.querySelectorAll('input')[0].value]!=undefined) {
+var data = list[document.querySelectorAll('input')[0].value];
+swal("name: "+data.name+"\nPhone number: "+data.number+"\nFrom: "+data.from+"\nTo: "+data.to);
+}
+else {swal("Incorrect pnr");}
+}
+document.querySelectorAll('button')[1].onclick=function() {
+var pnr = Math.floor(Math.random()*1000000);
+var data = {};
+data.name = document.querySelectorAll('input')[1].value;
+data.number = document.querySelectorAll('input')[2].value;
+data.from = document.querySelectorAll('input')[3].value;
+data.to = document.querySelectorAll('input')[4].value;
+firebase.database().ref("main/pnr/"+pnr).set(data);
+swal("your pnr is "+pnr);
+}
+</script>
+</html>
