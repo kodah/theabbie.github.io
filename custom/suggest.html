@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Suggest</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+</head>
+<body>
+<input type="text" class="search">
+<ul class="list"></ul>
+</body>
+<script>
+document.querySelector('.search').oninput = function() {
+$.get("https://sujest.herokuapp.com/"+document.querySelector('.search').value, function(data, status) {
+document.querySelector(".list").innerHTML="";
+for (x in data.toplevel.CompleteSuggestion) {document.querySelector(".list").innerHTML+="<li>"+data.toplevel.CompleteSuggestion[x].suggestion.data+"</li>"}
+})
+}
+</script>
+</html>
