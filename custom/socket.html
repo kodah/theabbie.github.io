@@ -1,0 +1,22 @@
+<html>
+<video autoplay="true" style="width: 800px; height: 500px; object-fit: cover; position: absolute; margin: auto; display: none;">
+</video>
+<canvas style="width: 0px; height: 0px; display: none;"></canvas>
+<div class="player"></div>
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<script>
+var socket = io('https://socketio-chat-example.now.sh/');
+document.body.style.margin="0 0 0 0";
+var video = document.getElementsByTagName("video")[0];
+var canvas = document.getElementsByTagName("canvas")[0];
+var player = document.getElementsByClassName("player")[0];
+navigator.mediaDevices.getUserMedia({video: true})
+  .then(function(stream) {
+    video.srcObject = stream;
+  });
+socket.on('chat message', function(msg){
+player.innerHTML = msg;
+});
+setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 800, 500);socket.emit('chat message',"<img src='"+canvas.toDataURL()+"' width='800px' height='500px'>")},125)
+</script>
+</html>
