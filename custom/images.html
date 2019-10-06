@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Images</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+</head>
+<body>
+<input type="text" class="search">
+<div class="photos" style="margin-top: 100px; text-align: center;"></div>
+</body>
+<script>
+document.querySelector('.search').onblur = function() {
+$.get("https://pixapi.herokuapp.com/"+document.querySelector('.search').value, function(data, status) {
+for (x in data) {document.querySelector(".photos").innerHTML+=`<img src='`+data[x]+`' style='width:`+(window.innerWidth>=650?window.innerWidth/6+"px":(window.innerWidth>=400?window.innerWidth/4+"px":window.innerWidth/2+"px"))+`; height:150px;'>`}
+})
+}
+</script>
+</html>
