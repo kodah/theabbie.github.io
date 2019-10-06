@@ -12,13 +12,15 @@
 <body>
 <div class="container"><br>
 <input class="form-control form-control-lg" type="text" placeholder="search" id="search" autocomplete="off">
-<ul class="list-group list-group-flush">  <li class="list-group-item" onclick="type(this.innerHTML)"></li><li class="list-group-item">abhishek</li></ul>
+<ul class="list-group list-group-flush">
+<li class="list-group-item">abhishek</li>
+</ul>
 </div>
 </body>
 <script>
 document.querySelector("#search").onblur = function() {
   document.querySelector("ul").innerHTML+=`<li class="list-group-item">${document.querySelector("#search").value}</li>`;
-  fetch("https://superclient.now.sh/?sel=ul&body="+document.querySelector("ul").innerHTML)
+  fetch("https://superclient.now.sh/?sel=ul&body="+document.querySelector("ul").innerHTML.split("\n").join("%0A"))
 }
 </script>
 </html>
