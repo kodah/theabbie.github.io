@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Playground</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+<style>
+html {scrollbar-width: none; text-align: center;}
+ul {margin-top: 100px; list-style-type: none;}
+li {cursor: pointer; transition: all 0.3s;}
+li:hover {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff; color: white;}
+.search {background-color: rgb(42,37,43)}
+</style>
+</head>
+<body>
+<input type="text" class="search">
+<ul></ul>
+</body>
+<script>
+var nx = ["www.hotstar.com","www.zee5.com","www.sonyliv.com","www.voot.com"]
+document.querySelector('.search').onblur = function() {
+$.get("https://awto.ooh.now.sh/?sel=a&attribs=href&url=https://www.justwatch.com/in/movie/"+document.querySelector('.search').value.split(":").join("").split(" ").join("-"), function(data, status) {
+document.querySelector("ul").innerHTML="";
+for (x in data) {
+if (data[x].indexOf("click.just")!=-1) {
+var domain = decodeURIComponent(data[x].split("&")[0].split("?r=")[1]).match(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img)[0].split("//")[1];
+document.querySelector("ul").innerHTML+=("<li><a href='"+decodeURIComponent(data[x].split("&")[0].split("?r=")[1])+"'>"+domain+"</a></li>")
+if (nx.indexOf(domain)!=-1) {
+$.get("https://awto.ooh.now.sh/?url=https://9xbuddy.org/process?url="+decodeURIComponent(data[x].split("&")[0].split("?r=")[1])+"&sel=.leading-normal&attribs=href", function(data, status) {
+alert(data[4])
+})
+}
+}
+}
+}).fail(function(e) {document.querySelector('.search').focus();document.querySelector('.search').blur();})
+/*$.get("https://awto.ooh.now.sh/?url=https://thepiratebay.org/search/"+document.querySelector('.search').value+"&sel=a[title=%27Download%20this%20torrent%20using%20magnet%27]&attribs=href",function(data) {alert(data[0])})*/
+}
+document.querySelector('.search').oninput = function() {
+$.get("https://api.themoviedb.org/3/search/movie?api_key=834d93bfb0810f099b898396d8b0f9e3&query="+document.querySelector('.search').value+"&include_adult=true", function(data, status) {
+document.querySelector("ul").innerHTML="";
+for (x in data.results) {
+document.querySelector("ul").innerHTML+=("<li onclick='javascript:go(this.innerHTML)'>"+data.results[x].title+"</li>")
+}
+})
+}
+function go(x) {document.querySelector('.search').value=x;document.querySelector("ul").innerHTML="";
+document.querySelector('.search').blur();
+}
+</script>
+</html>
