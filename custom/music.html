@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Music</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+</head>
+<body>
+<input type="text" class="search">
+<div class="lyrics"></div>
+</body>
+<script>
+document.querySelector('.search').onblur = function() {
+$.ajax({
+    type: "GET",
+    data: {
+        apikey:"a5a7e71bbbcd8e41aeb6336a448a56d0",
+        format:"jsonp",
+        callback:"jsonp_callback"
+    },
+    url: "https://api.musixmatch.com/ws/1.1/track.lyrics.get?track_id=15953433",
+    dataType: "jsonp",
+    jsonpCallback: 'jsonp_callback',
+    contentType: 'application/json',
+    success: function(data) {
+        console.log(data); 
+        }
+})
+}
+</script>
+<script type="text/javascript" src="https://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuOP">
+</html>
