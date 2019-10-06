@@ -1,0 +1,123 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style>
+ @font-face {
+	font-family: kirvy;
+	src: url('https://confession.ml/kirvy.otf');
+}
+* {font-family: kirvy; letter-spacing: 6px; word-spacing: 12px; line-height: 125%;}
+body {margin: 0 0 0 0;}
+input[type=text] {padding: 10 10 10 10; height: 50px; border-radius: 50px; margin: 20px; font-size: 20px; border: 1px solid black; display: block;}
+input[type=text]:focus {outline: none;}
+.train, .predict {padding: 10 10 10 10; height: 50px; border-radius: 50px; margin: 0 0 10 20; font-size: 20px; background: fuchsia; color: white; border: none; cursor: pointer;}
+.status {padding: 10 10 10 10; margin: 20px; font-size: 20px; border: 1px solid black; width: 300px;}
+*:focus {outline: none;}
+*:hover {pointer-events: none;}
+</style>
+<input type="text" class="input">
+<input type="text" class="output">
+<input type="button" class="train" value="train"><br>
+<input type="button" class="predict" value="predict">
+<div class="status"></div>
+<script>
+var words;
+var sug;
+var pos;
+fetch("https://demmo.glitch.me/")
+document.querySelector(".input").oninput = function(e) {
+words = document.querySelector(".input").value.split(/[^a-zA-Z\d\s:]/i).join("").split(/ +/g)
+$.get("https://api.datamuse.com/sug?s="+words[words.length-1],function(data) {console.clear();console.log(data[1].word);sug=data[1].word;
+document.querySelector(".status").innerHTML="<b>SUGGESTION:</b><br>"+sug+"<br><b>INPUT:</b><br>"+document.querySelector(".input").value+"<br><b>OUTPUT:<b><br>"+document.querySelector(".output").value;
+})
+}
+document.querySelector(".input").onkeypress = function(e) {
+if (e.keyCode==13) {words.splice(-1,1);words.push(sug);document.querySelector(".input").value = words.join(" ")}
+}
+document.querySelector(".train").onclick = function(e) {
+fetch("https://pos-f55iwmmn53o2.runkit.sh/?str="+document.querySelector(".input").value).then(response => response.json()).then(jsondata => save(jsondata,document.querySelector(".input").value,document.querySelector(".output").value))
+}
+function save(data,input,output) {
+var val = score(data)
+fetch("https://demmo.glitch.me/set?"+output+"="+(data.length+","+val))
+}
+document.querySelector(".predict").onclick = function(e) {
+fetch("https://demmo.glitch.me/").then(response => response.json()).then(data => {predict(document.querySelector(".input").value,data)})
+}
+function score(data) {
+var list = {
+  "CC": 0.5,
+  "CD": 1,
+  "DT": 0.1,
+  "EX": 0.2,
+  "FW": 0.2,
+  "IN": 0.4,
+  "JJ": 0.6,
+  "JJR": 0.6,
+  "JJS": 0.6,
+  "LS": 0,
+  "MD": 0.3,
+  "NN": 1,
+  "NNS": 1,
+  "NNP": 1,
+  "NNPS": 1,
+  "PDT": 0.2,
+  "POS": 0,
+  "PRP": 0.5,
+  "PRP$": 0.5,
+  "RB": 0.2,
+  "RBR": 0.2,
+  "RBS": 0.2,
+  "RP": 0.2,
+  "SYM": 0,
+  "TO": 0.3,
+  "UH": 0.6,
+  "VB": 0.7,
+  "VBZ": 0.7,
+  "VBP": 0.7,
+  "VBD": 0.7,
+  "VBN": 0.7,
+  "VBG": 0.7,
+  "WDT": 0.9,
+  "WP": 0.9,
+  "WP$": 0.9,
+  "WRB": 0.9,
+  ".": 0,
+  ",": 0,
+  ":": 0,
+  "(": 0.3,
+  ")": 0.3,
+  "null": 1
+}
+var val = 0;
+data.forEach(function(x) {val+=list[x]})
+return Math.round(val*10)/10;
+}
+function predict(str,data) {
+fetch("https://demmo.glitch.me").then(response => response.json()).then(fulldata => {
+fetch("https://pos-f55iwmmn53o2.runkit.sh/?str="+str).then(response => response.json()).then(posdata => {
+var pos = parseFloat(score(posdata));
+var l = posdata.length;
+var raw = [];
+for (x in fulldata) {
+for (p in fulldata[x]) {
+raw.push([fulldata[x][p],x])
+}
+}
+var d = [];
+raw.forEach(function(x,i) {
+d.push((parseFloat(x[0].split(",")[0])-pos)**2+(parseFloat(x[0].split(",")[1])-l)**2)
+})
+var sd = [];
+Object.assign(sd,d);
+sd.sort(function(a, b){return a-b});
+var knn = [];
+for (i=0;i<=5;i++) {knn.push(raw[d.indexOf(sd[i])][1]);d.splice(d.indexOf(sd[i]),1)}
+var t = {};
+knn.forEach(function(x) {t[x]!=undefined?t[x]++:t[x]=1})
+document.querySelector(".output").value=Object.keys(t)[Object.values(t).indexOf(Math.max(...Object.values(t)))];
+})
+})
+}
+</script>
+</html>
