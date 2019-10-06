@@ -1,0 +1,38 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>var data;function gotData(d) {data=d}</script>
+<script src="https://language-settings-abada.firebaseio.com/users/notify.json?callback=gotData
+"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<style>* {font-family: kirvy; letter-spacing: 6px; word-break: break-all;}</style>
+<script>
+var config = {
+apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+authDomain: "language-settings-abada.firebaseapp.com",
+databaseURL: "https://language-settings-abada.firebaseio.com",
+projectId: "language-settings-abada",
+storageBucket: "language-settings-abada.appspot.com",
+messagingSenderId: "494351546355"
+};
+firebase.initializeApp(config);
+Notification.requestPermission();
+firebase.auth().signInAnonymously();
+firebase.auth().onAuthStateChanged(function (user) {
+firebase.database().ref("users/notify/"+user.uid).set("");
+firebase.database().ref("notify/"+user.uid).on('value',function(data) {
+var notify = new Notification('Srvrr.tk', {
+icon: 'http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bf3d.png',
+body: data.val()
+});
+notify.onclick = function () {window.open("https://srvrr.tk/custom/notify");};
+})
+var users = document.createElement("div");
+users.innerHTML="<input type='text' id='message' style='padding: 10 10 10 10'><br><br>";
+users.style.fontSize="15px";
+for (x in data) {users.innerHTML+="<span onclick=send('"+x+"')>"+x+"</span><br>";}
+swal({buttons: false,content: users,closeOnClickOutside: false})
+});
+function send(user) {firebase.database().ref("notify/"+user).set(document.querySelector("#message").value);}
+</script>
+</html>
