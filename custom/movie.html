@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Movies</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+</head>
+<body>
+<input type="text" class="search">
+<img class="poster">
+</body>
+<script>
+document.querySelector('.search').onblur = function() {
+$.get("https://www.omdbapi.com/?t="+document.querySelector('.search').value+"&apikey=2d58d444", function(data, status) {
+console.log(data);
+document.querySelector('.poster').style.display="block";
+document.querySelector('.poster').setAttribute("src",data.Poster);
+})
+}
+</script>
+</html>
