@@ -1,0 +1,53 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<style>
+body {text-align: center; margin: 0 0 0 0; background-color: rgb(15,20,24)}
+img {height: 150px; transition: all 0.75s;}
+img:hover {filter: brightness(50%);}
+.swal-modal {
+  background-color: rgb(15,20,24);
+  padding: 0px;
+}
+.swal-text {
+  padding: 0px;
+  margin: 0px; 
+}
+</style>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+var config = {
+    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
+    authDomain: "language-settings-abada.firebaseapp.com",
+    databaseURL: "https://language-settings-abada.firebaseio.com",
+    projectId: "language-settings-abada",
+    storageBucket: "language-settings-abada.appspot.com",
+    messagingSenderId: "494351546355"
+};
+firebase.initializeApp(config);
+firebase.auth().onAuthStateChanged(function(user) {if (user) {
+w = window.innerWidth>=650?window.innerWidth/6+"px":(window.innerWidth>=400?window.innerWidth/4+"px":window.innerWidth/2+"px");
+uid = user.uid;
+firebase.database().ref('store/'+uid).once('value', function(data) {
+var list = Object.assign({}, data.val());
+for (x in list) {document.body.innerHTML+="<img onclick='show(this)' onerror='hide(this)' src='"+list[x]+"' style='width: "+w+"'>"}
+});
+window.ondblclick = function() {x.click();}
+}
+else {
+var provider = new firebase.auth.GoogleAuthProvider();
+firebase.auth().signInWithRedirect(provider);
+}});
+var refs,uid;
+var x = document.createElement("INPUT");
+x.setAttribute("type", "file");
+x.setAttribute("multiple", "true");
+x.setAttribute("accept", "image/*");
+x.onchange = function(e) {
+go(0);
+function go(p) {refs = firebase.storage().ref('users/' + uid + "/" + e.target.files[p].name);refs.put(e.target.files[p]).then(function() {refs.getDownloadURL().then(function(url) {firebase.database().ref('store/'+uid).push(url)});p<e.target.files.length?go(p+1):null;})}
+}
+function hide(x) {x.style.display='none';}
+function show(t) {var p = document.createElement("span");p.innerHTML=t.outerHTML.split('style=')[0]+" style='width: 100%; height: 300px;'>";swal({buttons: false,content: p})}
+</script> 
+</html>
