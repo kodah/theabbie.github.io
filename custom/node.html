@@ -1,0 +1,24 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://srvrr.tk/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>      
+<textarea ondblclick="host(this.value)" style="padding: 0 10 10 10;border:none; width: 100%; height: 100%; font-family: kirvy; font-size: 20px; letter-spacing: 4px; word-spacing: 9px; line-height: 180%;"></textarea>
+<script>
+function host(x) {
+var data = {};
+data.code = x;
+alert(x);
+data.var = {res: "res"};
+$.ajax({
+    url:"https://api.myjson.com/bins/17kxk7",
+    type:"PUT",
+    data:JSON.stringify(data),
+    contentType:"application/json; charset=utf-8",
+    dataType:"json",
+    success: function(data, textStatus, jqXHR) {}
+}); 
+} 
+</script>   
+</html>
+
