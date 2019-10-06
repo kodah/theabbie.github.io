@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>COMPARE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<style>
+@font-face {
+	font-family: kirvy;
+	src: url('https://confession.ml/kirvy.otf');
+}
+* {font-family: kirvy; letter-spacing: 6px; word-spacing: 12px; line-height: 125%;}
+body {margin: 0 0 0 0;}
+table {width: 100%; height: 100%; padding: 0 0 0 0;}
+input {width: 100%; height: 100%; border: none; padding: 10 10 10 10; font-size: 20px;}
+tr,td {padding: 0 0 0 0;}
+iframe {border: none; margin: 0 0 0 0;}
+</style>
+</head>
+<body>
+<table>
+<tr style="height: 50px;">
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><iframe height="100%" width="100%" src=""></iframe></td>
+<td><iframe height="100%" width="100%" src=""></iframe></td>
+</tr>
+</table>
+</body>
+<script>
+document.querySelectorAll('input')[0].onblur = function() {
+document.querySelectorAll('iframe')[0].setAttribute("src",document.querySelectorAll('input')[0].value);
+}
+document.querySelectorAll('input')[1].onblur = function() {
+document.querySelectorAll('iframe')[1].setAttribute("src",document.querySelectorAll('input')[1].value);
+}
+</script>
+</html>
