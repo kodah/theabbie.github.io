@@ -1,0 +1,14 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://srvrr.tk/js"></script>
+<script>
+window.onload = function() {swal("Word:", {
+  content: "input",
+})
+.then((value) => {
+$.get("https://googledictionaryapi.eu-gb.mybluemix.net/?define="+value, function(data, status){
+document.body.innerHTML+=JSON.stringify(data)+"<br>"});
+})}
+</script>
+</html>
