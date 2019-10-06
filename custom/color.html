@@ -1,0 +1,30 @@
+<html>
+<title>COLOR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@font-face {
+	font-family: kirvy;
+	src: url('https://confession.ml/kirvy.otf');
+}
+.class {font-family: kirvy; letter-spacing: 6px; word-spacing: 12px; line-height: 125%; font-weight: bolder; font-size: 70px; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+</style>
+<body>
+<div class="class">
+HEY!
+</div>
+</body>
+<script>
+document.body.style.transition="all 3s";
+document.querySelector(".class").style.transition="all 3s";
+function go() {
+var i = Math.floor(255*Math.random());
+var j = Math.floor(255*Math.random());
+var k = Math.floor(255*Math.random());
+document.body.style.backgroundColor="rgb("+i+","+j+","+k+")";
+document.body.style.color="rgb("+(255-i)+","+(255-j)+","+(255-k)+")";
+document.querySelector(".class").style.fontSize=Math.floor(70+50*Math.random())+"px";
+}
+go();
+setInterval(go,3000);
+</script>
+</html>
