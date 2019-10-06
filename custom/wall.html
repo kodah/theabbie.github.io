@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>WALL</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+</head>
+<body style="background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover;">
+</body>
+<script>
+function go() {
+$.get("https://api.unsplash.com/photos/random?client_id=e11d7f7d90bdf9db32384213a97326a423c07bac497a4f1f04d89b5c204d4de4", function(data, status) {
+document.body.style.backgroundImage="url("+data.urls.raw+")";
+});
+}
+go();
+window.onclick=function() {go();}
+</script>
+</html>
