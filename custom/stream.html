@@ -1,0 +1,14 @@
+<html>
+<script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
+<script>
+var client = new WebTorrent()
+
+var torrentId = 'magnet:" value="magnet:?xt=urn:btih:4256a5a88ce7fe52dc29a6425ae15c91dceb21b6&dn=Hotel.Transylvania.3.Summer.Vacation.2018.720p.BRRip.x264-MP4&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969'
+
+client.add(torrentId, function (torrent) {
+console.log(torrent.files);
+//file.appendTo('body')
+})
+</script>
+</body>
+</html>
