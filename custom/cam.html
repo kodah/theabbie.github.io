@@ -1,0 +1,45 @@
+<html>
+<link rel="stylesheet" type="text/css" href="https://srvrr.tk/css">
+<link rel="manifest" href="https://cdn.jsdelivr.net/gh/theabbie/awto@gh-pages/files/manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<script src="https://cdn.jsdelivr.net/npm/mathjs@6.0.4/dist/math.min.js"></script>
+<title>
+Image Processor
+</title>
+<style>
+html {background-color: black;}
+.frame {position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); border: 0.5px solid black; border-radius: 5px;}
+</style>
+<body>
+<canvas class="frame">
+</canvas>
+</body>
+<script>
+var ctr;
+var k = 350;
+var video = document.createElement("video");
+video.setAttribute("autoplay","true");
+var xcanvas = document.createElement("canvas");
+xcanvas.setAttribute("width",k);
+xcanvas.setAttribute("height",k)
+var canvas = document.querySelector(".frame");
+canvas.setAttribute("width",k);
+canvas.setAttribute("height",k)
+navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
+video.srcObject = stream;
+});
+setInterval(function() {
+xcanvas.getContext("2d").drawImage(video, 0, 0, k, k)
+var xctx = xcanvas.getContext("2d");
+var data = xctx.getImageData(0, 0, k, k);
+alert(data.data)
+for (i = 0; i < data.data.length; i += 4) {
+data.data[i]=data.data[i]-data.data[i]%51;
+data.data[i+1]=data.data[i+1]-data.data[i+1]%51;
+data.data[i+2]=data.data[i+2]-data.data[i+2]%51;
+data.data[i+3]=255;
+}
+canvas.getContext("2d").putImageData(data,k,k)
+},100)
+</script>
+</html>
