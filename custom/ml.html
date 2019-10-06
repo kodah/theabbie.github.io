@@ -1,0 +1,18 @@
+<html>
+<input type="file" id="file" style="display: none"><br>
+<img id="myImage" height="150" width="250" style="border-radius: 5px; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);">
+<script src="https://unpkg.com/ml5@0.3.1/dist/ml5.min.js"></script>
+<script>
+document.querySelector("#myImage").onclick=function() {
+document.querySelector("#file").click()
+}
+document.querySelector("#file").onchange=function(e) {
+const classifier = ml5.imageClassifier('MobileNet');
+const img = document.querySelector("#myImage")
+img.src=URL.createObjectURL(e.target.files[0])
+let prediction = classifier.predict(img, gotResults);
+function gotResults(err, results) {
+  console.log(results);
+}}
+</script>
+</html>
