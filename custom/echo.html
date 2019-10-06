@@ -1,0 +1,12 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>echo</title>
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<script>
+var socket = io('https://soket.now.sh/');
+socket.emit('message',"hello")
+socket.on('message', function(msg) {
+alert(msg)
+});
+</script>
+</html>
