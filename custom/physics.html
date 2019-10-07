@@ -8,7 +8,7 @@
 var wid = window.innerWidth;
 var hit = window.innerHeight;
 document.body.style.margin="0 0 0 0";
-var p = {"x":wid/2,"y":hit/2,"vx":0,"vy":0,"fx":0.005,"fy":0.005,m:1};
+var p = {"x":wid/2,"y":hit/2,"vx":0,"vy":0,"fx":0,"fy":0,m:1};
 var svg = document.getElementsByTagName("svg")[0];
 var obj = document.getElementsByTagName("circle")[0];
 function dt(a,b,c,d) {return ((c-a)**2+(d-b)**2)**0.5}
@@ -20,5 +20,9 @@ p.vy+=(p.fy/p.m);
 if (p.x>wid || p.x<0) {p.vx*=-1}
 if (p.y>hit || p.y<0) {p.vy*=-1}
 },0)
+window.ondeviceorientation = function(e) {
+p.vx=(e.alpha-180)/360;
+p.vy=(e.beta-180)/360;
+}
 </script>
 </html>
