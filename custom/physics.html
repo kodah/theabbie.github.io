@@ -21,8 +21,8 @@ if (p.x>wid || p.x<0) {p.vx*=-1}
 if (p.y>hit || p.y<0) {p.vy*=-1}
 },0)
 window.ondeviceorientation = function(e) {
-p.fx=Math.sin(e.alpha * (Math.PI / 180))/100;
-p.fy=Math.cos(e.alpha * (Math.PI / 180))/100;
+p.fx=-Math.sin(e.alpha * (Math.PI / 180))/100;
+p.fy=-Math.cos(e.alpha * (Math.PI / 180))/100;
 }
 </script>
 </html>
