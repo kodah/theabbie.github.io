@@ -32,7 +32,7 @@ clearInterval(ctr);
 ctr = setInterval(function() {
 line.setAttribute("x1",0);line.setAttribute("y1",y-x*Math.tan(ang));
 line.setAttribute("x2",wid);line.setAttribute("y2",y+(wid-x)*Math.tan(ang));
-ang+=0.0005;
+ang+=0.002;
 if (dt(point.split(" ")[0].split(",")[0],point.split(" ")[0].split(",")[1],x,y,Math.tan(ang))<=1 && end==0) {clearInterval(ctr); point+=point.split(" ")[0].split(",")[0]+","+point.split(" ")[0].split(",")[1]+" ";polyline.setAttribute("points",point);line.style.display="none";}
 for (a in p) {if (dt(p[a].x,p[a].y,x,y,Math.tan(ang))<=0.5) {point+=p[a].x+","+p[a].y+" ";polyline.setAttribute("points",point);hull(p[a].x,p[a].y);p.splice(a,1);(end!=0?end--:end=0);}}
 },0);
