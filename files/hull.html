@@ -42,6 +42,6 @@ svg.innerHTML+="<circle r='3' cx='"+e.clientX+"' cy='"+ e.clientY+"' style='fill
 p.push({"x":e.clientX,"y":e.clientY})
 }
 window.onkeypress=function(e) {if (e.key=="Enter") {hull(0,0);}}
-svg.oncontextmenu=function(e) {hull(0,0)}
+window.ontouchmove=function(e) {hull(0,0)}
 </script>
 </html>
