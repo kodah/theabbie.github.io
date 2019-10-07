@@ -90,6 +90,8 @@ function copyit(text){
 }
 function encrypt(text,key) {var result=text;for (x in key) {result=jumble(result,parseInt(map[key[x]]))};return result;}
 function decrypt(text,key) {var result=text;for (x in key.reverse()) {result=unjumble(result,parseInt(map[key[x]]))};return result;}
+String.prototype.jumble = function(key) {return jumble(this,key)}
+String.prototype.unjumble = function(key) {return unjumble(this,key)}
 
 ///////////////////////////////////
 
