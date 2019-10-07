@@ -1,6 +1,6 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://confession.ml/matrix.js"></script>
+<script src="https://unpkg.com/mathjs@6.2.3/dist/math.min.js"></script>
 <svg style="height: 100%; width: 100%; background: rgb(42,37,43);">
 </svg>
 <script>
@@ -24,14 +24,14 @@ pts[n].z=z;
 }
 function rotate(x,y,z,n) {
 setInterval(function() {
-pos(rotater(angle,x,y,z).result[1][1],rotater(angle,x,y,z).result[2][1],rotater(angle,x,y,z).result[3][1],n);
+pos(rotater(angle,x,y,z)[0][0],rotater(angle,x,y,z)[1][0],rotater(angle,x,y,z)[2][0],n);
 angle+=0.007;
 },50)
 } 
 function rotater(angle,x,y,z) {
-var rotaterX = mtp(matrix(3,3,[1,0,0,0,Math.cos(angle),-Math.sin(angle),0,Math.sin(angle),Math.cos(angle)]),matrix(3,1,[x,y,z]));
-var rotaterY = mtp(matrix(3,3,[Math.cos(angle),0,Math.sin(angle),0,1,0,-Math.sin(angle),0,Math.cos(angle)]),rotaterX);
-var rotaterZ = mtp(matrix(3,3,[Math.cos(angle),-Math.sin(angle),0,Math.sin(angle),Math.cos(angle),0,0,0,1]),rotaterY);
+var rotaterX = math.multiply([[1,0,0],[0,Math.cos(angle),-Math.sin(angle)],[0,Math.sin(angle),Math.cos(angle)]],[x,y,z]);
+var rotaterY = math.multiply([[Math.cos(angle),0,Math.sin(angle)],[0,1,0],[-Math.sin(angle),0,Math.cos(angle)]],rotaterX);
+var rotaterZ = math.multiply([[Math.cos(angle),-Math.sin(angle),0],[Math.sin(angle),Math.cos(angle),0],[0,0,1]],rotaterY);
 return rotaterZ;
 }
 function connect(m,n,x) {
