@@ -1,4 +1,5 @@
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <svg style="height: 100%; width: 100%;position: fixed; background: darkturquoise;">
 </svg>
 <svg style="height: 100%; width: 100%; background-color: transparent;position: fixed;">
@@ -41,6 +42,6 @@ svg.innerHTML+="<circle r='3' cx='"+e.clientX+"' cy='"+ e.clientY+"' style='fill
 p.push({"x":e.clientX,"y":e.clientY})
 }
 window.onkeypress=function(e) {if (e.key=="Enter") {hull(0,0);}}
-//points(14);hull(0,0);
+svg.oncontextmenu=function(e) {if (e.key=="Enter") {hull(0,0);}}
 </script>
 </html>
