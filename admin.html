@@ -11,7 +11,21 @@ Admin
 <script>
 var pass = prompt("key?");
 fetch("https://jumble.now.sh/unjumble?msg=c237fad6b5bdce03a77552cd8a685ffbd85f484a&key="+pass).then(t=>t.text()).then(function(x) {
-alert(x);
+fetch("https://api.github.com/repos/theabbie/data/contents/db/"+Math.floor(10000*Math.random())+".txt",{
+  method: 'put',
+  body: JSON.stringify({
+  "message": "my commit message",
+  "committer": {
+    "name": "abbie",
+    "email": "abhishek7gg7@gmail.com"
+  },
+  "content": btoa("hi")
+}),
+headers: new Headers({
+ "Content-Type" : "application/vnd.github.v3+json",
+ "Authorization" : "token "+x
+})
+})
 })
 </script>
 </html>
