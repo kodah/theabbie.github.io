@@ -1,17 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <title>
 Admin
 </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="https://theabbie.github.io/js/code.js"></script>
 </head>
 <body>
-
+<div class="container">
+  <h2>Form</h2>
+  <form>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Enter path" id="path">
+    </div>
+   <h2>Upload File</h2><br>
+    <div class="custom-file mb-3">
+      <input type="file" name="file" class="custom-file-input" id="file" name="filename">
+      <label class="custom-file-label" for="customFile">Choose file</label>
+    </div>
+  </form>
+<button onclick="done()" class="btn btn-primary">Submit</button>
+</div>
 </body>
 <script>
 var pass = prompt("key?");
-fetch("https://jumble.now.sh/unjumble?msg=c237fad6b5bdce03a77552cd8a685ffbd85f484a&key="+pass).then(t=>t.text()).then(function(x) {
-fetch("https://api.github.com/repos/theabbie/data/contents/db/"+Math.floor(10000*Math.random())+".txt",{
+fetch("https://jumble.now.sh/unjumble?msg=c237fad6b5bdce03a77552cd8a685ffbd85f484a&key="+pass).then(t=>t.text()).then(function(p) {
+window.x=p;
+})
+function save(path,data) {
+fetch("https://api.github.com/repos/theabbie/data/contents/db/'+path,{
   method: 'put',
   body: JSON.stringify({
   "message": "my commit message",
@@ -19,13 +42,25 @@ fetch("https://api.github.com/repos/theabbie/data/contents/db/"+Math.floor(10000
     "name": "abbie",
     "email": "abhishek7gg7@gmail.com"
   },
-  "content": btoa("hi")
+  "content": data
 }),
 headers: new Headers({
  "Content-Type" : "application/vnd.github.v3+json",
- "Authorization" : "token "+x
+ "Authorization" : "token "+window.x
 })
 })
-})
+}
+function done() {
+var path = document.querySelector("#path");
+save(path,window.file);
+}
+document.querySelector("#file").addEventListener("change",function(e) {
+var file = e.target.files[0];
+var reader = new FileReader();
+reader.readAsDataURL(file);
+reader.onload = function () {
+window.file = reader.result;
+};
+});
 </script>
 </html>
