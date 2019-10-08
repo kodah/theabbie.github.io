@@ -10,7 +10,8 @@ Admin
 </body>
 <script>
 var pass = prompt("key?");
-var key = decrypt("c237fad6b5bdce03a77552cd8a685ffbd85f484a",pass);
-alert(key)
+fetch("https://jumble.now.sh/unjumble?msg=c237fad6b5bdce03a77552cd8a685ffbd85f484a&key="+pass).then(t=>t.text()).then(function(x) {
+alert(x);
+})
 </script>
 </html>
