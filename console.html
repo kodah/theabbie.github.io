@@ -26,6 +26,7 @@
 <li class="list-group-item">Torrent Search</li>
 <li class="list-group-item">Search Wikipedia</li>
 <li class="list-group-item">Watch</li>
+<li class="list-group-item">Q n A</li>
 </ul>
 </div>
 </body>
@@ -71,6 +72,9 @@ location.href="https://typi.tk/?url=https://en.m.wikipedia.org/wiki/"+document.q
 }
 document.querySelectorAll("li")[13].onclick=function() {
 location.href="https://typi.tk/?url=https://www.justwatch.com/in/movie/"+document.querySelector("input").value.split(" ").join("-")+"&sel=.presentation-type%20a&attribs=href&t=4&join=<br><br>&pad=<a href='$'>go</a>";
+}
+document.querySelectorAll("li")[14].onclick=function() {
+location.href="https://typi.tk/?url=https://stackexchange.com/search?q="+document.querySelector("input").value+"&sel=.result-link%20a&attribs=href&static=true&join=%3Cbr%3E%3Cbr%3E&pad=%3Ca%20href=%22$%22%3E@%3C/a%3E";
 }
 </script>
 </html>
