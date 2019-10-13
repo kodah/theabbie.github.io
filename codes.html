@@ -17,17 +17,19 @@
 </div>
 </body>
 <script>
-var codes;
-fetch("https://thedb.now.sh/codes").then(x=>x.text()).then(function(l) {
-codes = l.split("\n");
-codes.forEach(function(n) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="use(this.innerHTML)" style="font-size: 24px; font-weight: 900; text-align: center;">${n}</li>`;
+var codes = 
+`33736803
+47795510
+57573295
+57659424
+59652231
+75250303
+58798321
+79415375
+77241708
+03878244`
+codes.split("\n").forEach(function(n) {
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="copyit(this.innerHTML)" style="font-size: 24px; font-weight: 900; text-align: center;">${n}</li>`;
 })
-})
-function use(x) {
-copyit(x);
-codes.splice(codes.indexOf(x),1)
-fetch("https://thedb.now.sh/codes?data="+codes.join("%0A"))
-}
 </script>
 </html>
