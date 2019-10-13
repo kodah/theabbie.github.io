@@ -1229,10 +1229,9 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 <script>
 var path = document.referrer.split("https://theabbie.github.io/").reverse()[0];
 fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/"+path).then(value => value.json()).then(function(t) {
-localStorage.path=path;
-t.map(a=>[a.name,a.type]).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="${path+x[0]}" class="list-group-item list-group-item-action" oncontextmenu="location.assign('${'https://raw.githubusercontent.com/theabbie/theabbie.github.io/master/'+path+x[0]}')" style="word-break: break-all;">${x[1]=="dir"?'<i class="fas fa-folder" style="font-size:24px;"></i>':'<i class="fas fa-file-alt" style="font-size:24px;"></i>'}<b> ${x[0]}</b></a>`})
+t.map(a=>[a.name,a.type]).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="${path+x[0]}" ${x[1]=="dir"?'':'target="_blank"':} class="list-group-item list-group-item-action" oncontextmenu="location.assign('${'https://raw.githubusercontent.com/theabbie/theabbie.github.io/master/'+path+x[0]}')" style="word-break: break-all;">${x[1]=="dir"?'<i class="fas fa-folder" style="font-size:24px;"></i>':'<i class="fas fa-file-alt" style="font-size:24px;"></i>'}<b> ${x[0]}</b></a>`})
 }).catch(function(err) {
-location.href="https://theabbie.github.io/"+localStorage.path;
+location.href="https://theabbie.github.io/";
 })
 </script>
 </html>
