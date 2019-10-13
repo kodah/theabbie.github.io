@@ -8,6 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/theabbie/theabbie.github.io/js/code.js"></script>
 </head>
 <body>
 <div class="container">
@@ -16,10 +17,17 @@
 </div>
 </body>
 <script>
+var codes;
 fetch("https://thedb.now.sh/codes").then(x=>x.text()).then(function(l) {
-l.split("\n").forEach(function(n) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="alert(this.innerHTML)" style="font-size: 24px; font-weight: 900; text-align: center;">${n}</li>`;
+codes = l.split("\n");
+codes.forEach(function(n) {
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="use(this.innerHTML)" style="font-size: 24px; font-weight: 900; text-align: center;">${n}</li>`;
 })
 })
+function use(x) {
+copyit(x);
+codes.splice(data.indexOf(x),1)
+fetch("https://thedb.now.sh/codes?data="+codes.join("%0A"))
+}
 </script>
 </html>
