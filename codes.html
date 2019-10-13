@@ -10,8 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container"><br>
-<input class="form-control form-control-lg" type="text" placeholder="search" id="search" autocomplete="off">
+<div class="container">
 <ul class="list-group list-group-flush">
 </ul>
 </div>
@@ -19,7 +18,7 @@
 <script>
 fetch("https://thedb.now.sh/codes").then(x=>x.text()).then(function(l) {
 l.split("\n").forEach(function(n) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="type(this.innerHTML)">${n}</li>`;
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="type(this.innerHTML)" style="font-size: 24px; font-weight: 900;">${n}</li>`;
 })
 })
 </script>
