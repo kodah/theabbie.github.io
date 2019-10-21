@@ -20,6 +20,52 @@
 </div>
 </body>
 <script>
+function sortWithIndeces(toSort) {
+  for (var i = 0; i < toSort.length; i++) {
+    toSort[i] = [toSort[i], i];
+  }
+  toSort.sort(function(left, right) {
+    return left[0] < right[0] ? -1 : 1;
+  });
+  toSort.sortIndices = [];
+  for (var j = 0; j < toSort.length; j++) {
+    toSort.sortIndices.push(toSort[j][1]);
+    toSort[j] = toSort[j][0];
+  }
+  return toSort;
+}
+function ld(a, b) {
+  const distanceMatrix = Array(b.length + 1).fill(null).map(() => Array(a.length + 1).fill(null));
+  for (let i = 0; i <= a.length; i += 1) {
+    distanceMatrix[0][i] = i;
+  }
+  for (let j = 0; j <= b.length; j += 1) {
+    distanceMatrix[j][0] = j;
+  }
+  for (let j = 1; j <= b.length; j += 1) {
+    for (let i = 1; i <= a.length; i += 1) {
+      const indicator = a[i - 1] === b[j - 1] ? 0 : 1;
+      distanceMatrix[j][i] = Math.min(
+        distanceMatrix[j][i - 1] + 1,
+        distanceMatrix[j - 1][i] + 1,
+        distanceMatrix[j - 1][i - 1] + indicator, // substitution
+      );
+    }
+  }
+  return distanceMatrix[b.length][a.length];
+}
+
+document.querySelector("#search").oninput = function() {
+var d = [];
+document.querySelectorAll("li").forEach(function(x) {
+d.push(ld(document.querySelector("#search").value,x.value))
+})
+sortWithIndeces(d);
+d.sortIndices.forEach(function(x) {
+document.querySelectorAll("li")[x].style.backgroundColor="grey";
+})
+}
+
 document.querySelector("#search").onblur = function() {
   var item = `<li class="list-group-item">${document.querySelector("#search").value}</li>`;
   document.querySelector("ul").innerHTML+=item;
