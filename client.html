@@ -13,22 +13,14 @@
 <div class="container"><br>
 <input class="form-control form-control-lg" type="text" placeholder="search" id="search" autocomplete="off">
 <ul class="list-group list-group-flush">
-<li class="list-group-item">hello</li>
-<li class="list-group-item">hi</li>
-<li class="list-group-item">hey</li>
-<li class="list-group-item">omg</li>
-<li class="list-group-item">hooo</li>
-<li class="list-group-item">oh god</li>
-<li class="list-group-item">hello world</li>
-<li class="list-group-item">abc</li>
-<li class="list-group-item">answer</li>
-<li class="list-group-item">hello</li></ul>
+</ul>
 </div>
 </body>
 <script>
 document.querySelector("#search").onblur = function() {
-  document.querySelector("ul").innerHTML+=`\n<li class="list-group-item">${document.querySelector("#search").value}</li>`;
-  fetch("https://superclient.now.sh/?sel=ul&body="+document.querySelector("ul").innerHTML.split("\n").join("%0A")).then(function() {location.reload(true);})
+  var item = `<li class="list-group-item">${document.querySelector("#search").value}</li>`;
+  document.querySelector("ul").innerHTML+=item;
+  fetch("https://superclient.now.sh/?sel=ul&append="+item+"%0A").then(function() {location.reload(true);})
 }
 </script>
 </html>
