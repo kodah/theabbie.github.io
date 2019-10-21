@@ -1,4 +1,5 @@
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <svg style="height: 100%; width: 100%;">
 </svg>
 <script>
@@ -16,5 +17,6 @@ function stair(a,b,c,d) {
         stair((a+c)/2,(b+d)/2,c,d);
     },1000)
 }
+stair(100,(hit/wid)*100,wid-100,hit-(hit/wid)*100)
 </script>
 </html>
