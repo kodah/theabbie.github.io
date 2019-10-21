@@ -40,7 +40,7 @@ if (p.y>=hit-10) {ly*=-1;} else {ly=Math.abs(ly);}
 },0);
 },0);
 });
-window.addEventListener("touchstart",function(e) {
+window.addEventListener("touchmove",function(e) {
 clearInterval(x);
 x = setInterval(function() {ly-=0.007;
 player.setAttribute("cy",p.y);p.y-=0.3;
