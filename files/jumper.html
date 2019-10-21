@@ -40,6 +40,20 @@ if (p.y>=hit-10) {ly*=-1;} else {ly=Math.abs(ly);}
 },0);
 },0);
 });
+window.addEventListener("touchstart",function(e) {
+clearInterval(x);
+x = setInterval(function() {ly-=0.007;
+player.setAttribute("cy",p.y);p.y-=0.3;
+//trace.setAttribute("points",points.split(" ").slice(this.length-200,this.length-1).join(" "));
+},0);
+window.addEventListener("touchend",function(e) {
+clearInterval(x);clearInterval(y);ly=0.3;
+y = setInterval(function() {
+player.setAttribute("cy",p.y);p.y+=ly;ly+=0.007;
+if (p.y>=hit-10) {ly*=-1;} else {ly=Math.abs(ly);}
+},0);
+},0);
+});
 setInterval(function() {
 obstacle.setAttribute("x",obs.x);obs.x-=lx;
 if (Math.abs(obs.x-p.x)<1 && p.y>obs.h) {svg.style.background=["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())];obstacle.style.fill=["teal","hotpink","aqua","greenyellow","olive","cyan","darkorange","dodgerblue","aquamarine","blueviolet","chartreuse","chocolate","darkgoldenrod","darkturquoise","deepskyblue"][Math.floor(15*Math.random())]};
