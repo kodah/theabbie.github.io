@@ -1,15 +1,17 @@
 <html>
 <script>
-function f(x) {return x**2}  
+function f(x) {return Math.sin(x)}  
 function int(a,b) {
-    if ((b-a)>0.00000001) {
+    if ((b-a)>0.00001) {
         return int(a,(a+b)/2)+int((a+b)/2,b);
     }
     else {return 0.5*(f(a)+f(b))*(b-a);}
 }
 function ddx(p,h) {
-if (h>0.00000001) {return 0.5*(ddx(p+h/2,h/2)+ddx(p,h/2));}
+h=h?h:0.00001;
+if (h>0.000000001) {return 0.5*(ddx(p+h/2,h/2)+ddx(p,h/2));}
 else {return (f(p+h)-f(p))/h}
 }
+int(0,Math.PI)
 </script>
 </html>
