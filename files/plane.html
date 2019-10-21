@@ -34,7 +34,7 @@ k=k%wid+1;
 l+=0.5;h+=(ang%90)/90;
 },0);
 window.onkeypress = function(e) {e.key=="Enter"?ang+=1:ang-=1;}
-window.ontouchmove = function(e) {e.touches[p].clientY<=(hit/2)?ang+=1:ang-=1;}
+window.ontouchmove = function(e) {e.touches[0].clientY<=(hit/2)?ang+=1:ang-=1;}
 function fly(ang,l,h) {
 plane.setAttribute("x1",l-100*Math.cos(Math.PI*ang/180));
 plane.setAttribute("y1",h-100*Math.sin(Math.PI*ang/180));
