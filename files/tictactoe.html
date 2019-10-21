@@ -23,5 +23,13 @@ window["h"+i].setAttribute("x1","0");window["h"+i].setAttribute("y1",i*l/3);wind
 svg.appendChild(window["v"+i]);
 svg.appendChild(window["h"+i]);
 }
+svg.onclick = function(e) {
+var i = Math.floor(3*(e.x-svg.left)/l)+"_"+Math.floor(3*(e.y-svg.top)/l);
+window["x"+i] = document.createElementNS("http://www.w3.org/2000/svg","circle");
+window["x"+i].setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
+window["x"+i].setAttribute("r",l/6);
+window["x"+i].setAttribute("cx",(l/3)*parseInt(i.split("_")[0])+l/6);
+window["x"+i].setAttribute("cy",(l/3)*parseInt(i.split("_")[1])+l/6);
+}
 </script>
 </html>
