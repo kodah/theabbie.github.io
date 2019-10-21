@@ -19,8 +19,8 @@
 </body>
 <script>
 document.querySelector("#search").onblur = function() {
-  document.querySelector("ul").innerHTML+=`<li class="list-group-item">${document.querySelector("#search").value}</li>`;
-  fetch("https://superclient.now.sh/?sel=ul&body="+document.querySelector("ul").innerHTML.split("\n").join("%0A"))
+  document.querySelector("ul").innerHTML+=`\n<li class="list-group-item">${document.querySelector("#search").value}</li>`;
+  fetch("https://superclient.now.sh/?sel=ul&body="+document.querySelector("ul").innerHTML.split("\n").join("%0A")).then(function() {location.reload(true);})
 }
 </script>
 </html>
