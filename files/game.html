@@ -56,11 +56,11 @@ window.addEventListener("keydown", function(e) {
     if (e.key==" ") {ci(d,r,u,l);dx = rx = ux = lx = 0;}
     if (e.key=="Escape") {ci(d,r,u,l);vt=Infinity; if(x("message").style.opacity=="0") {x("message").style.opacity="1";x("message").innerHTML="<svg style='width:100px;height:100px;background: transparent;'>  <polyline style='fill:white;stroke-width:0; stroke:white;' points='0,0 87,50 0,100' /></svg>";} else {vt=10;x("message").style.opacity="0";x("message").innerHTML=""}}
 });
-window.addEventListener("click", function(e) {
-    if ((hit/wid)*e.x-e.y<0 && (e.x/wid)+(e.y/hit)>1) {ci(d);d = setInterval(function() {x("object").style.top=ti;ti+=ux},vt);ux+=0.5;}
-    if ((hit/wid)*e.x-e.y>0 && (e.x/wid)+(e.y/hit)>1) {ci(r);r = setInterval(function() {x("object").style.left=li;li+=rx},vt);rx+=0.5;}
-    if ((hit/wid)*e.x-e.y>0 && (e.x/wid)+(e.y/hit)<1) {ci(u);u = setInterval(function() {x("object").style.top=ti;ti-=dx},vt);dx+=0.5;}
-    if ((hit/wid)*e.x-e.y<0 && (e.x/wid)+(e.y/hit)<1) {ci(l);l = setInterval(function() {x("object").style.left=li;li-=lx},vt);lx+=0.5;}
+window.addEventListener("touchmove", function(e) {
+    if ((hit/wid)*e.touches[0].clientX-e.touches[0].clientY<0 && (e.touches[0].clientX/wid)+(e.touches[0].clientY/hit)>1) {ci(d);d = setInterval(function() {x("object").style.top=ti;ti+=ux},vt);ux+=0.5;}
+    if ((hit/wid)*e.touches[0].clientX-e.touches[0].clientY>0 && (e.touches[0].clientX/wid)+(e.touches[0].clientY/hit)>1) {ci(r);r = setInterval(function() {x("object").style.left=li;li+=rx},vt);rx+=0.5;}
+    if ((hit/wid)*e.touches[0].clientX-e.touches[0].clientY>0 && (e.touches[0].clientX/wid)+(e.touches[0].clientY/hit)<1) {ci(u);u = setInterval(function() {x("object").style.top=ti;ti-=dx},vt);dx+=0.5;}
+    if ((hit/wid)*e.touches[0].clientX-e.touches[0].clientY<0 && (e.touches[0].clientX/wid)+(e.touches[0].clientY/hit)<1) {ci(l);l = setInterval(function() {x("object").style.left=li;li-=lx},vt);lx+=0.5;}
 });
 var ctr = setInterval(function() {console.clear();console.log("(",Math.round(ti),",",Math.round(li),")","\n","Horizontal Velocity-> ",Math.round(100*(rx-lx))+"px/s\n","Vertical Velocity-> ",Math.round(100*(ux-dx))+"px/s");
 if ((rx-lx)==0) {ci(r,l);rx = lx = 0} else if ((ux-dx)==0) {ci(d,u);dx = ux = 0;};
