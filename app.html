@@ -2,17 +2,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body style="margin: 0 0 0 0; text-align: center;">
 <iframe src="https://appetize.io/embed/ag_z5qwv8e0d1hhm4e28jwkg4bvqm?device=nexus5&scale=100&orientation=portrait&autoplay=true&screenOnly=true&osVersion=8.1&xdocMsg=true&androidPackageManager=true" frameborder="0" scrolling="no" width="365px" height="650px"></iframe>
-<button onclick="answer()" style="background-color: white; color: black; border: 2px solid #4CAF50; padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px; margin: 4px 2px; cursor: pointer;">Find Answer</button>
+<button onclick="getss()" style="background-color: white; color: black; border: 2px solid #4CAF50; padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px; margin: 4px 2px; cursor: pointer;">Find Answer</button>
 </body>
 <script>
-function answer() {
+function getss() {
 var phone = document.querySelector("iframe");
 phone.contentWindow.postMessage("getScreenshot","*");
 }
 window.onmessage = function(e) {
 if (e.data && e.data.type=="screenshot") {
-alert(e.data.data)
+find(e.data.data)
 }
+}
+function find(x) {
+fetch('https://api.ocr.space/parse/image', {
+  method: 'post',
+  headers: {
+    'apikey': 'helloworld'
+  },
+  body: JSON.stringify({base64Image: x})
+}).then(res=>res.json()).then(res => alert(res.ParsedText));
 }
 </script>
 </html>
