@@ -15,13 +15,7 @@ find(e.data.data)
 }
 }
 function find(x) {
-fetch('https://api.ocr.space/parse/image', {
-  method: 'post',
-  headers: {
-    'apikey': 'helloworld'
-  },
-  body: JSON.stringify({base64Image: x})
-}).then(res=>res.json()).then(res => alert(res.ParsedText));
+fetch('https://api.ocr.space/parse/imageurl?apikey=helloworld&base64image='+x).then(res=>res.json()).then(res => alert(res.ParsedText));
 }
 </script>
 </html>
