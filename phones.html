@@ -13,8 +13,9 @@ var keys = ["demo_phq04c56jnvrkg0bn9w5ep4m9r","k3enkffechkr3pa384xad7mnm8","g6k7
 window.ondblclick = function() {
 phone.contentWindow.postMessage('endSession','*');
 phone.src = "https://appetize.io/embed/"+keys[i]+"?device=nexus5&scale=100&orientation=portrait&autoplay=true&screenOnly=true&osVersion=8.1&xdocMsg=true&centered=true";
-setTimeout(function() {phone.contentWindow.postMessage({type: 'url', value: 'https://m.youtube.com/watch?v=F1ijrinYUXo'},'*');phone.contentWindow.postMessage({type: 'url', value: 'https://iferr.now.sh'},'*');},7500);
-i++;
+setTimeout(function() {phone.contentWindow.postMessage({type: 'url', value: 'https://iferr.now.sh'},'*');},7500);
+i=(i%(keys.length))+1;
+location.hash=i;
 }
 </script>
 </html>
