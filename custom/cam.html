@@ -32,7 +32,6 @@ setInterval(function() {
 xcanvas.getContext("2d").drawImage(video, 0, 0, k, k)
 var xctx = xcanvas.getContext("2d");
 var data = xctx.getImageData(0, 0, k, k);
-alert(data.data)
 for (i = 0; i < data.data.length; i += 4) {
 data.data[i]=data.data[i]-data.data[i]%51;
 data.data[i+1]=data.data[i+1]-data.data[i+1]%51;
