@@ -1,4 +1,5 @@
 {
 "repo": "theabbie.github.io",
-"dir": "uploads"
+"dir": "uploads",
+"uploaddir": "uploads"
 }
