@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Upload File</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+<form method="POST" action="https://thedb.now.sh/admin" enctype="multipart/form-data">
+  <h2>Upload File</h2><br>
+    <div class="custom-file mb-3">
+      <input type="file" name="file" class="custom-file-input" id="customFile" name="filename">
+      <label class="custom-file-label" for="customFile">Choose file</label>
+    </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+ </form>
+</div>
+
+<script>
+document.querySelector(".custom-file-input").addEventListener("change",function(e) {
+var fileName = $(".custom-file-input").val().split("\\").pop();
+$(".custom-file-input").siblings(".custom-file-label").addClass("selected").html(fileName);
+});
+</script>
+
+</body>
+</html>
