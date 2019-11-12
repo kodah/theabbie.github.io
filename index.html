@@ -1242,6 +1242,13 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 </div>
 </body>
 <script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js', { scope: '/' });
+  });
+}
+</script>
+<script>
 var path = document.referrer.split("https://theabbie.github.io/").reverse()[0];
 fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/"+path).then(value => value.json()).then(function(t) {
 t.map(a=>[a.name,a.type]).forEach(function(x) {document.querySelector(".list-group").innerHTML+=`<a href="${path+x[0]}" ${x[1]=="dir"?'':'target="_blank"'} class="list-group-item list-group-item-action" oncontextmenu="(function(e) {window.open('${'https://github.com/theabbie/theabbie.github.io/blob/master/'+path+x[0]}','_blank');e.preventDefault();})()" style="word-break: break-all;">${x[1]=="dir"?'<i class="fas fa-folder" style="font-size:24px;"></i>':'<i class="fas fa-file-alt" style="font-size:24px;"></i>'}<b> ${x[0]}</b></a>`})
