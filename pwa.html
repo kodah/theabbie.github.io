@@ -1,7 +1,12 @@
+<html>
+<body>
+<h1> Hello World </h1>
+</body>
 <script>
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker
-           .register('/sw.js')
-           .then(function() { console.log("Service Worker Registered"); });
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js');
+  });
 }
 </script>
+</html>
