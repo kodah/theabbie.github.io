@@ -1247,7 +1247,7 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js').then(function(registration) {
       alert('ServiceWorker registration successful with scope: ', registration.scope);
     }, function(err) {
-      alert('ServiceWorker registration failed: ', err);
+      alert('ServiceWorker registration failed: '+JSON.stringify(err));
     });
   });
 }
