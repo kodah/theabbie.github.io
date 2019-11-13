@@ -1250,12 +1250,12 @@ if ('serviceWorker' in navigator) {
     'sw.js',
     scope
   ).then( function(serviceWorker) {
-    alert('successful');
+    console.log('successful');
   }).catch(function(error) {
     alert("error");
   });
 } else {
-  alert('unavailable');
+  console.log('unavailable');
 }
 var path = document.referrer.split("https://theabbie.github.io/").reverse()[0];
 fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/"+path).then(value => value.json()).then(function(t) {
