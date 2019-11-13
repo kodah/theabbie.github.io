@@ -1,7 +1,6 @@
 self.addEventListener('fetch', async function(event) {
-if (event.request.url.startsWith("https://theabbie.github.io")) {
-console.log(event.request)
-event.respondWith(fetch(event.request.url));
+if (event.request.url=="https://theabbie.github.io") {
+event.respondWith(fetch("https://google.com"));
 }
 });
 
