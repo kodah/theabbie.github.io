@@ -1,5 +1,5 @@
 self.addEventListener('fetch', async function(event) {
-event.respondWith(fetch("https://ipapi.co/json/"));
+event.respondWith(fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/form.html").then(x=>x.json()).then(function(code) {return (new Response(code.content))}));
 });
 
 
