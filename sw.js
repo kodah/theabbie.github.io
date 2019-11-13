@@ -1,3 +1,3 @@
 self.addEventListener('fetch', async function(event) {
-event.respondWith(new Response("<h1>hello world</h1>"),{headers: {'Content-Type': 'text/html'}});
+event.respondWith(new Response(JSON.stringify(event)),{headers: {'Content-Type': 'text/html'}});
 });
