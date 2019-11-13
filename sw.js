@@ -1,6 +1,6 @@
 self.addEventListener('fetch', async function(event) {
 if (event.request.url.startsWith("https://theabbie.github.io")) {
-console.log(event)
+console.log(event.request)
 event.respondWith(fetch(event.request.url));
 }
 });
