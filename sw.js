@@ -1,5 +1,7 @@
 self.addEventListener('fetch', async function(event) {
+if (event.request.url.startsWith("https://theabbie.github.io")) {
 event.respondWith(fetch("https://api.github.com/repos/theabbie/theabbie.github.io/contents/"+event.request.url.substring(26)).then(x=>x.json()).then(function(code) {return (new Response(atob(code.content),{headers: {"Content-Type": "text/html"}}))}));
+}
 });
 
 
