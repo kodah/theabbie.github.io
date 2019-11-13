@@ -9,7 +9,9 @@ event.respondWith(new Response("<meta http-equiv='refresh' content='0;url=https:
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('TestCache').then(function(cache) {
-      return cache.put("https://theabbie.github.io/offline",new Response("<h1>Hello World</h1>",{headers: {"Content-Type": "text/html"}}));
+      cache.add("https://theabbie.github.io/files/IMG_20190720_184556.jpg");
+      cache.put("https://theabbie.github.io/offline",new Response("<h1>Hello World</h1>",{headers: {"Content-Type": "text/html"}}));
+      return null;
     })
   );
 });
