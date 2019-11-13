@@ -1247,7 +1247,7 @@ var scope = {
 };
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register(
-    'service-worker.js',
+    'sw.js',
     scope
   ).then( function(serviceWorker) {
     alert('successful');
