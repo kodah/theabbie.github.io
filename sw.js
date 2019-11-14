@@ -11,7 +11,7 @@ console.log(event.request.url);
 event.respondWith(
 caches.match(event.request).then(function(response) {
 return response || fetch(event.request).then(function(res) {
-if (event.request.url.startsWith("https://kit")) {cache.add(event.request.url)}
+if (event.request.url.startsWith("https://kit")) {cache.put(event.request,res.clone())}
 return res;
 });
 })
