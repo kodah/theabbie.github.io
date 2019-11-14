@@ -4,8 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
 <link rel="shortcut icon" type="image/ico" href="icon.ico"/>
-<script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
-<script src="https://srvrr.tk/js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <style>
 body {background: url('back.jpg'); background-size: cover;  background-position: center; background-attachment: fixed;}
@@ -251,4 +249,24 @@ function xx(x) {return document.getElementsByClassName(x)[0] || document.getElem
 xx("logbox").style.width = (window.innerWidth>=450)?400:(window.innerWidth-2*20);
 </script>
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBECQksrlWkWOTP4jriMmA9thfcKgbHyuE",
+    authDomain: "codrcrew.firebaseapp.com",
+    databaseURL: "https://codrcrew.firebaseio.com",
+    projectId: "codrcrew",
+    storageBucket: "codrcrew.appspot.com",
+    messagingSenderId: "517463115484",
+    appId: "1:517463115484:web:93ce55f61c78b015371619"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 </html>
