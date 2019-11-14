@@ -4,17 +4,24 @@
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style>* {font-family: century gothic;}</style>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 <script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAZi986WPJ-bkYO-0BSy_-CRVGrLYFO_vw",
-    authDomain: "language-settings-abada.firebaseapp.com",
-    databaseURL: "https://language-settings-abada.firebaseio.com",
-    projectId: "language-settings-abada",
-    storageBucket: "language-settings-abada.appspot.com",
-    messagingSenderId: "494351546355"
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBECQksrlWkWOTP4jriMmA9thfcKgbHyuE",
+    authDomain: "codrcrew.firebaseapp.com",
+    databaseURL: "https://codrcrew.firebaseio.com",
+    projectId: "codrcrew",
+    storageBucket: "codrcrew.appspot.com",
+    messagingSenderId: "517463115484",
+    appId: "1:517463115484:web:93ce55f61c78b015371619"
   };
-  firebase.initializeApp(config);
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
   var path = window.location.pathname.substring(1)!=""?window.location.pathname.substring(1):"home";
   var database = firebase.database();
   var ref = database.ref("main/"+path);
