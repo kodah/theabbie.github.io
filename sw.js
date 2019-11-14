@@ -1,6 +1,6 @@
 self.addEventListener('fetch', async function(event) {
 if (event.request.url=="https://theabbie.github.io/") {
-event.respondWith(fetch("https://google.com"));
+event.respondWith(fetch("https://typi.tk/?url=https://m.wikihow-fun.com/Special:Randomizer&sel=.step&attribs=classs&static=true&join=%3Cbr%3E"));
 }
 });
 
