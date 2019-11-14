@@ -16,7 +16,7 @@ headers: {
    "Access-Control-Origin": "*"
 },
 body: JSON.stringify({data: x.split("\n").join("%0A")})
-}).then(function(res) {alert(res)}).catch(function(err) {alert(err)})
+}).then(x=>x.text()).then(function(res) {alert(res)}).catch(function(err) {alert(err)})
 }
 window.onload=function() {
  fetch("https://thedb.now.sh/data").then(l=>l.text()).then(function(data){
