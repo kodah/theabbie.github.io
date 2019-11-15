@@ -8,6 +8,8 @@
 </body>
 <script>
 function host(x) {
+var data = newFormData();
+data.append('data',x.split("\n").join("%0A"));
 fetch("https://thedb.now.sh/data",
 {
 method: "POST",
@@ -15,7 +17,7 @@ headers: new Headers({
    "Content-Type": "application/json",                                                                                                
    "Access-Control-Origin": "*"
 }),
-body: JSON.stringify({data: x.split("\n").join("%0A")})
+body: data
 }).then(x=>x.text()).then(function(res) {alert(res)}).catch(function(err) {alert(err)})
 }
 window.onload=function() {
