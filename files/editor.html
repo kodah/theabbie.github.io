@@ -2,26 +2,32 @@
 <head>
 <style>html,body {overflow:hidden;}</style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyBECQksrlWkWOTP4jriMmA9thfcKgbHyuE",
+    authDomain: "codrcrew.firebaseapp.com",
+    databaseURL: "https://codrcrew.firebaseio.com",
+    projectId: "codrcrew",
+    storageBucket: "codrcrew.appspot.com",
+    messagingSenderId: "517463115484",
+    appId: "1:517463115484:web:93ce55f61c78b015371619",
+    measurementId: "G-Z9TTWE5FSJ"
+  };
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </head>
 <body style="margin: 0 0 0 0;">
 <textarea ondblclick="host(this.value)" ontouchmove="host(this.value)" style="padding: 0 10 10 10;border:none; width: 100%; height: 100%; font-family: kirvy; font-size: 20px; letter-spacing: 4px; word-spacing: 9px; line-height: 150%;"></textarea>
 </body>
 <script>
 function host(x) {
-var data = new FormData();
-data.append('data',x.split("\n").join("%0A"));
-fetch("https://thedb.now.sh/data",
-{
-method: "POST",
-headers: new Headers({
-   "Content-Type": "application/json",                                                                                                
-   "Access-Control-Origin": "*"
-}),
-body: data
-}).then(x=>x.text()).then(function(res) {alert(res)}).catch(function(err) {alert(err)})
+firebase.database().ref('main/html').set(x);
 }
 window.onload=function() {
- fetch("https://thedb.now.sh/data").then(l=>l.text()).then(function(data){
+ fetch("https://codrcrew.firebaseio.com/main/html.json").then(l=>l.text()).then(function(data){
     document.getElementsByTagName("textarea")[0].value=data;
   });
 }
