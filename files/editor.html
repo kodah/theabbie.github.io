@@ -28,7 +28,7 @@ firebase.database().ref('main/html').set(btoa(x));
 }
 window.onload=function() {
  fetch("https://codrcrew.firebaseio.com/main/html.json").then(l=>l.text()).then(function(data){
-    document.getElementsByTagName("textarea")[0].value=unescape(atob(data).slice(1,-1));
+    document.getElementsByTagName("textarea")[0].value=unescape(atob(data.slice(1,-1)));
   });
 }
 </script>
