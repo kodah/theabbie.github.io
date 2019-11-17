@@ -20,7 +20,7 @@
 <script>
 document.querySelector("#search").oninput = function() {
 var term = document.querySelector("#search").value;
-fetch("http://api.themoviedb.org/3/search/movie?api_key=a7219d99028ec2f029a458c81ba22b37&query="+document.querySelector("#search").value).then(x=>x.json()).then(function(p) {
+fetch("https://api.themoviedb.org/3/search/movie?api_key=a7219d99028ec2f029a458c81ba22b37&query="+document.querySelector("#search").value).then(x=>x.json()).then(function(p) {
 document.querySelector(".list-group").innerHTML="";
 p.results.forEach(function(n) {
 document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="type(this.innerHTML)">${n.title}</li>`;
