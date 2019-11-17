@@ -7,7 +7,9 @@ return (new Response(atob(code.slice(1,-1)),{headers: {"Content-Type": "text/htm
 );
 }
 else if (!navigator.onLine) {
-event.respondWith(new Response(`<html>
+event.respondWith(
+caches.match(event.request).then(function(response) {
+return response || (new Response(`<html>
 <head>
 <title>The Abbie</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,5 +33,16 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 </body>
 </html>`,{headers: {"Content-Type": "text/html"}})
 )
+)
+}
+else {
+event.respondWith(
+    caches.open('backup').then(function(cache) {
+      return fetch(event.request).then(function(response) {
+        cache.put(event.request, response.clone());
+        return response;
+      });
+    })
+  );
 }
 });
