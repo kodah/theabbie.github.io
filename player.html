@@ -15,6 +15,14 @@
   <script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
 </body>
 <script>
-document.querySelector("source").setAttribute("src",location.search.substring(7) || prompt("Video?"))
+document.querySelector("source").setAttribute("src",location.search.substring(7) || prompt("Video?") || local())
+function local() {
+var input = document.createElement("input");
+input.setAttribute("type","file");
+input.click();
+input.addEventListener("change",function(e) {
+return window.URL.createObjectURL(e.files[0])
+})
+}
 </script>
 </html>
