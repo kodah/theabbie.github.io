@@ -23,9 +23,10 @@ var term = document.querySelector("#search").value;
 fetch("https://api.themoviedb.org/3/search/movie?api_key=a7219d99028ec2f029a458c81ba22b37&query="+document.querySelector("#search").value).then(x=>x.json()).then(function(p) {
 document.querySelector(".list-group").innerHTML="";
 p.results.forEach(function(n) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="type(this.innerHTML)">${n.title}</li>`;
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="getmovie('${n.title}')">${n.title}</li>`;
 })
 })
 }
+funnction getmovie
 </script>
 </html>
