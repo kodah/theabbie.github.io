@@ -19,7 +19,7 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  var path = window.location.pathname.substring(1)!=""?window.location.pathname.substring(1):"home";
+  var path = window.location.pathname.substring(4)!=""?window.location.pathname.substring(4):"home";
   var database = firebase.database();
   var ref = database.ref("main/"+path);
   var p = document.createElement("p");
