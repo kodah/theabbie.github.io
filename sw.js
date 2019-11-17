@@ -32,7 +32,7 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 </center>
 </body>
 </html>`,{headers: {"Content-Type": "text/html"}})
-)
+})
 )
 }
 else {
