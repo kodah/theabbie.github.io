@@ -1240,10 +1240,18 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 <a class="list-group-item list-group-item-action" href="https://t.me/theabbie"><i class="fab fa-telegram" style="font-size:24px;"></i><b> Telegram</b></a>
 <a class="list-group-item list-group-item-action" href="https://t.me/therawbot"><i class="fas fa-robot" style="font-size:24px;"></i><b> Telegram Bot</b></a>
 <a class="list-group-item list-group-item-action" onclick="share()"><i class="fas fa-share-alt" style="font-size:24px;"></i><b> Share</b></a>
-<a class="list-group-item list-group-item-action" id="install"><i class="fas fa-download" style="font-size:24px;"></i><b> Install</b></a>
+<a class="list-group-item list-group-item-action" onclick="install()"><i class="fas fa-download" style="font-size:24px;"></i><b> Install</b></a>
 </div>
 </body>
 <script>
+var msg;
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  msg = e;
+});
+function install() {
+  msg.prompt();
+}
 var scope = {
   scope: './'
 };
@@ -1276,13 +1284,5 @@ if (navigator.share) {
     .catch((error) => console.log('Error sharing', error));
 }
 }
-var msg;
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  msg = e;
-});
-document.querySelector("#install").addEventListener('click', (e) => {
-  msg.prompt();
-});
 </script>
 </html>
