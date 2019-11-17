@@ -52,7 +52,7 @@ fetch("https://codrcrew.firebaseio.com/main/ai.json").then(response => response.
 btn[0].innerHTML="READY";
 temp=Object.values(data);
 l=temp.length;
-alert(data);
+alert(temp);
 })
 setInterval(function() {if (temp.length>0) {predict()}},300)
 var video = document.createElement("video");
