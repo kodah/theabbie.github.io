@@ -1,6 +1,7 @@
 {
   "short_name": "TheAbbie",
   "name": "TheAbbie",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/files/circle-cropped.png",
