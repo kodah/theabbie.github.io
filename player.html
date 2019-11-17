@@ -15,6 +15,6 @@
   <script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
 </body>
 <script>
-document.querySelector("source").setAttribute("src",location.search.substring(7))
+document.querySelector("source").setAttribute("src",location.search.substring(7) || prompt("Video?"))
 </script>
 </html>
