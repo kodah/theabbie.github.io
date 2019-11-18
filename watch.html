@@ -18,6 +18,7 @@
 </div>
 </body>
 <script>
+fetch("https://stream.ooh.now.sh/delete");
 document.querySelector("#search").oninput = function() {
 var term = document.querySelector("#search").value;
 fetch("https://api.themoviedb.org/3/search/movie?api_key=a7219d99028ec2f029a458c81ba22b37&query="+document.querySelector("#search").value).then(x=>x.json()).then(function(p) {
@@ -30,8 +31,15 @@ document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" on
 function getmovie(x) {
 document.querySelector(".list-group").innerHTML=`<li class="list-group-item">searching ${x} ...</li>`;
 fetch("https://typi.tk/?url=https%3A%2F%2Fm.thepiratebay.org%2Fsearch.php%3Fq%3D"+x+"&sel=a[title=%27Download%20this%20torrent%20using%20magnet%27]&attribs=href&static=true").then(x=>x.json()).then(function(p) {
-p.forEach(function(n) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item">${n.attrib}</li>`;
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="gettorrent('${p[0].attrib}')">${x} torrent</li>`;
+})
+}
+function gettorrent(x) {
+fetch("https://stream.ooh.now.sh/add?m="+x).then(l=>l.text()).then(function(m) {
+fetch("https://stream.ooh.now.sh/get").then(o=>o.text()).then(function(p) {
+fetch("https://stream.ooh.now.sh"+p).then(l=>l.text()).then(function(r) {
+location.href="https://theabbie.page.link?apn=com.mxtech.mediaplayer.pro&link="+r;
+})
 })
 })
 }
