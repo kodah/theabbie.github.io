@@ -29,7 +29,7 @@ document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" on
 }
 function getmovie(x) {
 document.querySelector(".list-group").innerHTML=`<li class="list-group-item">searching ${x} ...</li>`;
-fetch("https://typi.tk/?url=https%3A%2F%2Fm.thepiratebay.org%2Fsearch.php%3Fq%3D"+x+"&sel=a[title=%27Download%20this%20torrent%20using%20magnet%27]&attribs=href&static=true")then(x=>x.json()).then(function(p) {
+fetch("https://typi.tk/?url=https%3A%2F%2Fm.thepiratebay.org%2Fsearch.php%3Fq%3D"+x+"&sel=a[title=%27Download%20this%20torrent%20using%20magnet%27]&attribs=href&static=true").then(x=>x.json()).then(function(p) {
 p.forEach(function(n) {
 document.querySelector(".list-group").innerHTML+=`<li class="list-group-item">${n.attrib}</li>`;
 })
