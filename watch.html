@@ -48,6 +48,13 @@ location.href="https://theabbie.page.link?apn=com.mxtech.mediaplayer.pro&link="+
 })
 })
 }
-
+function getlink(x) {
+fetch("https://typi.tk/?url="+x+"&new=true&t=1").then(l=>l.text()).then(function(p) {
+fetch("https://typi.tk/?url=https://9xbuddy.org/process?url="+p+"&sel=.leading-normal.text-white&attribs=href&t=6000").then(x=>x.json()).then(function(l) {
+document.querySelector(".list-group").innerHTML+="";
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="gettorrent('${p[0].attrib}')">${l[0].attrib}</li>`;
+})
+})
+}
 </script>
 </html>
