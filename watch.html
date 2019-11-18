@@ -33,6 +33,11 @@ document.querySelector(".list-group").innerHTML=`<li class="list-group-item">sea
 fetch("https://typi.tk/?url=https%3A%2F%2Fm.thepiratebay.org%2Fsearch.php%3Fq%3D"+x+"&sel=a[title=%27Download%20this%20torrent%20using%20magnet%27]&attribs=href&static=true").then(x=>x.json()).then(function(p) {
 document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="gettorrent('${p[0].attrib}')">${x} torrent</li>`;
 })
+fetch("https://typi.tk/?url=https://www.justwatch.com/in/search?q="+x+"&sel=body%20%3E%20div.ion-page%20%3E%20div.ion-page.menu-content.menu-content-overlay%20%3E%20div%20%3E%20div%20%3E%20ion-tab%20%3E%20ion-content%20%3E%20div.container%20%3E%20div%20%3E%20div%20%3E%20div%20%3E%20div%20%3E%20div.title-list-row%20%3E%20ion-grid%20%3E%20ion-row%20%3E%20ion-col:nth-child(2)%20%3E%20a&attribs=href&t=1000").then(x=>x.json()).then(function(p) {
+fetch("https://typi.tk/?url=https://www.justwatch.com"+p[0].attrib+"&sel=.presentation-type%20a&attribs=href&t=4").then(l=>l.json()).then(function(k) {
+k.forEach(function(t) {document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="getlink('${t.attrib}')">${x} Online</li>`;})
+})
+})
 }
 function gettorrent(x) {
 fetch("https://stream.ooh.now.sh/add?m="+x).then(l=>l.text()).then(function(m) {
@@ -43,5 +48,6 @@ location.href="https://theabbie.page.link?apn=com.mxtech.mediaplayer.pro&link="+
 })
 })
 }
+
 </script>
 </html>
