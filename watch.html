@@ -33,7 +33,7 @@ document.querySelector(".list-group").innerHTML=`<li class="list-group-item">sea
 fetch("https://www.omdbapi.com/?t="+x+"&apikey=2d58d444").then(t=>t.json()).then(function(c) {
 document.querySelector(".list-group").innerHTML+=`<li class="list-group-item"><table style="border-spacing: 10px; border-collapse: separate;"><tr><td><img src="${c.Poster}" height="250" width="150"></td><td><b>${x}</b><br><small>${c.Released}</small><br><b>Cast:</b><br>${c.Actors}<br></td></tr></table></li>`;
 })
-fetch("https://typi.tk/?url=https%3A%2F%2Fm.thepiratebay.org%2Fsearch.php%3Fq%3D"+x+"&sel=a[title=%27Download%20this%20torrent%20using%20magnet%27]&attribs=href&static=true").then(x=>x.json()).then(function(p) {
+fetch("https://typi.tk/?url=https://thepiratebay.org/search/"+x+"/0/0/1&sel=a[title=%27Download%20this%20torrent%20using%20magnet%27]&attribs=href&static=true").then(x=>x.json()).then(function(p) {
 document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="gettorrent('${p[0].attrib}')">${x} torrent</li>`;
 })
 fetch("https://typi.tk/?url=https://www.justwatch.com/in/search?q="+x+"&sel=body%20%3E%20div.ion-page%20%3E%20div.ion-page.menu-content.menu-content-overlay%20%3E%20div%20%3E%20div%20%3E%20ion-tab%20%3E%20ion-content%20%3E%20div.container%20%3E%20div%20%3E%20div%20%3E%20div%20%3E%20div%20%3E%20div.title-list-row%20%3E%20ion-grid%20%3E%20ion-row%20%3E%20ion-col:nth-child(2)%20%3E%20a&attribs=href&t=1000").then(x=>x.json()).then(function(p) {
