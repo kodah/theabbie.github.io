@@ -31,7 +31,7 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 <h1>You Are Offline !</h1>
 </center>
 </body>
-</html>`,{headers: {"Content-Type": "text/html"}})
+</html>`,{headers: {"Content-Type": "text/html"}}))
 })
 )
 }
