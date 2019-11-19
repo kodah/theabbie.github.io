@@ -5,7 +5,12 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/files/logo-512.png",
+      "src": "/files/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/files/logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
