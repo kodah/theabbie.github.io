@@ -1,15 +1,16 @@
 {
   "short_name": "TheAbbie",
   "name": "TheAbbie",
+  "description": "TheAbbie is the collection of all my projects",
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/files/circle-cropped.png",
+      "src": "/files/logo-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/files/circle-cropped.png",
+      "src": "/files/logo-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
