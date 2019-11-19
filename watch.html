@@ -46,7 +46,7 @@ function gettorrent(x) {
 fetch("https://stream.ooh.now.sh/add?m="+x).then(l=>l.text()).then(function(m) {
 fetch("https://stream.ooh.now.sh/get").then(o=>o.text()).then(function(p) {
 fetch("https://stream.ooh.now.sh"+p).then(l=>l.text()).then(function(r) {
-location.href="https://theabbie.page.link?apn=com.mxtech.mediaplayer.pro&link="+r;
+location.href="https://theabbie.github.io/player?video="+r;
 })
 })
 })
