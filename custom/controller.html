@@ -59,6 +59,6 @@ window["x"+tid].setAttribute("points",window["x"+tid].getAttribute('points')+e.t
 socket.emit('message', [id,e.touches[0].clientX/wid,e.touches[0].clientY/hit])
 },false);
 window.ondblclick=function() {location.reload();}
-window.onclick=function() {if (location.hash!="#app") {document.querySelector("html").webkitRequestFullscreen()}}
+window.onclick=function() {if (!window.matchMedia('(display-mode: standalone)').matches) {document.querySelector("html").webkitRequestFullscreen()}}
 </script>
 </html>
