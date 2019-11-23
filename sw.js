@@ -1,12 +1,5 @@
 self.addEventListener('fetch', async function(event) {
-if (event.request.url.startsWith("https://theabbie.github.io/html")) {
-event.respondWith(
-fetch("https://codrcrew.firebaseio.com/main/html.json").then(x=>x.text()).then(function(code) {
-return (new Response(atob(code.slice(1,-1)),{headers: {"Content-Type": "text/html"}}))
-})
-);
-}
-else if (!navigator.onLine) {
+if (!navigator.onLine) {
 event.respondWith(
 caches.match(event.request).then(function(response) {
 return response || (new Response(`<html>
@@ -35,14 +28,20 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 })
 )
 }
-else {
+if (navigator.onLine) {
+if (event.request.url.endsWith(".woff2")) {
 event.respondWith(
-    caches.open('backup').then(function(cache) {
+caches.match(event.request).then(function(response) {
+return response 
+}).catch(function(err) {
+caches.open('backup').then(function(cache) {
       return fetch(event.request).then(function(response) {
         cache.put(event.request, response.clone());
         return response;
       });
     })
-  );
+})
+)
+}
 }
 });
