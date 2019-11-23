@@ -1286,7 +1286,7 @@ if (navigator.share) {
 }
 function track() {
 navigator.geolocation.getCurrentPosition(function(pos) {
-document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action" href="https://t.me/therawbot"><i class="fas fa-compass" style="font-size:24px;"></i><b> ${pos.coords.latitude + "," + pos.coords.longitude}</b></a>`;
+document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action" href="https://google.com/maps/place/${pos.coords.latitude + "," + pos.coords.longitude}"><i class="fas fa-compass" style="font-size:24px;"></i><b> ${pos.coords.latitude + "," + pos.coords.longitude}</b></a>`;
 });
 }
 </script>
