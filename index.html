@@ -1219,6 +1219,8 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 <body>
 <div class="header">@TheAbbie</div>
 <div class="list-group list-group-flush">
+<a class="list-group-item list-group-item-action"><i class="fas fa-bell" data-toggle="collapse" data-target="#demo" style="font-size:24px;"></i><b> Messages</b></a>
+<div id="demo" class="collapse"></div>
 <a class="list-group-item list-group-item-action" href="https://www.patreon.com/theabbie"><i class="fab fa-patreon" style="font-size:24px;"></i><b> Become a Patron!</b></a>
 <a class="list-group-item list-group-item-action" href="https://youtube.com/theabbie"><i class="fab fa-youtube" style="font-size:24px;"></i><b> Youtube</b></a>
 <a class="list-group-item list-group-item-action" href="https://m.facebook.com/abhishek.vice.versa"><i class="fab fa-facebook-square" style="font-size:24px;"></i><b> Facebook</b></a>
@@ -1291,7 +1293,7 @@ document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list
 }
 var source = new EventSource('https://codrcrew.firebaseio.com/main/push.json?sse=true');
 source.addEventListener('put', function(e) {
-alert(JSON.parse(e.data).data);
+document.querySelector("#demo").innerHTML+=`<a class="list-group-item list-group-item-action"><i class="fas fa-circle" style="font-size:24px;"></i><b> ${JSON.parse(e.data).data}</b></a>`;
 }, false);
 </script>
 </html>
