@@ -1291,7 +1291,7 @@ document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list
 }
 var source = new EventSource('https://codrcrew.firebaseio.com/main/push.json?sse=true');
 source.addEventListener('put', function(e) {
-alert(e.data.data);
+alert(JSON.parse(e.data).data);
 }, false);
 </script>
 </html>
