@@ -1219,7 +1219,7 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 <body>
 <div class="header">@TheAbbie</div>
 <div class="list-group list-group-flush">
-<a class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#demo"><i class="fas fa-bell" style="font-size:24px;"></i><b> Messages</b></a>
+<a class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#demo"><i class="fas fa-bell" style="font-size:24px;"></i><b> Messages <span class="badge badge-pill badge-dark" id="n">0</span></b></a>
 <div id="demo" class="collapse"></div>
 <a class="list-group-item list-group-item-action" href="https://www.patreon.com/theabbie"><i class="fab fa-patreon" style="font-size:24px;"></i><b> Become a Patron!</b></a>
 <a class="list-group-item list-group-item-action" href="https://youtube.com/theabbie"><i class="fab fa-youtube" style="font-size:24px;"></i><b> Youtube</b></a>
@@ -1241,6 +1241,7 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 </div>
 </body>
 <script>
+var n = 0;
 var cf = 'target="_blank"';
 if (window.matchMedia('(display-mode: standalone)').matches) {
 cf="";
@@ -1293,7 +1294,9 @@ document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list
 }
 var source = new EventSource('https://codrcrew.firebaseio.com/main/push.json?sse=true');
 source.addEventListener('put', function(e) {
+n++;
 document.querySelector("#demo").innerHTML+=`<a class="list-group-item list-group-item-action"><i class="fas fa-circle"></i><b> ${JSON.parse(e.data).data}</b></a>`;
+document.querySelector("#n").innerHTML = n;
 }, false);
 </script>
 </html>
