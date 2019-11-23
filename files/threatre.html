@@ -5,7 +5,7 @@
     video {object-fit: cover;}
 </style>
 <body>
-<video autoplay controls>
+<video autoplay>
 <source type="video/mp4">    
 </video>   
 </body>
@@ -14,9 +14,15 @@ var wid = window.innerWidth;
 var hit = window.innerHeight;
 var player = document.getElementsByTagName("video")[0];  
 document.getElementsByTagName("source")[0].setAttribute("src",location.search.split("?video=")[1]); 
+if (hit>wid) {
 player.setAttribute("width",hit);
 player.setAttribute("height",wid);
 player.style.transform = "rotate(90deg)";
+}
+else {
+player.setAttribute("width",wid);
+player.setAttribute("height",hit);
+}
 player.onclick=function() {player.play()}
 </script>
 </html>
