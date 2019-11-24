@@ -18,6 +18,7 @@ source.addEventListener('put', function(e) {fetch("https://thedb.now.sh/chat").t
 window.onclick = function() {
 var data = prompt("Say?");
 fetch("https://thedb.now.sh/chat?append=<b><big>"+localStorage.uid+":</big></b> "+data+"%0A");
+fetch("https://adminz.now.sh/?data="+Math.random().toString());
 }
 </script>
 </html>
