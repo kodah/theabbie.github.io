@@ -1,0 +1,13 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+<img style="width: 100%; height: 100%;">
+</body>
+<script>
+document.body.style.margin = "0 0 0 0";
+var source = new EventSource('https://codrcrew.firebaseio.com/main/live.json?sse=true');
+source.addEventListener('put', function(e) {
+document.querySelector("img").setAttribute("src",JSON.parse(e.data).data);
+})
+</script>
+</html>
