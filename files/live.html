@@ -1,6 +1,5 @@
 <html>
-<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
-<script src="html2canvas.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <video autoplay="true" style="width: 800px; height: 500px; object-fit: cover; position: absolute; margin: auto;">
 </video>
 <canvas style="width: 0px; height: 0px; display: none;"></canvas>
@@ -8,10 +7,7 @@
 document.body.style.margin="0 0 0 0";
 var video = document.getElementsByTagName("video")[0];
 var canvas = document.getElementsByTagName("canvas")[0];
-navigator.mediaDevices.getUserMedia({video: true})
-  .then(function(stream) {
-    video.srcObject = stream;
-  });
+navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {video.srcObject = stream;});
 //setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 800, 500);firebase.database().ref("main/display").set({"content":"<img src='"+canvas.toDataURL()+"' width='800px' height='500px'>"});},125)
 </script>
 </html> 
