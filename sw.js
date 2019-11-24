@@ -28,20 +28,4 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 })
 )
 }
-if (navigator.onLine) {
-if (event.request.url.endsWith(".woff2")) {
-event.respondWith(
-caches.match(event.request).then(function(response) {
-return response 
-}).catch(function(err) {
-caches.open('backup').then(function(cache) {
-      return fetch(event.request).then(function(response) {
-        cache.put(event.request, response.clone());
-        return response;
-      });
-    })
-})
-)
-}
-}
 });
