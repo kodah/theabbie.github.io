@@ -1297,6 +1297,10 @@ source.addEventListener('put', function(e) {
 n++;
 document.querySelector("#demo").innerHTML+=`<a class="list-group-item list-group-item-action"><i class="fas fa-circle"></i><b> ${JSON.parse(e.data).data}</b></a>`;
 document.querySelector("#n").innerHTML = n;
+var notification = new Notification('New Message', {
+icon: 'https://theabbie.github.io/files/logo.png',
+body: JSON.parse(e.data).data
+});
 }, false);
 Notification.requestPermission();
 </script>
