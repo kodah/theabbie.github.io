@@ -1,4 +1,26 @@
-self.addEventListener('fetch', async function(event) {
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
+
+workbox.routing.registerRoute(
+  /\.css$/,
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: 'css-cache',
+  })
+);
+
+workbox.routing.registerRoute(
+  /\.(?:png|jpg|jpeg|svg|gif)$/,
+  new workbox.strategies.CacheFirst({
+    cacheName: 'image-cache',
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 20,
+        maxAgeSeconds: 7 * 24 * 60 * 60,
+      })
+    ],
+  })
+);
+
+/*self.addEventListener('fetch', async function(event) {
 if (!navigator.onLine) {
 event.respondWith(
 caches.match(event.request).then(function(response) {
@@ -28,4 +50,4 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 })
 )
 }
-});
+});*/
