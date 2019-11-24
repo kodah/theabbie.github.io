@@ -10,6 +10,10 @@ document.body.style.margin="0 0 0 0";
 var video = document.getElementsByTagName("video")[0];
 var canvas = document.getElementsByTagName("canvas")[0];
 navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {video.srcObject = stream;});
-function stream() {canvas.getContext('2d').drawImage(video, 0, 0, wid, hit);stream();};
+function stream() {
+canvas.getContext('2d').drawImage(video, 0, 0, wid, hit);
+stream();
+};
+stream();
 </script>
 </html> 
