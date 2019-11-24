@@ -12,6 +12,6 @@ navigator.mediaDevices.getUserMedia({video: true})
   .then(function(stream) {
     video.srcObject = stream;
   });
-setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 800, 500);firebase.database().ref("main/display").set({"content":"<img src='"+canvas.toDataURL()+"' width='800px' height='500px'>"});},125)
+//setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 800, 500);firebase.database().ref("main/display").set({"content":"<img src='"+canvas.toDataURL()+"' width='800px' height='500px'>"});},125)
 </script>
 </html> 
