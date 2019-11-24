@@ -1,21 +1,34 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
 
 workbox.routing.registerRoute(
-  /\.css$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: 'css-cache',
+  /\.(?:png|gif|jpg|jpeg|webp|svg)$/,
+  new workbox.strategies.CacheFirst({
+    cacheName: 'images',
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 60,
+        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+      }),
+    ],
   })
 );
 
 workbox.routing.registerRoute(
-  /\.(?:png|jpg|jpeg|svg|gif)$/,
+  /\.(?:js|css)$/,
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: 'static-resources',
+  })
+);
+
+workbox.routing.registerRoute(
+  ({event}) => event.request.destination === 'font',
   new workbox.strategies.CacheFirst({
-    cacheName: 'image-cache',
+    cacheName: 'fonts',
     plugins: [
       new workbox.expiration.Plugin({
-        maxEntries: 20,
-        maxAgeSeconds: 7 * 24 * 60 * 60,
-      })
+        maxEntries: 60,
+        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+      }),
     ],
   })
 );
