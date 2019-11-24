@@ -7,13 +7,9 @@
 document.body.style.margin="0 0 0 0";
 var video = document.getElementsByTagName("video")[0];
 var canvas = document.getElementsByTagName("canvas")[0];
-navigator.mediaDevices.getUserMedia({video: true})
-  .then(function(stream) {
-    video.srcObject = stream;
-});
-setInterval(function() {
+navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {video.srcObject = stream;});
+var ctr = setInterval(function() {
 canvas.getContext("2d").drawImage(video, 0, 0, 800, 500);
-
 },125)
 </script>
 </html>
