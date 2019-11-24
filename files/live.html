@@ -2,17 +2,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <video autoplay="true" style="width: 100%; height: 100%; object-fit: cover; position: absolute; margin: auto;">
 </video>
-<canvas style="width: 100%; height: 100%; display: none;"></canvas>
+<canvas style="width: 0px; height: 0px; display: none;"></canvas>
 <script>
 var wid = window.innerWidth;
 var hit = window.innerHeight;
 document.body.style.margin="0 0 0 0";
 var video = document.getElementsByTagName("video")[0];
 var canvas = document.getElementsByTagName("canvas")[0];
-var ctx = canvas.getContext('2d');
-ctx.canvas.width = wid;
-ctx.canvas.height = hit;
 navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {video.srcObject = stream;});
-video.onplay = function() {setInterval(function() {ctx.drawImage(video, 0, 0, wid, hit);},125);}
+video.onplay = function() {setInterval(function() {canvas.getContext('2d').drawImage(video, 0, 0, wid, hit);},125);}
 </script>
 </html> 
