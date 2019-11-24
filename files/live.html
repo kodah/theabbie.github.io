@@ -13,6 +13,6 @@ var ctx = canvas.getContext('2d');
 ctx.canvas.width = wid;
 ctx.canvas.height = hit;
 navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {video.srcObject = stream;});
-//setInterval(function() {ctx.drawImage(video, 0, 0, wid, hit);},0)
+setInterval(function() {ctx.drawImage(video, 0, 0);},0)
 </script>
 </html> 
