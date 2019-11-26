@@ -15,19 +15,21 @@
   <h2>Location Survey:</h2>
   <form>
     <div class="form-group">
-      <label for="Roll No">Roll No.:</label>
+      <label for="Roll No"><b>Roll No.:</b></label>
       <input type="text" class="form-control" placeholder="Enter Roll Number" onblur="getdata(this.value)">
     </div>
       </form>
 <button onclick="track()" class="btn btn-primary"><i class="fas fa-compass" style="font-size:24px;"></i> Get Location</button>
 <button onclick="save()" class="btn btn-primary">Submit</button>
-<p id="data"><p>
+<p id="data" style="padding: 10 10 10 10; font-size: 24px;"><p>
 </div>
 </body>
 <script>
 function getdata(x) {
 fetch("https://theabbie.github.io/files/details.json").then(l=>l.json()).then(function(p) {
-alert(JSON.stringify(p[x.slice(-2)]))
+Object.keys(p[x.slice(-2)]).forEach(function(t) {
+document.querySelector("#data").innerHTML+=`<b>${t}:</b> ${p[x.slice(-2)][t]}<br>`
+})
 })
 }
 function track() {
