@@ -20,12 +20,15 @@
     </div>
       </form>
 <button onclick="track()" class="btn btn-primary"><i class="fas fa-compass" style="font-size:24px;"></i> Get Location</button>
-<button onclick="save()" class="btn btn-primary">Submit</button>
+<button onclick="save()" class="btn btn-primary" id="submit" style="display: none;">Submit</button>
 <p id="data" style="padding: 10 10 10 10; font-size: 24px;"><p>
 </div>
 </body>
 <script>
+var rno;
+var loc = {lat: "", lon: ""};
 function getdata(x) {
+rno = x;
 fetch("https://theabbie.github.io/files/details.json").then(l=>l.json()).then(function(p) {
 Object.keys(p[x.slice(-2)]).forEach(function(t) {
 document.querySelector("#data").innerHTML+=`<b>${t}:</b> ${p[x.slice(-2)][t]}<br>`
@@ -34,8 +37,16 @@ document.querySelector("#data").innerHTML+=`<b>${t}:</b> ${p[x.slice(-2)][t]}<br
 }
 function track() {
 navigator.geolocation.getCurrentPosition(function(pos) {
-document.querySelector("#data").innerHTML=(pos.coords.latitude + "," + pos.coords.longitude);
+loc.lat=pos.coords.latitude;
+loc.lon=pos.coords.longitude;
+document.querySelector("#data").innerHTML+=("<b>Your current coordinates:</b><br>"+pos.coords.latitude + "," + pos.coords.longitude);
 });
+document.querySelector("#submit").style.display="block";
+}
+function save() {
+fetch("https://thedb.now.sh/location.csv?append="+rno+","+loc.lat+","+loc.lon+"%0A").then(function(l) {
+alert("Thank you, your response has been recorded");
+})
 }
 </script>
 </html>
