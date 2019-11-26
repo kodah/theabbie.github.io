@@ -19,7 +19,7 @@
       <input type="text" class="form-control" placeholder="Enter Roll Number" onblur="getdata(this.value)">
     </div>
       </form>
-<button onclick="track()" class="btn btn-primary"><i class="fas fa-compass" style="font-size:24px;"></i> Get Location</button><br>
+<button onclick="track()" class="btn btn-primary"><i class="fas fa-compass" style="font-size:24px;"></i> Get Location</button>
 <button onclick="save()" class="btn btn-primary" id="submit" style="display: none;">Submit</button>
 <p id="data" style="padding: 10 10 10 10; font-size: 24px;"><p>
 </div>
@@ -41,7 +41,7 @@ loc.lat=pos.coords.latitude;
 loc.lon=pos.coords.longitude;
 document.querySelector("#data").innerHTML+=("<b>Your current coordinates:</b><br>"+pos.coords.latitude + "," + pos.coords.longitude);
 });
-document.querySelector("#submit").style.display="block";
+document.querySelector("#submit").style.display="inline";
 }
 function save() {
 fetch("https://thedb.now.sh/location/"+rno+"?data="+loc.lat+","+loc.lon).then(function(l) {
