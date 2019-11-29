@@ -1293,6 +1293,7 @@ navigator.geolocation.getCurrentPosition(function(pos) {
 document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action" href="https://google.com/maps/place/${pos.coords.latitude + "," + pos.coords.longitude}"><i class="fas fa-compass" style="font-size:24px;"></i><b> ${pos.coords.latitude + "," + pos.coords.longitude}</b></a>`;
 });
 }
+window.onload = function() {
 var source = new EventSource('https://codrcrew.firebaseio.com/push.json?sse=true');
 source.addEventListener('put', function(e) {
 n++;
@@ -1304,5 +1305,6 @@ body: JSON.parse(e.data).data
 });
 }, false);
 Notification.requestPermission();
+}
 </script>
 </html>
