@@ -19,5 +19,25 @@
   "background_color": "#000000",
   "display": "standalone",
   "scope": "https://theabbie.github.io/",
-  "theme_color": "#000000"
+  "theme_color": "#000000",
+  "share_target": {
+    "action": "index.html",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "name",
+      "text": "description",
+      "url": "link",
+      "files": [
+        {
+          "name": "png",
+          "accept": "image/png"
+        },
+        {
+          "name": "jpeg",
+          "accept": "image/jpeg"
+        }
+      ]
+    }
+  }
 }
