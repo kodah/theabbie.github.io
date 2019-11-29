@@ -33,6 +33,17 @@ workbox.routing.registerRoute(
   })
 );
 
+self.addEventListener('fetch', event => {
+  if (event.request.method == 'POST') {
+  event.respondWith((async () => {
+    const formData = await event.request.formData();
+    const link = formData.get('link') || '';
+    const responseUrl = await saveBookmark(link);
+    return Response.redirect(responseUrl, 303);
+  })());
+}
+});
+
 /*self.addEventListener('fetch', async function(event) {
 if (!navigator.onLine) {
 event.respondWith(
