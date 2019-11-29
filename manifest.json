@@ -7,19 +7,14 @@
     {
       "src": "/files/logo.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/files/logo.png",
-      "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": "/",
-  "background_color": "#000000",
+  "background_color": "#ffffff",
   "display": "standalone",
   "scope": "https://theabbie.github.io/",
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
   "share_target": {
     "action": "index.html",
     "method": "POST",
