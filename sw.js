@@ -44,7 +44,7 @@ self.addEventListener('fetch', event => {
 }
 });
 
-/*self.addEventListener('fetch', async function(event) {
+self.addEventListener('fetch', async function(event) {
 if (!navigator.onLine) {
 event.respondWith(
 caches.match(event.request).then(function(response) {
@@ -74,4 +74,4 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 })
 )
 }
-});*/
+});
