@@ -1,9 +1,11 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
 
+/*
 workbox.routing.registerRoute(
   /\.(?:html|js)$/,
   new workbox.strategies.StaleWhileRevalidate(),
 );
+*/
 
 self.addEventListener('fetch', async function(event) {
 if (!navigator.onLine) {
@@ -34,5 +36,15 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 </html>`,{headers: {"Content-Type": "text/html"}}))
 })
 )
+}
+else {
+  event.respondWith(
+    caches.open('backup').then(function(cache) {
+      return fetch(event.request).then(function(response) {
+        cache.put(event.request, response.clone());
+        return response;
+      });
+    })
+  );
 }
 });
