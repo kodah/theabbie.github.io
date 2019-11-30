@@ -1295,16 +1295,13 @@ navigator.geolocation.getCurrentPosition(function(pos) {
 document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action" href="https://google.com/maps/place/${pos.coords.latitude + "," + pos.coords.longitude}"><i class="fas fa-compass" style="font-size:24px;"></i><b> ${pos.coords.latitude + "," + pos.coords.longitude}</b></a>`;
 });
 }
+window.onload = function() {
 var source = new EventSource('https://codrcrew.firebaseio.com/push.json?sse=true');
 source.addEventListener('put', function(e) {
 n++;
 document.querySelector("#demo").innerHTML+=`<a class="list-group-item list-group-item-action"><i class="fas fa-circle"></i><b> ${JSON.parse(e.data).data}</b></a>`;
 document.querySelector("#n").innerHTML = n;
-var notification = new Notification('New Message', {
-icon: 'https://theabbie.github.io/files/logo.png',
-body: JSON.parse(e.data).data
-});
-}, false);
-Notification.requestPermission();
+//Notification.requestPermission();
+}
 </script>
 </html>
