@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <style>li {font-size: 24px;}</style>
+  <style>li {font-size: 24px; word-break: break-all;}</style>
 </head>
 <body>
 <div class="container"><br>
@@ -37,8 +37,8 @@ fetch("https://typi.tk/?url=https://thepiratebay.org/search/"+x+"/0/0/1&sel=a[ti
 document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="gettorrent('${p[0].attrib}')">${x} torrent</li>`;
 })
 fetch("https://typi.tk/?url=https://www.justwatch.com/in/search?q="+x+"&sel=body%20%3E%20div.ion-page%20%3E%20div.ion-page.menu-content.menu-content-overlay%20%3E%20div%20%3E%20div%20%3E%20ion-tab%20%3E%20ion-content%20%3E%20div.container%20%3E%20div%20%3E%20div%20%3E%20div%20%3E%20div%20%3E%20div.title-list-row%20%3E%20ion-grid%20%3E%20ion-row%20%3E%20ion-col:nth-child(2)%20%3E%20a&attribs=href&t=1000").then(x=>x.json()).then(function(p) {
-fetch("https://typi.tk/?url=https://www.justwatch.com"+p[0].attrib+"&sel=.presentation-type%20a&attribs=href&t=4").then(l=>l.json()).then(function(k) {
-k.forEach(function(t) {document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="getlink('${t.attrib}')">${x} Online</li>`;})
+fetch("https://typi.tk/?url=https://www.justwatch.com"+p[0].attrib+"&sel=.presentation-type%20a&attribs=href&t=4").then(l=>l.json()).then(async function(k) {
+k.forEach(function(t) {document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="getlink('${t.attrib}')">${x} on ${decodeURIComponent(t.attrib).split("?r=")[1].split("&")[0]}</li>`;})
 })
 })
 }
@@ -54,8 +54,7 @@ location.href="https://theabbie.github.io/player?video="+r;
 function getlink(x) {
 fetch("https://typi.tk/?url="+x+"&new=true&t=1").then(l=>l.text()).then(function(p) {
 fetch("https://typi.tk/?url=https://9xbuddy.org/process?url="+p+"&sel=.leading-normal.text-white&attribs=href&t=6000").then(x=>x.json()).then(function(l) {
-document.querySelector(".list-group").innerHTML+="";
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="gettorrent('${p[0].attrib}')">${l[0].attrib}</li>`;
+document.querySelector(".list-group").innerHTML+=`<li class="list-group-item">${l[0].attrib}</li>`;
 })
 })
 }
