@@ -1301,6 +1301,7 @@ source.addEventListener('put', function(e) {
 n++;
 document.querySelector("#demo").innerHTML+=`<a class="list-group-item list-group-item-action"><i class="fas fa-circle"></i><b> ${JSON.parse(e.data).data}</b></a>`;
 document.querySelector("#n").innerHTML = n;
+})
 //Notification.requestPermission();
 }
 </script>
