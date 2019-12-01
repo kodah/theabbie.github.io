@@ -11,6 +11,10 @@ self.addEventListener('install', function(event) {
   self.skipWaiting();
 });
 
+self.addEventListener('sync', function(event) {
+  self.registration.showNotification("Sync event fired!");
+});
+
 self.addEventListener('fetch', async function(event) {
 if (!navigator.onLine) {
 event.respondWith(
