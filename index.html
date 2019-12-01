@@ -1301,20 +1301,15 @@ source.addEventListener('put', function(e) {
 n++;
 document.querySelector("#demo").innerHTML+=`<a class="list-group-item list-group-item-action"><i class="fas fa-circle"></i><b> ${JSON.parse(e.data).data}</b></a>`;
 document.querySelector("#n").innerHTML = n;
-})
-
-Notification.requestPermission(function(result) {
-    if (result === 'granted') {
-      navigator.serviceWorker.ready.then(function(registration) {
-        registration.showNotification('Vibration Sample', {
-          body: 'Buzz! Buzz!',
-          icon: '../images/touch/chrome-touch-icon-192x192.png',
-          vibrate: [200, 100, 200, 100, 200, 100, 200],
-          tag: 'vibration-sample'
-        });
-      });
-    }
+navigator.serviceWorker.ready.then(function(registration) {
+ registration.showNotification('New Message', {
+     body: JSON.parse(e.data).data,
+     icon: 'https://theabbie.github.io/files/circle-cropped.png',
+     tag: 'vibration-sample'
   });
+ });
+})
+Notification.requestPermission();
 }
 </script>
 </html>
