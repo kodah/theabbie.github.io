@@ -1305,7 +1305,8 @@ navigator.serviceWorker.ready.then(function(registration) {
  registration.showNotification('New Message', {
      body: JSON.parse(e.data).data,
      icon: 'https://theabbie.github.io/files/circle-cropped.png',
-     tag: 'vibration-sample'
+     badge: 'https://theabbie.github.io/files/circle-cropped.png',
+     tag: 'msg'
   });
  });
 })
