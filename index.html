@@ -1308,6 +1308,7 @@ navigator.serviceWorker.ready.then(function(registration) {
      badge: 'https://web-push-book.gauntface.com/images/demos/badge-128x128.png',
      tag: 'msg'
   });
+return registration.sync.register('myFirstSync');
  });
 })
 Notification.requestPermission();
