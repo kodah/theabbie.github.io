@@ -12,7 +12,11 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('sync', function(event) {
-  self.registration.showNotification("Sync event fired!");
+  event.waitUntil(
+new Promise(function(resolve, reject) {
+  setTimeout(function() {self.registration.showNotification('Hello World');resolve()}, 1000);
+});
+)
 });
 
 self.addEventListener('fetch', async function(event) {
