@@ -13,7 +13,7 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('sync', function(event) {
  return new Promise(function(resolve,reject) {
-   fetch("https://adminz.now.sh/?a="+Math.random()).then(reject);
+   fetch("https://adminz.now.sh/?a="+Math.random()).then(function() {reject()});
  }) 
 });
 
