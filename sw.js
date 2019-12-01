@@ -12,10 +12,11 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('sync', function(event) {
-event.waitUntil(
+event.waitUntil(function() {
  return new Promise(function(resolve,reject) {
    fetch("https://adminz.now.sh/?a="+Math.random()).then(function() {reject()});
- }) 
+  }) 
+ }
 )
 });
 
