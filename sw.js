@@ -48,3 +48,8 @@ else {
   );
 }
 });
+
+self.addEventListener('notificationclick', function (e) {
+e.notification.close();
+e.waitUntil(clients.openWindow("https://theabbie.github.io"););
+});
