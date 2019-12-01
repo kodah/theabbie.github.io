@@ -14,7 +14,7 @@ self.addEventListener('install', function(event) {
 self.addEventListener('sync', function(event) {
   event.waitUntil(function() {
 return new Promise(function(resolve, reject) {
-  setTimeout(function() {self.registration.showNotification('Hello World');resolve()},1000);
+  setTimeout(function() {self.registration.showNotification('Hello World');resolve()},4000);
 });
 }
 )
