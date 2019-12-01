@@ -7,6 +7,10 @@ workbox.routing.registerRoute(
 );
 */
 
+self.addEventListener('install', function(event) {
+  self.skipWaiting();
+});
+
 self.addEventListener('fetch', async function(event) {
 if (!navigator.onLine) {
 event.respondWith(
