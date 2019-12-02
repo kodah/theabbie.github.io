@@ -1,1 +1,43 @@
-
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+Push Notifications
+</title>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-messaging.js"></script>
+<script>
+var firebaseConfig = {
+    apiKey: "AIzaSyBECQksrlWkWOTP4jriMmA9thfcKgbHyuE",
+    authDomain: "codrcrew.firebaseapp.com",
+    databaseURL: "https://codrcrew.firebaseio.com",
+    projectId: "codrcrew",
+    storageBucket: "codrcrew.appspot.com",
+    messagingSenderId: "517463115484",
+    appId: "1:517463115484:web:93ce55f61c78b015371619",
+    measurementId: "G-Z9TTWE5FSJ"
+};
+firebase.initializeApp(firebaseConfig);
+const messaging = firebase.messaging();
+messaging.usePublicVapidKey("BImi-culCtCIsgG5VwdP29eGXVbnpSg6yXFauPVf2BInA-RN1PzslveoLtohbPpK3k5KAkx53RJMsfqHWI26p_k");
+Notification.requestPermission().then((permission) => {
+  if (permission === 'granted') {
+    messaging.getToken().then((currentToken) => {
+  if (currentToken) {
+    sendTokenToServer(currentToken);
+    updateUIForPushEnabled(currentToken);
+  } else {
+    console.log('No Instance ID token available. Request permission to generate one.');
+    updateUIForPushPermissionRequired();
+    setTokenSentToServer(false);
+  }
+}).catch((err) => {
+  console.log('An error occurred while retrieving token. ', err);
+  showToken('Error retrieving Instance ID token. ', err);
+  setTokenSentToServer(false);
+});
+  } else {
+    console.log('Unable to get permission to notify.');
+  }
+});
+</script>
+</html>
