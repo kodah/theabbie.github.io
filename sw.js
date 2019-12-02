@@ -83,6 +83,6 @@ e.notification.close();
 e.waitUntil(clients.openWindow("https://theabbie.github.io"));
 });
 
-self.addEventListener('notificationclose', function(event) {
+self.addEventListener('notificationclose', function(e) {
 e.waitUntil(clients.openWindow("https://theabbie.github.io"));
 });
