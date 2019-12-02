@@ -1302,17 +1302,7 @@ source.addEventListener('put', function(e) {
 n++;
 document.querySelector("#demo").innerHTML+=`<a class="list-group-item list-group-item-action"><i class="fas fa-circle"></i><b> ${JSON.parse(e.data).data}</b></a>`;
 document.querySelector("#n").innerHTML = n;
-navigator.serviceWorker.ready.then(function(registration) {
- registration.showNotification(n+' New Messages', {
-     body: JSON.parse(e.data).data,
-     icon: 'https://theabbie.github.io/files/logo.png',
-     badge: 'https://theabbie.github.io/files/logo.png',
-     tag: 'msg',
-     renotify: true
-  });
- });
-})
-Notification.requestPermission();
+});
 }
 </script>
 </html>
