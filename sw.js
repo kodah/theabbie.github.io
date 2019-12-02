@@ -18,7 +18,7 @@ messaging.setBackgroundMessageHandler(function(payload) {
   const notificationTitle = 'Background Message Title';
   const notificationOptions = {
     body: 'Background Message body',
-    icon: 'https://theabbie.github.io/files/logo.png'
+    icon: 'files/logo.png'
   };
   return self.registration.showNotification(notificationTitle,
     notificationOptions);
