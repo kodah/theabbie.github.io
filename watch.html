@@ -18,7 +18,7 @@
 </div>
 </body>
 <script>
-fetch("https://stream.ooh.now.sh/delete");
+fetch("https://stream.ooh.now.sh/delete",{mode: "no-cors"});
 document.querySelector("#search").oninput = function() {
 var term = document.querySelector("#search").value;
 fetch("https://api.themoviedb.org/3/search/movie?api_key=a7219d99028ec2f029a458c81ba22b37&query="+document.querySelector("#search").value).then(x=>x.json()).then(function(p) {
