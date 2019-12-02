@@ -55,6 +55,9 @@ event.waitUntil(function() {
 });
 
 self.addEventListener('fetch', async function(event) {
+if (event.request.method == 'POST') {
+  event.respondWith(new Response("hello"));
+}
 if (!navigator.onLine) {
 event.respondWith(
 caches.match(event.request).then(function(response) {
