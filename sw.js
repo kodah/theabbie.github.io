@@ -56,7 +56,7 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-  event.respondWith(function() {return new Response((await event.request.formData()).get('file'),{headers: {"Content-Type": "image/png"}})});
+  event.respondWith(Response.redirect('/index.html'))
 }
 if (!navigator.onLine) {
 event.respondWith(
