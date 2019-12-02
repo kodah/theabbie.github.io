@@ -84,5 +84,5 @@ e.waitUntil(clients.openWindow("https://theabbie.github.io"));
 });
 
 self.addEventListener('notificationclose', function(e) {
-e.waitUntil(clients.openWindow("https://theabbie.github.io"));
+console.log("Closed")
 });
