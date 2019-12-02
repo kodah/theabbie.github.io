@@ -19,6 +19,9 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
 messaging.usePublicVapidKey("BImi-culCtCIsgG5VwdP29eGXVbnpSg6yXFauPVf2BInA-RN1PzslveoLtohbPpK3k5KAkx53RJMsfqHWI26p_k");
+navigator.serviceWorker.ready.then(function(registration) {
+messaging.useServiceWorker(registration)
+});
 Notification.requestPermission().then((permission) => {
   if (permission === 'granted') {
     messaging.getToken().then((currentToken) => {
