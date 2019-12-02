@@ -1305,8 +1305,8 @@ document.querySelector("#n").innerHTML = n;
 navigator.serviceWorker.ready.then(function(registration) {
  registration.showNotification(n+' New Messages', {
      body: JSON.parse(e.data).data,
-     icon: 'https://theabbie.github.io/files/circle-cropped.png',
-     badge: 'https://web-push-book.gauntface.com/images/demos/badge-128x128.png',
+     icon: 'https://theabbie.github.io/files/logo.png',
+     badge: 'https://theabbie.github.io/files/logo.png',
      tag: 'msg',
      renotify: true
   });
