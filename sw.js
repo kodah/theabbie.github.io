@@ -121,4 +121,4 @@ e.waitUntil(clients.openWindow("https://theabbie.github.io"));
 
 self.addEventListener('notificationclose', function(e) {
 console.log("Closed")
-});
+}); 
