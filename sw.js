@@ -56,7 +56,12 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-  event.respondWith(Response.redirect('/index.html'))
+  event.respondWith(Response.redirect('/index.html'));
+  event.waitUntil(async function () {
+    const data = await event.request.formData();
+    const file = data.get('file');
+    console.log('file', file);
+    }());
 }
 if (!navigator.onLine) {
 event.respondWith(
