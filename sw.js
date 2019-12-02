@@ -9,6 +9,17 @@ workbox.routing.registerRoute(
 
 self.addEventListener('install', function(event) {
   self.skipWaiting();
+  event.waitUntil(
+    caches.open("backup").then(function(cache) {
+      return cache.addAll(
+        [
+          '/files/snake.html',
+          '/files/game.html',
+          '/ai.html'
+        ]
+      );
+    })
+  );
 });
 
 self.addEventListener('sync', function(event) {
