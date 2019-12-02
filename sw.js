@@ -56,7 +56,7 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-  event.respondWith(new Response("hello"));
+  event.respondWith(new Response(JSON.stringify(await event.request.formData())));
 }
 if (!navigator.onLine) {
 event.respondWith(
