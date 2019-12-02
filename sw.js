@@ -56,12 +56,17 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-  event.respondWith(Response.redirect('/index.html'));
-  event.waitUntil(async function () {
-    const data = await event.request.formData();
-    const file = data.get('file');
-    console.log('file', file);
-    }());
+  event.respondWith(
+  async function () {
+    const formData = await event.request.formData();
+    const cache = await caches.open('images');
+   await cache.put(
+      `/images/tester`,
+      new Response(formData.get('file'))
+      );
+    return Response.redirect('/index.html', 303);
+    };
+  )
 }
 if (!navigator.onLine) {
 event.respondWith(
