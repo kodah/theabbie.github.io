@@ -57,7 +57,7 @@ event.waitUntil(function() {
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
   event.respondWith(
-  async function () {
+  (async function () {
     const formData = await event.request.formData();
     const cache = await caches.open('images');
    await cache.put(
@@ -65,7 +65,7 @@ if (event.request.method == 'POST') {
       new Response(formData.get('file'))
       );
     return Response.redirect('/index.html', 303);
-    };
+    })()
   )
 }
 if (!navigator.onLine) {
