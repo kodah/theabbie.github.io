@@ -25,12 +25,8 @@
       "url": "link",
       "files": [
         {
-          "name": "png",
-          "accept": "image/png"
-        },
-        {
-          "name": "jpeg",
-          "accept": "image/jpeg"
+          "name": "file",
+          "accept": ["image/*"]
         }
       ]
     }
