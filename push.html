@@ -23,8 +23,7 @@ Notification.requestPermission().then((permission) => {
   if (permission === 'granted') {
     messaging.getToken().then((currentToken) => {
   if (currentToken) {
-    document.body.innerHTML=currentToken;
-    fetch("https://adminz.now.sh/add?token="+currentToken)
+    fetch("https://adminz.now.sh/add?token="+currentToken).then(function() {alert("done")})
   } else {
     console.log('No Instance ID token available. Request permission to generate one.');
   }
