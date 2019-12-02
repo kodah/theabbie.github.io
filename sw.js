@@ -15,14 +15,12 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
 messaging.setBackgroundMessageHandler(function(payload) {
-  const notificationTitle = "hi";
   const notificationOptions = {
-    body: JSON.stringify(payload),
+    body: payload.data.body,
     icon: 'files/logo.png',
     badge: 'files/logo.png'
   };
-  return self.registration.showNotification(notificationTitle,
-    notificationOptions);
+  return self.registration.showNotification(payload.data.title,notificationOptions);
 });
 
 /*
