@@ -55,6 +55,11 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 <div class="header">@TheAbbie</div>
 <center>
 <h1>You Are Offline !</h1>
+<br>
+<h3>Try these:</h3>
+<a href="files/snake.html" style="text-decoration: none; font-size: 20px;">Snake Game</a>
+<br>
+<a href="files/game.html" style="text-decoration: none; font-size: 20px;">Hitting Game</a>
 </center>
 </body>
 </html>`,{headers: {"Content-Type": "text/html"}}))
