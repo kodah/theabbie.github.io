@@ -43,17 +43,16 @@ var wid = window.innerWidth;
 var hit = window.innerHeight;
 var player = document.getElementsByTagName("video")[0];  
 var mc = new Hammer(player);
-var furl = location.search.split("?video=")[1] || prompt("Video?");
 player.ondblclick = function() {
 var fp = document.createElement("input");
 fp.setAttribute("type","file");
 fp.addEventListener("change",function(e) {
 var URL = window.URL || window.webkitURL;
-player.src = URL.createObjectURL(fp.files[0]);
+document.querySelector("source").setAttribute("src",URL.createObjectURL(fp.files[0]));
 })
 fp.click();
 }
-document.querySelector("source").setAttribute("src",furl); 
+document.querySelector("source").setAttribute("src",location.search.split("?video=")[1] || prompt("Video?")); 
 player.onclick = function(e) {if (player.paused) {player.play()} else {player.pause()}}
 player.onpause = function() {player.style.WebkitFilter="blur(15px)"}
 player.onplay = function() {player.style.WebkitFilter="blur(0px)"}
