@@ -9,18 +9,13 @@ iframe {display: block;}
 <script>
 var wid = window.innerWidth;
 var hit = window.innerHeight;
-var i = 0;
 var phone = document.querySelector("iframe");
 phone.style.transform = "scale("+(wid/360)+","+(hit/640)+")";
 var keys = ["demo_phq04c56jnvrkg0bn9w5ep4m9r","k3enkffechkr3pa384xad7mnm8","g6k7r56yfpqdhtepgverzy6x1r","qdrwz6647e2hq70xbny5updcy4","89hbmcb4b7hyb6nu54ewcg92jw","9752kqe3emvr27ken92v9xt70c","e283vpa8f22rkq7wezqhb1f284","3gvya7jy85bgh8z8ezvp5bfh8w","btv9nb01r6bg3mnpaxqxrw9rxc","qmv28y0rk4cdw5jm0jmcde5ntc","rcqqbzfk1zpm7mg0495c04rccw","y7y1c2necv9cjvdvabdu2ebgjw","czdaga7y0ayxzbnxhhmqfwcdw0","mn0934j5q25vtnq1g9pqew3g1c","upr8g78et6wxgk4023j0h0ugv0","jk9n2e32628cm7bvzk25f2gtec","uxhej3qu61ag2m1q103mhggyqw","c9rzdxkc5d5hv61w34nu6n58pr","545gffa8zyx57ra5p1533thnem","fn3umvhdtqjw1mdc8vnw2x9qbg","77mk3bcje3zp5ve9gxrhdgrv44"];
-phone.contentWindow.ondblclick = newphone();
-function newphone() {
+window.onload = function() {
 phone.contentWindow.postMessage('endSession','*');
-phone.src = "https://appetize.io/embed/"+keys[i]+"?device=nexus5&scale=100&orientation=portrait&autoplay=true&screenOnly=true&osVersion=8.1&xdocMsg=true&centered=true";
+phone.src = "https://appetize.io/embed/"+keys[Math.floor(Math.random()*keys.length)]+"?device=nexus5&scale=100&orientation=portrait&autoplay=true&screenOnly=true&osVersion=8.1&xdocMsg=true&centered=true";
 setTimeout(function() {phone.contentWindow.postMessage({type: 'url', value: 'https://iferr.now.sh'},'*');},7500);
-i=(i%(keys.length))+1;
-location.hash=i;
 }
-newphone()
 </script>
 </html>
