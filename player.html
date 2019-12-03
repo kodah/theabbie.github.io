@@ -26,6 +26,8 @@ var wid = window.innerWidth;
 var hit = window.innerHeight;
 var player = document.getElementsByTagName("video")[0];  
 document.getElementsByTagName("source")[0].setAttribute("src",location.search.split("?video=")[1] || prompt("Video?")); 
-player.onclick=function() {player.play()}
+player.onclick = function() {if (player.paused) {player.play()} else {player.pause()}}
+player.onpause = function() {player.style.WebkitFilter="blur(50px)"}
+player.onplay = function() {player.style.WebkitFilter="blur(0px)"}
 </script>
 </html>
