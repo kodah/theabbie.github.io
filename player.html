@@ -44,7 +44,7 @@ var hit = window.innerHeight;
 var player = document.getElementsByTagName("video")[0];  
 var mc = new Hammer(player);
 var furl = location.search.split("?video=")[1] || prompt("Video?");
-if (!furl) {
+player.ondblclick = function() {
 var fp = document.createElement("input");
 fp.setAttribute("type","file");
 fp.addEventListener("change",function(e) {
