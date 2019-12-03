@@ -31,6 +31,7 @@
 <li class="list-group-item">Headlines</li>
 <li class="list-group-item">Simplified View</li>
 <li class="list-group-item">Coordinates</li>
+<li class="list-group-item">Youtube Video Download</li>
 </ul>
 </div>
 </body>
@@ -88,6 +89,9 @@ location.href="https://typi.tk/?url="+document.querySelector("input").value+"&se
 }
 document.querySelectorAll("li")[17].onclick=function() {
 location.href="https://typi.tk/?url=https://google.com/maps/search/"+document.querySelector("input").value+"&new=true&t=2000";
+}
+document.querySelectorAll("li")[18].onclick=function() {
+location.href="https://typi.tk/?url=https://ssyoutube.com/watch?v="+document.querySelector("input").value.split("?v=").reverse()[0]+"&attribs=href&sel=.link-group a&t=5000&join=%3Cbr%3E%3Cbr%3E&pad=%3Ca%20href=%22$%22%3E@%3C/a%3E";
 }
 </script>
 </html>
