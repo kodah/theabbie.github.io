@@ -12,7 +12,7 @@ phone.style.transform = "scale("+(wid/360)+","+(hit/640)+")";
 function getss() {
 phone.contentWindow.postMessage("getScreenshot","*");
 }
-phone.contentDocument.body.onclick = function() {document.querySelector("html").webkitRequestFullscreen()}
+document.querySelector("button").onclick = function() {document.querySelector("html").webkitRequestFullscreen()}
 window.onmessage = function(e) {
 if (e.data && e.data.type=="screenshot") {
 find(e.data.data)
