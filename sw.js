@@ -56,17 +56,13 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-  event.respondWith(
-  (async function () {
+  event.respondWith(Response.redirect('/index.html', 303));
     const formData = await event.request.formData();
     const cache = await caches.open('images');
    await cache.put(
       `/images/tester`,
       new Response(formData.get('file'))
       );
-    return Response.redirect('/index.html', 303);
-    })()
-  )
 }
 if (!navigator.onLine) {
 event.respondWith(
