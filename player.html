@@ -1,6 +1,17 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+@media only screen and (orientation: landscape) {
+  video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 4;
+  visibility: visible;
+  transition: all 0.5s;
+  }
+}
 body {
   margin: 0 0 0 0;
 }
@@ -47,5 +58,6 @@ if (!document.pictureInPictureElement) {
       });
     }
   });
+
 </script>
 </html>
