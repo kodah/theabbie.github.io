@@ -25,7 +25,7 @@ video {
 var wid = window.innerWidth;
 var hit = window.innerHeight;
 var player = document.getElementsByTagName("video")[0];  
-document.getElementsByTagName("source")[0].setAttribute("src",location.search.split("?video=")[1]); 
+document.getElementsByTagName("source")[0].setAttribute("src",location.search.split("?video=")[1] || prompt("Video?")); 
 player.onclick=function() {player.play()}
 </script>
 </html>
