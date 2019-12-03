@@ -1,4 +1,5 @@
 <html>
+<script src="https://hammerjs.github.io/dist/hammer.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 @media only screen and (orientation: landscape) {
@@ -40,6 +41,7 @@ video {
 var wid = window.innerWidth;
 var hit = window.innerHeight;
 var player = document.getElementsByTagName("video")[0];  
+var mc = new Hammer(player);
 document.getElementsByTagName("source")[0].setAttribute("src",location.search.split("?video=")[1] || prompt("Video?")); 
 player.onclick = function(e) {if (player.paused) {player.play()} else {player.pause()}}
 player.onpause = function() {player.style.WebkitFilter="blur(15px)"}
@@ -59,5 +61,12 @@ if (!document.pictureInPictureElement) {
     }
   });
 
+mc.on("swipeleft", function(ev) {
+    player.currentTime-=10;
+});
+
+mc.on("swiperight", function(ev) {
+    player.currentTime+=10;
+});
 </script>
 </html>
