@@ -8,13 +8,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <style>li {font-size: 24px; word-break: break-all;}</style>
+  <style>a {font-size: 24px; word-break: break-all;}</style>
 </head>
 <body>
 <div class="container"><br>
 <input class="form-control form-control-lg" type="text" placeholder="search" id="search" autocomplete="off">
-<ul class="list-group list-group-flush">
-</ul>
+<div class="list-group list-group-flush">
+</div>
 </div>
 </body>
 <script>
@@ -24,21 +24,21 @@ var term = document.querySelector("#search").value;
 fetch("https://api.themoviedb.org/3/search/movie?api_key=a7219d99028ec2f029a458c81ba22b37&query="+document.querySelector("#search").value).then(x=>x.json()).then(function(p) {
 document.querySelector(".list-group").innerHTML="";
 p.results.forEach(function(n) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="getmovie('${n.title}')">${n.title}</li>`;
+document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action" onclick="getmovie('${n.title}')">${n.title}</a>`;
 })
 })
 }
 function getmovie(x) {
 document.querySelector(".list-group").innerHTML=`<li class="list-group-item">searching ${x} ...</li>`;
 fetch("https://www.omdbapi.com/?t="+x+"&apikey=2d58d444").then(t=>t.json()).then(function(c) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item"><table style="border-spacing: 10px; border-collapse: separate;"><tr><td><img src="${c.Poster}" height="250" width="150"></td><td><b>${x}</b><br><small>${c.Released}</small><br><b>Cast:</b><br>${c.Actors}<br></td></tr></table></li>`;
+document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action"><table style="border-spacing: 10px; border-collapse: separate;"><tr><td><img src="${c.Poster}" height="250" width="150"></td><td><b>${x}</b><br><small>${c.Released}</small><br><b>Cast:</b><br>${c.Actors}<br></td></tr></table></a>`;
 })
 fetch("https://typi.tk/?url=https://thepiratebay.org/search/"+x+"/0/0/1&sel=a[title=%27Download%20this%20torrent%20using%20magnet%27]&attribs=href&static=true").then(x=>x.json()).then(function(p) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="gettorrent('${p[0].attrib}')">${x} torrent</li>`;
+document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action" onclick="gettorrent('${p[0].attrib}')">${x} torrent</a>`;
 })
 fetch("https://typi.tk/?url=https://www.justwatch.com/in/search?q="+x+"&sel=body%20%3E%20div.ion-page%20%3E%20div.ion-page.menu-content.menu-content-overlay%20%3E%20div%20%3E%20div%20%3E%20ion-tab%20%3E%20ion-content%20%3E%20div.container%20%3E%20div%20%3E%20div%20%3E%20div%20%3E%20div%20%3E%20div.title-list-row%20%3E%20ion-grid%20%3E%20ion-row%20%3E%20ion-col:nth-child(2)%20%3E%20a&attribs=href&t=1000").then(x=>x.json()).then(function(p) {
 fetch("https://typi.tk/?url=https://www.justwatch.com"+p[0].attrib+"&sel=.presentation-type%20a&attribs=href&t=4").then(l=>l.json()).then(async function(k) {
-k.forEach(function(t) {document.querySelector(".list-group").innerHTML+=`<li class="list-group-item" onclick="getlink('${t.attrib}')">${x} on ${decodeURIComponent(t.attrib).split("?r=")[1].split("&")[0]}</li>`;})
+k.forEach(function(t) {document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action" onclick="getlink('${t.attrib}')">${x} on ${decodeURIComponent(t.attrib).split("?r=")[1].split("&")[0]}</a>`;})
 })
 })
 }
@@ -60,7 +60,7 @@ location.href="https://theabbie.github.io/player?video="+r;
 function getlink(x) {
 fetch("https://typi.tk/?url="+x+"&new=true&t=1").then(l=>l.text()).then(function(p) {
 fetch("https://typi.tk/?url=https://9xbuddy.org/process?url="+p+"&sel=.leading-normal.text-white&attribs=href&t=6000").then(x=>x.json()).then(function(l) {
-document.querySelector(".list-group").innerHTML+=`<li class="list-group-item">${l[0].attrib}</li>`;
+document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action">${l[0].attrib}</a>`;
 })
 })
 }
