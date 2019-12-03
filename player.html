@@ -29,15 +29,16 @@ var wid = window.innerWidth;
 var hit = window.innerHeight;
 var player = document.getElementsByTagName("video")[0];  
 document.getElementsByTagName("source")[0].setAttribute("src",location.search.split("?video=")[1] || prompt("Video?")); 
-player.oncontextmenu = function(e) {e.preventDefault(); if (player.paused) {player.play()} else {player.pause()}}
+player.onclick = function(e) {if (player.paused) {player.play()} else {player.pause()}}
 player.onpause = function() {player.style.WebkitFilter="blur(50px)"}
 player.onplay = function() {player.style.WebkitFilter="blur(0px)"}
-player.addEventListener('click', function() {
-    if (!document.pictureInPictureElement) {
+player.addEventListener('contextmenu', function() {
+e.preventDefault(); 
+if (!document.pictureInPictureElement) {
       player.requestPictureInPicture()
       .catch(error => {
         console.log("failed")
-      });
+    });
     } else {
       document.exitPictureInPicture()
       .catch(error => {
