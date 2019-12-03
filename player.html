@@ -61,11 +61,11 @@ if (!document.pictureInPictureElement) {
     }
   });
 
-mc.on("swipeleft", function(ev) {
+mc.on("panup", function(ev) {
     player.currentTime-=10;
 });
 
-mc.on("swiperight", function(ev) {
+mc.on("pandown", function(ev) {
     player.currentTime+=10;
 });
 </script>
