@@ -29,7 +29,7 @@ document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list
 })
 }
 function getmovie(x) {
-document.querySelector(".list-group").innerHTML=`<li class="list-group-item">searching ${x} ...</li>`;
+document.querySelector(".list-group").innerHTML=`<a class="list-group-item list-group-item-action">searching ${x} ...</a>`;
 fetch("https://www.omdbapi.com/?t="+x+"&apikey=2d58d444").then(t=>t.json()).then(function(c) {
 document.querySelector(".list-group").innerHTML+=`<a class="list-group-item list-group-item-action"><table style="border-spacing: 10px; border-collapse: separate;"><tr><td><img src="${c.Poster}" height="250" width="150"></td><td><b>${x}</b><br><small>${c.Released}</small><br><b>Cast:</b><br>${c.Actors}<br></td></tr></table></a>`;
 })
