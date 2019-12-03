@@ -34,7 +34,7 @@ player.onpause = function() {player.style.WebkitFilter="blur(50px)"}
 player.onplay = function() {player.style.WebkitFilter="blur(0px)"}
 player.addEventListener('click', function() {
     if (!document.pictureInPictureElement) {
-      video.requestPictureInPicture()
+      player.requestPictureInPicture()
       .catch(error => {
         console.log("failed")
       });
