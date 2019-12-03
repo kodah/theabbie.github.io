@@ -1,8 +1,20 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    body {margin: 0 0 0 0;}
-    video {object-fit: cover;}
+body {
+margin: 0 0 0 0;
+}
+video {
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+  width: 100vh;
+  height: 100vw;
+  margin-top: -100vw;
+  object-fit: cover;
+  z-index: 4;
+  visibility: visible;
+}
 </style>
 <body>
 <video autoplay>
@@ -14,15 +26,6 @@ var wid = window.innerWidth;
 var hit = window.innerHeight;
 var player = document.getElementsByTagName("video")[0];  
 document.getElementsByTagName("source")[0].setAttribute("src",location.search.split("?video=")[1]); 
-if (hit>wid) {
-player.setAttribute("width",hit);
-player.setAttribute("height",wid);
-player.style.transform = "rotate(90deg)";
-}
-else {
-player.setAttribute("width",wid);
-player.setAttribute("height",hit);
-}
 player.onclick=function() {player.play()}
 </script>
 </html>
