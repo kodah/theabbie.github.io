@@ -30,7 +30,7 @@ var hit = window.innerHeight;
 var player = document.getElementsByTagName("video")[0];  
 document.getElementsByTagName("source")[0].setAttribute("src",location.search.split("?video=")[1] || prompt("Video?")); 
 player.onclick = function(e) {if (player.paused) {player.play()} else {player.pause()}}
-player.onpause = function() {player.style.WebkitFilter="blur(50px)"}
+player.onpause = function() {player.style.WebkitFilter="blur(15px)"}
 player.onplay = function() {player.style.WebkitFilter="blur(0px)"}
 player.addEventListener('contextmenu', function(e) {
 e.preventDefault(); 
