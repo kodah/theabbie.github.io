@@ -48,7 +48,9 @@ var fp = document.createElement("input");
 fp.setAttribute("type","file");
 fp.addEventListener("change",function(e) {
 var URL = window.URL || window.webkitURL;
-document.querySelector("source").setAttribute("src",URL.createObjectURL(fp.files[0]));
+var link = URL.createObjectURL(fp.files[0]);
+alert(link);
+document.querySelector("source").setAttribute("src",link);
 })
 fp.click();
 }
