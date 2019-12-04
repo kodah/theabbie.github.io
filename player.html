@@ -49,7 +49,7 @@ fp.setAttribute("type","file");
 fp.addEventListener("change",function(e) {
 var URL = window.URL || window.webkitURL;
 var link = URL.createObjectURL(fp.files[0]);
-alert(link);
+window.open(link,"_blank");
 document.querySelector("source").setAttribute("src",link);
 })
 fp.click();
