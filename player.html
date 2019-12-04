@@ -52,7 +52,7 @@ player.src = link;
 })
 fp.click();
 }
-//player.src = location.search.split("?video=")[1] || prompt("Video?"); 
+player.src = location.search.split("?video=")[1] || prompt("Video?"); 
 player.onclick = function(e) {if (player.paused) {player.play()} else {player.pause()}}
 player.onpause = function() {player.style.WebkitFilter="blur(15px)"}
 player.onplay = function() {player.style.WebkitFilter="blur(0px)"}
