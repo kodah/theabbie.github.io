@@ -14,7 +14,7 @@ phone.contentWindow.postMessage("getScreenshot","*");
 }
 document.querySelector("button").onclick = function() {
 document.querySelector("html").webkitRequestFullscreen()
-setTimeout(function() {phone.style.transform = "scale("+(window.innerWidth/360)+","+(window.innerHeight/640)+")";},750);
+setTimeout(function() {phone.style.transform = "scale("+(window.innerWidth/360)+","+(window.innerHeight/640)+")";},250);
 }
 window.onmessage = function(e) {
 if (e.data && e.data.type=="screenshot") {
