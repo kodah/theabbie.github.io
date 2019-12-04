@@ -49,12 +49,11 @@ fp.setAttribute("type","file");
 fp.addEventListener("change",function(e) {
 var URL = window.URL || window.webkitURL;
 var link = URL.createObjectURL(fp.files[0]);
-window.open("https://theabbie.github.io/player?video="+link,"_blank");
 document.querySelector("source").setAttribute("src",link);
 })
 fp.click();
 }
-document.querySelector("source").setAttribute("src",location.search.split("?video=")[1] || prompt("Video?")); 
+//document.querySelector("source").setAttribute("src",location.search.split("?video=")[1] || prompt("Video?")); 
 player.onclick = function(e) {if (player.paused) {player.play()} else {player.pause()}}
 player.onpause = function() {player.style.WebkitFilter="blur(15px)"}
 player.onplay = function() {player.style.WebkitFilter="blur(0px)"}
