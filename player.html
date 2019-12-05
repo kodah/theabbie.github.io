@@ -1,5 +1,4 @@
 <html>
-<script src="https://hammerjs.github.io/dist/hammer.js"></script>
 <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 <style>
 @media (max-aspect-ratio: 1/1) {
@@ -71,12 +70,13 @@ if (!document.pictureInPictureElement) {
     }
   });
 
-mc.on("panup", function(ev) {
-    player.currentTime-=10;
-});
+player.ontouchstart = function() {
+window.iw = e.touches[0].clientY;
+}
 
-mc.on("pandown", function(ev) {
-    player.currentTime+=10;
-});
+player.ontouchend = function() {
+if (e.touches[0].clientY-window.iw > 0) {player.currentTime+=10}
+else {player.currentTime-=10}
+}
 </script>
 </html>
