@@ -29,13 +29,13 @@ Notification.requestPermission().then((permission) => {
   if (currentToken) {
     fetch("https://adminz.now.sh/add?token="+currentToken).then(function() {location.href="https://theabbie.github.io"})
   } else {
-    console.log('No Instance ID token available. Request permission to generate one.');
+    location.reload();
   }
 }).catch((err) => {
-  console.log('An error occurred while retrieving token. ', err);
+  location.reload();
 });
   } else {
-    console.log('Unable to get permission to notify.');
+    alert("Please allow notification access");
   }
 });
 </script>
