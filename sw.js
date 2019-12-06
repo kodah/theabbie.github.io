@@ -106,7 +106,7 @@ else {
 
 self.addEventListener('notificationclick', function (e) {
 e.notification.close();
-e.waitUntil(clients.openWindow("https://theabbie.github.io"));
+e.waitUntil(clients.openWindow("https://theabbie.github.io/test.html?url="+JSON.stringify(e.data)));
 });
 
 self.addEventListener('notificationclose', function(e) {
