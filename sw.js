@@ -107,7 +107,7 @@ else {
 self.addEventListener('notificationclick', function (e) {
 e.notification.close();
 console.log(e);
-e.waitUntil(clients.openWindow("https://theabbie.github.io/));
+e.waitUntil(clients.openWindow("https://theabbie.github.io/"));
 });
 
 self.addEventListener('notificationclose', function(e) {
