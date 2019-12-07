@@ -58,7 +58,15 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-event.respondWith(fetch("https://theabbie.github.io/admin",{method: "POST"}))
+var responseInit = {
+  status: 307,
+  statusText: 'Found',
+  headers: {
+    Location: 'https://theabbie.github.io/admin'
+  }
+};
+var redirectResponse = new Response('', responseInit);
+event.respondWith(redirectResponse);
 }
 else {
 if (!navigator.onLine) {
