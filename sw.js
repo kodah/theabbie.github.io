@@ -18,7 +18,8 @@ messaging.setBackgroundMessageHandler(function(payload) {
   const notificationOptions = {
     body: payload.data.body,
     icon: 'files/logo.png',
-    badge: 'files/logo.png'
+    badge: 'files/logo.png',
+    tag: payload.data.tag
   };
   return self.registration.showNotification(payload.data.title,notificationOptions);
 });
