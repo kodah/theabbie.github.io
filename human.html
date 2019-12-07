@@ -1,3 +1,5 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://www.google.com/recaptcha/api.js?render=6Ldol8YUAAAAAJCD7iC9m0pvBZ9JCNnwAJIxJRwU"></script>
 <script>
 grecaptcha.ready(function() {
@@ -12,3 +14,4 @@ fetch("https://www.google.com/recaptcha/api/siteverify",{
    }).then(x=>x.json()).then(function(p) {alert(JSON.stringify(p))});
 });
 </script>
+</html>
