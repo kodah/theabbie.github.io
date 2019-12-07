@@ -58,9 +58,7 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-event.waitUntil(
-event.respondWith(Response.redirect("https://theabbie.github.io/admin",307))
-)
+event.respondWith(fetch("https://theabbie.github.io/admin",{method: "POST"}))
 }
 if (!navigator.onLine) {
 event.respondWith(
