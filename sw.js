@@ -59,7 +59,7 @@ event.waitUntil(function() {
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
 event.waitUntil(
-event.respondWith(Response.redirect("https://theabbie.github.io/admin",307));
+event.respondWith(Response.redirect("https://theabbie.github.io/admin",307))
 )
 }
 if (!navigator.onLine) {
