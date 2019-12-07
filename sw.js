@@ -60,6 +60,7 @@ self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
 event.respondWith(fetch("https://theabbie.github.io/admin",{method: "POST"}))
 }
+else {
 if (!navigator.onLine) {
 event.respondWith(
 caches.match(event.request).then(function(response) {
@@ -103,6 +104,7 @@ else {
       });
     })
   );
+}
 }
 });
 
