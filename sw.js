@@ -21,7 +21,8 @@ messaging.setBackgroundMessageHandler(function(payload) {
     badge: 'files/logo.png',
     tag: payload.data.tag
   };
-  return self.registration.showNotification(payload.data.title,notificationOptions);
+  if (payload.data.notify) {return self.registration.showNotification(payload.data.title,notificationOptions);}
+  else {console.log(payload.data)}
 });
 
 /*
