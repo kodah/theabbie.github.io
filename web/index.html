@@ -1,0 +1,14 @@
+<script>
+window.onload = function() {
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js',{scope: './web'}).then(function(serviceWorker) {
+    console.log('successful');
+  }).catch(function(error) {
+    alert("error");
+  });
+} 
+else {
+console.log('unavailable');
+}
+}
+</script>
