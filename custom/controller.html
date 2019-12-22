@@ -58,7 +58,8 @@ window.addEventListener('touchmove', function(e) {
 window["x"+tid].setAttribute("points",window["x"+tid].getAttribute('points')+e.touches[0].clientX+","+e.touches[0].clientY+" ");
 socket.emit('message', [id,e.touches[0].clientX/wid,e.touches[0].clientY/hit])
 },false);
-window.ondblclick=function() {window.open("data:image/svg+xml;base64,"+btoa(new XMLSerializer().serializeToString(svg)),"_blank");location.reload();}
+window.ondblclick=function() {location.reload();}
+window.onclick = function() {window.open("data:image/svg+xml;base64,"+btoa(new XMLSerializer().serializeToString(svg)),"_blank");}
 window.oncontextmenu=function() {if (!window.matchMedia('(display-mode: standalone)').matches) {document.querySelector("html").webkitRequestFullscreen()}}
 </script>
 </html>
