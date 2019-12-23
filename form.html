@@ -19,11 +19,12 @@
   <div class="form-group">
       <label for="Roll No"><b>SCAN BAR CODE:</b></label><br>
       <canvas class="frame" height="250" width="250" style="border-radius: 10px;"></canvas><br>
+      <input type="hidden" name="rno" id="rno">
       <label for="Roll No"><b>Name:</b></label>
-      <input type="text" class="form-control" placeholder="Enter Name"><br>
+      <input type="text" class="form-control" placeholder="Enter Name" name="name" autocomplete="name" required><br>
       <label for="Roll No"><b>Address:</b></label>
       <div class="input-group mb-3">
-      <input type="text" id="add" class="form-control" placeholder="Address" aria-describedby="basic-addon2">
+      <input type="text" id="add" class="form-control" placeholder="Address" aria-describedby="basic-addon2" name="address" autocomplete="street-address">
       <div class="input-group-append">
       <span class="input-group-text" id="basic-addon2" onclick="track()"><i class="fas fa-compass" style="font-size:24px;"></i></span>
       </div>
@@ -54,6 +55,7 @@ video.srcObject = stream;
 });
 var ctr = setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 250, 250)},0)
 canvas.onclick = function() {
+document.querySelector("#rno").serAttribute("value",canvas.toDataURL());
 const codeReader = new ZXing.BrowserBarcodeReader();
 clearInterval(ctr);
 codeReader.decodeFromImage(undefined,canvas.toDataURL()).then(result => {
