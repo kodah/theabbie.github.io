@@ -16,7 +16,7 @@
   <form>
     <div class="form-group">
       <label for="Roll No"><b>SCAN BAR CODE:</b></label><br>
-      <canvas class="frame" style="height: 250px; width: 250px;"></canvas>
+      <canvas class="frame" style="height: 250px; width: 250px;"></canvas><br>
       <label for="Roll No"><b>Roll No.:</b></label>
       <input type="text" class="form-control" placeholder="Enter Roll Number" onblur="getdata(this.value)">
     </div>
@@ -27,7 +27,6 @@
 </div>
 </body>
 <script>
-var stream;
 var rno;
 var loc = {lat: "", lon: ""};
 function getdata(x) {
@@ -61,7 +60,9 @@ var ctr = setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0,
 canvas.onclick = function() {
 clearInterval(ctr);
 alert(canvas.toDataURL());
+navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 stream.getTracks().forEach(function(track) {track.stop();});
+});
 }
 </script>
 </html>
