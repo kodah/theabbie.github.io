@@ -20,11 +20,16 @@
       <canvas class="frame" height="250" width="250" style="border-radius: 10px;"></canvas><br>
       <label for="Roll No"><b>Name:</b></label>
       <input type="text" class="form-control" placeholder="Enter Name"><br>
+      <label for="Roll No"><b>Address:</b></label>
+      <div class="input-group mb-3">
+      <input type="text" id="add" class="form-control" placeholder="Address" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+      <span class="input-group-text" id="basic-addon2" onclick="track()"><i class="fas fa-compass" style="font-size:24px;"></i></span>
+      </div>
+      </div>
       <div class="g-recaptcha" data-sitekey="6LdHa8kUAAAAAGQAL3XynkQfHxP9xo1mRCKUn0BS" data-callback="save"></div><br>
     </div>
     </form>
-<button onclick="track()" class="btn btn-primary"><i class="fas fa-compass" style="font-size:24px;"></i> Get Location</button>
-<button onclick="save()" class="btn btn-primary" id="submit" style="display: none;">Submit</button>
 </div>
 </body>
 <script>
@@ -34,9 +39,8 @@ function track() {
 navigator.geolocation.getCurrentPosition(function(pos) {
 loc.lat=pos.coords.latitude;
 loc.lon=pos.coords.longitude;
-document.querySelector("#data").innerHTML+=("<b>Your current coordinates:</b><br>"+pos.coords.latitude + "," + pos.coords.longitude);
+document.querySelector("#add").value=pos.coords.latitude + "," + pos.coords.longitude;
 });
-document.querySelector("#submit").style.display="inline";
 }
 function save() {
 alert("Thank you, your response has been recorded");
