@@ -15,7 +15,7 @@
 <body>
 <div class="container">
   <h2>Location Survey:</h2>
-  <form>
+  <form action="http://httpbin.org/post" method="POST">
   <div class="form-group">
       <label for="Roll No"><b>SCAN BAR CODE:</b></label><br>
       <canvas class="frame" height="250" width="250" style="border-radius: 10px;"></canvas><br>
@@ -44,7 +44,7 @@ document.querySelector("#add").value=pos.coords.latitude + "," + pos.coords.long
 });
 }
 function save() {
-alert("Thank you, your response has been recorded");
+document.forms[0].submit;
 }
 var video = document.createElement("video");
 video.setAttribute("autoplay","true");
