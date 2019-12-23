@@ -56,9 +56,7 @@ var ctr = setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0,
 canvas.onclick = function() {
 const codeReader = new ZXing.BrowserBarcodeReader();
 clearInterval(ctr);
-var img = document.createElement("img");
-img.setAttribute("src",canvas.toDataURL());
-codeReader.decodeFromImage(img).then(result => {
+codeReader.decodeFromImage(undefined,canvas.toDataURL()).then(result => {
 console.log(result);
 alert(result.text);
 }).catch(err => {
