@@ -1,1 +1,21 @@
-
+<html>
+<title>SVG</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="https://cdn.jsdelivr.net/gh/theabbie/awto@gh-pages/files/apps.json">
+<svg xmlns='http://www.w3.org/2000/svg' style="height: 100%; width: 100%; position: fixed; background: rgb(42,37,43);touch-action: none;">
+<script>
+var i = 0;
+var wid = window.innerWidth;
+var hit = window.innerHeight;
+document.body.style.margin="0 0 0 0";
+var svg = document.getElementsByTagName("svg")[0];
+var text = document.createElementNS("http://www.w3.org/2000/svg","text");
+text.setAttribute("fill","rgb(221,172,39)");
+text.innerHTML = "hey";
+setInterval(function() {
+text.setAttribute("x",i);
+text.setAttribute("y",i);
+i++;
+},100);
+</script>
+</html>
