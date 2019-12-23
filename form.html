@@ -15,6 +15,8 @@
   <h2>Location Survey:</h2>
   <form>
     <div class="form-group">
+      <label for="Roll No"><b>SCAN BAR CODE:</b></label><br>
+      <canvas class="frame" style="height: 350px; width: 350px;"></canvas>
       <label for="Roll No"><b>Roll No.:</b></label>
       <input type="text" class="form-control" placeholder="Enter Roll Number" onblur="getdata(this.value)">
     </div>
@@ -48,5 +50,12 @@ fetch("https://thedb.now.sh/location/"+rno+"?data="+loc.lat+","+loc.lon).then(fu
 alert("Thank you, your response has been recorded");
 })
 }
+var video = document.createElement("video");
+video.setAttribute("autoplay","true");
+var canvas = document.querySelector(".frame");
+navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
+video.srcObject = stream;
+});
+setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 350, 350)},0)
 </script>
 </html>
