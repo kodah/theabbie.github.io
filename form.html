@@ -27,6 +27,7 @@
 </div>
 </body>
 <script>
+var stream;
 var rno;
 var loc = {lat: "", lon: ""};
 function getdata(x) {
@@ -56,9 +57,11 @@ var canvas = document.querySelector(".frame");
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 video.srcObject = stream;
 });
-setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 250, 250)},0)
+var ctr = setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 250, 250)},0)
 canvas.onclick = function() {
+clearInterval(ctr);
 alert(canvas.toDataURL());
+stream.getTracks().forEach(function(track) {track.stop();});
 }
 </script>
 </html>
