@@ -9,34 +9,27 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/473e8f3a80.js" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 <div class="container">
   <h2>Location Survey:</h2>
   <form>
-    <div class="form-group">
+  <div class="form-group">
       <label for="Roll No"><b>SCAN BAR CODE:</b></label><br>
       <canvas class="frame" height="250" width="250" style="border-radius: 10px;"></canvas><br>
-      <label for="Roll No"><b>Roll No.:</b></label>
-      <input type="text" class="form-control" placeholder="Enter Roll Number" onblur="getdata(this.value)">
+      <label for="Roll No"><b>Name:</b></label>
+      <input type="text" class="form-control" placeholder="Enter Name"><br>
+      <div class="g-recaptcha" data-sitekey="6LdHa8kUAAAAAGQAL3XynkQfHxP9xo1mRCKUn0BS"></div><br>
     </div>
-      </form>
+    </form>
 <button onclick="track()" class="btn btn-primary"><i class="fas fa-compass" style="font-size:24px;"></i> Get Location</button>
 <button onclick="save()" class="btn btn-primary" id="submit" style="display: none;">Submit</button>
-<p id="data" style="padding: 10 10 10 10; font-size: 24px;"><p>
 </div>
 </body>
 <script>
 var rno;
 var loc = {lat: "", lon: ""};
-function getdata(x) {
-rno = x;
-fetch("https://theabbie.github.io/files/details.json").then(l=>l.json()).then(function(p) {
-Object.keys(p[x.slice(-2)]).forEach(function(t) {
-document.querySelector("#data").innerHTML+=`<b>${t}:</b> ${p[x.slice(-2)][t]}<br>`
-})
-})
-}
 function track() {
 navigator.geolocation.getCurrentPosition(function(pos) {
 loc.lat=pos.coords.latitude;
