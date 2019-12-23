@@ -20,7 +20,7 @@
       <canvas class="frame" height="250" width="250" style="border-radius: 10px;"></canvas><br>
       <label for="Roll No"><b>Name:</b></label>
       <input type="text" class="form-control" placeholder="Enter Name"><br>
-      <div class="g-recaptcha" data-sitekey="6LdHa8kUAAAAAGQAL3XynkQfHxP9xo1mRCKUn0BS"></div><br>
+      <div class="g-recaptcha" data-sitekey="6LdHa8kUAAAAAGQAL3XynkQfHxP9xo1mRCKUn0BS" data-callback="save"></div><br>
     </div>
     </form>
 <button onclick="track()" class="btn btn-primary"><i class="fas fa-compass" style="font-size:24px;"></i> Get Location</button>
@@ -39,9 +39,7 @@ document.querySelector("#data").innerHTML+=("<b>Your current coordinates:</b><br
 document.querySelector("#submit").style.display="inline";
 }
 function save() {
-fetch("https://thedb.now.sh/location/"+rno+"?data="+loc.lat+","+loc.lon).then(function(l) {
 alert("Thank you, your response has been recorded");
-})
 }
 var video = document.createElement("video");
 video.setAttribute("autoplay","true");
