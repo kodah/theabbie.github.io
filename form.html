@@ -35,6 +35,7 @@
 </div>
 </body>
 <script>
+if(location.search!=="") {alert(location.search.split("?err=").reverse()[0])}
 var rno;
 var loc = {lat: "", lon: ""};
 function track() {
