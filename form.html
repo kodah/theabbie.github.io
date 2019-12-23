@@ -10,6 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/473e8f3a80.js" crossorigin="anonymous"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://unpkg.com/@zxing/library@0.15.2/umd/index.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -53,8 +54,17 @@ video.srcObject = stream;
 });
 var ctr = setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 250, 250)},0)
 canvas.onclick = function() {
+const codeReader = new ZXing.BrowserBarcodeReader();
 clearInterval(ctr);
-alert(canvas.toDataURL());
+var img = document.createElement("img");
+img.setAttribute("src",canvas.toDataURL());
+codeReader.decodeFromImage(img).then(result => {
+console.log(result);
+alert(result.text);
+}).catch(err => {
+console.error(err);
+alert(err);
+});
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 stream.getTracks().forEach(function(track) {track.stop();});
 });
