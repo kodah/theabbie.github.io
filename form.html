@@ -64,7 +64,7 @@ console.log(result);
 alert(result.text);
 }).catch(err => {
 console.error(err);
-alert(err);
+alert("error: "+err);
 });
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 stream.getTracks().forEach(function(track) {track.stop();});
