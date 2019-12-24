@@ -59,7 +59,15 @@ event.waitUntil(function() {
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
 event.respondWith(
-Response.redirect("https://httpbin.org/post",307)
+event.respondWith(Response.redirect('/index.html'));
+  event.waitUntil(async function () {
+    const data = await event.request.formData();
+    const client = await self.clients.get(event.resultingClientId || event.clientId);
+    const files = data.getAll('file');
+
+    console.log('files', files);
+    client.postMessage({ files, action: 'load-image' });
+  }());
 )
 }
 else {
