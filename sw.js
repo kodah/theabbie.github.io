@@ -58,7 +58,7 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-event.respondWith(Response.redirect('http://httpbin.org/post',307));
+event.respondWith(Response.redirect('https://formspree.io/moqjdpaw',307));
 }
 else {
 if (!navigator.onLine) {
