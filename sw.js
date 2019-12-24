@@ -58,15 +58,7 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-var responseInit = {
-  status: 307,
-  statusText: 'Found',
-  headers: {
-    Location: 'https://theabbie.github.io/admin'
-  }
-};
-var redirectResponse = new Response('', responseInit);
-event.respondWith(redirectResponse);
+Response.redirect("https://httpbin.org/post",307)
 }
 else {
 if (!navigator.onLine) {
