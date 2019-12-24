@@ -25,8 +25,20 @@
       "url": "link",
       "files": [
         {
-          "name": "file",
+          "name": "image",
           "accept": ["image/*"]
+        },
+        {
+          "name": "video",
+          "accept": ["video/*"]
+        },
+        {
+          "name": "document",
+          "accept": ["text/*"]
+        },
+        {
+          "name": "file",
+          "accept": ["application/*"]
         }
       ]
     }
