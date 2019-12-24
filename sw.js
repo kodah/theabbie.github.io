@@ -58,17 +58,7 @@ event.waitUntil(function() {
 
 self.addEventListener('fetch', async function(event) {
 if (event.request.method == 'POST') {
-event.respondWith(
-event.respondWith(Response.redirect('/index.html'));
-  event.waitUntil(async function () {
-    const data = await event.request.formData();
-    const client = await self.clients.get(event.resultingClientId || event.clientId);
-    const files = data.getAll('file');
-
-    console.log('files', files);
-    client.postMessage({ files, action: 'load-image' });
-  }());
-)
+event.respondWith(Response.redirect('http://httpbin.org/post'));
 }
 else {
 if (!navigator.onLine) {
