@@ -11,9 +11,6 @@
   <script src="https://kit.fontawesome.com/473e8f3a80.js" crossorigin="anonymous"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="https://unpkg.com/@zxing/library@0.15.2/umd/index.min.js"></script>
-  <style>
-    .input-group-text:focus {background: cyan; color: white;}
-  </style>
 </head>
 <body>
 <div class="container">
@@ -55,6 +52,10 @@ if(location.search!=="") {alert(location.search.split("?err=").reverse()[0])}
 
 var rno;
 var loc = {lat: "", lon: ""};
+
+document.querySelectorAll(".input-group-text").forEach(function(x) {
+x.addEventListener(function() {x.style.background="cyan";})
+})
 
 function track() {
 navigator.geolocation.getCurrentPosition(function(pos) {
