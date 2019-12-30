@@ -11,6 +11,9 @@
   <script src="https://kit.fontawesome.com/473e8f3a80.js" crossorigin="anonymous"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="https://unpkg.com/@zxing/library@0.15.2/umd/index.min.js"></script>
+  <style>
+    .input-group-text:focus {background: cyan; color: white;}
+  </style>
 </head>
 <body>
 <div class="container">
@@ -21,7 +24,14 @@
       <canvas class="frame" height="250" width="250" style="border-radius: 10px;"></canvas><br>
       <input type="hidden" name="rno" id="rno">
       <label for="name"><b>Name:</b></label>
+      <div class="input-group">
       <input type="text" class="form-control" placeholder="Enter Name" name="name" autocomplete="name" required><br>
+      <div class="input-group-append">
+        <span class="input-group-text" onclick='document.querySelector("#gender").setAttribute("value","M")'><i class="fas fa-mars" style="font-size:24px;"></i></span>
+        <span class="input-group-text" onclick='document.querySelector("#gender").setAttribute("value","F")'><i class="fas fa-venus" style="font-size:24px;"></i></span>
+      </div>
+      </div>
+      <input type="hidden" name="gender" id="gender">
       <label for="address"><b>Address:</b></label>
       <div class="input-group mb-3">
       <input type="text" id="add" class="form-control" placeholder="Address" aria-describedby="basic-addon2" name="address" autocomplete="street-address">
@@ -33,13 +43,6 @@
       <input type="email" class="form-control" placeholder="Enter Email ID" name="mail" autocomplete="email" required><br>
       <label for="dob"><b>Date Of Birth:</b></label>
       <input type="date" class="form-control" placeholder="Enter Date of Birth" name="dob" autocomplete="date" required><br>
-      <label for="gender"><b>Gender:</b></label>
-      <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <span class="input-group-text"><i class="fas fa-mars" style="font-size:24px;"></i></span>
-        <span class="input-group-text"><i class="fas fa-venus" style="font-size:24px;"></i></span>
-      </div>
-      </div>
       <div class="g-recaptcha" data-sitekey="6LdHa8kUAAAAAGQAL3XynkQfHxP9xo1mRCKUn0BS" data-callback="save"></div><br>
     </div>
     </form>
