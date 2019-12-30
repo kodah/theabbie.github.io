@@ -17,18 +17,29 @@
   <h2>Location Survey:</h2>
   <form action="https://script.google.com/macros/s/AKfycbz-wX1PFOaVYNX7_Zxgn1eiiELSZVw4bdnekKEIiwDRg84xKduG/exec" method="POST">
   <div class="form-group">
-      <label for="Roll No"><b>SCAN BAR CODE:</b></label><br>
+      <label for="rno"><b>SCAN BAR CODE:</b></label><br>
       <canvas class="frame" height="250" width="250" style="border-radius: 10px;"></canvas><br>
       <input type="hidden" name="rno" id="rno">
-      <label for="Roll No"><b>Name:</b></label>
+      <label for="name"><b>Name:</b></label>
       <input type="text" class="form-control" placeholder="Enter Name" name="name" autocomplete="name" required><br>
-      <label for="Roll No"><b>Address:</b></label>
+      <label for="address"><b>Address:</b></label>
       <div class="input-group mb-3">
       <input type="text" id="add" class="form-control" placeholder="Address" aria-describedby="basic-addon2" name="address" autocomplete="street-address">
       <div class="input-group-append">
       <span class="input-group-text" id="basic-addon2" onclick="track()"><i class="fas fa-compass" style="font-size:24px;"></i></span>
       </div>
       </div>
+      <label for="mail"><b>Email ID:</b></label>
+      <input type="email" class="form-control" placeholder="Enter Email ID" name="mail" autocomplete="email" required><br>
+      <label for="dob"><b>Date Of Birth:</b></label>
+      <input type="date" class="form-control" placeholder="Enter Date of Birth" name="dob" autocomplete="date" required><br>
+      <label for="gender"><b>Gender:</b></label>
+      <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><i class="fas fa-mars" style="font-size:24px;"></i></span>
+        <span class="input-group-text"><i class="fas fa-venus" style="font-size:24px;"></i></span>
+      </div>
+      </div>
       <div class="g-recaptcha" data-sitekey="6LdHa8kUAAAAAGQAL3XynkQfHxP9xo1mRCKUn0BS" data-callback="save"></div><br>
     </div>
     </form>
