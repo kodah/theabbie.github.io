@@ -49,6 +49,7 @@
 </div>
 </body>
 <script>
+const codeReader = new ZXing.BrowserMultiFormatReader();
 if(location.search!=="") {alert(location.search.split("?err=").reverse()[0])}
 var rno;
 var loc = {lat: "", lon: ""};
