@@ -50,9 +50,12 @@
 </body>
 <script>
 const codeReader = new ZXing.BrowserMultiFormatReader();
+
 if(location.search!=="") {alert(location.search.split("?err=").reverse()[0])}
+
 var rno;
 var loc = {lat: "", lon: ""};
+
 function track() {
 navigator.geolocation.getCurrentPosition(function(pos) {
 loc.lat=pos.coords.latitude;
@@ -60,26 +63,25 @@ loc.lon=pos.coords.longitude;
 document.querySelector("#add").value=pos.coords.latitude + "," + pos.coords.longitude;
 });
 }
+
 function save() {
 document.forms[0].submit();
 }
+
 var video = document.createElement("video");
 video.setAttribute("autoplay","true");
 var canvas = document.querySelector(".frame");
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 video.srcObject = stream;
-codeReader
-  .decodeFromVideoUrl(URL.createObjectURL(stream))
-  .then(result => alert(result.text))
-  .catch(err => alert(err));
-});
 var ctr = setInterval(function() {canvas.getContext("2d").drawImage(video, 0, 0, 250, 250)},0)
-canvas.onclick = function() {
-document.querySelector("#rno").setAttribute("value",canvas.toDataURL());
+
+codeReader.decodeFromInputVideoDevice(undefined, video).then(function(result) {
+document.querySelector("#rno").setAttribute("value",result.text);
 clearInterval(ctr);
 navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
 stream.getTracks().forEach(function(track) {track.stop();});
 });
-}
+}).catch(err => alert(err));
+});
 </script>
 </html>
