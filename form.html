@@ -79,9 +79,18 @@ codeReader.decodeFromInputVideoDevice(undefined, video).then(function(result) {
 alert(result.text)
 document.querySelector("#rno").setAttribute("value",result.text);
 clearInterval(ctr);
-navigator.mediaDevices.getUserMedia({video: { facingMode: { exact: "environment" } } }).then(function(stream) {
-stream.getTracks().forEach(function(track) {track.stop();});
-});
+var MediaStream = window.MediaStream;
+if (typeof MediaStream === 'undefined' && typeof webkitMediaStream !== 'undefined') {
+    MediaStream = webkitMediaStream;
+}
+/*global MediaStream:true */
+if (typeof MediaStream !== 'undefined' && !('stop' in MediaStream.prototype)) {
+    MediaStream.prototype.stop = function() {
+        this.getTracks().forEach(function(track) {
+            track.stop();
+        });
+    };
+}
 }).catch(err => alert(err));
 });
 </script>
