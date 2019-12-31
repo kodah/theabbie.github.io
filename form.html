@@ -11,6 +11,9 @@
   <script src="https://kit.fontawesome.com/473e8f3a80.js" crossorigin="anonymous"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="https://unpkg.com/@zxing/library@0.15.2/umd/index.min.js"></script>
+  <style>
+     input:read-only {background:grey; }
+  </style>
 </head>
 <body>
 <div class="container">
@@ -20,7 +23,7 @@
       <label for="rno"><b>SCAN BAR CODE:</b></label><br>
       <canvas class="frame" height="250" width="250" style="border-radius: 10px;"></canvas><br>
       <label for="rno"><b>Roll Number:</b></label>
-      <input type="text" class="form-control" placeholder="Scan Bar Code" name="rno" id="rno" disabled><br>
+      <input type="text" class="form-control" placeholder="Scan Bar Code" name="rno" id="rno" readonly><br>
       <label for="name"><b>Name:</b></label>
       <div class="input-group">
       <input type="text" class="form-control" placeholder="Enter Name" name="name" autocomplete="name" required><br>
