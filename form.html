@@ -82,12 +82,12 @@ stream.getVideoTracks()[0].applyConstraints({advanced: [{torch: true}]});
 });
 
 codeReader.decodeFromInputVideoDevice(undefined, video).then(function(result) {
-alert(result.text)
 document.querySelector("#rno").setAttribute("value",result.text);
 clearInterval(ctr);
 navigator.getUserMedia({audio: false, video: true},
     function(stream) {
         var track = stream.getTracks().forEach(function(track) {track.stop()});
+        alert(result.text)
     },
     function(error){
         console.log('getUserMedia() error', error);
