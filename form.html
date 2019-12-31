@@ -85,6 +85,13 @@ codeReader.decodeFromInputVideoDevice(undefined, video).then(function(result) {
 alert(result.text)
 document.querySelector("#rno").setAttribute("value",result.text);
 clearInterval(ctr);
+navigator.getUserMedia({audio: false, video: true},
+    function(stream) {
+        var track = stream.getTracks().forEach(function(track) {track.stop()});
+    },
+    function(error){
+        console.log('getUserMedia() error', error);
+    });
 }).catch(err => alert(err));
 });
 </script>
