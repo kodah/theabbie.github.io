@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:anchor="https://anchor.fm/xmlns" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+   <channel>
+      <title><![CDATA[TheAbbie]]></title>
+      <description><![CDATA[Playing with life since 2002]]></description>
+      <link>https://theabbie.github.io</link>
+      <image>
+         <url>https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/3122184/3122184-1580216653953-ab236e95141ed.jpg</url>
+         <title>TheAbbie</title>
+         <link>https://theabbie.github.io</link>
+      </image>
+      <generator>Anchor Podcasts</generator>
+      <lastBuildDate>Sun, 09 Feb 2020 17:00:56 GMT</lastBuildDate>
+      <atom:link href="https://anchor.fm/s/1334a9a0/podcast/rss" rel="self" type="application/rss+xml" />
+      <author><![CDATA[TheAbbie]]></author>
+      <copyright><![CDATA[TheAbbie]]></copyright>
+      <language><![CDATA[en-gb]]></language>
+      <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+      <itunes:author>TheAbbie</itunes:author>
+      <itunes:summary>Playing with life since 2002</itunes:summary>
+      <itunes:type>episodic</itunes:type>
+      <itunes:owner>
+         <itunes:name>TheAbbie</itunes:name>
+         <itunes:email>abhishek7gg7@gmail.com</itunes:email>
+      </itunes:owner>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:category text="Comedy" />
+      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/3122184/3122184-1580216653953-ab236e95141ed.jpg" />
+      <item>
+         <title><![CDATA[codrcrew]]></title>
+         <description><![CDATA[<p>Playing with life since 2002</p>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message]]></description>
+         <link>https://anchor.fm/theabbie/episodes/codrcrew-eaislq</link>
+         <guid isPermaLink="false">1e510c95-7202-43a2-aaf9-2e22037eb02a</guid>
+         <dc:creator><![CDATA[TheAbbie]]></dc:creator>
+         <pubDate>Sat, 01 Feb 2020 13:13:36 GMT</pubDate>
+         <enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/10104954/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-02-01%2F3f622b610791df88d7b6b6294557e6d4.m4a" length="5611762" type="audio/x-m4a" />
+         <itunes:summary>&lt;p&gt;Playing with life since 2002&lt;/p&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message</itunes:summary>
+         <itunes:explicit>No</itunes:explicit>
+         <itunes:duration>346</itunes:duration>
+         <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/3122184/3122184-1580216653953-ab236e95141ed.jpg" />
+         <itunes:season>1</itunes:season>
+         <itunes:episode>2</itunes:episode>
+         <itunes:episodeType>full</itunes:episodeType>
+      </item>
+      <item>
+         <title><![CDATA[theabbie]]></title>
+         <description><![CDATA[<p>Playing with life since 2002</p>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message]]></description>
+         <link>https://anchor.fm/theabbie/episodes/theabbie-eafs98</link>
+         <guid isPermaLink="false">f1ff2e11-a9e7-4097-a17c-1c522aeaabb4</guid>
+         <dc:creator><![CDATA[TheAbbie]]></dc:creator>
+         <pubDate>Tue, 28 Jan 2020 13:08:07 GMT</pubDate>
+         <enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/10006248/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-01-28%2F5f1f6129932a55f7abd84f5421b37e10.m4a" length="1929459" type="audio/x-m4a" />
+         <itunes:summary>&lt;p&gt;Playing with life since 2002&lt;/p&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message</itunes:summary>
+         <itunes:explicit>No</itunes:explicit>
+         <itunes:duration>118</itunes:duration>
+         <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/3122184/3122184-1580216653953-ab236e95141ed.jpg" />
+         <itunes:season>1</itunes:season>
+         <itunes:episode>1</itunes:episode>
+         <itunes:episodeType>full</itunes:episodeType>
+      </item>
+   </channel>
+</rss>
