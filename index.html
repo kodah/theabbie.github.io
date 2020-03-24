@@ -1780,9 +1780,16 @@ body {margin: 0 0 0 0; background-color: rgb(248,248,248); color: black; font-fa
 <a class="list-group-item list-group-item-action" onclick="share()"><i class="fas fa-share-alt" style="font-size:24px;"></i><b> Share</b></a>
 <a class="list-group-item list-group-item-action" onclick="track()"><i class="fas fa-compass" style="font-size:24px;"></i><b> Track You</b></a>
 <a class="list-group-item list-group-item-action" onclick="install()" id="install"><i class="fas fa-download" style="font-size:24px;"></i><b> Install</b></a>
+<a class="list-group-item list-group-item-action" onclick="login()" id="login"><i class="fas fa-download" style="font-size:24px;"></i><b> Login With Blockstack</b></a>
 <a class="list-group-item list-group-item-action" onclick="subscribe()"><i class="fas fa-rss" style="font-size:24px;"></i><b> Subscribe To Updates</b></a>
 </div>
 </body>
+<script src="https://unpkg.com/blockstack@19.4.0-beta.1/dist/blockstack.js" crossorigin="anonymous"></script>
+<script>
+function login() {
+ blockstack.redirectToSignIn()
+}
+</script>
 <script>
 var n = 0;
 var cf = 'target="_blank"';
