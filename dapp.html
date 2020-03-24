@@ -27,13 +27,13 @@
 <meta name="msapplication-TileImage" content="/files/favicons/mstile-144x144.png">
 <meta name="msapplication-config" content="/files/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
-<script src="https://unpkg.com/blockstack@19.4.0-beta.1/dist/blockstack.js" integrity="sha384-SB5ZTUxSxlrMk3QBbqtewpVzllKVRD3JeT5RuZ3Tj4/1MuXaMphMCFCz1ht2qG80" crossorigin="anonymous"></script>
 </head>
 <body>
-
+<button>sign in</button>
 </body>
+<script src="https://unpkg.com/blockstack@19.4.0-beta.1/dist/blockstack.js" integrity="sha384-SB5ZTUxSxlrMk3QBbqtewpVzllKVRD3JeT5RuZ3Tj4/1MuXaMphMCFCz1ht2qG80" crossorigin="anonymous"></script>
 <script>
-document.body.addEventListener('click', function() {
+document.querySelector("button").addEventListener('click', function() {
    blockstack.redirectToSignIn()
  })
 </script>
