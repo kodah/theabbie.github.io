@@ -14,7 +14,7 @@
 <polyline></polyline>  
 </svg>
 <script>
-swal("Which order?", {content: "input"}).then((value) => {draw(value)});
+swal("Which order (Less than 8)?", {content: "input"}).then((value) => {draw(value)});
 document.querySelector("svg").style.width=(window.innerWidth>=500?450:window.innerWidth-50);
 document.querySelector("svg").style.height=(window.innerWidth>=500?450:window.innerWidth-50);
 function draw(n) {
