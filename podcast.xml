@@ -1,78 +1,4301 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:anchor="https://anchor.fm/xmlns" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-   <channel>
-      <title><![CDATA[TheAbbie]]></title>
-      <description><![CDATA[Playing with life since 2002]]></description>
-      <link>https://theabbie.github.io</link>
-      <image>
-         <url>https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/3122184/3122184-1580216653953-ab236e95141ed.jpg</url>
-         <title>TheAbbie</title>
-         <link>https://theabbie.github.io</link>
-      </image>
-      <generator>Anchor Podcasts</generator>
-      <lastBuildDate>Sun, 09 Feb 2020 17:00:56 GMT</lastBuildDate>
-      <atom:link href="https://anchor.fm/s/1334a9a0/podcast/rss" rel="self" type="application/rss+xml" />
-      <author><![CDATA[TheAbbie]]></author>
-      <copyright><![CDATA[TheAbbie]]></copyright>
-      <language><![CDATA[en-gb]]></language>
-      <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
-      <itunes:author>TheAbbie</itunes:author>
-      <itunes:summary>Playing with life since 2002</itunes:summary>
-      <itunes:type>episodic</itunes:type>
-      <itunes:owner>
-         <itunes:name>TheAbbie</itunes:name>
-         <itunes:email>abhishek7gg7@gmail.com</itunes:email>
-      </itunes:owner>
-      <itunes:explicit>No</itunes:explicit>
-      <itunes:category text="Comedy" />
-      <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/3122184/3122184-1580216653953-ab236e95141ed.jpg" />
-      <item>
-         <title><![CDATA[codrcrew]]></title>
-         <description><![CDATA[<p>Playing with life since 2002</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
+	<channel>
+		<title><![CDATA[TheAbbie]]></title>
+		<description><![CDATA[Playing with life since 2002 Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+		<link>https://theabbie.github.io</link>
+		<image>
+			<url>https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg</url>
+			<title>TheAbbie</title>
+			<link>https://theabbie.github.io</link>
+		</image>
+		<generator>Anchor Podcasts</generator>
+		<lastBuildDate>Thu, 02 Apr 2020 06:45:54 GMT</lastBuildDate>
+		<atom:link href="https://anchor.fm/s/1334a9a0/podcast/rss" rel="self" type="application/rss+xml"/>
+		<author><![CDATA[TheAbbie]]></author>
+		<copyright><![CDATA[TheAbbie]]></copyright>
+		<language><![CDATA[en-gb]]></language>
+		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+		<anchor:support>https://anchor.fm/theabbie/support</anchor:support>
+		<anchor:station>1334a9a0</anchor:station>
+		<itunes:author>TheAbbie</itunes:author>
+		<itunes:summary>Playing with life since 2002 Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+		<itunes:type>episodic</itunes:type>
+		<itunes:owner>
+			<itunes:name>TheAbbie</itunes:name>
+			<itunes:email>abhishek7gg7@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>No</itunes:explicit>
+		<itunes:category text="Comedy"/>
+		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+		<item>
+			<title><![CDATA[Dadi Amma Dadi Amma Maan Jao]]></title>
+			<description><![CDATA[दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोड़ो जी ये ग़ुस्सा ज़रा हँस के दिखाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोड़ो जी ये ग़ुस्सा ज़रा हँस के दिखाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोटी-छोटी बातों पे न बिगड़ा करो
+छोटी-छोटी बातों पे न बिगड़ा करो
+ग़ुस्सा हो तो ठंडा पानी पी लिया करो
+खाली-पीली अपना कलेजा न जलाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोड़ो जी ये ग़ुस्सा ज़रा हँस के दिखाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी तुम्हें हम तो मना के रहेंगे
+दादी तुम्हें हम तो मना के रहेंगे
+खाना अपने हाथों से खिला के रहेंगे
+चाहे हमें मारो, चाहे हमें धमकाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+कहो तो तुम्हारी हम चम्पी कर दें
+कहो तो तुम्हारी हम चम्पी कर दें
+पियो तो तुम्हारे लिये हुक्का भर दें
+हँसी न छुपाओ ज़रा आँखें तो मिलाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+हमसे जो भूल हुई माफ़ करो माँ
+हमसे जो भूल हुई माफ़ करो माँ
+गले लग जाओ दिल साफ़ करो माँ
+अच्छी सी कहानी कोई हमको सुनाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोड़ो जी ये ग़ुस्सा ज़रा हँस के दिखाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
 
 --- 
 
-Send in a voice message: https://anchor.fm/theabbie/message]]></description>
-         <link>https://anchor.fm/theabbie/episodes/codrcrew-eaislq</link>
-         <guid isPermaLink="false">1e510c95-7202-43a2-aaf9-2e22037eb02a</guid>
-         <dc:creator><![CDATA[TheAbbie]]></dc:creator>
-         <pubDate>Sat, 01 Feb 2020 13:13:36 GMT</pubDate>
-         <enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/10104954/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-02-01%2F3f622b610791df88d7b6b6294557e6d4.m4a" length="5611762" type="audio/x-m4a" />
-         <itunes:summary>&lt;p&gt;Playing with life since 2002&lt;/p&gt;
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
 
 --- 
 
-Send in a voice message: https://anchor.fm/theabbie/message</itunes:summary>
-         <itunes:explicit>No</itunes:explicit>
-         <itunes:duration>346</itunes:duration>
-         <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/3122184/3122184-1580216653953-ab236e95141ed.jpg" />
-         <itunes:season>1</itunes:season>
-         <itunes:episode>2</itunes:episode>
-         <itunes:episodeType>full</itunes:episodeType>
-      </item>
-      <item>
-         <title><![CDATA[theabbie]]></title>
-         <description><![CDATA[<p>Playing with life since 2002</p>
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Dadi-Amma-Dadi-Amma-Maan-Jao-ec981r</link>
+			<guid isPermaLink="false">ce9425f5-cd18-4824-89a3-476fedfa3e79</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 05:08:52 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11886075/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2F85539b07560fa0fd9517972d8b6eeb4b.m4a" length="3613253" type="audio/x-m4a"/>
+			<itunes:summary>दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोड़ो जी ये ग़ुस्सा ज़रा हँस के दिखाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोड़ो जी ये ग़ुस्सा ज़रा हँस के दिखाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोटी-छोटी बातों पे न बिगड़ा करो
+छोटी-छोटी बातों पे न बिगड़ा करो
+ग़ुस्सा हो तो ठंडा पानी पी लिया करो
+खाली-पीली अपना कलेजा न जलाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोड़ो जी ये ग़ुस्सा ज़रा हँस के दिखाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी तुम्हें हम तो मना के रहेंगे
+दादी तुम्हें हम तो मना के रहेंगे
+खाना अपने हाथों से खिला के रहेंगे
+चाहे हमें मारो, चाहे हमें धमकाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+कहो तो तुम्हारी हम चम्पी कर दें
+कहो तो तुम्हारी हम चम्पी कर दें
+पियो तो तुम्हारे लिये हुक्का भर दें
+हँसी न छुपाओ ज़रा आँखें तो मिलाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+हमसे जो भूल हुई माफ़ करो माँ
+हमसे जो भूल हुई माफ़ करो माँ
+गले लग जाओ दिल साफ़ करो माँ
+अच्छी सी कहानी कोई हमको सुनाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+छोड़ो जी ये ग़ुस्सा ज़रा हँस के दिखाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
+दादी-अम्मा, दादी-अम्मा मान जाओ
 
 --- 
 
-Send in a voice message: https://anchor.fm/theabbie/message]]></description>
-         <link>https://anchor.fm/theabbie/episodes/theabbie-eafs98</link>
-         <guid isPermaLink="false">f1ff2e11-a9e7-4097-a17c-1c522aeaabb4</guid>
-         <dc:creator><![CDATA[TheAbbie]]></dc:creator>
-         <pubDate>Tue, 28 Jan 2020 13:08:07 GMT</pubDate>
-         <enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/10006248/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-01-28%2F5f1f6129932a55f7abd84f5421b37e10.m4a" length="1929459" type="audio/x-m4a" />
-         <itunes:summary>&lt;p&gt;Playing with life since 2002&lt;/p&gt;
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
 
 --- 
 
-Send in a voice message: https://anchor.fm/theabbie/message</itunes:summary>
-         <itunes:explicit>No</itunes:explicit>
-         <itunes:duration>118</itunes:duration>
-         <itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/3122184/3122184-1580216653953-ab236e95141ed.jpg" />
-         <itunes:season>1</itunes:season>
-         <itunes:episode>1</itunes:episode>
-         <itunes:episodeType>full</itunes:episodeType>
-      </item>
-   </channel>
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>223</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Kajra Mohabbat Wala]]></title>
+			<description><![CDATA[कजरा मुहब्बत वाला
+अँखियों में ऐसा डाला
+कजरे ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+दुनिया है मेरे पीछे
+लेकिन मैं तेरे पीछे
+अपना बना ले मेरी जान
+हाय रे मैं तेरे क़ुरबान
+कजरा मुहब्बत वाला
+अँखियों में ऐसा डाला
+कजरे ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+आई हो कहाँ से गोरी
+आँखों में प्यार ले के
+आई हो कहाँ से गोरी
+आँखों में प्यार ले के
+चढ़ती जवानी की ये
+पहली बहार ले के
+दिल्ली शहर का सारा
+मीना बाज़ार ले के
+दिल्ली शहर का सारा
+मीना बाज़ार ले के
+झुमका बरेली वाला
+कानों में ऐसा डाला
+झुमके ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+दुनिया है मेरे पीछे
+लेकिन मैं तेरे पीछे
+अपना बना ले मेरी जान
+हाय रे मैं तेरे क़ुरबान
+Motor न बंगला माँगूँ
+झुमका न हार माँगूँ
+Motor न बंगला माँगूँ
+झुमका न हार माँगूँ
+दिल को जलाने वाले
+दिल का क़रार माँगूँ
+सैय्याँ बेदर्दी मेरे
+थोड़ा सा प्यार माँगूँ
+सैय्याँ बेदर्दी मेरे
+थोड़ा सा प्यार माँगूँ
+किस्मत बना दे मेरी
+दुनिया बसा दे मेरी
+कर ले सगाई मेरी जान
+हाय रे मैं तेरे क़ुरबान
+कजरा मुहब्बत वाला
+अँखियों में ऐसा डाला
+कजरे ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+जब से है देखा तुझको
+हो गए गुलाम तेरे
+जब से है देखा तुझको
+हो गए गुलाम तेरे
+अपना बना ले गोरी
+आएंगे काम तेरे
+अपना ये जीवन सारा
+लिख देंगे नाम तेरे
+अपना ये जीवन सारा
+लिख देंगे नाम तेरे
+कुर्ता ये जाली वाला
+उसपर मोतियन की माला
+कुर्ते ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+दुनिया है मेरे पीछे
+लेकिन मैं तेरे पीछे
+अपना बना ले मेरी जान
+हाय रे मैं तेरे क़ुरबान
+कजरा मुहब्बत वाला
+अँखियों में ऐसा डाला
+कजरे ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Kajra-Mohabbat-Wala-ec9819</link>
+			<guid isPermaLink="false">b23c1cd7-1a95-48b0-aeae-8911566801e1</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 05:08:04 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11886057/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2F1f422790707023d64cae8ce6bb573ae3.m4a" length="4401776" type="audio/x-m4a"/>
+			<itunes:summary>कजरा मुहब्बत वाला
+अँखियों में ऐसा डाला
+कजरे ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+दुनिया है मेरे पीछे
+लेकिन मैं तेरे पीछे
+अपना बना ले मेरी जान
+हाय रे मैं तेरे क़ुरबान
+कजरा मुहब्बत वाला
+अँखियों में ऐसा डाला
+कजरे ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+आई हो कहाँ से गोरी
+आँखों में प्यार ले के
+आई हो कहाँ से गोरी
+आँखों में प्यार ले के
+चढ़ती जवानी की ये
+पहली बहार ले के
+दिल्ली शहर का सारा
+मीना बाज़ार ले के
+दिल्ली शहर का सारा
+मीना बाज़ार ले के
+झुमका बरेली वाला
+कानों में ऐसा डाला
+झुमके ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+दुनिया है मेरे पीछे
+लेकिन मैं तेरे पीछे
+अपना बना ले मेरी जान
+हाय रे मैं तेरे क़ुरबान
+Motor न बंगला माँगूँ
+झुमका न हार माँगूँ
+Motor न बंगला माँगूँ
+झुमका न हार माँगूँ
+दिल को जलाने वाले
+दिल का क़रार माँगूँ
+सैय्याँ बेदर्दी मेरे
+थोड़ा सा प्यार माँगूँ
+सैय्याँ बेदर्दी मेरे
+थोड़ा सा प्यार माँगूँ
+किस्मत बना दे मेरी
+दुनिया बसा दे मेरी
+कर ले सगाई मेरी जान
+हाय रे मैं तेरे क़ुरबान
+कजरा मुहब्बत वाला
+अँखियों में ऐसा डाला
+कजरे ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+जब से है देखा तुझको
+हो गए गुलाम तेरे
+जब से है देखा तुझको
+हो गए गुलाम तेरे
+अपना बना ले गोरी
+आएंगे काम तेरे
+अपना ये जीवन सारा
+लिख देंगे नाम तेरे
+अपना ये जीवन सारा
+लिख देंगे नाम तेरे
+कुर्ता ये जाली वाला
+उसपर मोतियन की माला
+कुर्ते ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+दुनिया है मेरे पीछे
+लेकिन मैं तेरे पीछे
+अपना बना ले मेरी जान
+हाय रे मैं तेरे क़ुरबान
+कजरा मुहब्बत वाला
+अँखियों में ऐसा डाला
+कजरे ने ले ली मेरी जान
+हाय रे मैं तेरे क़ुरबान
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>272</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ek Ladki Bheegi Bhaagi Si]]></title>
+			<description><![CDATA[इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+दिल ही दिल मे चली जाती हैं
+बिगड़ी बिगड़ी चली आती हैं
+दिल ही दिल मे चली जाती हैं
+बिगड़ी बिगड़ी चली आती हैं
+ढुँधलातीहुवी बलखाती हुवी
+सावन की सुनी रातो मे
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+डगमग डगमग लहकी लहकी
+भूली भटकी बेह्की बहकी
+डगमग डगमग लहकी लहकी
+भूली भटकी बेह्की बहकी
+मचलि मचलि घर से निकली
+पगली सी काली रात मे
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो यह कोई बात है
+इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+तन भीगा है सर गीला है
+उसका कोई पेच भी ढीला है
+तन भीगा है सर गीला है
+उसका कोई पेच भी ढीला है
+तन ती झुकती चलती रुकती
+निकली अंधेरी रात मे
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो यह कोई बात है
+इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ek-Ladki-Bheegi-Bhaagi-Si-ec97t7</link>
+			<guid isPermaLink="false">59a37333-5160-4754-b70a-2fe59382bceb</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 05:03:00 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885927/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2Fdc523e7e546de3636925dc1029f5071a.m4a" length="4295975" type="audio/x-m4a"/>
+			<itunes:summary>इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+दिल ही दिल मे चली जाती हैं
+बिगड़ी बिगड़ी चली आती हैं
+दिल ही दिल मे चली जाती हैं
+बिगड़ी बिगड़ी चली आती हैं
+ढुँधलातीहुवी बलखाती हुवी
+सावन की सुनी रातो मे
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+डगमग डगमग लहकी लहकी
+भूली भटकी बेह्की बहकी
+डगमग डगमग लहकी लहकी
+भूली भटकी बेह्की बहकी
+मचलि मचलि घर से निकली
+पगली सी काली रात मे
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो यह कोई बात है
+इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+तन भीगा है सर गीला है
+उसका कोई पेच भी ढीला है
+तन भीगा है सर गीला है
+उसका कोई पेच भी ढीला है
+तन ती झुकती चलती रुकती
+निकली अंधेरी रात मे
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो यह कोई बात है
+इक लड़की भीगी भागी सी
+सोती रातो मे जागी सी
+मिली इक अजनबी से, कोई आगे ना पिछे
+तुम ही कहो ये कोई बात है
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>265</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Maine Tere Liye]]></title>
+			<description><![CDATA[मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+कुछ हँस के, कुछ ग़म के
+तेरी आँखों के साए चुराए
+रसीली यादों ने
+मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+छोटी बातें, छोटी छोटी बातों की है यादें बड़ी
+भूले नहीं बीती हुई एक छोटी घड़ी
+छोटी बातें, छोटी छोटी बातों की है यादें बड़ी
+भूले नहीं बीती हुई एक छोटी घड़ी
+जनम जनम से आँखें बिछाईं
+तेरे लिये इन राहों में
+मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+भोले भाले, भोले भाले दिल को बहलाते रहे
+तन्हाई में तेरे ख़यालों को सजाते रहे
+भोले भाले, भोले भाले दिल को बहलाते रहे
+तन्हाई में तेरे ख़यालों को सजाते रहे
+कभी कभी तो आवाज़ देकर
+मुझको जगाया ख़्वाबों ने
+मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Maine-Tere-Liye-ec97rf</link>
+			<guid isPermaLink="false">d1da1e69-d15f-47f6-9fcb-44788f9b77f7</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 05:00:56 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885871/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2F70fb83e520193b087dfe2a83b7c891a9.m4a" length="3674087" type="audio/x-m4a"/>
+			<itunes:summary>मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+कुछ हँस के, कुछ ग़म के
+तेरी आँखों के साए चुराए
+रसीली यादों ने
+मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+छोटी बातें, छोटी छोटी बातों की है यादें बड़ी
+भूले नहीं बीती हुई एक छोटी घड़ी
+छोटी बातें, छोटी छोटी बातों की है यादें बड़ी
+भूले नहीं बीती हुई एक छोटी घड़ी
+जनम जनम से आँखें बिछाईं
+तेरे लिये इन राहों में
+मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+भोले भाले, भोले भाले दिल को बहलाते रहे
+तन्हाई में तेरे ख़यालों को सजाते रहे
+भोले भाले, भोले भाले दिल को बहलाते रहे
+तन्हाई में तेरे ख़यालों को सजाते रहे
+कभी कभी तो आवाज़ देकर
+मुझको जगाया ख़्वाबों ने
+मैं ने तेरे लिये ही सात रंग के सपने चुने
+सपने सुरीले सपने
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>227</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ek Din Bik Jayega Mati Ke Mol]]></title>
+			<description><![CDATA[Ek Din Bik Jayega, Maati Ke Mol
+Jag Mein Reh Jayenge Pyare Tere Bol
+Dooje Ke Hothon Ko Dekar Apne Geet
+Koi Nishani Chhod, Phir Duniya Se Dol
+Ek Din...
+Anhoni Path Mein Kaante Lakh Bichaaye
+Honi To Phir Bhi Bichhda Yaar Milaye
+Yeh Birha, Yeh Doori
+Do Pal Ki Majboori
+Phir Koi Dilwala Kahe Ko Ghabraye
+Taram Pam...
+Dhara Jo Behti Hai Milke Rehti Hai
+Behti Chara Ban Ja Phir Duniya Se Dol
+Ek Din...
+Parde Ke Peechhe Baithi Saanval Gori
+Thaam Ke Tere Mere Man Ki Dori
+Yeh Dori Na Chhoote, Yeh Bandhan Na Toote
+Bhor Hone Wali Hai Ab Raina Hai Thodi
+Taram Pam...
+Sar Ko Jhukaye Tu Baitha Kya Hai Yaar
+Gori Se Naina Jod Phir Duniya Se Dol
+Ek Din...
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ek-Din-Bik-Jayega-Mati-Ke-Mol-ec97q0</link>
+			<guid isPermaLink="false">8ff81cd4-3574-4625-aa90-a8254231acbe</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 04:58:30 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885824/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2Fcd33b060821ef0ff8396ec724c2df887.m4a" length="6249430" type="audio/x-m4a"/>
+			<itunes:summary>Ek Din Bik Jayega, Maati Ke Mol
+Jag Mein Reh Jayenge Pyare Tere Bol
+Dooje Ke Hothon Ko Dekar Apne Geet
+Koi Nishani Chhod, Phir Duniya Se Dol
+Ek Din...
+Anhoni Path Mein Kaante Lakh Bichaaye
+Honi To Phir Bhi Bichhda Yaar Milaye
+Yeh Birha, Yeh Doori
+Do Pal Ki Majboori
+Phir Koi Dilwala Kahe Ko Ghabraye
+Taram Pam...
+Dhara Jo Behti Hai Milke Rehti Hai
+Behti Chara Ban Ja Phir Duniya Se Dol
+Ek Din...
+Parde Ke Peechhe Baithi Saanval Gori
+Thaam Ke Tere Mere Man Ki Dori
+Yeh Dori Na Chhoote, Yeh Bandhan Na Toote
+Bhor Hone Wali Hai Ab Raina Hai Thodi
+Taram Pam...
+Sar Ko Jhukaye Tu Baitha Kya Hai Yaar
+Gori Se Naina Jod Phir Duniya Se Dol
+Ek Din...
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>386</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Chand Si Mehbooba Ho Meri]]></title>
+			<description><![CDATA[चाँद सी महबूबा हो मेरी कब
+ऐसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+चाँद सी महबूबा हो मेरी कब
+ऐसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+ना कसमें हैं ना रस्में हैं
+ना शिकवे हैं ना वादे हैं
+ना कसमें हैं ना रस्में हैं
+ना शिकवे हैं ना वादे हैं
+इक सूरत भोली-भाली है
+दो नैना सीधे-सादे हैं
+दो नैना सीधे-सादे हैं
+ऐसा ही रूप खयालों में था
+जैसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+मेरी खुशियाँ ही ना बाँटे
+मेरे ग़म भी सहना चाहे
+मेरी खुशियाँ ही ना बाँटे
+मेरे ग़म भी सहना चाहे
+देखे ना ख्वाब वो महलों के
+मेरे दिल में रहना चाहे
+मेरे दिल में रहना चाहे
+इस दुनिया में कौन था ऐसा
+जैसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+चाँद सी महबूबा हो मेरी कब
+ऐसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Chand-Si-Mehbooba-Ho-Meri-ec97oc</link>
+			<guid isPermaLink="false">75a3d6c2-b0e0-415f-953f-bfeec5fc6e97</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 04:56:21 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885772/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2Fe8cdb9707f85a4f037eb399b9b605b27.m4a" length="4802926" type="audio/x-m4a"/>
+			<itunes:summary>चाँद सी महबूबा हो मेरी कब
+ऐसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+चाँद सी महबूबा हो मेरी कब
+ऐसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+ना कसमें हैं ना रस्में हैं
+ना शिकवे हैं ना वादे हैं
+ना कसमें हैं ना रस्में हैं
+ना शिकवे हैं ना वादे हैं
+इक सूरत भोली-भाली है
+दो नैना सीधे-सादे हैं
+दो नैना सीधे-सादे हैं
+ऐसा ही रूप खयालों में था
+जैसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+मेरी खुशियाँ ही ना बाँटे
+मेरे ग़म भी सहना चाहे
+मेरी खुशियाँ ही ना बाँटे
+मेरे ग़म भी सहना चाहे
+देखे ना ख्वाब वो महलों के
+मेरे दिल में रहना चाहे
+मेरे दिल में रहना चाहे
+इस दुनिया में कौन था ऐसा
+जैसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+चाँद सी महबूबा हो मेरी कब
+ऐसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+हाँ तुम बिलकुल वैसी हो
+जैसा मैंने सोचा था
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>296</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Jeena Yahan Marna Yahan]]></title>
+			<description><![CDATA[Jeena Yahan Marna Yahan, Iske Siva Jaana Kahan
+Ji Chahe Jab Humko Awaaz Do
+Hum Hain Wahin Hum Thhe Jahan,
+Apne Yahin Dono Jahan
+Iske Siva Jana Kahan
+Jeena Yahan ...
+Yeh Mera Geet Jeevan Sangeet
+Kal Bhi Koi Dohrayega
+Jag Ko Hasane Bahrupiya
+Roop Badal Phir Aayega
+Swarg Yahin Nark Yahan
+Iske Siva Jana Kahan
+Jeena Yahan ...
+Kal Khel Mein Hum Ho Na Ho
+Gardish Mein Taare Rahenge Sada
+Bhoolenge Hum Bhoologe Tum
+Par Hum Tumhare Rahenge Sada
+Rahenge Yahin Apne Nishan
+Iske Siva Jana Kahan
+Jeena Yahan ...
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Jeena-Yahan-Marna-Yahan-ec97lo</link>
+			<guid isPermaLink="false">6a51dc40-f4f1-467f-9a2a-dd687d834907</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 04:52:27 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885688/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2F671722a47ac63d85bb3d20b599040df8.m4a" length="4167144" type="audio/x-m4a"/>
+			<itunes:summary>Jeena Yahan Marna Yahan, Iske Siva Jaana Kahan
+Ji Chahe Jab Humko Awaaz Do
+Hum Hain Wahin Hum Thhe Jahan,
+Apne Yahin Dono Jahan
+Iske Siva Jana Kahan
+Jeena Yahan ...
+Yeh Mera Geet Jeevan Sangeet
+Kal Bhi Koi Dohrayega
+Jag Ko Hasane Bahrupiya
+Roop Badal Phir Aayega
+Swarg Yahin Nark Yahan
+Iske Siva Jana Kahan
+Jeena Yahan ...
+Kal Khel Mein Hum Ho Na Ho
+Gardish Mein Taare Rahenge Sada
+Bhoolenge Hum Bhoologe Tum
+Par Hum Tumhare Rahenge Sada
+Rahenge Yahin Apne Nishan
+Iske Siva Jana Kahan
+Jeena Yahan ...
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>257</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Dost Dost Na Raha]]></title>
+			<description><![CDATA[Dost dost na raha, pyaar pyaar naa raha
+Zindagi hamein tera, aitbaar na raha, aitbaar na raha
+Amaanatein main pyaar ki, gaya tha jisko saunp kar
+Woh mere dost tum hi the, tumhi to the
+Jo zindagi ki raah me bane the mere hamsafar
+Woh mere dost tum hi the, tumhi to the
+Saare bhed khul gaye, raazdaar na raha
+Zindagi hamein tera, aitbaar na raha, aitbaar na raha
+Dost dost na raha...
+Safar ke waqt mein palak pe motiyo ko taulti
+Woh tum na thi to kaun tha tumhi to thi
+Nashe ki raat dhhal gayi ab khumaar na raha
+Zindagi hamein tera, aitbaar na raha, aitbaar na raha
+Dost dost na raha...
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Dost-Dost-Na-Raha-ec97ka</link>
+			<guid isPermaLink="false">0f6c47f5-b4da-4002-b2b5-a8e7acccf391</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 04:50:41 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885642/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2Feb5689192bebc92074080520762f558c.m4a" length="4332752" type="audio/x-m4a"/>
+			<itunes:summary>Dost dost na raha, pyaar pyaar naa raha
+Zindagi hamein tera, aitbaar na raha, aitbaar na raha
+Amaanatein main pyaar ki, gaya tha jisko saunp kar
+Woh mere dost tum hi the, tumhi to the
+Jo zindagi ki raah me bane the mere hamsafar
+Woh mere dost tum hi the, tumhi to the
+Saare bhed khul gaye, raazdaar na raha
+Zindagi hamein tera, aitbaar na raha, aitbaar na raha
+Dost dost na raha...
+Safar ke waqt mein palak pe motiyo ko taulti
+Woh tum na thi to kaun tha tumhi to thi
+Nashe ki raat dhhal gayi ab khumaar na raha
+Zindagi hamein tera, aitbaar na raha, aitbaar na raha
+Dost dost na raha...
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>267</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Main Na Bhoolunga]]></title>
+			<description><![CDATA[मैं ना भूलूँगा, मैं ना भूलूँगा
+इन रस्मों को, इन कसमों को
+इन रिश्ते-नातों को
+मैं ना भूलूँगा, मैं ना भूलूँगा
+इन रस्मों को, इन कसमों को
+इन रिश्ते-नातों को
+मैं ना भूलूँगा, मैं ना भूलूँगा
+समय की धारा में
+समय की धारा में उमर बह जानी है
+जो घड़ी जी लेंगे
+जो घड़ी जी लेंगे वही रह जानी है
+मैं बन जाऊँ साँस आखिरी
+मैं बन जाऊँ साँस आखिरी, तू जीवन बन जा
+जीवन से साँसों का रिश्ता मैं ना भूलूँगी
+मैं ना भूलूँगी, मैं ना भूलूँगी, मैं ना भूलूँगा
+बरसता सावन हो, महकता आँगन हो
+कभी दिल दूल्हा हो, कभी दिल दुल्हन हो
+गगन बन कर झूमें, पवन बन कर घूमें
+चलो राहे मोड़े, कभी ना संग छोड़े
+कहीं पे छुप जाना हैं, नज़र नहीं आना हैं
+कहीं पे बस जायेंगे, ये दिन कट जायेंगे
+अरे, क्या बात चली? वो देखो रात ढली
+ये बातें चलती रहें, ये रातें ढलती रहें
+मैं मन को मंदिर कर डालूँ, तू पूजन बन जा
+मंदिर से पूजा का रिश्ता मैं ना भूलूँगा
+मैं ना भूलूँगा, मैं ना भूलूँगी
+मैं ना भूलूँगा, मैं ना भूलूँगी
+इन रस्मों को, इन कसमों को
+इन रिश्ते-नातों को
+मैं ना भूलूँगा, मैं ना भूलूँगी
+मैं ना भूलूँगा, मैं ना भूलूँगी
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Main-Na-Bhoolunga-ec97il</link>
+			<guid isPermaLink="false">45f682c6-a19b-4988-b09d-922a2f27234e</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 04:47:53 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885589/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2F0e263373573a2c79a558ac03a6cc9f2b.m4a" length="5700785" type="audio/x-m4a"/>
+			<itunes:summary>मैं ना भूलूँगा, मैं ना भूलूँगा
+इन रस्मों को, इन कसमों को
+इन रिश्ते-नातों को
+मैं ना भूलूँगा, मैं ना भूलूँगा
+इन रस्मों को, इन कसमों को
+इन रिश्ते-नातों को
+मैं ना भूलूँगा, मैं ना भूलूँगा
+समय की धारा में
+समय की धारा में उमर बह जानी है
+जो घड़ी जी लेंगे
+जो घड़ी जी लेंगे वही रह जानी है
+मैं बन जाऊँ साँस आखिरी
+मैं बन जाऊँ साँस आखिरी, तू जीवन बन जा
+जीवन से साँसों का रिश्ता मैं ना भूलूँगी
+मैं ना भूलूँगी, मैं ना भूलूँगी, मैं ना भूलूँगा
+बरसता सावन हो, महकता आँगन हो
+कभी दिल दूल्हा हो, कभी दिल दुल्हन हो
+गगन बन कर झूमें, पवन बन कर घूमें
+चलो राहे मोड़े, कभी ना संग छोड़े
+कहीं पे छुप जाना हैं, नज़र नहीं आना हैं
+कहीं पे बस जायेंगे, ये दिन कट जायेंगे
+अरे, क्या बात चली? वो देखो रात ढली
+ये बातें चलती रहें, ये रातें ढलती रहें
+मैं मन को मंदिर कर डालूँ, तू पूजन बन जा
+मंदिर से पूजा का रिश्ता मैं ना भूलूँगा
+मैं ना भूलूँगा, मैं ना भूलूँगी
+मैं ना भूलूँगा, मैं ना भूलूँगी
+इन रस्मों को, इन कसमों को
+इन रिश्ते-नातों को
+मैं ना भूलूँगा, मैं ना भूलूँगी
+मैं ना भूलूँगा, मैं ना भूलूँगी
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>352</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Mera Joota Hai Japani]]></title>
+			<description><![CDATA[मेरी जूता है जपानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फ़िर भी दिल है हिंदुस्तानी
+मेरी जूता है जपानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फ़िर भी दिल है हिंदुस्तानी
+मेरी जूता है जपानी
+निकल पड़े हैं खुली सड़क पर
+अपना सीना ताने
+अपना सीना ताने
+मंजिल कहां, कहां रुकना है
+उपरवाला जाने
+उपरवाला जाने
+बढ़ते जाए हम सैलानी
+जैसे एक दरिया तूफानी
+सर पे लाल टोपी रूसी
+फिर भी दिल है हिन्दुस्तानी
+मेरी जूता है जपानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फ़िर भी दिल है हिंदुस्तानी
+मेरी जूता है जपानी
+ऊपर-नीचे नीचे-ऊपर
+लहर चले जीवन की
+नादान है जो बैठ किनारे
+पूछे राह वतन की
+पूछे राह वतन की
+चलना जीवन की कहानी
+रुकना मौत की निशानी
+सर पे लाल टोपी रूसी
+फिर भी दिल है हिन्दुस्तानी
+मेरी जूता है जपानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फ़िर भी दिल है हिंदुस्तानी
+मेरी जूता है जपानी
+होंगे राजे राजकुंवर हम
+बिगडे दिल शहज़ादे
+बिगडे दिल शहज़ादे
+हम सिंघासन पर जा बैठें
+जब जब करें इरादे
+जब जब करें इरादे
+सूरत है जानी पहचानी
+दुनिया वालों को हैरानी
+सर पे लाल टोपी रूसी
+फिर भी दिल है हिंदुस्तानी
+मेरा जूता है जापानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फिर भी दिल है हिंदुस्तानी
+मेरा जूता है जापानी
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Mera-Joota-Hai-Japani-ec97i3</link>
+			<guid isPermaLink="false">82d39570-8f0b-4c58-b03d-35a68d63bc8d</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 04:47:18 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885571/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2Fb150580854601ad39b2a3994c5ff4757.m4a" length="4721415" type="audio/x-m4a"/>
+			<itunes:summary>मेरी जूता है जपानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फ़िर भी दिल है हिंदुस्तानी
+मेरी जूता है जपानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फ़िर भी दिल है हिंदुस्तानी
+मेरी जूता है जपानी
+निकल पड़े हैं खुली सड़क पर
+अपना सीना ताने
+अपना सीना ताने
+मंजिल कहां, कहां रुकना है
+उपरवाला जाने
+उपरवाला जाने
+बढ़ते जाए हम सैलानी
+जैसे एक दरिया तूफानी
+सर पे लाल टोपी रूसी
+फिर भी दिल है हिन्दुस्तानी
+मेरी जूता है जपानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फ़िर भी दिल है हिंदुस्तानी
+मेरी जूता है जपानी
+ऊपर-नीचे नीचे-ऊपर
+लहर चले जीवन की
+नादान है जो बैठ किनारे
+पूछे राह वतन की
+पूछे राह वतन की
+चलना जीवन की कहानी
+रुकना मौत की निशानी
+सर पे लाल टोपी रूसी
+फिर भी दिल है हिन्दुस्तानी
+मेरी जूता है जपानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फ़िर भी दिल है हिंदुस्तानी
+मेरी जूता है जपानी
+होंगे राजे राजकुंवर हम
+बिगडे दिल शहज़ादे
+बिगडे दिल शहज़ादे
+हम सिंघासन पर जा बैठें
+जब जब करें इरादे
+जब जब करें इरादे
+सूरत है जानी पहचानी
+दुनिया वालों को हैरानी
+सर पे लाल टोपी रूसी
+फिर भी दिल है हिंदुस्तानी
+मेरा जूता है जापानी
+ये पतलून इंग्लिशतानी
+सर पे लाल टोपी रूसी
+फिर भी दिल है हिंदुस्तानी
+मेरा जूता है जापानी
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>291</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Kya Khoob Lagti Ho]]></title>
+			<description><![CDATA[क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+फिर से कहो
+कहते रहो
+अच्छा लगता है
+जीवन का हर सपना
+अब सच्चा लगता है
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+तारीफ़ करोगे कब तक
+बोलो कब तक
+मेरे सीने में साँस रहेगी
+जब तक
+कब तक मैं रहूँगी मन में
+हाँ मन में
+सूरज होगा जब तक नील गगन में
+फिर से कहो
+कहते रहो
+अच्छा लगता है
+जीवन का हर सपना
+अब सच्चा लगता है
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+तुम प्यार से प्यारी हो
+तुम जान हमारी हो
+ओ ओ ओ ओ ओ
+ओ ओ ओ ओ ओ
+खुश हो ना मुझे तुम पा कर
+मुझे पाकर
+प्यासे दिल को
+आज मिला है सागर
+क्या दिल में है और तमन्ना
+है तमन्ना
+हर जीवन में तुम मेरे ही बनना
+फिर से कहो
+कहते रहो
+अच्छा लगता है
+जीवन का हर सपना
+अब सच्चा लगता है
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+तुम प्यार से प्यारी हो
+तुम जान हमारी हो
+तुम प्यार से प्यारी हो
+तुम जान हमारी हो
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Kya-Khoob-Lagti-Ho-ec97e6</link>
+			<guid isPermaLink="false">a9719677-f7b7-4682-95f5-84dbb05a6070</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 04:42:51 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885446/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2F0825d300cd5af039d3466106643d59b6.m4a" length="4777742" type="audio/x-m4a"/>
+			<itunes:summary>क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+फिर से कहो
+कहते रहो
+अच्छा लगता है
+जीवन का हर सपना
+अब सच्चा लगता है
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+तारीफ़ करोगे कब तक
+बोलो कब तक
+मेरे सीने में साँस रहेगी
+जब तक
+कब तक मैं रहूँगी मन में
+हाँ मन में
+सूरज होगा जब तक नील गगन में
+फिर से कहो
+कहते रहो
+अच्छा लगता है
+जीवन का हर सपना
+अब सच्चा लगता है
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+तुम प्यार से प्यारी हो
+तुम जान हमारी हो
+ओ ओ ओ ओ ओ
+ओ ओ ओ ओ ओ
+खुश हो ना मुझे तुम पा कर
+मुझे पाकर
+प्यासे दिल को
+आज मिला है सागर
+क्या दिल में है और तमन्ना
+है तमन्ना
+हर जीवन में तुम मेरे ही बनना
+फिर से कहो
+कहते रहो
+अच्छा लगता है
+जीवन का हर सपना
+अब सच्चा लगता है
+क्या खूब लगती हो
+बड़ी सुंदर दिखती हो
+तुम प्यार से प्यारी हो
+तुम जान हमारी हो
+तुम प्यार से प्यारी हो
+तुम जान हमारी हो
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>295</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Kisi ki muskurahaton pe]]></title>
+			<description><![CDATA[किसी की मुस्कुराहटों पे हो निसार
+किसीका दर्द मिल सके तो ले उधार किसीके वास्ते हो तेरे दिल में प्यार
+जीना इसी का नाम है
+किसी की ...
+(माना अपनी जेब से फ़कीर हैं फिर भी यारों दिल के हम अमीर हैं) \- (२)
+मिटे जो प्यार के लिये वो ज़िन्दगी जले बहार के लिये वो ज़िन्दगी किसी को हो न हो हमें तो ऐतबार जीना इसी का नाम है
+(रिश्ता दिल से दिल के ऐतबार का ज़िन्दा है हमीं से नाम प्यार का) \- (२)
+के मर के भी किसी को याद आयेंगे किसी के आँसुओं में मुस्कुरायेंगे
+कहेगा फूल हर कली से बार बार जीना इसी का नाम है
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Kisi-ki-muskurahaton-pe-ec9798</link>
+			<guid isPermaLink="false">632f75bd-42a4-4926-b755-22dcfafccd9b</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 04:38:07 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885288/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2F54a2d9c3069eaf950145c5a57aedefd9.m4a" length="4530651" type="audio/x-m4a"/>
+			<itunes:summary>किसी की मुस्कुराहटों पे हो निसार
+किसीका दर्द मिल सके तो ले उधार किसीके वास्ते हो तेरे दिल में प्यार
+जीना इसी का नाम है
+किसी की ...
+(माना अपनी जेब से फ़कीर हैं फिर भी यारों दिल के हम अमीर हैं) \- (२)
+मिटे जो प्यार के लिये वो ज़िन्दगी जले बहार के लिये वो ज़िन्दगी किसी को हो न हो हमें तो ऐतबार जीना इसी का नाम है
+(रिश्ता दिल से दिल के ऐतबार का ज़िन्दा है हमीं से नाम प्यार का) \- (२)
+के मर के भी किसी को याद आयेंगे किसी के आँसुओं में मुस्कुरायेंगे
+कहेगा फूल हर कली से बार बार जीना इसी का नाम है
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>280</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Dil Tadap Tadap Ke]]></title>
+			<description><![CDATA[Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Too Nahee Toh Yeh Bahar Kya Bahar Hai
+Gul Nahee Khile Ke Teraa Intejar Hai
+Too Nahee Toh Yeh Bahar Kya Bahar Hai
+Gul Nahee Khile Ke Teraa Intejar Hai
+Ke Teraa Intejar Hai
+Ke Teraa Intejar Hai
+Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Dil Dhadak Dhadak Ke De Raha Hai Yeh Sada
+Tumharee Ho Chukee Hu Mai, Tumhare Pas Hu Sada
+Dil Dhadak Dhadak Ke De Raha Hai Yeh Sada
+Tumharee Ho Chukee Hu Mai, Tumhare Pas Hu Sada
+Tum Se Meree Jindagi Ka Yeh Singar Hai
+Jee Rahee Hu Mai Ke Mujhko Tumse Pyar Hai
+Tum Se Meree Jindagi Ka Yeh Singar Hai
+Jee Rahee Hu Mai Ke Mujhko Tumse Pyar Hai
+Ke Mujhko Tumse Pyar Hai
+Ke Mujhko Tumse Pyar Hai
+Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Dil Dhadak Dhadak Ke De Raha Hai Yeh Sada
+Tumharee Ho Chukee Hu Mai, Tumhare Pas Hu Sada
+Muskurate Pyar Ka Asar Hai Har Kahee
+Ham Kahan Hain Dil Kidhar Hai Kuchh Khabar Nahee
+Muskurate Pyar Ka Asar Hai Har Kahee
+Ham Kahan Hain Dil Kidhar Hai Kuchh Khabar Nahee
+Kidhar Hai Kuchh Khabar Nahee
+Kidhar Hai Kuchh Khabar Nahee
+Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Dil Dhadak Dhadak Ke De Raha Hai Yeh Sada
+Tumharee Ho Chukee Hu Mai, Tumhare Pas Hu Sada.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Dil-Tadap-Tadap-Ke-ec9777</link>
+			<guid isPermaLink="false">a32a7ee6-b294-4838-9bc0-f511cd2069f2</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 02 Apr 2020 04:34:38 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11885223/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-02%2F1af4290c62559cdad6fd04afa24153cb.m4a" length="3988772" type="audio/x-m4a"/>
+			<itunes:summary>Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Too Nahee Toh Yeh Bahar Kya Bahar Hai
+Gul Nahee Khile Ke Teraa Intejar Hai
+Too Nahee Toh Yeh Bahar Kya Bahar Hai
+Gul Nahee Khile Ke Teraa Intejar Hai
+Ke Teraa Intejar Hai
+Ke Teraa Intejar Hai
+Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Dil Dhadak Dhadak Ke De Raha Hai Yeh Sada
+Tumharee Ho Chukee Hu Mai, Tumhare Pas Hu Sada
+Dil Dhadak Dhadak Ke De Raha Hai Yeh Sada
+Tumharee Ho Chukee Hu Mai, Tumhare Pas Hu Sada
+Tum Se Meree Jindagi Ka Yeh Singar Hai
+Jee Rahee Hu Mai Ke Mujhko Tumse Pyar Hai
+Tum Se Meree Jindagi Ka Yeh Singar Hai
+Jee Rahee Hu Mai Ke Mujhko Tumse Pyar Hai
+Ke Mujhko Tumse Pyar Hai
+Ke Mujhko Tumse Pyar Hai
+Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Dil Dhadak Dhadak Ke De Raha Hai Yeh Sada
+Tumharee Ho Chukee Hu Mai, Tumhare Pas Hu Sada
+Muskurate Pyar Ka Asar Hai Har Kahee
+Ham Kahan Hain Dil Kidhar Hai Kuchh Khabar Nahee
+Muskurate Pyar Ka Asar Hai Har Kahee
+Ham Kahan Hain Dil Kidhar Hai Kuchh Khabar Nahee
+Kidhar Hai Kuchh Khabar Nahee
+Kidhar Hai Kuchh Khabar Nahee
+Dil Tadap Tadap Ke Keh Raha Hai Aa Bhee Ja
+Too Humse Aankh Na Chura, Tujhe Kasam Hai Aa Bhee Ja
+Dil Dhadak Dhadak Ke De Raha Hai Yeh Sada
+Tumharee Ho Chukee Hu Mai, Tumhare Pas Hu Sada.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>246</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Pyar Diwana Hota Hai]]></title>
+			<description><![CDATA[pyaar diwaanaa hotaa hai, mastaanaa hotaa hain
+har khushee se, har gam se, begaanaa hotaa hain
+shamaa kahe parawaane se, pare chalaa jaa
+meree tarah jal jaayegaa, yahaa naheen aa
+wo naheen sunataa, us ko jal jaanaa hotaa hain
+rahe koee sau paradon me, dare sharam se
+najar ajee laakh churaye, koee sanam se
+aa hee jaataa hain jis pe, dil aanaa hotaa hain
+suno kisee shaayar ne ye, kahaa bahot khub
+manaa kare duniyaan lekin mere mehaboob
+wo chhalak jaataa hai, jo paimaanaa hotaa hain
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Pyar-Diwana-Hota-Hai-ec88jc</link>
+			<guid isPermaLink="false">1733775d-be10-45d3-8a89-782903f5f68c</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 15:05:17 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11853868/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F9396200e59de8caac2db469a397d7c82.m4a" length="4909174" type="audio/x-m4a"/>
+			<itunes:summary>pyaar diwaanaa hotaa hai, mastaanaa hotaa hain
+har khushee se, har gam se, begaanaa hotaa hain
+shamaa kahe parawaane se, pare chalaa jaa
+meree tarah jal jaayegaa, yahaa naheen aa
+wo naheen sunataa, us ko jal jaanaa hotaa hain
+rahe koee sau paradon me, dare sharam se
+najar ajee laakh churaye, koee sanam se
+aa hee jaataa hain jis pe, dil aanaa hotaa hain
+suno kisee shaayar ne ye, kahaa bahot khub
+manaa kare duniyaan lekin mere mehaboob
+wo chhalak jaataa hai, jo paimaanaa hotaa hain
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>303</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Gulabi Aankhen]]></title>
+			<description><![CDATA[गुलाबी आँखें जो तेरी देखीं
+शराबी ये दिल हो गया
+सम्भालो मुझको, ओ मेरे यारों
+सम्भलना मुश्किल हो गया
+गुलाबी आँखें जो तेरी देखीं
+शराबी ये दिल हो गया
+दिल में मेरे ख़्वाब तेरे
+तस्वीर जैसे हों दीवार पे
+तुझपे फ़िदा मैं क्यूँ हुआ?
+आता है गुस्सा मुझे प्यार पे
+मैं लुट गया, मान के दिल का कहा
+मैं कहीं का ना रहा
+क्या कहूँ मैं दिलरुबा?
+बुरा ये जादू तेरी आँखों का
+ये मेरा क़ातिल हो गया
+गुलाबी आँखें जो तेरी देखी
+शराबी ये दिल हो गया
+मैंने सदा चाहा यही
+दामन बचा लूँ हसीनों से मैं
+तेरी क़सम ख़्वाबों में भी
+बचता फिरा नाज़नीनों से मैं
+तौबा मगर मिल गई तुझसे नज़र
+मिल गया दर्द-ए-जिगर
+सुन ज़रा ओ बेख़बर
+ज़रा सा हँस के जो देखा तूने
+मैं तेरा बिस्मिल हो गया
+गुलाबी आँखें जो तेरी देखी
+शराबी ये दिल हो गया
+सम्भालो मुझको, ओ मेरे यारों
+सम्भलना मुश्किल हो गया
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Gulabi-Aankhen-ec88g0</link>
+			<guid isPermaLink="false">a3277616-5812-467a-b91b-90b68fe61992</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 15:01:44 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11853760/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2Fde02a703c7232a24451bde1e3310e476.m4a" length="4028578" type="audio/x-m4a"/>
+			<itunes:summary>गुलाबी आँखें जो तेरी देखीं
+शराबी ये दिल हो गया
+सम्भालो मुझको, ओ मेरे यारों
+सम्भलना मुश्किल हो गया
+गुलाबी आँखें जो तेरी देखीं
+शराबी ये दिल हो गया
+दिल में मेरे ख़्वाब तेरे
+तस्वीर जैसे हों दीवार पे
+तुझपे फ़िदा मैं क्यूँ हुआ?
+आता है गुस्सा मुझे प्यार पे
+मैं लुट गया, मान के दिल का कहा
+मैं कहीं का ना रहा
+क्या कहूँ मैं दिलरुबा?
+बुरा ये जादू तेरी आँखों का
+ये मेरा क़ातिल हो गया
+गुलाबी आँखें जो तेरी देखी
+शराबी ये दिल हो गया
+मैंने सदा चाहा यही
+दामन बचा लूँ हसीनों से मैं
+तेरी क़सम ख़्वाबों में भी
+बचता फिरा नाज़नीनों से मैं
+तौबा मगर मिल गई तुझसे नज़र
+मिल गया दर्द-ए-जिगर
+सुन ज़रा ओ बेख़बर
+ज़रा सा हँस के जो देखा तूने
+मैं तेरा बिस्मिल हो गया
+गुलाबी आँखें जो तेरी देखी
+शराबी ये दिल हो गया
+सम्भालो मुझको, ओ मेरे यारों
+सम्भलना मुश्किल हो गया
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>249</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Taarif Karoon Kya Uski]]></title>
+			<description><![CDATA[ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+एक चीज़ क़यामत सी है
+लोगों से सुना करते थे
+तुम्हें देख के मैंने माना
+वो ठीक कहा करते थे
+वो ठीक कहा करते थे
+है चाल में तेरी ज़ालिम
+कुछ ऐसी बला का जादू
+सौ बार सम्भाला दिल को
+पर हो के रहा बेकाबू
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+हर सुबह किरन की लाली
+है रंग तेरे गालों का
+हर शाम की चादर काली
+साया है तेरे बालों का
+हर सुबह किरन की लाली
+है रंग तेरे गालों का
+हर शाम की चादर काली
+साया है तेरे बालों का
+साया है तेरे बालों का
+तू बलखाती एक नदिया
+हर मौज तेरी अंगड़ाई
+जो इन मौजों में डूबा
+उसने ही दुनिया पाई
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+मैं खोज में हूँ मंज़िल की
+और मंज़िल पास है मेरे
+मुखड़े से हटा दो आंचल
+हो जाएँ दूर अंधेरे
+हो जाएं दूर अंधेरे
+माना के ये जलवे तेरे
+कर देंगे मुझे दीवाना
+जी भर के ज़रा मैं देखूँ
+अंदाज़ तेरा मस्ताना
+तारीफ़ करूँ क्या उसकी जिसने तुम्हें बनाया
+ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Taarif-Karoon-Kya-Uski-ec88ds</link>
+			<guid isPermaLink="false">98bd5ea0-4729-4ddd-862d-dc662a889afc</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 14:59:26 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11853692/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F8167818df32945486f6b20fc44df7bf9.m4a" length="6107836" type="audio/x-m4a"/>
+			<itunes:summary>ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+एक चीज़ क़यामत सी है
+लोगों से सुना करते थे
+तुम्हें देख के मैंने माना
+वो ठीक कहा करते थे
+वो ठीक कहा करते थे
+है चाल में तेरी ज़ालिम
+कुछ ऐसी बला का जादू
+सौ बार सम्भाला दिल को
+पर हो के रहा बेकाबू
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+हर सुबह किरन की लाली
+है रंग तेरे गालों का
+हर शाम की चादर काली
+साया है तेरे बालों का
+हर सुबह किरन की लाली
+है रंग तेरे गालों का
+हर शाम की चादर काली
+साया है तेरे बालों का
+साया है तेरे बालों का
+तू बलखाती एक नदिया
+हर मौज तेरी अंगड़ाई
+जो इन मौजों में डूबा
+उसने ही दुनिया पाई
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+मैं खोज में हूँ मंज़िल की
+और मंज़िल पास है मेरे
+मुखड़े से हटा दो आंचल
+हो जाएँ दूर अंधेरे
+हो जाएं दूर अंधेरे
+माना के ये जलवे तेरे
+कर देंगे मुझे दीवाना
+जी भर के ज़रा मैं देखूँ
+अंदाज़ तेरा मस्ताना
+तारीफ़ करूँ क्या उसकी जिसने तुम्हें बनाया
+ये चांद सा रोशन चेहरा
+ज़ुल्फ़ों का रंग सुनहरा
+ये झील सी नीली आँखें
+कोई राज़ है इनमें गहरा
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+तारीफ़ करूँ क्या उसकी
+जिसने तुम्हें बनाया
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>377</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Aane Se Uske Aaye Bahar]]></title>
+			<description><![CDATA[आने से उसके आए बाहर
+जाने से उसके जाए बाहर
+बड़ी मस्तानी है मेरी महबूबा
+मेरी ज़िंदगानी है मेरी महबूबा
+आने से उसके आए बाहर
+जाने से उसके जाए बाहर
+बड़ी मस्तानी है मेरी महबूबा
+मेरी ज़िंदगानी है मेरी महबूबा
+गुनगुनाए ऐसे
+जैसे बजते हो घुँघरू कहीं पे
+आके परबतों से
+जैसे गिरता हो झरना ज़मीं पे
+झरनों की मौज है वो
+मौजों की रवानी है
+मेरी मेहबूबा मेहबूबा
+मेरी ज़िन्दगानी है
+मेरी मेहबूबा
+बन संवर के निकले
+आए सावन का जब जब महीना
+हर कोई ये समझे
+होगी वो कोई चंचल हसीना
+पूछो तो कौन है वो
+रुत ये सुहानी है
+मेरी मेहबूबा
+मेरी ज़िन्दगानी है
+मेरी मेहबूबा मेहबूबा
+बड़ी मस्तानी है मेरी महबूबा
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Aane-Se-Uske-Aaye-Bahar-ec889n</link>
+			<guid isPermaLink="false">91e8169b-da16-4c84-b7e4-27d8cde33b27</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 14:55:43 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11853559/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F9f9eab885041c038080bcb1910ec19d0.m4a" length="3926812" type="audio/x-m4a"/>
+			<itunes:summary>आने से उसके आए बाहर
+जाने से उसके जाए बाहर
+बड़ी मस्तानी है मेरी महबूबा
+मेरी ज़िंदगानी है मेरी महबूबा
+आने से उसके आए बाहर
+जाने से उसके जाए बाहर
+बड़ी मस्तानी है मेरी महबूबा
+मेरी ज़िंदगानी है मेरी महबूबा
+गुनगुनाए ऐसे
+जैसे बजते हो घुँघरू कहीं पे
+आके परबतों से
+जैसे गिरता हो झरना ज़मीं पे
+झरनों की मौज है वो
+मौजों की रवानी है
+मेरी मेहबूबा मेहबूबा
+मेरी ज़िन्दगानी है
+मेरी मेहबूबा
+बन संवर के निकले
+आए सावन का जब जब महीना
+हर कोई ये समझे
+होगी वो कोई चंचल हसीना
+पूछो तो कौन है वो
+रुत ये सुहानी है
+मेरी मेहबूबा
+मेरी ज़िन्दगानी है
+मेरी मेहबूबा मेहबूबा
+बड़ी मस्तानी है मेरी महबूबा
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>242</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Raat Kali Ek Khawab Mein Aayi]]></title>
+			<description><![CDATA[रात कली एक ख्वाब में आई, और गले का हार हुई
+रात कली एक ख्वाब में आई, और गले का हार हुई
+सुबोह को जब हम नींद से जागे, आँख तुम्ही से चार हुई
+रात कली एक ख्वाब में आई, और गले का हार हुई
+चाहे कहो इसे, मेरी मोहब्बत, चाहे हँसीं में उड़ा दो
+ये क्या हुआ मुझे, मुझको खबर नहीं, हो सके, तुम ही बता दो
+चाहे कहो इसे, मेरी मोहब्बत, चाहे हँसीं में उड़ा दो
+ये क्या हुआ मुझे, मुझको खबर नहीं, हो सके, तुम ही बता दो
+तुमने कदम तो, रखा ज़मीं पर, सीने में क्यों झंकार हुई
+रात कली एक ख्वाब में आई और गले का हार हुई
+आँखों में काजल और लटों में, काली घटा का बसेरा
+साँवली सूरत, मोहनी मूरत, सावन रुत का सवेरा
+आँखों में काजल और लटोंमें, काली घटा का बसेरा
+साँवली सूरत, मोहनी मूरत, सावन रुत का सवेरा
+जबसे ये मुखड़ा, दिल मे खिला है, दुनिया मेरी गुलज़ार हुई
+रात कली एक ख्वाब में आई और गले का हार हुई
+यूँ तो हसीनों के, माहजबीनों के, होते हैं रोज़ नज़ारे
+पर उन्हें देख के, देखा है जब तुम्हें, तुम लगे और भी प्यारे
+यूँ तो हसीनों के, माहजबीनों के, होते हैं रोज़ नज़ारे
+पर उन्हें देख के, देखा है जब तुम्हें, तुम लगे और भी प्यारे
+बाहों में ले लूँ, ऐसी तमन्ना, एक नहीं, कई बार हुई
+रात कली एक ख्वाब में आई, और गले का हार हुई
+सुबोह को जब हम नींद से जागे, आँख तुम्ही से चार हुई
+रात कली एक ख्वाब में आई, और गले का हार हुई
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Raat-Kali-Ek-Khawab-Mein-Aayi-ec885v</link>
+			<guid isPermaLink="false">c3b79cb3-a4ff-4e61-a7e1-be4f2ea13aed</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 14:52:29 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11853439/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F13a751ecc5e993b2d0f39776fb9250ef.m4a" length="4828438" type="audio/x-m4a"/>
+			<itunes:summary>रात कली एक ख्वाब में आई, और गले का हार हुई
+रात कली एक ख्वाब में आई, और गले का हार हुई
+सुबोह को जब हम नींद से जागे, आँख तुम्ही से चार हुई
+रात कली एक ख्वाब में आई, और गले का हार हुई
+चाहे कहो इसे, मेरी मोहब्बत, चाहे हँसीं में उड़ा दो
+ये क्या हुआ मुझे, मुझको खबर नहीं, हो सके, तुम ही बता दो
+चाहे कहो इसे, मेरी मोहब्बत, चाहे हँसीं में उड़ा दो
+ये क्या हुआ मुझे, मुझको खबर नहीं, हो सके, तुम ही बता दो
+तुमने कदम तो, रखा ज़मीं पर, सीने में क्यों झंकार हुई
+रात कली एक ख्वाब में आई और गले का हार हुई
+आँखों में काजल और लटों में, काली घटा का बसेरा
+साँवली सूरत, मोहनी मूरत, सावन रुत का सवेरा
+आँखों में काजल और लटोंमें, काली घटा का बसेरा
+साँवली सूरत, मोहनी मूरत, सावन रुत का सवेरा
+जबसे ये मुखड़ा, दिल मे खिला है, दुनिया मेरी गुलज़ार हुई
+रात कली एक ख्वाब में आई और गले का हार हुई
+यूँ तो हसीनों के, माहजबीनों के, होते हैं रोज़ नज़ारे
+पर उन्हें देख के, देखा है जब तुम्हें, तुम लगे और भी प्यारे
+यूँ तो हसीनों के, माहजबीनों के, होते हैं रोज़ नज़ारे
+पर उन्हें देख के, देखा है जब तुम्हें, तुम लगे और भी प्यारे
+बाहों में ले लूँ, ऐसी तमन्ना, एक नहीं, कई बार हुई
+रात कली एक ख्वाब में आई, और गले का हार हुई
+सुबोह को जब हम नींद से जागे, आँख तुम्ही से चार हुई
+रात कली एक ख्वाब में आई, और गले का हार हुई
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>298</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Chahoonga Main Tujhe]]></title>
+			<description><![CDATA[Chahunga mai tujhe sanjh sawere
+Phir bhee kabhee abb nam ko tere, aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Phir bhee kabhee abb nam ko tere, aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Dekh mujhe sab hai pata, sunta hai too mann kee sada
+Dekh mujhe sab hai pata, sunta hai too mann kee sada
+Mitwa mere yar, tujhko bar bar aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Phir bhee kabhee abb nam ko tere, aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Dard bhee too, chain bhee too
+Daras bhee too, nain bhee too
+Dard bhee too, chain bhee too
+Daras bhee too, nain bhee too
+Mitwa mere yar tujhko bar bar aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Phir bhee kabhee abb nam ko tere, aawaj mai naa dunga
+Aawaj mai naa dunga
+Aawaj mai naa dunga
+Aawaj mai naa dunga
+Aawaj mai naa dunga
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Chahoonga-Main-Tujhe-ec883n</link>
+			<guid isPermaLink="false">ab018b2c-1232-4cfb-b473-673e3f82afbb</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 14:50:35 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11853367/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F39d583b470b38f6c09b0e47b1832ca0f.m4a" length="5268356" type="audio/x-m4a"/>
+			<itunes:summary>Chahunga mai tujhe sanjh sawere
+Phir bhee kabhee abb nam ko tere, aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Phir bhee kabhee abb nam ko tere, aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Dekh mujhe sab hai pata, sunta hai too mann kee sada
+Dekh mujhe sab hai pata, sunta hai too mann kee sada
+Mitwa mere yar, tujhko bar bar aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Phir bhee kabhee abb nam ko tere, aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Dard bhee too, chain bhee too
+Daras bhee too, nain bhee too
+Dard bhee too, chain bhee too
+Daras bhee too, nain bhee too
+Mitwa mere yar tujhko bar bar aawaj mai naa dunga
+Aawaj mai naa dunga
+Chahunga mai tujhe sanjh sawere
+Phir bhee kabhee abb nam ko tere, aawaj mai naa dunga
+Aawaj mai naa dunga
+Aawaj mai naa dunga
+Aawaj mai naa dunga
+Aawaj mai naa dunga
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>325</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Chaudhvin Ka Chand Ho]]></title>
+			<description><![CDATA[Chaudhvin ka chaand ho, yaa aafataab ho
+Jo bhi ho tum khudaa ki kasam, laajavaab ho
+Chaudhvin ka chaand ho, yaa aafataab ho
+Jo bhi ho tum khudaa ki kasam, laajavaab ho
+Chaudhvin ka chaand ho
+Zulfe hai jaise kaandhe pe baadal jhuke hue
+Aankhe hai jaise may ke payaale bhare hue
+Masti hai jisame pyaar ki tum, woh sharaab ho
+Chaudhvin ka chaand ho
+Cheharaa hai jaise jhil me khilataa huaa kaval
+Yaa zindagi ke saaj pe chhedi hui gazal
+Jaane bahaar tum kisi shaayar kaa khwaab ho
+Chaudhvin ka chaand ho
+Hotho pe khelati hai tabassum ki bijaliyaan
+Sajde tumhaari raah me karti hai kaikashaan
+Duniyaa-e-husn-o-ishq kaa tum hi shabaab ho
+Chaudhvin ka chaand ho, yaa aafataab ho
+Jo bhi ho tum khudaa ki kasam, laajavaab ho
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Chaudhvin-Ka-Chand-Ho-ec87tq</link>
+			<guid isPermaLink="false">be278c32-30cf-4349-ab66-072d645b2708</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 14:45:41 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11853178/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F5d6e49afd482e35ba5c63227dea34864.m4a" length="5129616" type="audio/x-m4a"/>
+			<itunes:summary>Chaudhvin ka chaand ho, yaa aafataab ho
+Jo bhi ho tum khudaa ki kasam, laajavaab ho
+Chaudhvin ka chaand ho, yaa aafataab ho
+Jo bhi ho tum khudaa ki kasam, laajavaab ho
+Chaudhvin ka chaand ho
+Zulfe hai jaise kaandhe pe baadal jhuke hue
+Aankhe hai jaise may ke payaale bhare hue
+Masti hai jisame pyaar ki tum, woh sharaab ho
+Chaudhvin ka chaand ho
+Cheharaa hai jaise jhil me khilataa huaa kaval
+Yaa zindagi ke saaj pe chhedi hui gazal
+Jaane bahaar tum kisi shaayar kaa khwaab ho
+Chaudhvin ka chaand ho
+Hotho pe khelati hai tabassum ki bijaliyaan
+Sajde tumhaari raah me karti hai kaikashaan
+Duniyaa-e-husn-o-ishq kaa tum hi shabaab ho
+Chaudhvin ka chaand ho, yaa aafataab ho
+Jo bhi ho tum khudaa ki kasam, laajavaab ho
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>317</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ajeeb Dastan Hai Yeh]]></title>
+			<description><![CDATA[अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+ये रोशनी के साथ क्यों
+धुआँ उठा चिराग से
+ये रोशनी के साथ क्यों
+धुआँ उठा चिराग से
+ये ख़्वाब देखती हूँ मैं
+के जग पड़ी हूँ ख़्वाब से
+अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+मुबारकें तुम्हें के तुम
+किसीके नूर हो गए
+मुबारकें तुम्हें के तुम
+किसीके नूर हो गए
+किसीके इतने पास हो
+के सबसे दूर हो गए
+अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+किसीका प्यार लेके तुम
+नया जहाँ बसाओगे
+किसीका प्यार लेके तुम
+नया जहाँ बसाओगे
+ये शाम जब भी आएगी
+तुम हमको याद आओगे
+अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ajeeb-Dastan-Hai-Yeh-ec87s8</link>
+			<guid isPermaLink="false">b4f15229-e8ae-49f9-89dc-c2c0af68401a</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 14:44:04 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11853128/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F0d90f77008ee49c267a34c37fcf56233.m4a" length="4865238" type="audio/x-m4a"/>
+			<itunes:summary>अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+ये रोशनी के साथ क्यों
+धुआँ उठा चिराग से
+ये रोशनी के साथ क्यों
+धुआँ उठा चिराग से
+ये ख़्वाब देखती हूँ मैं
+के जग पड़ी हूँ ख़्वाब से
+अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+मुबारकें तुम्हें के तुम
+किसीके नूर हो गए
+मुबारकें तुम्हें के तुम
+किसीके नूर हो गए
+किसीके इतने पास हो
+के सबसे दूर हो गए
+अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+किसीका प्यार लेके तुम
+नया जहाँ बसाओगे
+किसीका प्यार लेके तुम
+नया जहाँ बसाओगे
+ये शाम जब भी आएगी
+तुम हमको याद आओगे
+अजीब दास्तां है ये
+कहाँ शुरू कहाँ खतम
+ये मंज़िलें है कौन सी
+न वो समझ सके न हम
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>300</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Kabhi Kabhi Mere Dil Mein]]></title>
+			<description><![CDATA[Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Ke Jaise Tujhko Banaya Gaya Hai Mere Liye
+Ke Jaise Tujhko Banaya Gaya Hai Mere Liye
+Tu Ab Se Pahle Sitaro Me Bas Rahi Thi Kahi
+Tu Ab Se Pahle Sitaro Me Bas Rahi Thi Kahi
+Tujhe Zami Pe Bulaya Gaya Hai Mere Liye
+Tujhe Zami Pe Bulaya Gaya Hai Mere Liye
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Ke Ye Badan Ye Nigahe Meri Amanat Hai
+Ke Ye Badan Ye Nigahe Meri Amanat Hai
+Ye Gesuo Ki Ghani Chhao Hai Meri Khatir
+Ye Hoth Aur Ye Bahe Meri Amanat Hai
+Ye Hoth Aur Ye Bahe Meri Amanat Hai
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Ke Jaise Bajati Hai Shahnaiya Si Raho Me
+Ke Jaise Bajati Hai Shahnaiya Si Raho Me
+Suhag Rat Hai Ghunghat Utha Raha Hu Mai
+Suhag Rat Hai Ghunghat Utha Raha Hu Mai
+Simat Rahi Hai Tu Sharama Ke Apni Baho Me
+Simat Rahi Hai Tu Sharama Ke Apni Baho Me
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Ke Jaise Tu Mujhe Chahegi Umar Bhar Yu Hi
+Uthegi Meri Taraf Pyar Ki Nazar Yu Hi
+Mai Janata Hu Ke Tu Gair Hai Magar Yuhi
+Mai Janata Hu Ke Tu Gair Hai Magar Yuhi
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Kabhi-Kabhi-Mere-Dil-Mein-ec87p6</link>
+			<guid isPermaLink="false">b098fc3f-6c8c-4ebd-bda2-33b0d813d8ac</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 14:41:06 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11853030/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2Fdb62b1f1455488726b43e34b7b8cbbf8.m4a" length="1818297" type="audio/x-m4a"/>
+			<itunes:summary>Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Ke Jaise Tujhko Banaya Gaya Hai Mere Liye
+Ke Jaise Tujhko Banaya Gaya Hai Mere Liye
+Tu Ab Se Pahle Sitaro Me Bas Rahi Thi Kahi
+Tu Ab Se Pahle Sitaro Me Bas Rahi Thi Kahi
+Tujhe Zami Pe Bulaya Gaya Hai Mere Liye
+Tujhe Zami Pe Bulaya Gaya Hai Mere Liye
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Ke Ye Badan Ye Nigahe Meri Amanat Hai
+Ke Ye Badan Ye Nigahe Meri Amanat Hai
+Ye Gesuo Ki Ghani Chhao Hai Meri Khatir
+Ye Hoth Aur Ye Bahe Meri Amanat Hai
+Ye Hoth Aur Ye Bahe Meri Amanat Hai
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Ke Jaise Bajati Hai Shahnaiya Si Raho Me
+Ke Jaise Bajati Hai Shahnaiya Si Raho Me
+Suhag Rat Hai Ghunghat Utha Raha Hu Mai
+Suhag Rat Hai Ghunghat Utha Raha Hu Mai
+Simat Rahi Hai Tu Sharama Ke Apni Baho Me
+Simat Rahi Hai Tu Sharama Ke Apni Baho Me
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Ke Jaise Tu Mujhe Chahegi Umar Bhar Yu Hi
+Uthegi Meri Taraf Pyar Ki Nazar Yu Hi
+Mai Janata Hu Ke Tu Gair Hai Magar Yuhi
+Mai Janata Hu Ke Tu Gair Hai Magar Yuhi
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+Kabhi Kabhi Mere Dil Me, Khayal Aata Hai
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>112</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Lag Jaa Gale]]></title>
+			<description><![CDATA[हसीं रात
+लग जा गले कि फिर
+ये हसीं रात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले कि फिर
+ये हसीं रात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले
+हमको मिली हैं आज ये
+घड़ियाँ नसीब से
+हमको मिली हैं आज ये
+घड़ियाँ नसीब से
+जी भर के देख लीजिये
+हमको क़रीब से
+फिर आपके नसीब में
+ये बात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले
+पास आइये कि
+हम नहीं आएंगे बार-बार
+पास आइये कि
+हम नहीं आएंगे बार-बार
+बाहें गले में डाल के
+हम रो लें ज़ार-ज़ार
+आँखों से फिर ये प्यार कि
+बरसात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले कि फिर ये
+हसीं रात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Lag-Jaa-Gale-ec87mu</link>
+			<guid isPermaLink="false">297b1148-2995-443d-908b-06b44d73ecee</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 14:38:36 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11852958/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F828e356d9d1dfbbf9d66223ed03c9896.m4a" length="4698132" type="audio/x-m4a"/>
+			<itunes:summary>हसीं रात
+लग जा गले कि फिर
+ये हसीं रात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले कि फिर
+ये हसीं रात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले
+हमको मिली हैं आज ये
+घड़ियाँ नसीब से
+हमको मिली हैं आज ये
+घड़ियाँ नसीब से
+जी भर के देख लीजिये
+हमको क़रीब से
+फिर आपके नसीब में
+ये बात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले
+पास आइये कि
+हम नहीं आएंगे बार-बार
+पास आइये कि
+हम नहीं आएंगे बार-बार
+बाहें गले में डाल के
+हम रो लें ज़ार-ज़ार
+आँखों से फिर ये प्यार कि
+बरसात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले कि फिर ये
+हसीं रात हो न हो
+शायद फिर इस जनम में
+मुलाक़ात हो न हो
+लग जा गले
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>290</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ek Kahani Aisi Bhi: Dumas Beach]]></title>
+			<description><![CDATA[Ek Kahaani Aisi Bhi is an internationally acclaimed series of spine chilling original ghost stories. The stories are so impactful and real that one can visualise the incidents happening in front of their eyes thanks to the extremely powerful narration by RJ Praveen and the sound effects and background score used. List of acclaims- New York Festival award for Best Innovation in 2015 & 2016, New York Festival finalist for Best Narration & ACEF Award for Creativity.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ek-Kahani-Aisi-Bhi-Dumas-Beach-ec8382</link>
+			<guid isPermaLink="false">a4692830-dcb7-4b94-8b3f-e155d018d7a6</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 11:59:40 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11848386/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2Fd07be533ac0dcab89818161f91e8cfde.m4a" length="13653972" type="audio/x-m4a"/>
+			<itunes:summary>Ek Kahaani Aisi Bhi is an internationally acclaimed series of spine chilling original ghost stories. The stories are so impactful and real that one can visualise the incidents happening in front of their eyes thanks to the extremely powerful narration by RJ Praveen and the sound effects and background score used. List of acclaims- New York Festival award for Best Innovation in 2015 &amp; 2016, New York Festival finalist for Best Narration &amp; ACEF Award for Creativity.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>844</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ek Kahani Aisi Bhi: IIT Ritesh]]></title>
+			<description><![CDATA[Ek Kahaani Aisi Bhi is an internationally acclaimed series of spine chilling original ghost stories. The stories are so impactful and real that one can visualise the incidents happening in front of their eyes thanks to the extremely powerful narration by RJ Praveen and the sound effects and background score used. List of acclaims- New York Festival award for Best Innovation in 2015 & 2016, New York Festival finalist for Best Narration & ACEF Award for Creativity.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ek-Kahani-Aisi-Bhi-IIT-Ritesh-ec835t</link>
+			<guid isPermaLink="false">34720d90-2ebc-4378-ab5e-4e532c464a44</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 11:57:33 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11848317/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F1826dd2c773eaffe2ce9f97830c81b75.m4a" length="10869864" type="audio/x-m4a"/>
+			<itunes:summary>Ek Kahaani Aisi Bhi is an internationally acclaimed series of spine chilling original ghost stories. The stories are so impactful and real that one can visualise the incidents happening in front of their eyes thanks to the extremely powerful narration by RJ Praveen and the sound effects and background score used. List of acclaims- New York Festival award for Best Innovation in 2015 &amp; 2016, New York Festival finalist for Best Narration &amp; ACEF Award for Creativity.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>672</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ek Kahani Aisi Bhi: Kabristan]]></title>
+			<description><![CDATA[Ek Kahaani Aisi Bhi is an internationally acclaimed series of spine chilling original ghost stories. The stories are so impactful and real that one can visualise the incidents happening in front of their eyes thanks to the extremely powerful narration by RJ Praveen and the sound effects and background score used. List of acclaims- New York Festival award for Best Innovation in 2015 & 2016, New York Festival finalist for Best Narration & ACEF Award for Creativity.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ek-Kahani-Aisi-Bhi-Kabristan-ec833k</link>
+			<guid isPermaLink="false">1056bf25-17b6-4d41-bfb6-9d24ee4e5947</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 11:55:05 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11848244/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F97e7deb4b1a943b04023b64c28a77479.m4a" length="13607783" type="audio/x-m4a"/>
+			<itunes:summary>Ek Kahaani Aisi Bhi is an internationally acclaimed series of spine chilling original ghost stories. The stories are so impactful and real that one can visualise the incidents happening in front of their eyes thanks to the extremely powerful narration by RJ Praveen and the sound effects and background score used. List of acclaims- New York Festival award for Best Innovation in 2015 &amp; 2016, New York Festival finalist for Best Narration &amp; ACEF Award for Creativity.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>841</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ek Kahani Aisi Bhi: Andaman Jail]]></title>
+			<description><![CDATA[Ek Kahaani Aisi Bhi is an internationally acclaimed series of spine chilling original ghost stories. The stories are so impactful and real that one can visualise the incidents happening in front of their eyes thanks to the extremely powerful narration by RJ Praveen and the sound effects and background score used. List of acclaims- New York Festival award for Best Innovation in 2015 & 2016, New York Festival finalist for Best Narration & ACEF Award for Creativity.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ek-Kahani-Aisi-Bhi-Andaman-Jail-ec831o</link>
+			<guid isPermaLink="false">59ccc4e1-b9f4-4efd-a705-72b0532fbb00</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 11:52:50 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11848184/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2Fb347644baf4733a2328317654bf98351.m4a" length="12900280" type="audio/x-m4a"/>
+			<itunes:summary>Ek Kahaani Aisi Bhi is an internationally acclaimed series of spine chilling original ghost stories. The stories are so impactful and real that one can visualise the incidents happening in front of their eyes thanks to the extremely powerful narration by RJ Praveen and the sound effects and background score used. List of acclaims- New York Festival award for Best Innovation in 2015 &amp; 2016, New York Festival finalist for Best Narration &amp; ACEF Award for Creativity.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>797</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Grand Episode]]></title>
+			<description><![CDATA[This Is A Grand Episode, You would love it
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Grand-Episode-ec7t0d</link>
+			<guid isPermaLink="false">917c96c5-2a16-41f4-8eb5-1c9140e50927</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 06:22:19 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11841997/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2Fd42bece5f203902c18444750a08fa050.m4a" length="162686607" type="audio/x-m4a"/>
+			<itunes:summary>This Is A Grand Episode, You would love it
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>10059</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Chand Mera Dil]]></title>
+			<description><![CDATA[चाँद मेरा दिल चांदनी हो तुम
+चाँद से है दूर चांदनी कहाँ
+लौट के आना है यहीं तुमको
+जा रहे हो तुम जाओ मेरी जान
+वैसे तो हर कदम मिलेंगे लोग सनम
+मिलेगा सच्चा प्यार मुश्किल से
+हो दिल की दोस्ती खेल नहीं कोई
+दिल से दिल है मिलता यार मुश्किल से
+यही तो है सनम, प्यार का ठिकाना
+मैं हूँ मैं हूँ मैं हूँ
+चाँद मेरा दिल चांदनी हो तुम .रु .रु .
+चाँद से है दूर चांदनी कहाँ.रु .रु .
+लौट के आना है यहीं तुमको.रु .रु .
+जा रहे हो तुम जाओ मेरी जान
+जाओ मेरी जान जाओ मेरी
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Chand-Mera-Dil-ec7svu</link>
+			<guid isPermaLink="false">eeeedbf3-80c7-4049-9a26-bcb4742efc27</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 06:16:56 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11841982/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2Fa0e8275a05f681eb3be068b8e9168e86.m4a" length="9363600" type="audio/x-m4a"/>
+			<itunes:summary>चाँद मेरा दिल चांदनी हो तुम
+चाँद से है दूर चांदनी कहाँ
+लौट के आना है यहीं तुमको
+जा रहे हो तुम जाओ मेरी जान
+वैसे तो हर कदम मिलेंगे लोग सनम
+मिलेगा सच्चा प्यार मुश्किल से
+हो दिल की दोस्ती खेल नहीं कोई
+दिल से दिल है मिलता यार मुश्किल से
+यही तो है सनम, प्यार का ठिकाना
+मैं हूँ मैं हूँ मैं हूँ
+चाँद मेरा दिल चांदनी हो तुम .रु .रु .
+चाँद से है दूर चांदनी कहाँ.रु .रु .
+लौट के आना है यहीं तुमको.रु .रु .
+जा रहे हो तुम जाओ मेरी जान
+जाओ मेरी जान जाओ मेरी
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>578</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Baharon Phool Barsao]]></title>
+			<description><![CDATA[Bahaaron phool barasaao,
+Meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Hawaao raaganee gaao,
+Meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+O laalee phool kee mehandee lagaa in gore haathon mein
+Utar aa aye ghataa kaajal lagaa in pyaaree aankhon mein
+Sitaaro maang bhar jaao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Bahaaron phool barasaao,
+Meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Nazaaro har taraf ab taan do ek noor kee chaadar
+Badaa sharmilaa dilabar hai, chalaa jaaye naa sharamaa kar
+Zaraa tum dil ko bahalaao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Bahaaron phool barasaao,
+Meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Sajaayi hai jawaan kaliyon ne ab yeh sej ulfat ki
+Inhe maaloom tha aayegi ek din rut mohabbat ki
+Fizaaon rang bikhraao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Hawaaon raagini gaao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Bahaaron phool barsaao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Baharon-Phool-Barsao-ec7sqj</link>
+			<guid isPermaLink="false">5cf3368f-24d4-48ec-b671-e79cbd014483</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 06:07:32 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11841811/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F57129b104f2da941dddd89c48732f1b9.m4a" length="4879884" type="audio/x-m4a"/>
+			<itunes:summary>Bahaaron phool barasaao,
+Meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Hawaao raaganee gaao,
+Meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+O laalee phool kee mehandee lagaa in gore haathon mein
+Utar aa aye ghataa kaajal lagaa in pyaaree aankhon mein
+Sitaaro maang bhar jaao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Bahaaron phool barasaao,
+Meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Nazaaro har taraf ab taan do ek noor kee chaadar
+Badaa sharmilaa dilabar hai, chalaa jaaye naa sharamaa kar
+Zaraa tum dil ko bahalaao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Bahaaron phool barasaao,
+Meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Sajaayi hai jawaan kaliyon ne ab yeh sej ulfat ki
+Inhe maaloom tha aayegi ek din rut mohabbat ki
+Fizaaon rang bikhraao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Hawaaon raagini gaao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+Bahaaron phool barsaao, meraa mehaboob aayaa hai
+Meraa mehaboob aayaa hai
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>301</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Kya hua tera wada]]></title>
+			<description><![CDATA[क्या हुआ तेरा वादा
+वो कसम वो इरादा
+भूलेगा दिल जिस दिन तुम्हें
+वो दिन ज़िन्दगी का
+आखिरी दिन होगा
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+याद है मुझको
+तूने कहा था
+तुमसे नहीं रूठेंगे कभी
+दिल की तरह से
+हाथ मिले हैं
+कैसे भला छूटेंगे कभी
+तेरी बाहों में
+बीती हर शाम
+बेवफा ये भी क्या याद नहीं
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+भूलेगा दिल जिस दिन तुम्हें
+वो दिन ज़िन्दगी का
+आखिरी दिन होगा
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+ओ कहने वाले
+मुझको फरेबी
+कौन फरेबी है ये बता
+वो जिसने गम लिया
+प्यार की खातिर
+या जिसने प्यार को बेच दिया
+नशा दौलत का
+ऐसा भी क्या
+के तुझे कुछ भी याद नहीं
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+भूलेगा दिल जिस दिन तुम्हें
+वो दिन ज़िन्दगी का
+आखिरी दिन होगा
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+क्या हुआ तेरा वादा
+वो कसम
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Kya-hua-tera-wada-ec7sp1</link>
+			<guid isPermaLink="false">f48ce680-5b95-4636-abce-eda3dab0c7a8</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 06:04:29 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11841761/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F3378be71c9e5c6daa75d3adc8c2a8b5e.m4a" length="5036487" type="audio/x-m4a"/>
+			<itunes:summary>क्या हुआ तेरा वादा
+वो कसम वो इरादा
+भूलेगा दिल जिस दिन तुम्हें
+वो दिन ज़िन्दगी का
+आखिरी दिन होगा
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+याद है मुझको
+तूने कहा था
+तुमसे नहीं रूठेंगे कभी
+दिल की तरह से
+हाथ मिले हैं
+कैसे भला छूटेंगे कभी
+तेरी बाहों में
+बीती हर शाम
+बेवफा ये भी क्या याद नहीं
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+भूलेगा दिल जिस दिन तुम्हें
+वो दिन ज़िन्दगी का
+आखिरी दिन होगा
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+ओ कहने वाले
+मुझको फरेबी
+कौन फरेबी है ये बता
+वो जिसने गम लिया
+प्यार की खातिर
+या जिसने प्यार को बेच दिया
+नशा दौलत का
+ऐसा भी क्या
+के तुझे कुछ भी याद नहीं
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+भूलेगा दिल जिस दिन तुम्हें
+वो दिन ज़िन्दगी का
+आखिरी दिन होगा
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+क्या हुआ तेरा वादा
+वो कसम वो इरादा
+क्या हुआ तेरा वादा
+वो कसम
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>311</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Likhe Jo Khat Tujhe]]></title>
+			<description><![CDATA[लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+सवेरा जब हुआ, तो फूल बन गए
+जो रात आयी तो सितारें बन गए
+लिखे जो ख़त तुझे
+कोई नगमा कही गूंजा
+कहा दिल ने ये तू आयी
+कही चटकी कली कोई
+मैं ये समझा तू शरमाई
+कोई खुशबू कही बिखरी
+लगा ये जुल्फ लहराई
+लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+सवेरा जब हुआ, तो फूल बन गए
+जो रात आयी तो सितारें बन गए
+लिखे जो ख़त तुझे
+फिजा रंगीन अदा रंगीन
+ये इठालाना, ये शरमाना
+ये अंगड़ाई, ये तनहाई
+ये तरसाकर चले जाना
+बना देगा नहीं किस को
+जवां जादू ये दीवाना
+लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+सवेरा जब हुआ, तो फूल बन गए
+जो रात आयी तो सितारें बन गए
+लिखे जो ख़त तुझे
+जहा तू हैं, वहा मैं हूँ
+मेरे दिल की तू धड़कन हैं
+मुसाफिर मैं तू मंजिल हैं
+मैं प्यासा हूँ, तू सावन हैं
+मेरी दुनिया ये नजरें हैं
+मेरी जन्नत ये दामन हैं
+लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+सवेरा जब हुआ तो फूल बन गए
+जो रात आयी तो सितारें बन गए
+लिखे जो ख़त तुझे
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Likhe-Jo-Khat-Tujhe-ec7sju</link>
+			<guid isPermaLink="false">04071d7b-e849-4b2f-a5d5-a0b4c5fb2f72</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 05:58:36 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11841598/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F3409f05620f462a97b1d45a843965384.m4a" length="5260285" type="audio/x-m4a"/>
+			<itunes:summary>लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+सवेरा जब हुआ, तो फूल बन गए
+जो रात आयी तो सितारें बन गए
+लिखे जो ख़त तुझे
+कोई नगमा कही गूंजा
+कहा दिल ने ये तू आयी
+कही चटकी कली कोई
+मैं ये समझा तू शरमाई
+कोई खुशबू कही बिखरी
+लगा ये जुल्फ लहराई
+लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+सवेरा जब हुआ, तो फूल बन गए
+जो रात आयी तो सितारें बन गए
+लिखे जो ख़त तुझे
+फिजा रंगीन अदा रंगीन
+ये इठालाना, ये शरमाना
+ये अंगड़ाई, ये तनहाई
+ये तरसाकर चले जाना
+बना देगा नहीं किस को
+जवां जादू ये दीवाना
+लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+सवेरा जब हुआ, तो फूल बन गए
+जो रात आयी तो सितारें बन गए
+लिखे जो ख़त तुझे
+जहा तू हैं, वहा मैं हूँ
+मेरे दिल की तू धड़कन हैं
+मुसाफिर मैं तू मंजिल हैं
+मैं प्यासा हूँ, तू सावन हैं
+मेरी दुनिया ये नजरें हैं
+मेरी जन्नत ये दामन हैं
+लिखे जो ख़त तुझे वो तेरी याद में
+हजारो रंग के नजारे बन गए
+सवेरा जब हुआ तो फूल बन गए
+जो रात आयी तो सितारें बन गए
+लिखे जो ख़त तुझे
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>325</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[AIB Podcast: feat. Irrfan Khan]]></title>
+			<description><![CDATA[Here we have the legends, Let's talk to them and learn something
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/AIB-Podcast-feat--Irrfan-Khan-ec7shm</link>
+			<guid isPermaLink="false">66ecc314-ae9f-476a-b529-b39d7618a3ef</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 01 Apr 2020 05:52:21 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11841526/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-01%2F0d931c6d30bb45664d93c56e58003853.m4a" length="8858230" type="audio/x-m4a"/>
+			<itunes:summary>Here we have the legends, Let&apos;s talk to them and learn something
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>547</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[AIB Podcast: feat. Ranbir Kapoor]]></title>
+			<description><![CDATA[We are back with another podcast, this time with Ranbir Kapoor!
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/AIB-Podcast-feat--Ranbir-Kapoor-ec6e9k</link>
+			<guid isPermaLink="false">4c094db3-d4c8-4f20-9e24-95394adacf96</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Tue, 31 Mar 2020 06:31:18 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11794164/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-31%2F250e8cb02901669984fee65e9b2e6e74.m4a" length="44442741" type="audio/x-m4a"/>
+			<itunes:summary>We are back with another podcast, this time with Ranbir Kapoor!
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>2747</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ek Pyar Ka Nagma Hai]]></title>
+			<description><![CDATA[Mmmm... Hmm.Hmmmm.Mmmmmmm
+Mmmmm.Mmmmm.Mmmmmmm.Mmmm (With Violin Playing)
+Ek Pyaar Kaa Nagmaa Hai Maujon Ki Ravaani Hai
+Ek Pyaar Kaa Nagmaa Hai Maujon Ki Ravaani Hai
+Zindagi Aur Kuch Bhi Nahi Teri Meri Kahaani Hai
+Ek Pyaar Kaa Nagmaa Hai Maujon Ki Ravaani Hai
+Zindagi Aur Kuch Bhi Nahi Teri Meri Kahaani Hai
+Ek Pyaar Kaa Nagmaa Hai...
+Laa.Laa.Laaa.Laaaaaa
+Kuch Paakar Khona Hai Kuch Khokar Paanaa Hai
+Jeevan Ka Matlab Toh Aanaa Aur Jaanaa Hai
+Do Pal Ke Jeevan Se Ek Umr Churaani Hai
+Zindagi Aur Kuchh Bhi Nahi Teri Meri Kahaani Hai
+Ek Pyaar Ka Nagmaa Hai
+Tu Dhaar Hai Nadiyaa Ki Main Tera Kinaraa Hoon
+Tu Mera Saharaa Hai Main Tera Saharaa Hoon
+Aankhon Mein Samandar Hai Aashaaon Ka Paani Hai
+Zindagi Aur Kuch Bhi Nahin Teri Meri Kahaani Hai
+Ek Pyaar Kaa Nagmaa Hai
+Toofaan To Aanaa Hai Aakar Chale Jaanaa Hai
+Baadal Hai Ye Kuch Pal Kaa Chaakar Dhal Jaanaa Hai
+Parchaaiyaan Reh Jaati.Reh Jaati Nishaani Hai
+Zindagi Aur Kuch Bhi Nahin Teri Meri Kahaani Hai
+Ek Pyaar Kaa Nagmaa Hai
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ek-Pyar-Ka-Nagma-Hai-ec4pvi</link>
+			<guid isPermaLink="false">aad83a8c-e196-4c6c-9155-3777b8e303d9</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Mon, 30 Mar 2020 06:51:40 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11740594/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-30%2F7e29ada7053fb856907e04d385d53fdb.m4a" length="6808583" type="audio/x-m4a"/>
+			<itunes:summary>Mmmm... Hmm.Hmmmm.Mmmmmmm
+Mmmmm.Mmmmm.Mmmmmmm.Mmmm (With Violin Playing)
+Ek Pyaar Kaa Nagmaa Hai Maujon Ki Ravaani Hai
+Ek Pyaar Kaa Nagmaa Hai Maujon Ki Ravaani Hai
+Zindagi Aur Kuch Bhi Nahi Teri Meri Kahaani Hai
+Ek Pyaar Kaa Nagmaa Hai Maujon Ki Ravaani Hai
+Zindagi Aur Kuch Bhi Nahi Teri Meri Kahaani Hai
+Ek Pyaar Kaa Nagmaa Hai...
+Laa.Laa.Laaa.Laaaaaa
+Kuch Paakar Khona Hai Kuch Khokar Paanaa Hai
+Jeevan Ka Matlab Toh Aanaa Aur Jaanaa Hai
+Do Pal Ke Jeevan Se Ek Umr Churaani Hai
+Zindagi Aur Kuchh Bhi Nahi Teri Meri Kahaani Hai
+Ek Pyaar Ka Nagmaa Hai
+Tu Dhaar Hai Nadiyaa Ki Main Tera Kinaraa Hoon
+Tu Mera Saharaa Hai Main Tera Saharaa Hoon
+Aankhon Mein Samandar Hai Aashaaon Ka Paani Hai
+Zindagi Aur Kuch Bhi Nahin Teri Meri Kahaani Hai
+Ek Pyaar Kaa Nagmaa Hai
+Toofaan To Aanaa Hai Aakar Chale Jaanaa Hai
+Baadal Hai Ye Kuch Pal Kaa Chaakar Dhal Jaanaa Hai
+Parchaaiyaan Reh Jaati.Reh Jaati Nishaani Hai
+Zindagi Aur Kuch Bhi Nahin Teri Meri Kahaani Hai
+Ek Pyaar Kaa Nagmaa Hai
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>420</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Kahin Door Jab Din Dhal Jaye]]></title>
+			<description><![CDATA[कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+मेरे ख़यालों के आँगन में
+कोई सपनों के दीप जलाए, दीप जलाए
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+कभी यूँहीं, जब हुईं, बोझल साँसें
+भर आई बैठे बैठे, जब यूँ ही आँखें
+कभी यूँहीं, जब हुईं, बोझल साँसें
+भर आई बैठे बैठे, जब यूँ ही आँखें
+तभी मचल के, प्यार से चल के
+छुए कोई मुझे पर नज़र न आए, नज़र न आए
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+कहीं तो ये, दिल कभी, मिल नहीं पाते
+कहीं से निकल आए, जनमों के नाते
+कहीं तो ये, दिल कभी, मिल नहीं पाते
+कहीं से निकल आए, जनमों के नाते
+घनी थी उलझन, बैरी अपना मन
+अपना ही होके सहे दर्द पराये, दर्द पराये
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+(...)
+दिल जाने, मेरे सारे, भेद ये गहरे
+खो गए कैसे मेरे, सपने सुनहरे
+दिल जाने, मेरे सारे, भेद ये गहरे
+खो गए कैसे मेरे, सपने सुनहरे
+ये मेरे सपने, यही तो हैं अपने
+मुझसे जुदा न होंगे इनके ये साये, इनके ये साये
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+मेरे ख़यालों के आँगन में
+कोई सपनों के दीप जलाए, दीप जलाए
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Kahin-Door-Jab-Din-Dhal-Jaye-ec4pn0</link>
+			<guid isPermaLink="false">96e36021-b5fb-42d3-af99-69e436f065a5</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Mon, 30 Mar 2020 06:44:11 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11740320/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-30%2F16b2ee65dc4670e1015e91f6b45cd38d.m4a" length="5356797" type="audio/x-m4a"/>
+			<itunes:summary>कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+मेरे ख़यालों के आँगन में
+कोई सपनों के दीप जलाए, दीप जलाए
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+कभी यूँहीं, जब हुईं, बोझल साँसें
+भर आई बैठे बैठे, जब यूँ ही आँखें
+कभी यूँहीं, जब हुईं, बोझल साँसें
+भर आई बैठे बैठे, जब यूँ ही आँखें
+तभी मचल के, प्यार से चल के
+छुए कोई मुझे पर नज़र न आए, नज़र न आए
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+कहीं तो ये, दिल कभी, मिल नहीं पाते
+कहीं से निकल आए, जनमों के नाते
+कहीं तो ये, दिल कभी, मिल नहीं पाते
+कहीं से निकल आए, जनमों के नाते
+घनी थी उलझन, बैरी अपना मन
+अपना ही होके सहे दर्द पराये, दर्द पराये
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+(...)
+दिल जाने, मेरे सारे, भेद ये गहरे
+खो गए कैसे मेरे, सपने सुनहरे
+दिल जाने, मेरे सारे, भेद ये गहरे
+खो गए कैसे मेरे, सपने सुनहरे
+ये मेरे सपने, यही तो हैं अपने
+मुझसे जुदा न होंगे इनके ये साये, इनके ये साये
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+मेरे ख़यालों के आँगन में
+कोई सपनों के दीप जलाए, दीप जलाए
+कहीं दूर जब दिन ढल जाए
+साँझ की दुल्हन बदन चुराए
+चुपके से आए
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>331</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Hoton Se Choolo]]></title>
+			<description><![CDATA[Hm mm mm mm, hm hm hm hm hm hm hm
+Honton se chhoo lo tum
+Mera geet amar kar do
+Ban jaao meet mere
+Meri preet amar kar do
+Honton se chhoo lo tum
+Mera geet amar kar do
+Na umr ki seema ho
+Na janm ka ho bandhan
+Jab pyaar kare koi
+To dekhe keval mann
+Nayi reet chalaakar tum
+Yeh reet amar kar do
+Aakaash ka soonapan
+Mere tanha mann mein
+Paayal chhankaati tum
+Aa jaao jeevan mein
+Saansein dekar apni
+Sangeet amar kar do
+Sangeet amar kar do
+Mera geet amar kar do
+Jag ne chheena mujhse
+Mujhe jo bhi laga pyaara
+Sab jeeta kiye mujhse
+Main har dam hi haara
+Tum haarke dil apna
+Meri jeet amar kar do
+Honton se chhoo lo tum
+Mera geet amar kar do
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Hoton-Se-Choolo-ec4pl8</link>
+			<guid isPermaLink="false">82978c87-00aa-434b-a2d4-15e0e608378f</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Mon, 30 Mar 2020 06:41:49 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11740264/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-30%2F62a11f4a0efc9b6ea7f75886cbd176b1.m4a" length="4840454" type="audio/x-m4a"/>
+			<itunes:summary>Hm mm mm mm, hm hm hm hm hm hm hm
+Honton se chhoo lo tum
+Mera geet amar kar do
+Ban jaao meet mere
+Meri preet amar kar do
+Honton se chhoo lo tum
+Mera geet amar kar do
+Na umr ki seema ho
+Na janm ka ho bandhan
+Jab pyaar kare koi
+To dekhe keval mann
+Nayi reet chalaakar tum
+Yeh reet amar kar do
+Aakaash ka soonapan
+Mere tanha mann mein
+Paayal chhankaati tum
+Aa jaao jeevan mein
+Saansein dekar apni
+Sangeet amar kar do
+Sangeet amar kar do
+Mera geet amar kar do
+Jag ne chheena mujhse
+Mujhe jo bhi laga pyaara
+Sab jeeta kiye mujhse
+Main har dam hi haara
+Tum haarke dil apna
+Meri jeet amar kar do
+Honton se chhoo lo tum
+Mera geet amar kar do
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>299</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Din Dhal Jaye]]></title>
+			<description><![CDATA[दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये
+प्यार में जिनके सब जग छोड़ा और हुए बदनाम
+उनके ही हाथों हाल हुआ ये बैठे हैं दिल को थाम
+अपने कभी थे
+अब हैं पराये
+दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये
+ऐसी ही रिम-झिम
+ऐसी फ़ुवारें
+ऐसी ही थी बरसात
+खुद से जुदा और जग से पराये
+हम दोनों थे साथ
+फिर से वो सावन
+अब क्यूँ न आये
+दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये
+दिल के मेरे पास हो इतने
+फिर भी हो कितनी दूर
+तुम मुझ से मैं
+दिल से परेशाँ
+दोनों हैं मजबूर
+ऐसे में किसको कौन मनाये
+दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Din-Dhal-Jaye-ec4pjf</link>
+			<guid isPermaLink="false">491a62d8-41a9-4716-b20f-6b42a38d79d6</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Mon, 30 Mar 2020 06:39:52 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11740207/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-30%2Fdb79028a5d3287efc34c6ada2fb5710e.m4a" length="5613676" type="audio/x-m4a"/>
+			<itunes:summary>दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये
+प्यार में जिनके सब जग छोड़ा और हुए बदनाम
+उनके ही हाथों हाल हुआ ये बैठे हैं दिल को थाम
+अपने कभी थे
+अब हैं पराये
+दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये
+ऐसी ही रिम-झिम
+ऐसी फ़ुवारें
+ऐसी ही थी बरसात
+खुद से जुदा और जग से पराये
+हम दोनों थे साथ
+फिर से वो सावन
+अब क्यूँ न आये
+दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये
+दिल के मेरे पास हो इतने
+फिर भी हो कितनी दूर
+तुम मुझ से मैं
+दिल से परेशाँ
+दोनों हैं मजबूर
+ऐसे में किसको कौन मनाये
+दिन ढल जाये हाय रात ना जाय
+तू तो न आए तेरी याद सताये
+दिन ढल जाये
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>347</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Aao Huzoor Tum Ko]]></title>
+			<description><![CDATA[हमसे रौशन हैं चाँद और तारे
+हमको दामन समझिये ग़ैरत का
+उठ गये हम अगर ज़माने से
+नाम मिट जायेगा मुहब्बत का
+दिल है नाज़ुक कली से फूलों से
+ये न टूटे ख़याल रखियेगा
+और अगर आप से यह टूट गया
+जान-ए-जां इतना ही समझीयेगा
+क्या?
+फिर कोई बाँवरी मुहब्बत की
+अपनी ज़ुल्फ़ें नहीं सँवारेगी
+आरती फिर किसी कन्हैया की
+कोई राधा नहीं उतारेगी
+आओ हुज़ूर तुमको, सितारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+आओ हुज़ूर तुमको, सितारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+आओ हुज़ूर आओ.
+हमराज़ हमख़याल तो हो, हमनज़र बनो
+तय होगा ज़िंदगी का सफ़र, हमसफ़र बनो
+हमराज़ हमख़याल तो हो, हमनज़र बनो
+तय होगा ज़िंदगी का सफ़र, हमसफ़र बनो
+आ हा हा, ओ ओ, हो हो हो,
+आ हा आ हा हा, ओ हो हो
+चाहत के उजले-उजले नज़ारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+आओ हुज़ूर आओ ...
+लिख दो किताब-ए-दिल पे कोई, ऐसी दास्तां
+जिसकी मिसाल दे न सकें, सातों आसमां
+लिख दो किताब-ए-दिल पे कोई, ऐसी दास्तां
+जिसकी मिसाल दे न सकें, सातों आसमां
+आ हा हा, ओ ओ, हो हो हो,
+आ हा आ हा हा, ओ हो हो .
+बाहों में बाहें डाले, हज़ारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+आओ हुज़ूर तुमको, सितारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Aao-Huzoor-Tum-Ko-ec4pbb</link>
+			<guid isPermaLink="false">033ab4b3-0ecf-4749-8380-4628e20eb21c</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Mon, 30 Mar 2020 06:34:24 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11739947/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-30%2Fd0ea4f691d897f498e509d0f8d053b5b.m4a" length="6175087" type="audio/x-m4a"/>
+			<itunes:summary>हमसे रौशन हैं चाँद और तारे
+हमको दामन समझिये ग़ैरत का
+उठ गये हम अगर ज़माने से
+नाम मिट जायेगा मुहब्बत का
+दिल है नाज़ुक कली से फूलों से
+ये न टूटे ख़याल रखियेगा
+और अगर आप से यह टूट गया
+जान-ए-जां इतना ही समझीयेगा
+क्या?
+फिर कोई बाँवरी मुहब्बत की
+अपनी ज़ुल्फ़ें नहीं सँवारेगी
+आरती फिर किसी कन्हैया की
+कोई राधा नहीं उतारेगी
+आओ हुज़ूर तुमको, सितारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+आओ हुज़ूर तुमको, सितारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+आओ हुज़ूर आओ.
+हमराज़ हमख़याल तो हो, हमनज़र बनो
+तय होगा ज़िंदगी का सफ़र, हमसफ़र बनो
+हमराज़ हमख़याल तो हो, हमनज़र बनो
+तय होगा ज़िंदगी का सफ़र, हमसफ़र बनो
+आ हा हा, ओ ओ, हो हो हो,
+आ हा आ हा हा, ओ हो हो
+चाहत के उजले-उजले नज़ारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+आओ हुज़ूर आओ ...
+लिख दो किताब-ए-दिल पे कोई, ऐसी दास्तां
+जिसकी मिसाल दे न सकें, सातों आसमां
+लिख दो किताब-ए-दिल पे कोई, ऐसी दास्तां
+जिसकी मिसाल दे न सकें, सातों आसमां
+आ हा हा, ओ ओ, हो हो हो,
+आ हा आ हा हा, ओ हो हो .
+बाहों में बाहें डाले, हज़ारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+आओ हुज़ूर तुमको, सितारों में ले चलूँ
+दिल झूम जाए ऐसी, बहारों में ले चलूँ
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>381</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ehsaan tera hoga]]></title>
+			<description><![CDATA[एहसान तेरा होगा मुझ पर
+दिल चाहता है वो कहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+दिल चाहता है वो कहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+तुमने मुझको हसना सिखाया
+तुमने मुझको हसना सिखाया
+रोने कहोगे रो लेंगे अब
+रोने कहोगे रो लेंगे अब
+आँसू का हमारे गम ना करो
+वो बहते है तो बहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+चाहे बना दो चाहे मिटा दो
+चाहे बना दो चाहे मिटा दो
+मर भी गये तो देंगे दूवाएँ
+मर भी गये तो देंगे दूवाएँ
+उड़ उड़ के कहेगी खाक सनम
+ये दर्द ए मोहब्बत सहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+दिल चाहता है वो कहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ehsaan-tera-hoga-ec4nc3</link>
+			<guid isPermaLink="false">99ce66d5-95fb-4cd9-bdc1-11cbac8bbde6</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Mon, 30 Mar 2020 05:41:39 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11737923/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-30%2F38265ccdbf7786783b3c9d5264fc990c.m4a" length="6357643" type="audio/x-m4a"/>
+			<itunes:summary>एहसान तेरा होगा मुझ पर
+दिल चाहता है वो कहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+दिल चाहता है वो कहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+तुमने मुझको हसना सिखाया
+तुमने मुझको हसना सिखाया
+रोने कहोगे रो लेंगे अब
+रोने कहोगे रो लेंगे अब
+आँसू का हमारे गम ना करो
+वो बहते है तो बहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+चाहे बना दो चाहे मिटा दो
+चाहे बना दो चाहे मिटा दो
+मर भी गये तो देंगे दूवाएँ
+मर भी गये तो देंगे दूवाएँ
+उड़ उड़ के कहेगी खाक सनम
+ये दर्द ए मोहब्बत सहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+दिल चाहता है वो कहने दो
+मुझे तुमसे मोहब्बत हो गयी है
+मुझे पलको की छाँव में रहने दो
+एहसान तेरा होगा मुझ पर
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>393</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Abhi na jao chhod kar]]></title>
+			<description><![CDATA[अभी ना जाओ छोड़कर कर दिल अभी भरा नहीं
+अभी ना जाओ छोड़कर कर दिल अभी भरा नहीं
+
+अभी अभी तो आई हो, अभी अभी तो
+
+अभी अभी तो आई हो, बहार बन के छाई हो
+हवा ज़रा महक तो ले, नजर ज़रा बहक तो ले
+ये शाम ढल तो ले ज़रा
+
+ये शाम ढल तो ले ज़रा, ये दिल संभल तो ले ज़रा
+मैं थोड़ी देर जी तो लूँ, नशे के घूँट पी तो लूँ
+नशे के घूँट पी तो लूँ
+अभी तो कुछ कहा नहीं, अभी तो कुछ सूना नहीं
+अभी ना जाओ छोड़कर कर दिल अभी भरा नहीं
+
+सितारे झिलमिला उठे
+
+सितारे झिलमिला उठे, चराग जगमगा उठे
+बस अब ना मुझ को टोकना
+
+बस अब ना मुझ को टोकना, न बढ़ के राह रोकना
+अगर मैं रुक गयी अभी, तो जा न पाऊँगी कभी
+यही कहोगे तुम सदा के दिल अभी नहीं भरा
+जो ख़त्म हो किसी जगह, ये ऐसा सिलसिला नहीं
+
+अभी नहीं अभी नहीं
+नहीं नहीं नहीं नहीं
+अभी ना जाओ छोड़कर कर दिल अभी भरा नहीं
+
+अधूरी आस
+अधूरी आस छोड़ के, अधूरी प्यास छोड़ के
+जो रोज़ यूँ ही जाओगी, तो किस तरह निभाओगी
+के ज़िन्दगी की राह में, जवाँ दिलों की चाह में
+कई मकाम आयेंगे, जो हम को आजमाएंगे
+बुरा ना मानो बात का, ये प्यार है गिला नहीं
+यही कहोगे तुम सदा के दिल अभी भरा नहीं
+
+हाँ, दिल अभी भरा नहीं
+नहीं नहीं नहीं नहीं
+
+
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Abhi-na-jao-chhod-kar-ec4n7o</link>
+			<guid isPermaLink="false">dfba5d44-2bba-4163-b79e-19b78711dcb3</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Mon, 30 Mar 2020 05:37:09 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11737784/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-30%2F4fff20f9cfd1a745743671f6332efe7e.m4a" length="4488229" type="audio/x-m4a"/>
+			<itunes:summary>अभी ना जाओ छोड़कर कर दिल अभी भरा नहीं
+अभी ना जाओ छोड़कर कर दिल अभी भरा नहीं
+
+अभी अभी तो आई हो, अभी अभी तो
+
+अभी अभी तो आई हो, बहार बन के छाई हो
+हवा ज़रा महक तो ले, नजर ज़रा बहक तो ले
+ये शाम ढल तो ले ज़रा
+
+ये शाम ढल तो ले ज़रा, ये दिल संभल तो ले ज़रा
+मैं थोड़ी देर जी तो लूँ, नशे के घूँट पी तो लूँ
+नशे के घूँट पी तो लूँ
+अभी तो कुछ कहा नहीं, अभी तो कुछ सूना नहीं
+अभी ना जाओ छोड़कर कर दिल अभी भरा नहीं
+
+सितारे झिलमिला उठे
+
+सितारे झिलमिला उठे, चराग जगमगा उठे
+बस अब ना मुझ को टोकना
+
+बस अब ना मुझ को टोकना, न बढ़ के राह रोकना
+अगर मैं रुक गयी अभी, तो जा न पाऊँगी कभी
+यही कहोगे तुम सदा के दिल अभी नहीं भरा
+जो ख़त्म हो किसी जगह, ये ऐसा सिलसिला नहीं
+
+अभी नहीं अभी नहीं
+नहीं नहीं नहीं नहीं
+अभी ना जाओ छोड़कर कर दिल अभी भरा नहीं
+
+अधूरी आस
+अधूरी आस छोड़ के, अधूरी प्यास छोड़ के
+जो रोज़ यूँ ही जाओगी, तो किस तरह निभाओगी
+के ज़िन्दगी की राह में, जवाँ दिलों की चाह में
+कई मकाम आयेंगे, जो हम को आजमाएंगे
+बुरा ना मानो बात का, ये प्यार है गिला नहीं
+यही कहोगे तुम सदा के दिल अभी भरा नहीं
+
+हाँ, दिल अभी भरा नहीं
+नहीं नहीं नहीं नहीं
+
+
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>277</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Vicky Leaks]]></title>
+			<description><![CDATA[All you folks who think you can rock a house party better than Vicky Malhotra, click here to register and take part in the Bacardi House Party Sessions
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Vicky-Leaks-ec467p</link>
+			<guid isPermaLink="false">0674875a-2284-442b-8aad-d22cfd0638b2</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 29 Mar 2020 20:19:40 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11720377/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-29%2F62c0a001d4f780baefb2865417175f54.m4a" length="5777027" type="audio/x-m4a"/>
+			<itunes:summary>All you folks who think you can rock a house party better than Vicky Malhotra, click here to register and take part in the Bacardi House Party Sessions
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>357</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[AIB Podcast: feat. Ranbir Kapoor]]></title>
+			<description><![CDATA[We are back with another podcast, this time with Ranbir Kapoor!
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/AIB-Podcast-feat--Ranbir-Kapoor-ec466g</link>
+			<guid isPermaLink="false">3a65b2d8-d17a-4df6-8b38-248d572d7219</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 29 Mar 2020 20:18:24 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11720336/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-29%2F6b00002e9889f1dc99f056969d338ffc.m4a" length="5777027" type="audio/x-m4a"/>
+			<itunes:summary>We are back with another podcast, this time with Ranbir Kapoor!
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>357</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[AIB Podcast: Engineering Edition feat Rahul, Naveen & Varun]]></title>
+			<description><![CDATA[This episode of AIB Podcast features the lead cast of Honest Engineering Placements, and they talk about what it’s like to be an engineer in our country. Right from ragging and submissions to vivas and college fests.
+
+
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/AIB-Podcast-Engineering-Edition-feat-Rahul--Naveen--Varun-ec464n</link>
+			<guid isPermaLink="false">2c34cdbf-2057-4360-9960-e6debbe179a9</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 29 Mar 2020 20:16:59 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11720279/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-29%2F3e850bdf309ee316d5eb332b6b0d2872.m4a" length="5777027" type="audio/x-m4a"/>
+			<itunes:summary>This episode of AIB Podcast features the lead cast of Honest Engineering Placements, and they talk about what it’s like to be an engineer in our country. Right from ragging and submissions to vivas and college fests.
+
+
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>357</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[AIB : The Engineering Anthem]]></title>
+			<description><![CDATA[The Engineering Anthem from our Honest Engineering Campus Placements
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/AIB--The-Engineering-Anthem-ec4619</link>
+			<guid isPermaLink="false">9c6c6412-77e4-4df8-9825-672f2b89bea1</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 29 Mar 2020 20:15:15 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11720169/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-29%2F385ae9aa3dc3acba6f3fa52bf4a5c6d9.m4a" length="5777027" type="audio/x-m4a"/>
+			<itunes:summary>The Engineering Anthem from our Honest Engineering Campus Placements
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>357</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[AIB Podcast : feat Sumukhi Suresh & Biswa Kalyan Rath]]></title>
+			<description><![CDATA[This episode of All India Bakchod features Sumukhi Suresh and Biswa Kalyan Rath, and they talk about Oscar nominations, Filmfare, Fifa with SRK and much more, cheggit!
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/AIB-Podcast--feat-Sumukhi-Suresh--Biswa-Kalyan-Rath-ec45rl</link>
+			<guid isPermaLink="false">76a5c57d-5b22-4b06-aa86-11543fa005ee</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 29 Mar 2020 20:13:14 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11719989/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-29%2F9c4855b4771fadb5f2c76315fce3aba3.m4a" length="5777027" type="audio/x-m4a"/>
+			<itunes:summary>This episode of All India Bakchod features Sumukhi Suresh and Biswa Kalyan Rath, and they talk about Oscar nominations, Filmfare, Fifa with SRK and much more, cheggit!
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>357</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[AIB Podcast: Reunion feat. Khamba, Tanmay, Rohan & Ashish]]></title>
+			<description><![CDATA[The AIB team is back with it's new episode, Listen the real story from the Bakchods
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/AIB-Podcast-Reunion-feat--Khamba--Tanmay--Rohan--Ashish-ec3ske</link>
+			<guid isPermaLink="false">af67d94b-23d2-4f61-983b-2f5d31ee5921</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 29 Mar 2020 16:35:03 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11710542/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-29%2Fee4ae76150dd29c486e0affefe1b9985.m4a" length="7104638" type="audio/x-m4a"/>
+			<itunes:summary>The AIB team is back with it&apos;s new episode, Listen the real story from the Bakchods
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>439</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Songs to listen before you die]]></title>
+			<description><![CDATA[Here are some of the best songs you must listen before you die
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Songs-to-listen-before-you-die-ec3sfk</link>
+			<guid isPermaLink="false">66aa16a7-39c9-439e-82bf-cc2e4b7e387a</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 29 Mar 2020 16:29:58 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11710388/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-29%2Fb333d9d1e01246d1312ba76ce97d9b6c.m4a" length="7104626" type="audio/x-m4a"/>
+			<itunes:summary>Here are some of the best songs you must listen before you die
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>439</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Bollywood Songs]]></title>
+			<description><![CDATA[Listen to the best Bollywood songs of all time
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Bollywood-Songs-ec3saq</link>
+			<guid isPermaLink="false">308495e2-6ed5-4f56-8008-5f07cef8a93b</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 29 Mar 2020 16:26:02 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11710234/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-29%2F025354b4b35f9a5cd16d499d4cbf854d.m4a" length="6662097" type="audio/x-m4a"/>
+			<itunes:summary>Listen to the best Bollywood songs of all time
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>412</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Fr. Conceicao Rodrigues institute of technology]]></title>
+			<description><![CDATA[Father Conceicao Rodrigues Institute of Technology is a private engineering college affiliated to the University of Mumbai located in vashi, Navi Mumbai. FCRIT was established in 1994 as a part of the Agnel Technical Education Complex at Vashi, which itself was established in 1984.[3] The institute is named after late Rev. Fr. Conceicao Rodrigues, who died in odor of sanctity. The placement program starts in the month of June or July every year and students who have completed three years of the four-year course are eligible to register. The program spans more than year and runs through the final year of the course for a batch of students.
+
+The institute claims to have a nearly 100% conversion ratio of eligible students to company offers. The placement activities are looked after by faculty placement officers and student coordinators. The central placement cell is located in the administrative block, south of the reception.I was walking past the mental hospital the other day,
+and all the patients were shouting, ’13….13….13.’
+
+The fence was too high to see over, but I saw a
+little gap in the planks, so I looked through to see
+what was going on.
+
+Some idiot poked me in the eye with a stick!
+
+Then they all started shouting, ’14….14….14.’
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Fr--Conceicao-Rodrigues-institute-of-technology-ec2cem</link>
+			<guid isPermaLink="false">9c21a61c-c05b-4a25-ae3e-95d47a9dbdb4</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sat, 28 Mar 2020 14:09:23 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11661206/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-28%2F672bd3c808f245b78a456f8afe2a7678.m4a" length="18595718" type="audio/x-m4a"/>
+			<itunes:summary>Father Conceicao Rodrigues Institute of Technology is a private engineering college affiliated to the University of Mumbai located in vashi, Navi Mumbai. FCRIT was established in 1994 as a part of the Agnel Technical Education Complex at Vashi, which itself was established in 1984.[3] The institute is named after late Rev. Fr. Conceicao Rodrigues, who died in odor of sanctity. The placement program starts in the month of June or July every year and students who have completed three years of the four-year course are eligible to register. The program spans more than year and runs through the final year of the course for a batch of students.
+
+The institute claims to have a nearly 100% conversion ratio of eligible students to company offers. The placement activities are looked after by faculty placement officers and student coordinators. The central placement cell is located in the administrative block, south of the reception.I was walking past the mental hospital the other day,
+and all the patients were shouting, ’13….13….13.’
+
+The fence was too high to see over, but I saw a
+little gap in the planks, so I looked through to see
+what was going on.
+
+Some idiot poked me in the eye with a stick!
+
+Then they all started shouting, ’14….14….14.’
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>1148</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[HowFake]]></title>
+			<description><![CDATA[The Fake News Buster
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/HowFake-ebv935</link>
+			<guid isPermaLink="false">18732c95-5aff-4eff-83ec-c972281236fb</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 26 Mar 2020 12:26:41 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11559461/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-26%2F569ab9f614d626112bb6dd365282d7a2.m4a" length="5777027" type="audio/x-m4a"/>
+			<itunes:summary>The Fake News Buster
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>357</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Brazen Epiphany]]></title>
+			<description><![CDATA[Jennifer, after claiming the position of the best journalist in india sat down for a interview. During this interview she is confronted with reasons to what she owes her success which lead to giving birth to such a powerful Journalist.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Brazen-Epiphany-ebrvfu</link>
+			<guid isPermaLink="false">54594602-0c87-49c4-b19e-c6d2458c7d1f</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Tue, 24 Mar 2020 05:29:45 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11451326/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-24%2F3910752556759032df4b4ededf34a0d6.m4a" length="5777027" type="audio/x-m4a"/>
+			<itunes:summary>Jennifer, after claiming the position of the best journalist in india sat down for a interview. During this interview she is confronted with reasons to what she owes her success which lead to giving birth to such a powerful Journalist.
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>357</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Abhishek Chaudhary]]></title>
+			<description><![CDATA[Abhishek Chaudhary born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Abhishek-Chaudhary-ebmcah</link>
+			<guid isPermaLink="false">2bde18fa-f823-4c93-9292-adcb288b303a</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 19 Mar 2020 18:01:22 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11267857/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-19%2F8ec41a81a972f77bcd296d5ee109697a.m4a" length="1573831" type="audio/x-m4a"/>
+			<itunes:summary>Abhishek Chaudhary born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>97</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Corona virus]]></title>
+			<description><![CDATA[This Podcast will tell you everything you need to know about corona virus
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Corona-virus-ebmc67</link>
+			<guid isPermaLink="false">8cfe2531-fd8d-49a8-8295-864825239863</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Thu, 19 Mar 2020 17:57:08 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11267719/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-19%2F838224cd2afa4501e59b3d52cf4f0fe2.m4a" length="1665910" type="audio/x-m4a"/>
+			<itunes:summary>This Podcast will tell you everything you need to know about corona virus
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>103</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[TheAbbie (Trailer)]]></title>
+			<description><![CDATA[
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/ep-ebl7vi</link>
+			<guid isPermaLink="false">https://anchor.fm/theabbie/episodes/ep-ebl7vi</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 18 Mar 2020 19:36:38 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11230642/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-2-18%2F57325143-44100-2-105026e987477.m4a" length="533790" type="audio/x-m4a"/>
+			<itunes:summary>
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>32</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:episodeType>trailer</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[stephen Hawking's last words]]></title>
+			<description><![CDATA[<p>Listed to Stephen Hawking's last words which he said just before leaving us and mysteries of science behind him</p>
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/stephen-Hawkings-last-words-ebl547</link>
+			<guid isPermaLink="false">a890f541-0ee4-47ab-9e22-f576da745de5</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 18 Mar 2020 18:18:30 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11227719/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-18%2Fb090afdc3e43e89327dc8d1ff39690ad.m4a" length="1356035" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;Listed to Stephen Hawking&apos;s last words which he said just before leaving us and mysteries of science behind him&lt;/p&gt;
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>83</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[Ads]]></title>
+			<description><![CDATA[<p>This Is competely advertisement, I was just checking if you can tolerate this</p>
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/Ads-ebl4vt</link>
+			<guid isPermaLink="false">600d7a1d-03e1-4115-8270-2f46e70fb217</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Wed, 18 Mar 2020 18:11:35 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11227581/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-18%2Fbdde6cd93caea9c07d1f1b191dd56dab.m4a" length="541044" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;This Is competely advertisement, I was just checking if you can tolerate this&lt;/p&gt;
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>33</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[How to Mind Your Own Business?]]></title>
+			<description><![CDATA[<p>I was walking past the mental hospital the other day,<br>
+and all the patients were shouting, ’13….13….13.’<br>
+<br>
+The fence was too high to see over, but I saw a<br>
+little gap in the planks, so I looked through to see<br>
+what was going on.<br>
+<br>
+Some idiot poked me in the eye with a stick!<br>
+<br>
+Then they all started shouting, ’14….14….14.’</p>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/How-to-Mind-Your-Own-Business-ebbncv</link>
+			<guid isPermaLink="false">d0701e29-79ed-48f8-a0cd-de1150fde3d1</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 08 Mar 2020 15:26:54 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/10918751/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2018-5-13%2F890563-44100-2-c7e20782ab76.m4a" length="42108" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;I was walking past the mental hospital the other day,&lt;br&gt;
+and all the patients were shouting, ’13….13….13.’&lt;br&gt;
+&lt;br&gt;
+The fence was too high to see over, but I saw a&lt;br&gt;
+little gap in the planks, so I looked through to see&lt;br&gt;
+what was going on.&lt;br&gt;
+&lt;br&gt;
+Some idiot poked me in the eye with a stick!&lt;br&gt;
+&lt;br&gt;
+Then they all started shouting, ’14….14….14.’&lt;/p&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>2</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[FCRIT]]></title>
+			<description><![CDATA[<p>Fr. Conceicao Rodrigues institute of technology</p>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/FCRIT-ebbnbl</link>
+			<guid isPermaLink="false">8c1bde7a-8383-414c-bd8d-61103e70797f</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sun, 08 Mar 2020 15:23:44 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/10918709/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2018-5-13%2F900404-44100-2-32e3a74cacca9.m4a" length="52614" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;Fr. Conceicao Rodrigues institute of technology&lt;/p&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>1</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[codrcrew]]></title>
+			<description><![CDATA[<p>Playing with life since 2002</p>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/codrcrew-eaislq</link>
+			<guid isPermaLink="false">1e510c95-7202-43a2-aaf9-2e22037eb02a</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Sat, 01 Feb 2020 13:13:36 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/10104954/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-02-01%2F3f622b610791df88d7b6b6294557e6d4.m4a" length="5611762" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;Playing with life since 2002&lt;/p&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>346</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>2</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+		<item>
+			<title><![CDATA[theabbie]]></title>
+			<description><![CDATA[<p>Playing with life since 2002</p>
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  <a href="https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp">https://anchor.fm/app</a>
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+			<link>https://anchor.fm/theabbie/episodes/theabbie-eafs98</link>
+			<guid isPermaLink="false">f1ff2e11-a9e7-4097-a17c-1c522aeaabb4</guid>
+			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
+			<pubDate>Tue, 28 Jan 2020 13:08:07 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/10006248/sponsor/a1lmt4u/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-09%2Fc571520d38a05c426ed93f147e352f07.m4a" length="2440474" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;Playing with life since 2002&lt;/p&gt;
+
+--- 
+
+This episode is sponsored by 
+· Anchor: The easiest way to make a podcast.  &lt;a href=&quot;https://anchor.fm/s/1334a9a0/podcast/sponsor/acugj9/url/https%3A%2F%2Fanchor.fm%2Fapp&quot;&gt;https://anchor.fm/app&lt;/a&gt;
+
+--- 
+
+Send in a voice message: https://anchor.fm/theabbie/message
+Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>150</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+	</channel>
 </rss>
