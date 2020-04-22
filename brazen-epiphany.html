@@ -52,7 +52,37 @@ text-decoration: none;
 <script async custom-element="amp-dailymotion" src="https://cdn.ampproject.org/v0/amp-dailymotion-0.1.js"></script>
 <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 <script type="application/ld+json">
+'use strict';
 [{
+  "@context" : "https://schema.org",
+  "@type" : "Movie",
+  "url" : "https://imdb.com/title/tt11788384/",
+  "name" : "Brazen Epiphany",
+  "image" : "https://theabbie.github.io/files/brazen-epiphany.jpg",
+  "dateCreated" : "2018-10-05",
+  "director" : {
+    "@type" : "Person",
+    "name" : "Abhishek Chaudhary"
+  },
+  "review" : {
+    "@type" : "Review",
+    "reviewRating" : {
+      "@type" : "Rating",
+      "ratingValue" : "5"
+    },
+    "author" : {
+      "@type" : "Person",
+      "name" : "Abhishek Chaudhary"
+    },
+    "reviewBody" : "Brazen Epiphany is different, It questions the society,.It must be watched, unconventionally good"
+  },
+  "aggregateRating" : {
+    "@type" : "AggregateRating",
+    "ratingValue" : "95",
+    "bestRating" : "100",
+    "ratingCount" : "15"
+  }
+}, {
   "@context" : "https://schema.org",
   "@type" : "WebSite",
   "@id" : "https://theabbie.github.io",
@@ -94,13 +124,13 @@ text-decoration: none;
   "publisher" : {
     "@type" : "Organization",
     "name" : "TheAbbie",
-    "url": "https://theabbie.github.io",
-    "logo":{
-      "@type":"ImageObject",
-      "url":"https://theabbie.github.io/files/circle-cropped.png",
-      "width":"200",
-      "height":"200"
-  }
+    "url" : "https://theabbie.github.io",
+    "logo" : {
+      "@type" : "ImageObject",
+      "url" : "https://theabbie.github.io/files/circle-cropped.png",
+      "width" : "200",
+      "height" : "200"
+    }
   },
   "image" : [{
     "@type" : "ImageObject",
