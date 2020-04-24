@@ -133,16 +133,7 @@ function paste(myValue) {
     } else {
        document.querySelector("#body").value += myValue;
     }
-    document.querySelector("#body").style.height="";
-  document.querySelector("#body").style.height=document.querySelector("#body").scrollHeight+"px";
 }
-
-var title = ``;
-var desc = ``;
-var turl = ``;
-var code;
-document.querySelector("#title").onblur = function() {title = document.querySelector("#title").value; turl = title.replace(/[^A-Z0-9]+/ig,"-");}
-document.querySelector("#description").onblur = function() {desc = document.querySelector("#description").value;}
 function h1() {}
 function h2() {}
 function h3() {}
@@ -159,7 +150,10 @@ function img() {
 }
 function refresh() {
 document.querySelector(".save").style.display="none";
-code = `<!doctype html>
+var title = document.querySelector("#title").value; 
+var turl = title.replace(/[^A-Z0-9]+/ig,"-");
+var desc = document.querySelector("#description").value;
+var code = `<!doctype html>
 <html ⚡ lang="en">
 <head>
 <title>
@@ -252,6 +246,8 @@ ${title}
 </html>
 `;
 document.querySelector("#body").value=code;
+document.querySelector("#body").style.height="";
+document.querySelector("#body").style.height=document.querySelector("#body").scrollHeight+"px";
 }
 </script>
 </html>
