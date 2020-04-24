@@ -134,14 +134,31 @@ function paste(myValue) {
        document.querySelector("#body").value += myValue;
     }
 }
-function h1() {}
-function h2() {}
-function h3() {}
+function h1() {
+  var title = prompt("title");
+  paste(`<h1 id="${title.replace(/[^A-Z0-9]+/ig,"_")}">${title}</h1>
+    `);
+}
+function h2() {
+    var title = prompt("title");
+  paste(`<h2 id="${title.replace(/[^A-Z0-9]+/ig,"_")}">${title}</h2>
+    `);
+}
+function h3() {
+    var title = prompt("title");
+  paste(`<h3 id="${title.replace(/[^A-Z0-9]+/ig,"_")}">${title}</h3>
+    `);
+}
 function text() {
  var text = prompt("text");
 paste(`<p>${text}</p>
  `);
 }
+function img() {
+  var name = prompt("name");
+  var url = prompt("url");
+  paste(`<a href="${url}" title="${name}">${name}</a>`);
+  }
 function img() {
   var name = prompt("name");
   var nurl = name.replace(/[^A-Z0-9]+/ig,"-")+".jpg";
