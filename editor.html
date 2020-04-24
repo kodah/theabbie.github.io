@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -39,6 +38,7 @@ Editor
   margin: 20px 20px 20px 20px;
   width: 75%;
   max-width: 500px;
+  -webkit-tap-highlight-color: transparent;
 }
 .button {
   position: fixed;
@@ -60,7 +60,7 @@ Editor
 <input type="text" class="txt" id="title" placeholder="title">
 <textarea id="description" placeholder="description"></textarea>
 <textarea id="body" placeholder="Enter body of article"></textarea>
-<div class="button"></div>
+<div class="button" onclick="show()"></div>
 </body>
 <script>
 
