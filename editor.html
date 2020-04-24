@@ -81,9 +81,17 @@ Editor
 <div class="choice">IMAGE</div>
 </body>
 <script>
-  document.querySelectorAll(".choice").forEach((x,i)=>{x.style.bottom=85+60*i+"px";});
+  var flag = false;
+  document.querySelectorAll(".choice").forEach((x,i)=>{x.style.transitionDelay=(0.075*i)+"s";x.style.bottom=85+60*i+"px";});
 function show() {
-  document.querySelectorAll(".choice").forEach((x,i)=>{x.style.transitionDelay=(0.075*i)+"s";x.style.right="25px"})
+  if (flag) {
+    document.querySelectorAll(".choice").forEach((x,i)=>{x.style.right="-125px"})
+    flag=false;
+  }
+  else {
+  document.querySelectorAll(".choice").forEach((x,i)=>{x.style.right="25px"})
+  flag=true;
+ }
 }
 </script>
 </html>
