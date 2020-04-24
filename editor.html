@@ -110,6 +110,7 @@ var desc = ``;
 var nav = ``;
 var body = ``;
 var turl = ``;
+var code;
 document.querySelector("#title").onblur = function() {title = document.querySelector("#title").value; turl = title.replace(/[^A-Z0-9]+/ig,"-");}
 document.querySelector("#description").onblur = function() {desc = document.querySelector("#description").value;}
 function h1() {}
@@ -121,7 +122,9 @@ function text() {
  `;
  refresh();
 }
-var code = `<!doctype html>
+
+function refresh() {
+  code = `<!doctype html>
 <html ⚡ lang="en">
 <head>
 <title>
@@ -235,7 +238,6 @@ Fun fact: in the time it took you to read the above, Netlify served over 350,000
 </body>
 </html>
 `;
-function refresh() {
   document.querySelector("#body").value=code;
   document.querySelector("#body").style.height="";
   document.querySelector("#body").style.height=document.querySelector("#body").scrollHeight+"px";
