@@ -1,195 +1,17 @@
 <!doctype html>
-<html lang="en">
-<head>
-<title>
-Editor
-</title>
-<meta charset="utf-8" />
-<link rel="canonical" href="/editor.html">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="application" />
-<meta property="og:title" content="Editor" />
-<meta property="og:description" content="AMP Editor" />
-<meta property="og:url" content="https://theabbie.github.io/editor" />
-<meta property="og:site_name" content="TheAbbie" />
-<meta property="article:section" content="application" />
-<meta property="og:image" content="https://theabbie.github.io/files/share.jpg" />
-<meta property="og:image:secure_url" content="https://theabbie.github.io/files/share.jpg" />
-<meta property="og:image:width" content="600" />
-<meta property="og:image:height" content="445" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:description" content="AMP editor" />
-<meta name="twitter:title" content="Editor" />
-<meta name="twitter:image" content="https://theabbie.github.io/files/share.jpg" />
-<style>
-  @font-face {
-  font-family: kirvy;
-  src: url('https://cdn.jsdelivr.net/gh/theabbie/theabbie.github.io/files/kirvy.otf');
-}
-h1 {
-  padding-left: 25px;
-}
-* {font-family: kirvy; letter-spacing: 6px; word-spacing: 12px; line-height: 125%;}
-*:focus {
-    outline: none;
-}
-.txt,textarea {
-  border: 1px solid rgba(0,0,0,0.25);
-  padding: 10px 10px 10px 10px;
-  font-size: 20px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border-radius: 8px;
-  display: block;
-  margin: 20px 20px 20px 20px;
-  width: 90%;
-  max-width: 700px;
-  resize: none;
-  scrollbar-width: none;
-}
-.button {
-  position: fixed;
-  right: 25px;
-  bottom: 25px;
-  height: 25px;
-  width: 25px;
-  background-color: purple;
-  padding: 15px 15px 15px 15px;
-  border-radius: 50%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-.choice {
-  position: fixed;
-  right: -250px;
-  color: white;
-  font-size: 20px;
-  background-color: purple;
-  padding: 15px 15px 15px 15px;
-  border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: 0.5s;
-}
-.save {
-  color: white;
-  font-size: 20px;
-  background-color: purple;
-  padding: 15px 15px 15px 15px;
-  border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  border: none;
-  border-radius: 8px;
-  margin-left: 25px;
-}
-</style>
-</head>
-<body>
-<h1>
-Editor
-</h1>
-<input type="text" class="txt" id="title" placeholder="title">
-<textarea id="description" placeholder="description"></textarea>
-<button class="save" onclick="refresh()">SAVE</button>
-<textarea id="body" placeholder="Enter body of article"></textarea>
-<div class="button" onclick="show()"></div>
-<div class="choice" onclick="text()">TEXT</div>
-<div class="choice" onclick="h1()">H1</div>
-<div class="choice" onclick="h2()">H2</div>
-<div class="choice" onclick="h3()">H3</div>
-<div class="choice" onclick="img()">IMAGE</div>
-<div class="choice" onclick="youtube()">YOUTUBE</div>
-<div class="choice" onclick="list()">LIST</div>
-<div class="choice" onclick="link()">LINK</div>
-</body>
-<script>
-  document.querySelector("#body").oninput = function() {
-    document.querySelector("#body").style.height="";
-    document.querySelector("#body").style.height=document.querySelector("#body").scrollHeight+"px";
-  }
-  var flag = false;
-  document.querySelectorAll(".choice").forEach((x,i)=>{x.style.transitionDelay=(0.075*i)+"s";x.style.bottom=85+60*i+"px";});
-function show() {
-  if (flag) {
-    document.querySelectorAll(".choice").forEach((x,i)=>{x.style.right="-250px";})
-    flag=false;
-  }
-  else {
-  document.querySelectorAll(".choice").forEach((x,i)=>{x.style.right="25px";})
-  flag=true;
- }
-}
-
-function paste(myValue) {
-    if (document.selection) {
-        document.querySelector("#body").focus();
-        sel = document.selection.createRange();
-        sel.text = myValue;
-    }
-    else if (document.querySelector("#body").selectionStart || document.querySelector("#body").selectionStart == '0') {
-        var startPos = document.querySelector("#body").selectionStart;
-        var endPos = document.querySelector("#body").selectionEnd;
-        document.querySelector("#body").value = document.querySelector("#body").value.substring(0, startPos)
-            + myValue
-            + document.querySelector("#body").value.substring(endPos, document.querySelector("#body").value.length);
-    } else {
-       document.querySelector("#body").value += myValue;
-    }
-}
-function h1() {
-  var title = prompt("title");
-  paste(`<h1 id="${title.replace(/[^A-Z0-9]+/ig,"_")}">${title}</h1>
-    `);
-}
-function h2() {
-    var title = prompt("title");
-  paste(`<h2 id="${title.replace(/[^A-Z0-9]+/ig,"_")}">${title}</h2>
-    `);
-}
-function h3() {
-    var title = prompt("title");
-  paste(`<h3 id="${title.replace(/[^A-Z0-9]+/ig,"_")}">${title}</h3>
-    `);
-}
-function text() {
- var text = prompt("text");
-paste(`<p>${text}</p>
- `);
-}
-function img() {
-  var name = prompt("name");
-  var url = prompt("url");
-  paste(`<a href="${url}" title="${name}">${name}</a>`);
-  }
-function img() {
-  var name = prompt("name");
-  var nurl = name.replace(/[^A-Z0-9]+/ig,"-")+".jpg";
-  var url = prompt("url");
-  fetch("https://upload-r1hn185orrij.runkit.sh/?url="+url+"&name="+nurl);
-  paste(`<figure>
-<amp-img src="https://theabbie.github.io/files/${nurl}.jpg" class="contain"
-    layout="fill" alt="${name}"></amp-img>
-<figcaption>${name}</figcaption>
-</figure>
-`);
-}
-function refresh() {
-document.querySelector(".save").style.display="none";
-var title = document.querySelector("#title").value; 
-var turl = title.replace(/[^A-Z0-9]+/ig,"-");
-var desc = document.querySelector("#description").value;
-var code = `<!doctype html>
 <html ⚡ lang="en">
 <head>
 <title>
-${title}
+Best Node.js Hosting Platforms
 </title>
 <meta charset="utf-8" />
-<link rel="canonical" href="/blog/${turl}.html">
+<link rel="canonical" href="/blog/best-node-js-hosting-platforms.html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="${title}" />
-<meta property="og:description" content="${desc}" />
-<meta property="og:url" content="https://theabbie.github.io/${turl}" />
+<meta property="og:title" content="Best Node.js Hosting Platforms" />
+<meta property="og:description" content="Netlify, Zeit Now, Runkit, Webtask, Glitch, Heroku" />
+<meta property="og:url" content="https://theabbie.github.io/best-node-js-hosting-platforms" />
 <meta property="og:site_name" content="TheAbbie" />
 <meta property="article:section" content="Review" />
 <meta property="article:published_time" content="2020-04-22T08:34:48+00:00" />
@@ -200,16 +22,20 @@ ${title}
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="445" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:description" content="${desc}" />
-<meta name="twitter:title" content="${title}" />
+<meta name="twitter:description" content="Netlify, Zeit Now, Runkit, Webtask, Glitch, Heroku" />
+<meta name="twitter:title" content="Best Node.js Hosting Platforms" />
 <meta name="twitter:image" content="https://theabbie.github.io/files/share.jpg" />
 <style amp-custom>
 h1,p {
 padding-left: 15px;
 padding-right: 15px;
 }
-amp-img.contain img {
-object-fit: contain;
+img {
+display: block;
+width: 75%;
+height: auto;
+max-width: 500px;
+margin: auto;
 }
 h1 {
 font-weight: 100;
@@ -220,15 +46,9 @@ text-align: center;
 a {
 text-decoration: none;
 }
-figure {
-  position: relative;
-  width: 75%;
-  height: 200px;
-  margin: auto;
-}
 </style>
-<script async src="https://cdn.ampproject.org/v0.js"></`+`script>
-<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"><`+`/script>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
@@ -243,34 +63,49 @@ figure {
     }
   },
   "@type" : "Article",
-  "mainEntityOfPage" : "https://theabbie.github.io/blog/${turl}",
-  "headline" : "${title}",
+  "mainEntityOfPage" : "https://theabbie.github.io/blog/best-node-js-hosting-platforms",
+  "headline" : "Best Node.js Hosting Platforms",
   "datePublished" : "2020-04-23T01:12:28+05:30",
   "dateModified" : "2020-04-23T04:19:21+05:30",
   "author" : {
     "@type" : "Person",
     "name" : "Abhishek Chaudhary"
   },
-  "image" : "https://theabbie.github.io/files/${turl}.jpg"
+  "image" : "https://theabbie.github.io/files/best-node-js-hosting-platforms.png"
 }
-</`+`script>
+</script>
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 <body>
 <h1>
-${title}
+Best Node.js Hosting Platforms
 </h1>
 <figure>
-<amp-img src="https://theabbie.github.io/files/${turl}.jpg" class="contain"
-    layout="fill" alt="${title}"></amp-img>
-<figcaption>${title}</figcaption>
+<amp-img src="https://theabbie.github.io/files/best-node-js-hosting-platforms.png" class="contain"
+    layout="fill" alt="Best Node.js Hosting Platforms"></amp-img>
+<figcaption>Best Node.js Hosting Platforms</figcaption>
 </figure>
+<ul>
+<li><a href="#netlify">Netlify</a></li>
+</ul>
+<h2 id="netlify">Netlify</h2>
+<figure>
+<amp-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMtn5zNA8R6e9a2dTiddtVC21dDf9jVNRW0CAUbyPAWe3X1QFQ&usqp=CAU" class="contain"
+    layout="fill" alt="Netlify"></amp-img>
+<figcaption>Netlify</figcaption>
+</figure>
+<p>
+Netlify is a web developer platform that multiplies productivity.
+By unifying the elements of the modern decoupled web, from local development to advanced edge logic, Netlify enables a 10x faster path to much more performant, secure, and scalable websites and apps.
+Our bet on the JAMstack is quickly coming true. The web is rapidly changing away from monolithic to decoupled apps, and web developers are storming ahead with more power than ever. Netlify is built to cater to that movement, and in just a few years we’ve on-boarded more than half a million businesses and developers, and are building and serving millions of web projects daily around the globe.
+Fun fact: in the time it took you to read the above, Netlify served over 350,000 requests.
+<amp-youtube
+  data-videoid="hQAu0YEIF0g"
+  layout="responsive"
+  width="480"
+  height="270"
+></amp-youtube>
+<a href="https://netlify.com" name="netlify">Netlify</a>
+</p>
 </body>
-</html>
-`;
-document.querySelector("#body").value=code;
-document.querySelector("#body").style.height="";
-document.querySelector("#body").style.height=document.querySelector("#body").scrollHeight+"px";
-}
-</script>
 </html>
