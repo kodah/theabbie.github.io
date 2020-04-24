@@ -69,6 +69,16 @@ h1 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.5s;
 }
+.save {
+  color: white;
+  font-size: 20px;
+  background-color: purple;
+  padding: 15px 15px 15px 15px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+  border-radius: 8px;
+}
 </style>
 </head>
 <body>
@@ -77,6 +87,7 @@ Editor
 </h1>
 <input type="text" class="txt" id="title" placeholder="title">
 <textarea id="description" placeholder="description"></textarea>
+<button class="save" onclick="refresh()">SAVE</button>
 <textarea id="body" placeholder="Enter body of article"></textarea>
 <div class="button" onclick="show()"></div>
 <div class="choice" onclick="text()">TEXT</div>
@@ -105,10 +116,28 @@ function show() {
   flag=true;
  }
 }
+
+function paste(myValue) {
+    if (document.selection) {
+        document.querySelector("#body").focus();
+        sel = document.selection.createRange();
+        sel.text = myValue;
+    }
+    else if (document.querySelector("#body").selectionStart || document.querySelector("#body").selectionStart == '0') {
+        var startPos = document.querySelector("#body").selectionStart;
+        var endPos = document.querySelector("#body").selectionEnd;
+        document.querySelector("#body").value = document.querySelector("#body").value.substring(0, startPos)
+            + myValue
+            + document.querySelector("#body").value.substring(endPos, document.querySelector("#body").value.length);
+    } else {
+       document.querySelector("#body").value += myValue;
+    }
+    document.querySelector("#body").style.height="";
+  document.querySelector("#body").style.height=document.querySelector("#body").scrollHeight+"px";
+}
+
 var title = ``;
 var desc = ``;
-var nav = ``;
-var body = ``;
 var turl = ``;
 var code;
 document.querySelector("#title").onblur = function() {title = document.querySelector("#title").value; turl = title.replace(/[^A-Z0-9]+/ig,"-");}
@@ -118,13 +147,18 @@ function h2() {}
 function h3() {}
 function text() {
  var text = prompt("text");
- body += `<p>${text}</p>
- `;
- refresh();
+paste(`<p>${text}</p>
+ `);
 }
-
+function img() {
+  var name = prompt("name");
+  name = name.replace(/[^A-Z0-9]+/ig,"-")+".jpg";
+  var url = prompt("url");
+  fetch("https://upload-r1hn185orrij.runkit.sh/?url="+url+"&name="+name);
+}
 function refresh() {
-  code = `<!doctype html>
+document.querySelector(".save").style.display="none";
+code = `<!doctype html>
 <html ⚡ lang="en">
 <head>
 <title>
@@ -213,34 +247,10 @@ ${title}
     layout="fill" alt="${title}"></amp-img>
 <figcaption>${title}</figcaption>
 </figure>
-<ul>
-<li><a href="#netlify">Netlify</a></li>
-</ul>
-<h2 id="netlify">Netlify</h2>
-<figure>
-<amp-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMtn5zNA8R6e9a2dTiddtVC21dDf9jVNRW0CAUbyPAWe3X1QFQ&usqp=CAU" class="contain"
-    layout="fill" alt="Netlify"></amp-img>
-<figcaption>Netlify</figcaption>
-</figure>
-<p>
-Netlify is a web developer platform that multiplies productivity.
-By unifying the elements of the modern decoupled web, from local development to advanced edge logic, Netlify enables a 10x faster path to much more performant, secure, and scalable websites and apps.
-Our bet on the JAMstack is quickly coming true. The web is rapidly changing away from monolithic to decoupled apps, and web developers are storming ahead with more power than ever. Netlify is built to cater to that movement, and in just a few years we’ve on-boarded more than half a million businesses and developers, and are building and serving millions of web projects daily around the globe.
-Fun fact: in the time it took you to read the above, Netlify served over 350,000 requests.
-<amp-youtube
-  data-videoid="hQAu0YEIF0g"
-  layout="responsive"
-  width="480"
-  height="270"
-></amp-youtube>
-<a href="https://netlify.com" name="netlify">Netlify</a>
-</p>
 </body>
 </html>
 `;
-  document.querySelector("#body").value=code;
-  document.querySelector("#body").style.height="";
-  document.querySelector("#body").style.height=document.querySelector("#body").scrollHeight+"px";
+document.querySelector("#body").value=code;
 }
 </script>
 </html>
