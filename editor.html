@@ -27,6 +27,9 @@ Editor
   font-family: kirvy;
   src: url('https://cdn.jsdelivr.net/gh/theabbie/theabbie.github.io/files/kirvy.otf');
 }
+h1 {
+  padding-left: 25px;
+}
 * {font-family: kirvy; letter-spacing: 6px; word-spacing: 12px; line-height: 125%;}
 .txt,textarea {
   border: 1px solid rgba(0,0,0,0.25);
@@ -53,7 +56,7 @@ Editor
 }
 .choice {
   position: fixed;
-  right: -125px;
+  right: -250px;
   color: white;
   font-size: 20px;
   background-color: purple;
@@ -79,17 +82,20 @@ Editor
 <div class="choice">H5</div>
 <div class="choice">H6</div>
 <div class="choice">IMAGE</div>
+<div class="choice">YOUTUBE</div>
+<div class="choice">LIST</div>
+<div class="choice">LINK</div>
 </body>
 <script>
   var flag = false;
   document.querySelectorAll(".choice").forEach((x,i)=>{x.style.transitionDelay=(0.075*i)+"s";x.style.bottom=85+60*i+"px";});
 function show() {
   if (flag) {
-    document.querySelectorAll(".choice").forEach((x,i)=>{x.style.right="-125px"})
+    document.querySelectorAll(".choice").forEach((x,i)=>{x.style.right="-250px";})
     flag=false;
   }
   else {
-  document.querySelectorAll(".choice").forEach((x,i)=>{x.style.right="25px"})
+  document.querySelectorAll(".choice").forEach((x,i)=>{x.style.right="25px";})
   flag=true;
  }
 }
