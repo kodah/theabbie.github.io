@@ -144,9 +144,15 @@ paste(`<p>${text}</p>
 }
 function img() {
   var name = prompt("name");
-  name = name.replace(/[^A-Z0-9]+/ig,"-")+".jpg";
+  var nurl = name.replace(/[^A-Z0-9]+/ig,"-")+".jpg";
   var url = prompt("url");
-  fetch("https://upload-r1hn185orrij.runkit.sh/?url="+url+"&name="+name);
+  fetch("https://upload-r1hn185orrij.runkit.sh/?url="+url+"&name="+nurl);
+  paste(`<figure>
+<amp-img src="https://theabbie.github.io/files/${nurl}.jpg" class="contain"
+    layout="fill" alt="${name}"></amp-img>
+<figcaption>${name}</figcaption>
+</figure>
+`);
 }
 function refresh() {
 document.querySelector(".save").style.display="none";
