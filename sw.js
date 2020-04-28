@@ -1,6 +1,9 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
 importScripts("https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/7.5.0/firebase-messaging.js");
+importScripts('https://cdn.ampproject.org/sw/amp-sw.js');
+
+AMP_SW.init();
 
 var firebaseConfig = {
     apiKey: "AIzaSyBECQksrlWkWOTP4jriMmA9thfcKgbHyuE",
