@@ -142,6 +142,7 @@ button {
   padding: 30px;
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.2s;
 }
 ul.nav {
 	position: fixed;
@@ -159,6 +160,9 @@ ul.nav li {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.5s;
 }
+.navbtn:hover {
+   padding: 35px;
+}
 .navbtn:focus ~ ul.nav li {
  right: 25px;
 }
@@ -168,6 +172,10 @@ ul.nav li:nth-child(1) {
 ul.nav li:nth-child(2) {
 	bottom: 175px;
 	transition-delay: 0.1s;
+}
+ul.nav li:nth-child(3) {
+	bottom: 250px;
+	transition-delay: 0.2s;
 }
 ul.nav li a {
 	text-decoration: none;
@@ -213,6 +221,7 @@ ul.nav li a {
 <ul class="nav">
 <li><a href="/">Home</a></li>
 <li><a href="/blog">Blog</a></li>
+<li><a href="/fr-conceicao-rodrigues-institute-of-technology">FCRIT</a></li>
 </ul>
 <amp-accordion animate>
 <section>
