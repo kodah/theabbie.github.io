@@ -91,6 +91,11 @@ h2 {
 p {
 	border-top: 1px solid rgba(0,0,0,0.2);
 	padding: 10px 10px 0px 10px;
+	transition: 0.5s;
+	display: none;
+}
+h2:focus-within + p {
+	display: block;
 }
 a:hover {
 	background-color: rgba(0,0,0,0.1);
@@ -122,6 +127,11 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
+}
+button {
+	border: none;
+	padding: 10px;
+	background-color: transparent;
 }
 </style>
 <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -158,7 +168,7 @@ ul.breadcrumb li a:hover {
 <ul class="breadcrumb">
   <li>Home</li>
 </ul>
-<h2>About Me</h2>
+<h2>About Me <button>&#x25BC;</button></h2>
 <p>
 Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podcasting
 </p>
