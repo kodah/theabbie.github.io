@@ -84,7 +84,7 @@ a {
     border-top: 1px solid rgba(0,0,0,0.2);
     transition: 0.1s;
 }
-h2.i-amphtml-accordion-header {
+amp-accordion section h2 {
 	font-size: 24px;
 	font-weight: 400;
 	margin: 0px;
@@ -92,7 +92,7 @@ h2.i-amphtml-accordion-header {
 	border-top: 1px solid rgba(0,0,0,0.2);
 	background-color: white;
 }
-p.i-amphtml-accordion-content {
+amp-accordion section p {
 	border-top: 1px solid rgba(0,0,0,0.2);
 	padding: 10px 10px 0px 10px;
 }
@@ -132,6 +132,17 @@ button {
 	padding: 10px;
 	background-color: transparent;
 }
+.navbtn {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  height: 25px;
+  width: 25px;
+  background-color: purple;
+  padding: 25px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
 </style>
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
@@ -167,6 +178,10 @@ button {
 <h1>TheAbbie</h1>
 <ul class="breadcrumb">
   <li>Home</li>
+</ul>
+<button class="navbtn"></button>
+<ul class="nav">
+
 </ul>
 <amp-accordion animate>
 <section>
