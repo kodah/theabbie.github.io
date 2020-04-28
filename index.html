@@ -81,21 +81,17 @@ a {
     border-top: 1px solid rgba(0,0,0,0.2);
     transition: 0.1s;
 }
-h2 {
+h2.i-amphtml-accordion-header {
 	font-size: 24px;
 	font-weight: 400;
 	margin: 0px;
-	padding: 15px 5px 0px 10px;
+	padding: 15px 10px 10px 10px;
 	border-top: 1px solid rgba(0,0,0,0.2);
+	background-color: white;
 }
-p {
+p.i-amphtml-accordion-content {
 	border-top: 1px solid rgba(0,0,0,0.2);
 	padding: 10px 10px 0px 10px;
-	transition: 0.5s;
-	display: none;
-}
-h2:focus-within + p {
-	display: block;
 }
 a:hover {
 	background-color: rgba(0,0,0,0.1);
@@ -135,6 +131,7 @@ button {
 }
 </style>
 <script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
 <script type="application/ld+json">
 {
   "@context" : "https://schema.org",
@@ -168,10 +165,14 @@ button {
 <ul class="breadcrumb">
   <li>Home</li>
 </ul>
-<h2>About Me <button>&#x25BC;</button></h2>
+<amp-accordion animate>
+<section>
+<h2>About Me</h2>
 <p>
 Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podcasting
 </p>
+</section>
+</amp-accordion>
 <a href="https://www.patreon.com/theabbie" rel="me"><i class="fa fa-patreon"></i>Become a Patron!</a>
 <a href="https://paypal.me/theabbie" rel="me"><i class="fa fa-paypal"></i>Paypal</a>
 <a href="https://www.buymeacoffee.com/theabbie" rel="me"><i class="fa fa-coffee"></i>Buy Me A Coffee</a>
