@@ -8,3 +8,4 @@ https://gitlab.gnome.org/casinor
 https://github.com/casinor-com
 https://www.domestika.org/en/casinor
 https://www.yourquote.in/casinor-b4vgr/quotes
+https://coda.io/@casinor
