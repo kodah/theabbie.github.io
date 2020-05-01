@@ -5,3 +5,4 @@ https://www.crunchbase.com/organization/casinor
 https://medium.com/@casinor
 https://www.ludu.co/@casinor
 https://gitlab.gnome.org/casinor
+https://github.com/casinor-com
