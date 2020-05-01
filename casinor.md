@@ -12,3 +12,4 @@ https://coda.io/@casinor
 https://sessionize.com/casinor/
 https://bit.dev/casinor
 https://publons.com/researcher/3593928/casinor/
+https://www.shutterstock.com/g/Casinor
