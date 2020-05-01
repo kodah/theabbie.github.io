@@ -10,3 +10,4 @@ https://www.domestika.org/en/casinor
 https://www.yourquote.in/casinor-b4vgr/quotes
 https://coda.io/@casinor
 https://sessionize.com/casinor/
+https://bit.dev/casinor
