@@ -11,3 +11,4 @@ https://www.yourquote.in/casinor-b4vgr/quotes
 https://coda.io/@casinor
 https://sessionize.com/casinor/
 https://bit.dev/casinor
+https://publons.com/researcher/3593928/casinor/
