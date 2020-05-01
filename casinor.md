@@ -40,3 +40,4 @@ https://teespring.com/casinor
 https://wrytin.com/casinorwebsite
 https://steamcommunity.com/id/casinor_com/
 https://slideslive.com/casinor
+https://www.thingiverse.com/casinor
