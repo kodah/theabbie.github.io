@@ -58,7 +58,7 @@ if (e.key=="ArrowLeft") {if (direction!="east") {direction="west"}}
 if (e.key=="ArrowDown") {if (direction!="north") {direction="south"}}
 if (e.key=="Enter") {location.reload();}
 }
-function obstacle() {obs.x=wid*Math.random();obs.y=hit*Math.random();obs.x=obs.x-obs.x%10;obs.y=obs.y-obs.y%10;hurdle.setAttribute("cx",obs.x);hurdle.setAttribute("cy",obs.y); food.setAttribute("x",obs.x-15);food.setAttribute("y",obs.y-15);}
+function obstacle() {obs.x=(wid-30)*Math.random()+15;obs.y=(hit-30)*Math.random()+15;obs.x=obs.x-obs.x%10;obs.y=obs.y-obs.y%10;hurdle.setAttribute("cx",obs.x);hurdle.setAttribute("cy",obs.y); food.setAttribute("x",obs.x-15);food.setAttribute("y",obs.y-15);}
 game = setInterval(function() {
 if (p.x<=0 || p.x>=wid || p.y<=0 || p.y>=hit) {clearInterval(game);svg.style.backgroundColor="red";start=false;console.log('o-o-boundary');}
 if (Math.abs(p.x-obs.x)<=15 && Math.abs(p.y-obs.y)<=15) {l+=10;obstacle();}
