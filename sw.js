@@ -5,8 +5,8 @@ importScripts('https://cdn.ampproject.org/sw/amp-sw.js');
 
 AMP_SW.init({
   offlinePageOptions: {
-      url: '/';
-      assets: ['/files/logo.png'];
+      url: '/',
+      assets: ['/files/logo.png']
   }
 });
 
