@@ -38,3 +38,4 @@ https://e27.co/startups/casinor/
 https://sourceforge.net/u/casinor/
 https://teespring.com/casinor
 https://wrytin.com/casinorwebsite
+https://steamcommunity.com/id/casinor_com/
