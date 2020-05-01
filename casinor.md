@@ -17,3 +17,4 @@ https://www.stopstalk.com/user/profile/casinor
 https://casinor.company.site
 https://www.bandlab.com/casinor
 https://steadyhq.com/en/casinor
+https://www.artstation.com/casinor
