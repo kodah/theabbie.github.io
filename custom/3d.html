@@ -58,7 +58,7 @@ return rot;
 function connect(m,n,x) {
 line[x].setAttribute("x1",pts[m].x);line[x].setAttribute("y1",pts[m].y);line[x].setAttribute("x2",pts[n].x);line[x].setAttribute("y2",pts[n].y);
 }
-var h = window.innerWidth>=300?100:window.innerWidth/1.414;
+var h = (window.innerWidth<window.innerHeight?window.innerWidth:window.innerHeight)>=300?100:(window.innerWidth<window.innerHeight?window.innerWidth:window.innerHeight)/1.414;
 init_points(8)
 rotate(h,h,h,0);rotate(h,-h,h,1);rotate(-h,-h,h,2);rotate(-h,h,h,3);rotate(-h,h,-h,4);rotate(-h,-h,-h,5);rotate(h,-h,-h,6);rotate(h,h,-h,7);
 </script>
