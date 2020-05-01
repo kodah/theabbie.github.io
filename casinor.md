@@ -34,3 +34,4 @@ https://algorithmia.com/users/casinor
 https://seenthis.net/people/casinor
 https://getmakerlog.com/@casinor
 https://e27.co/casinor/
+https://e27.co/startups/casinor/
