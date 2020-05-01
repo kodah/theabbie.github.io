@@ -36,3 +36,4 @@ https://getmakerlog.com/@casinor
 https://e27.co/casinor/
 https://e27.co/startups/casinor/
 https://sourceforge.net/u/casinor/
+https://teespring.com/casinor
