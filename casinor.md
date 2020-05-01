@@ -28,3 +28,4 @@ https://www.uplabs.com/casinor
 https://glitch.com/@casinor
 https://ti.to/casinor
 https://repl.it/@casinorwebsite
+https://lottiefiles.com/casinor
