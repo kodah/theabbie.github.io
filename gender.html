@@ -95,6 +95,34 @@ button {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	border-radius: 8px;
 }
+.result {
+	display: block;
+	width: 80%;
+	max-width: 800px;
+	margin: auto;
+	padding: 0px;
+}
+#pointer, #female, #male {
+	font-size: 48px;
+	font-weight: bolder;
+}
+.bar {
+	padding: 10px 0px 10px 0px;
+    background-image: linear-gradient(-90deg, blue, pink);
+}
+#female {
+	float: left;
+}
+#male {
+	float: right;
+}
+#pointer {
+	float: center;
+	transition: 2s;
+	position: absolute;
+	transform: translateX(-50%);
+	transition-timing-function: ease-out;
+}
 </style>
 <script type="application/ld+json">
 
@@ -143,11 +171,18 @@ button {
 	<div class="triple"><div class="inner"><div class="end"></div></div></div>
 </div>
 <button>DONE</button>
+<div class="result">
+<div class="bar"></div>
+<div class="pointer">
+<span id="pointer">&#9650;</span>	
+</div>
+</div>
 </body>
 <script>
 	var first = document.querySelectorAll(".single");
 	var second = document.querySelectorAll(".double");
 	var third = document.querySelectorAll(".triple");
+	var l = document.querySelector(".bar").clientWidth;
 	var answers = [];
 	answers[0] = [];
 	answers[1] = [];
@@ -155,6 +190,8 @@ button {
 	var fi = 0;
 	var si = 0;
 	var ti = 0;
+ 
+    document.querySelector("#pointer").style.marginLeft=(l/2)+"px";
 
     first.forEach(x => {
     	var vals = [Math.floor(256*Math.random()),Math.floor(256*Math.random()),Math.floor(256*Math.random())];
@@ -200,5 +237,9 @@ button {
           }
     	})
     });
+
+    document.querySelector("button").onclick = function() {
+    	document.querySelector("#pointer").style.marginLeft=Math.floor(l*Math.random())+"px";
+    }
 </script>
 </html>
