@@ -345,7 +345,8 @@ button:active {
           var rslt = data.sort(function(a,b) {math.sum(math.abs(math.subtract(a[1],parsed)))-math.sum(math.abs(math.subtract(b[1],parsed)))}).map(x=>x[0]).slice(0,k);
           var m = f = 0;
           rslt.forEach(x => {if (x=="M") m++;});
-    	  document.querySelector("#pointer").style.marginLeft=Math.floor(m*l/k)+"px";
+          var result = m/k;
+    	  document.querySelector("#pointer").style.marginLeft=Math.floor(l*result)+"px";
     	  document.querySelector(".feedback").style.display="block";
       }
       else {
