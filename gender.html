@@ -147,7 +147,7 @@ button {
 </script>
 <script>
   function loader(data) {
-    window.data = data;
+    window.data = Object.values(data);
   }
 </script>
 <script src="https://codrcrew.firebaseio.com/main/gender.json?callback=loader">
@@ -303,7 +303,8 @@ button {
     document.querySelector("button").onclick = function() {
     	if (answers[0].length==3 && answers[1].length==3 && answers[2].length==3) {
           parsed = math.add(math.multiply(ts[0]/10,answers[0]),math.multiply(ts[1]/20,[math.add(answers[1][0][0],answers[1][0][1]),math.add(answers[1][1][0],answers[1][1][1]),math.add(answers[1][2][0],answers[1][2][1])],math.multiply(ts[2]/30,[math.add(answers[2][0][0],answers[2][0][1],answers[2][0][2]),math.add(answers[2][1][0],answers[2][1][1],answers[2][1][2]),math.add(answers[2][2][0],answers[2][2][1],answers[2][2][2])])));
-          console.log(parsed);
+          var rslt = data.sort(function(a,b) {math.sum(math.abs(math.subtract(a[1],parsed)))-math.sum(math.abs(math.subtract(b[1],parsed)))}).map(x=>x[0]);
+          alert(rslt);
           result = Math.random();
     	  document.querySelector("#pointer").style.marginLeft=Math.floor(l*result)+"px";
     	  document.querySelector(".feedback").style.display="block";
