@@ -62,11 +62,11 @@ h2 {
 h3 {
 	margin-left: 20px;
 }
-.first, .second {
+.first, .second, .third {
 	margin-left: 30px;
 	margin-right: 30px;
 }
-.single,.double {
+.single, .double, .triple {
 	border-radius: 15px;
 	display: inline-block;
 	margin: 15px;
@@ -76,6 +76,12 @@ h3 {
 .inner {
 	padding: 20px;
 	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.end {
+	padding: 15px;
+	border-radius: 7px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 </style>
 <script type="application/ld+json">
@@ -111,15 +117,31 @@ h3 {
 	<div class="double"><div class="inner"></div></div>
 	<div class="double"><div class="inner"></div></div>
 </div>
+<h3>Select any three</h3>
+<div class="third">
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+	<div class="triple"><div class="inner"><div class="end"></div></div></div>
+</div>
 </body>
 <script>
 	var first = document.querySelectorAll(".single");
 	var second = document.querySelectorAll(".double");
+	var third = document.querySelectorAll(".triple");
 	var answers = [];
 	answers[0] = [];
 	answers[1] = [];
+	answers[2] = [];
 	var fi = 0;
 	var si = 0;
+	var ti = 0;
 
     first.forEach(x => {
     	var vals = [Math.floor(256*Math.random()),Math.floor(256*Math.random()),Math.floor(256*Math.random())];
@@ -146,6 +168,22 @@ h3 {
     		x.style.filter = "brightness(50%)";
             answers[1].push(vals);
             si++;
+          }
+    	})
+    });
+
+    third.forEach(x => {
+    	var vals = [[Math.floor(256*Math.random()),Math.floor(256*Math.random()),Math.floor(256*Math.random())],[Math.floor(256*Math.random()),Math.floor(256*Math.random()),Math.floor(256*Math.random())],[Math.floor(256*Math.random()),Math.floor(256*Math.random()),Math.floor(256*Math.random())]];
+    	x.style.background = `rgb(${vals[0][0]},${vals[0][1]},${vals[0][2]})`;
+    	x.childNodes[0].style.background = `rgb(${vals[1][0]},${vals[1][1]},${vals[1][2]})`;
+    	x.childNodes[0].childNodes[0].style.background = `rgb(${vals[2][0]},${vals[2][1]},${vals[2][2]})`;
+    	x.style.padding="15px";
+    	x.addEventListener("click",function() {
+    		if (ti<3 && x.style.padding=="15px") { 
+    		x.style.padding = "20px";
+    		x.style.filter = "brightness(50%)";
+            answers[2].push(vals);
+            ti++;
           }
     	})
     });
