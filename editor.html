@@ -160,11 +160,11 @@ function link() {
   var name = prompt("name");
   var url = prompt("url");
   paste(`<a href="${url}" title="${name}">${name}</a>`);
-  }
-  function youtube() {
+}
+function youtube() {
   var link = prompt("link");
-  paste(`<amp-youtube data-videoid="${link.split("v=").reverse()[0]}" layout="responsive" width="480" height="270"></amp-youtube>`);
-  }
+  paste(`<amp-youtube data-videoid="${link.split("v=").reverse()[0]}" layout="responsive" sizes="(min-width: 500px) 500px, 80vw" width="480" height="270"></amp-youtube>`);
+}
 function list() {
   var n = prompt("Number of items?");
   var op = `<ul>
