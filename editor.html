@@ -183,7 +183,7 @@ function img() {
   var url = prompt("url");
   fetch("https://upload-r1hn185orrij.runkit.sh/?url="+url+"&name="+nurl);
   paste(`<figure>
-<amp-img src="assets/${nurl}" width="160" height="90" layout="responsive" sizes="(min-width: 320px) 320px, 100vw" alt="${name}"></amp-img>
+<amp-img src="assets/${nurl}" width="160" height="90" layout="responsive" sizes="(min-width: 500px) 500px, 80vw" alt="${name}"></amp-img>
 <figcaption>${name}</figcaption>
 </figure>
 `);
