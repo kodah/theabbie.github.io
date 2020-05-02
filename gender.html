@@ -205,6 +205,8 @@ button {
 	var fi = 0;
 	var si = 0;
 	var ti = 0;
+	var ts = [0,0,0];
+	var ctr = [];
  
     document.querySelector("#pointer").style.marginLeft=(l/2)+"px";
 
@@ -214,6 +216,12 @@ button {
     	x.style.padding="35px";
     	x.addEventListener("click",function() {
     		if (fi<3 && x.style.padding=="35px") { 
+    			if (fi==0) {
+    				ctr[0] = setInterval(function() {ts[0]++},100)
+    			}
+    			if (fi==2) {
+    				clearInterval(ctr[0]);
+    			}
     		x.style.padding = "45px";
     		x.style.filter = "brightness(50%)";
             answers[0].push(vals);
@@ -229,6 +237,12 @@ button {
     	x.style.padding="15px";
     	x.addEventListener("click",function() {
     		if (si<3 && x.style.padding=="15px") { 
+    			if (si==0) {
+    				ctr[1] = setInterval(function() {ts[1]++},100)
+    			}
+    			if (si==2) {
+    				clearInterval(ctr[1]);
+    			}
     		x.style.padding = "20px";
     		x.style.filter = "brightness(50%)";
             answers[1].push(vals);
@@ -245,6 +259,12 @@ button {
     	x.style.padding="15px";
     	x.addEventListener("click",function() {
     		if (ti<3 && x.style.padding=="15px") { 
+    			if (ti==0) {
+    				ctr[2] = setInterval(function() {ts[2]++},100)
+    			}
+    			if (ti==2) {
+    				clearInterval(ctr[2]);
+    			}
     		x.style.padding = "20px";
     		x.style.filter = "brightness(50%)";
             answers[2].push(vals);
@@ -255,7 +275,9 @@ button {
 
     document.querySelector("button").onclick = function() {
     	if (answers[0].length==3 && answers[1].length==3 && answers[2].length==3) {
-    	document.querySelector("#pointer").style.marginLeft=Math.floor(l*Math.random())+"px";
+          var parsed = math.add(math.multiply(ts[0]/10,answers[0]),math.multiply(ts[1]/20,[math.add(answers[1][0][0],answers[1][0][1]),math.add(answers[1][1][0],answers[1][1][1]),math.add(answers[1][2][0],answers[1][2][1])],math.multiply(ts[2]/30,[math.add(answers[2][0][0],answers[2][0][1],answers[2][0][2]),math.add(answers[2][1][0],answers[2][1][1],answers[2][1][2]),math.add(answers[2][2][0],answers[2][2][1],answers[2][2][2])])));
+          console.log(parsed);
+    	  document.querySelector("#pointer").style.marginLeft=Math.floor(l*Math.random())+"px";
       }
       else {
       	alert("please complete the tasks first");
