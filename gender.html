@@ -67,7 +67,6 @@ h3 {
 	margin-right: 30px;
 }
 .single {
-	padding: 35px;
 	border-radius: 15px;
 	display: inline-block;
 	margin: 15px;
@@ -102,10 +101,11 @@ h3 {
 	answers[0] = [];
 	var fi = 0;
     first.forEach(x => {
-    	var vals = [Math.floor(256*Math.random()),Math.floor(256*Math.random()),Math.floor(256*Math.random())]
+    	var vals = [Math.floor(256*Math.random()),Math.floor(256*Math.random()),Math.floor(256*Math.random())];
     	x.style.background = `rgb(${vals[0]},${vals[1]},${vals[2]})`;
+    	x.style.padding="35px";
     	x.addEventListener("click",function() {
-    		if (fi<3) { 
+    		if (fi<3 && x.style.padding=="35px") { 
     		x.style.padding = "45px";
     		x.style.filter = "brightness(50%)";
             answers[0].push(vals);
