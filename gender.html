@@ -234,6 +234,7 @@ button {
 	var ctr = [];
 	var result;
 	var parsed;
+        var k = 20;
  
     document.querySelector("#pointer").style.marginLeft=(l/2)+"px";
 
@@ -303,10 +304,10 @@ button {
     document.querySelector("button").onclick = function() {
     	if (answers[0].length==3 && answers[1].length==3 && answers[2].length==3) {
           parsed = math.add(math.multiply(ts[0]/10,answers[0]),math.multiply(ts[1]/20,[math.add(answers[1][0][0],answers[1][0][1]),math.add(answers[1][1][0],answers[1][1][1]),math.add(answers[1][2][0],answers[1][2][1])],math.multiply(ts[2]/30,[math.add(answers[2][0][0],answers[2][0][1],answers[2][0][2]),math.add(answers[2][1][0],answers[2][1][1],answers[2][1][2]),math.add(answers[2][2][0],answers[2][2][1],answers[2][2][2])])));
-          var rslt = data.sort(function(a,b) {math.sum(math.abs(math.subtract(a[1],parsed)))-math.sum(math.abs(math.subtract(b[1],parsed)))}).map(x=>x[0]);
-          alert(rslt);
-          result = Math.random();
-    	  document.querySelector("#pointer").style.marginLeft=Math.floor(l*result)+"px";
+          var rslt = data.sort(function(a,b) {math.sum(math.abs(math.subtract(a[1],parsed)))-math.sum(math.abs(math.subtract(b[1],parsed)))}).map(x=>x[0]).slice(0,k);
+          var m = f = 0;
+          rslt.forEach(x => {if (x=="M") m++;});
+    	  document.querySelector("#pointer").style.marginLeft=Math.floor((m/k)*result)+"px";
     	  document.querySelector(".feedback").style.display="block";
       }
       else {
