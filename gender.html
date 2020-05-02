@@ -145,6 +145,12 @@ button {
   };
   firebase.initializeApp(firebaseConfig);
 </script>
+<script>
+  function loader(data) {
+    window.data = data;
+  }
+</script>
+<script src="https://codrcrew.firebaseio.com/main/gender.json?callback=loader">
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
