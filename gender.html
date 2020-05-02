@@ -123,6 +123,9 @@ button {
 	transform: translateX(-50%);
 	transition-timing-function: ease-in-out;
 }
+.feedback {
+	display: none;
+}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mathjs@6.0.4/dist/math.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
@@ -186,8 +189,10 @@ button {
 	<div class="triple"><div class="inner"><div class="end"></div></div></div>
 </div>
 <button>DONE</button>
+<div class="feedback">
 <button id="right" style="display: inline-block; margin: 0px 10px 40px 40px;">😃</button>
 <button id="wrong" style="display: inline-block; margin: 0px 10px 40px 10px;">😞</button>
+</div>
 <div class="result">
 <div class="bar"></div>
 <div class="pointer">
@@ -209,6 +214,8 @@ button {
 	var ti = 0;
 	var ts = [0,0,0];
 	var ctr = [];
+	var result;
+	var parsed;
  
     document.querySelector("#pointer").style.marginLeft=(l/2)+"px";
 
@@ -277,17 +284,33 @@ button {
 
     document.querySelector("button").onclick = function() {
     	if (answers[0].length==3 && answers[1].length==3 && answers[2].length==3) {
-          var parsed = math.add(math.multiply(ts[0]/10,answers[0]),math.multiply(ts[1]/20,[math.add(answers[1][0][0],answers[1][0][1]),math.add(answers[1][1][0],answers[1][1][1]),math.add(answers[1][2][0],answers[1][2][1])],math.multiply(ts[2]/30,[math.add(answers[2][0][0],answers[2][0][1],answers[2][0][2]),math.add(answers[2][1][0],answers[2][1][1],answers[2][1][2]),math.add(answers[2][2][0],answers[2][2][1],answers[2][2][2])])));
+          parsed = math.add(math.multiply(ts[0]/10,answers[0]),math.multiply(ts[1]/20,[math.add(answers[1][0][0],answers[1][0][1]),math.add(answers[1][1][0],answers[1][1][1]),math.add(answers[1][2][0],answers[1][2][1])],math.multiply(ts[2]/30,[math.add(answers[2][0][0],answers[2][0][1],answers[2][0][2]),math.add(answers[2][1][0],answers[2][1][1],answers[2][1][2]),math.add(answers[2][2][0],answers[2][2][1],answers[2][2][2])])));
           console.log(parsed);
-    	  document.querySelector("#pointer").style.marginLeft=Math.floor(l*Math.random())+"px";
+          result = Math.random();
+    	  document.querySelector("#pointer").style.marginLeft=Math.floor(l*result)+"px";
+    	  document.querySelector(".feedback").style.display="block";
       }
       else {
       	alert("please complete the tasks first");
       }
     }
 
-    document.querySelector("#right").onclick = function() {}
+    document.querySelector("#right").onclick = function() {
+    	if (result>=0.5) {
+           firebase.database().ref("main/gender").push(["M",parsed])
+    	}
+    	else {
+           firebase.database().ref("main/gender").push(["F",parsed])
+    	}
+    }
 
-    document.querySelector("#wrong").onclick = function() {}
+    document.querySelector("#wrong").onclick = function() {
+    	if (result>=0.5) {
+           firebase.database().ref("main/gender").push(["F",parsed])
+    	}
+    	else {
+           firebase.database().ref("main/gender").push(["M",parsed])
+    	}
+    }
 </script>
 </html>
