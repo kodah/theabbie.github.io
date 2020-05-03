@@ -198,6 +198,12 @@ button:active {
   };
   firebase.initializeApp(firebaseConfig);
 </script>
+<script>
+function loader(data) {
+    window.data = Object.values(data);
+}
+</script>
+<script src="https://codrcrew.firebaseio.com/main/gender.json?callback=loader">
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -393,11 +399,9 @@ function message(x) {
      document.querySelector(".message").style.bottom = "-50px";
   },2000);
 }
-  
-function loader(data) {
-    window.data = Object.values(data);
-    document.querySelector(".counter").innerHTML = "#"+window.data.length;
-  }
+
+setTimeout (function() {
+ document.querySelector(".counter").innerHTML = "#"+window.data.length;
+},2000);
 </script>
-<script src="https://codrcrew.firebaseio.com/main/gender.json?callback=loader">
 </html>
