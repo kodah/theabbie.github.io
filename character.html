@@ -336,6 +336,28 @@ function compare(a,b,plist) {
     }
      a = [...a.slice(0,k+1), (a[k]+a[k+1])/2, ...a.slice(k+1,a.length)];
    }
+   for (i=0; i<l-b.length; i++) {
+        var mdiff = b[1]-b[0];
+        var k = 0;
+      for (j=0; j<b.length-1; j++) {
+        if (b[j+1]-b[j]>mdiff) {
+          mdiff = b[j+1]-b[j];
+          k = j;
+      }
+    }
+     b = [...b.slice(0,k+1), (b[k]+b[k+1])/2, ...b.slice(k+1,b.length)];
+   }
+   for (i=0; i<l-plist.length; i++) {
+        var mdiff = plist[1]-plist[0];
+        var k = 0;
+      for (j=0; j<plist.length-1; j++) {
+        if (plist[j+1]-plist[j]>mdiff) {
+          mdiff = plist[j+1]-plist[j];
+          k = j;
+      }
+    }
+     plist = [...plist.slice(0,k+1), (plist[k]+plist[k+1])/2, ...plist.slice(k+1,plist.length)];
+   }
    a = [...a.sort((x,y) => {return x[0]-y[0];}),...a.sort((x,y) => {return x[1]-y[1];})];
    b = [...b.sort((x,y) => {return x[0]-y[0];}),...b.sort((x,y) => {return x[1]-y[1];})];
    plist = [...plist.sort((x,y) => {return x[0]-y[0];}),...plist.sort((x,y) => {return x[1]-y[1];})];
