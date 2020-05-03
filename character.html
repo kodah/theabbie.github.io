@@ -326,37 +326,37 @@ function message(x) {
 function compare(a,b,plist) {
     var l = Math.max(a.length, b.length, plist.length);
     for (i=0; i<l-a.length; i++) {
-        var mdiff = a[1]-a[0];
+        var mdiff = math.add(math.abs(math.subtract(a[1],a[0])));
         var k = 0;
       for (j=0; j<a.length-1; j++) {
-        if (a[j+1]-a[j]>mdiff) {
-          mdiff = a[j+1]-a[j];
+        if (math.add(math.abs(math.subtract(a[j+1],a[j])))>mdiff) {
+          mdiff = math.add(math.abs(math.subtract(a[j+1],a[j])));
           k = j;
       }
     }
-     a = [...a.slice(0,k+1), (a[k]+a[k+1])/2, ...a.slice(k+1,a.length)];
+     a = [...a.slice(0,k+1), math.multiply(0.5,math.add(a[k],a[k+1])), ...a.slice(k+1,a.length)];
    }
    for (i=0; i<l-b.length; i++) {
-        var mdiff = b[1]-b[0];
+        var mdiff = math.add(math.abs(math.subtract(b[1],b[0])));
         var k = 0;
       for (j=0; j<b.length-1; j++) {
-        if (b[j+1]-b[j]>mdiff) {
-          mdiff = b[j+1]-b[j];
+        if (math.add(math.abs(math.subtract(b[j+1],b[j])))>mdiff) {
+          mdiff = math.add(math.abs(math.subtract(b[j+1],b[j])));
           k = j;
       }
     }
-     b = [...b.slice(0,k+1), (b[k]+b[k+1])/2, ...b.slice(k+1,b.length)];
+     b = [...b.slice(0,k+1), math.multiply(0.5,math.add(b[k],b[k+1])), ...b.slice(k+1,b.length)];
    }
    for (i=0; i<l-plist.length; i++) {
-        var mdiff = plist[1]-plist[0];
+        var mdiff = math.add(math.abs(math.subtract(plist[1],plist[0])));
         var k = 0;
       for (j=0; j<plist.length-1; j++) {
-        if (plist[j+1]-plist[j]>mdiff) {
-          mdiff = plist[j+1]-plist[j];
+        if (math.add(math.abs(math.subtract(plist[j+1],plist[j])))>mdiff) {
+          mdiff = math.add(math.abs(math.subtract(plist[j+1],plist[j])));
           k = j;
       }
     }
-     plist = [...plist.slice(0,k+1), (plist[k]+plist[k+1])/2, ...plist.slice(k+1,plist.length)];
+     plist = [...plist.slice(0,k+1), math.multiply(0.5,math.add(plist[k],plist[k+1])), ...plist.slice(k+1,plist.length)];
    }
    a = [...a.sort((x,y) => {return x[0]-y[0];}),...a.sort((x,y) => {return x[1]-y[1];})];
    b = [...b.sort((x,y) => {return x[0]-y[0];}),...b.sort((x,y) => {return x[1]-y[1];})];
