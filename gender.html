@@ -375,6 +375,7 @@ button:active {
     	else {
            firebase.database().ref("main/gender").push(["F",parsed])
     	}
+       message("Thank you");
     }
 
     document.querySelector("#wrong").onclick = function() {
@@ -384,6 +385,7 @@ button:active {
     	else {
            firebase.database().ref("main/gender").push(["M",parsed])
     	}
+       message("Thank you");
     }
 function message(x) {
     document.querySelector(".message").innerHTML = x;
