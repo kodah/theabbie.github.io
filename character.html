@@ -76,14 +76,22 @@ h2 {
 h3 {
   margin-left: 20px;
 }
+
 svg {
 
 }
+
 rect {
   fill:transparent; 
   stroke:rgb(0,0,0); 
   stroke-width:2; 
   opacity:1;
+}
+
+polyline {
+  stroke: rgb(221,172,39); 
+  stroke-width: 5px; 
+  fill: none;
 }
 </style>
 <script type="application/ld+json">
@@ -114,7 +122,6 @@ var svg = document.querySelector("svg");
 var frame = document.querySelector("rect");
 window.addEventListener('touchstart', function(e) {
 art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-art.setAttribute("style","stroke: rgb(221,172,39); stroke-width: 5px; fill: none;");
 svg.appendChild(art);
 },false);
 window.addEventListener('touchmove', function(e) {
