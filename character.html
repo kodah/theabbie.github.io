@@ -277,8 +277,7 @@ document.querySelectorAll(".draw").forEach(x => {x.style.display="none";});
 art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
 svg.appendChild(art);
 art.setAttribute("points",peaks);
-//data.x = data.x.map(x => Math.floor(1000*(x-Math.min(...data.x))/(Math.max(...data.x)-Math.min(...data.x))))
-//data.y = data.y.map(y => Math.floor(1000*(y-Math.min(...data.y))/(Math.max(...data.y)-Math.min(...data.y))))
+plist = plist.map(x => [Math.floor(1000*(x[0]-Math.min(...data.x))/(Math.max(...data.x)-Math.min(...data.x))),Math.floor(1000*(x[1]-Math.min(...data.y))/(Math.max(...data.y)-Math.min(...data.y)))]);
 message(peaks);
 },false);
 
