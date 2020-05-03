@@ -300,7 +300,8 @@ art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
 svg.appendChild(art);
 art.setAttribute("points",peaks);
 plist = plist.map(x => [Math.floor(1000*(x[0]-Math.min(...data.x))/(Math.max(...data.x)-Math.min(...data.x))),Math.floor(1000*(x[1]-Math.min(...data.y))/(Math.max(...data.y)-Math.min(...data.y)))]);
-message(peaks);
+var guess = math.mode(data.sort(function(a,b) {return compare(a,b)}).map(x=>x[0]));
+message("I think it's " + guess);
 },false);
 
 function train(x) {
