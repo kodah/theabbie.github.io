@@ -9,6 +9,15 @@
 <div class="gcse-search" enableAutoComplete="true"></div>
 </body>
 <script>
-document.title = location.search.split("?q=")[1];
+function query(name) {
+    url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+document.title = query ("q");
 </script>
 </html>
