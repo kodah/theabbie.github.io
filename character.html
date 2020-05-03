@@ -256,10 +256,10 @@ for (i=1; i<data.x.length-1; i++) {
      peaks += data.x[i]+","+data.y[i]+" ";
   }
 }
+peaks += data.x[data.x.length-1]+","+data.y[data.y.length-1];
 art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
 svg.appendChild(art);
 art.setAttribute("points",peaks);
-peaks += data.x[data.x.length-1]+","+data.y[data.y.length-1];
 //data.x = data.x.map(x => Math.floor(1000*(x-Math.min(...data.x))/(Math.max(...data.x)-Math.min(...data.x))))
 //data.y = data.y.map(y => Math.floor(1000*(y-Math.min(...data.y))/(Math.max(...data.y)-Math.min(...data.y))))
 message(data.x);
