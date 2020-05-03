@@ -240,6 +240,7 @@ var frame = document.querySelector("rect");
 svg.addEventListener('touchstart', function(e) {
 art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
 svg.appendChild(art);
+art.setAttribute("class", "draw");
 tx = e.touches[0].clientX-ol;
 ty = e.touches[0].clientY-oh;
 data.x.push(tx);
@@ -268,6 +269,7 @@ for (i=3; i<data.x.length-4; i++) {
   }
 }
 peaks += Math.floor(data.x[data.x.length-1])+","+Math.floor(data.y[data.y.length-1]);
+document.querySelectorAll(".draw").forEach(x => {x.style.display="none";});
 art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
 svg.appendChild(art);
 art.setAttribute("points",peaks);
