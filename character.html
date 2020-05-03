@@ -324,7 +324,7 @@ function message(x) {
 }
 
 function compare(a,b,plist) {
-    var l = Math.max(a.length, b.length, c.length);
+    var l = Math.max(a.length, b.length, plist.length);
     for (i=0; i<l-a.length; i++) {
       var k = Math.floor((a.length-2)*Math.random())+1;
       a.splice(k,0,[(a[k][0]+a[k+1][0])/2,(a[k][1]+a[k+1][1])/2])
