@@ -230,6 +230,7 @@ button:active {
 var art;
 var data = {"x": [], "y": []};
 var tx,ty;
+var plist = [];
 var wid = window.innerWidth;
 var hit = window.innerHeight;
 var svg = document.querySelector("svg");
@@ -262,12 +263,15 @@ frame.setAttribute("x",Math.min(...data.x));
 frame.setAttribute("y",Math.min(...data.y));
 frame.setAttribute("width",Math.max(...data.x)-Math.min(...data.x));
 frame.setAttribute("height",Math.max(...data.y)-Math.min(...data.y));
+plist.push([Math.floor(data.x[0]),Math.floor(data.y[0])]);
 var peaks = Math.floor(data.x[0])+","+Math.floor(data.y[0])+" ";
 for (i=3; i<data.x.length-4; i++) {
   if ((data.x[i] > data.x[i-3] && data.x[i] > data.x[i+3]) || (data.x[i] < data.x[i-3] && data.x[i] < data.x[i+3]) || (data.y[i] > data.y[i-3] && data.y[i] > data.y[i+3]) || (data.y[i] < data.y[i-3] && data.y[i] < data.y[i+3])) {
+     plist.push([Math.floor(data.x[i]),Math.floor(data.y[i])]);
      peaks += Math.floor(data.x[i])+","+Math.floor(data.y[i])+" ";
   }
 }
+plist.push([Math.floor(data.x[data.x.length-1]),Math.floor(data.y[data.y.length-1])]);
 peaks += Math.floor(data.x[data.x.length-1])+","+Math.floor(data.y[data.y.length-1]);
 document.querySelectorAll(".draw").forEach(x => {x.style.display="none";});
 art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
