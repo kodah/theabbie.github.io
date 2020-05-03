@@ -326,16 +326,15 @@ function message(x) {
 function compare(a,b,plist) {
     var l = Math.max(a.length, b.length, plist.length);
     for (i=0; i<l-a.length; i++) {
-      var k = Math.floor((a.length-2)*Math.random())+1;
-      a.splice(k,0,[(a[k][0]+a[k+1][0])/2,(a[k][1]+a[k+1][1])/2])
-   }
-   for (i=0; i<l-b.length; i++) {
-      var k = Math.floor((b.length-2)*Math.random())+1;
-      b.splice(k,0,[(b[k][0]+b[k+1][0])/2,(b[k][1]+b[k+1][1])/2])
-   }
-   for (i=0; i<l-plist.length; i++) {
-      var k = Math.floor((plist.length-2)*Math.random())+1;
-      plist.splice(k,0,[(plist[k][0]+plist[k+1][0])/2,(plist[k][1]+plist[k+1][1])/2])
+        var mdiff = a[1]-a[0];
+        var k = 0;
+      for (j=0; j<a.length-1; j++) {
+        if (a[j+1]-a[j]>mdiff) {
+          mdiff = a[j+1]-a[j];
+          k = j;
+      }
+    }
+     a = []
    }
    a = [...a.sort((x,y) => {return x[0]-y[0];}),...a.sort((x,y) => {return x[1]-y[1];})];
    b = [...b.sort((x,y) => {return x[0]-y[0];}),...b.sort((x,y) => {return x[1]-y[1];})];
