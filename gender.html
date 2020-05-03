@@ -167,6 +167,18 @@ button:active {
 .feedback {
   display: none;
 }
+.message {
+  background: rgb(10,10,10);
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  display: block;
+  position: fixed;
+  z-index::2;
+  bottom: -50px;
+  transition: 0.3s;
+  width: 100%;
+}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mathjs@6.0.4/dist/math.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
@@ -255,6 +267,7 @@ button:active {
 <span id="pointer">&#9650;</span>	
 </div>
 </div>
+<div class="message"></div>
 </body>
 <script>
 	var first = document.querySelectorAll(".single");
@@ -372,5 +385,13 @@ button:active {
            firebase.database().ref("main/gender").push(["M",parsed])
     	}
     }
+function message(x) {
+    document.querySelector(".message").innerHTML = x;
+    document.querySelector(".message").style.bottom = "0px";
+    setTimeout(function() {
+     document.querySelector(".message").innerHTML = "";
+     document.querySelector(".message").style.bottom = "-50px";
+  },2000);
+}
 </script>
 </html>
