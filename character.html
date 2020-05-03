@@ -337,9 +337,9 @@ function compare(a,b,plist) {
       var k = Math.floor((plist.length-2)*Math.random())+1;
       plist.splice(k,0,[(plist[k][0]+plist[k+1][0])/2,(plist[k][1]+plist[k+1][1])/2])
    }
-   a = [...a.sort((x,y) {return x[0]-y[0];}),...a.sort((x,y) {return x[1]-y[1];})];
-   b = [...b.sort((x,y) {return x[0]-y[0];}),...b.sort((x,y) {return x[1]-y[1];})];
-   plist = [...plist.sort((x,y) {return x[0]-y[0];}),...plist.sort((x,y) {return x[1]-y[1];})];
+   a = [...a.sort((x,y) => {return x[0]-y[0];}),...a.sort((x,y) => {return x[1]-y[1];})];
+   b = [...b.sort((x,y) => {return x[0]-y[0];}),...b.sort((x,y) => {return x[1]-y[1];})];
+   plist = [...plist.sort((x,y) => {return x[0]-y[0];}),...plist.sort((x,y) => {return x[1]-y[1];})];
    return math.sum(math.abs(math.subtract(a,plist)))-math.sum(math.abs(math.subtract(b,plist)));
 }
 </script>
