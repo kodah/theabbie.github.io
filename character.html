@@ -250,8 +250,18 @@ frame.setAttribute("x",Math.min(...data.x));
 frame.setAttribute("y",Math.min(...data.y));
 frame.setAttribute("width",Math.max(...data.x)-Math.min(...data.x));
 frame.setAttribute("height",Math.max(...data.y)-Math.min(...data.y));
-data.x = data.x.map(x => Math.floor(1000*(x-Math.min(...data.x))/(Math.max(...data.x)-Math.min(...data.x))))
-data.y = data.y.map(y => Math.floor(1000*(y-Math.min(...data.y))/(Math.max(...data.y)-Math.min(...data.y))))
+var peaks = data.x[0]+","+data.y[0]+" ";
+for (i=1; i<data.x.length-1; i++) {
+  if ((data.x[i] > data.x[i-1] && data.x[i] > data.x[i+1]) || (data.x[i] < data.x[i-1] && data.x[i] < data.x[i+1]) || (data.y[i] > data.y[i-1] && data.y[i] > data.y[i+1]) || (data.y[i] < data.y[i-1] && data.y[i] < data.y[i+1])) {
+     peaks += data.x[i]+","+data.y[i]+" ";
+  }
+}
+art = document.createElementNS("http://www.w3.org/2000/svg","polyline");
+svg.appendChild(art);
+art.setAttribute("points",peaks);
+peaks += data.x[data.x.length-1]+","+data.y[data.y.length-1];
+//data.x = data.x.map(x => Math.floor(1000*(x-Math.min(...data.x))/(Math.max(...data.x)-Math.min(...data.x))))
+//data.y = data.y.map(y => Math.floor(1000*(y-Math.min(...data.y))/(Math.max(...data.y)-Math.min(...data.y))))
 message(data.x);
 },false);
 
