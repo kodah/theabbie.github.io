@@ -249,13 +249,11 @@ data.y.push(ty);
 art.setAttribute("points",art.getAttribute('points')+tx+","+ty+" ");
 },false);
 svg.addEventListener('touchmove', function(e) {
-if (Math.abs(e.touches[0].clientX-ol-tx)+Math.abs(e.touches[0].clientY-oh) >= 15) {
 tx = e.touches[0].clientX-ol;
 ty = e.touches[0].clientY-oh;
 data.x.push(tx);
 data.y.push(ty);
 art.setAttribute("points",art.getAttribute('points')+tx+","+ty+" ");
-}
 },false);
 document.querySelector(".done").addEventListener('click', function(e) {
 document.querySelector(".done").disabled = true;
