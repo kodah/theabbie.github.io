@@ -123,6 +123,22 @@ button {
 button:active {
   padding: 10px;
 }
+
+.message {
+  background: rgb(50,50,50);
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4px;
+  word-spacing: 9px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 15px 15px 15px 15px;
+  display: block;
+  position: fixed;
+  z-index::2;
+  bottom: -50px;
+  transition: 0.3s;
+  width: 100%;
+}
 </style>
 <script type="application/ld+json">
 {
@@ -207,6 +223,7 @@ button:active {
 <button onclick="train('8')" id="number_8">8</button>
 <button onclick="train('9')" id="number_9">9</button>
 </div>
+<div class="message"></div>
 </body>
 <script>
 var art;
@@ -238,7 +255,16 @@ alert(data.x);
 },false);
 
 function train(x) {
+   message("You Trained It "+x);
+}
 
+function message(x) {
+    document.querySelector(".message").innerHTML = x;
+    document.querySelector(".message").style.bottom = "0px";
+    setTimeout(function() {
+     document.querySelector(".message").innerHTML = "";
+     document.querySelector(".message").style.bottom = "-50px";
+  },2000);
 }
 </script>
 </html>
