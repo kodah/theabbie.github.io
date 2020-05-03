@@ -334,7 +334,7 @@ function compare(a,b,plist) {
           k = j;
       }
     }
-     a = []
+     a = [...a.slice(0,k+1), (a[k]+a[k+1])/2, ...a.slice(k+1,a.length)];
    }
    a = [...a.sort((x,y) => {return x[0]-y[0];}),...a.sort((x,y) => {return x[1]-y[1];})];
    b = [...b.sort((x,y) => {return x[0]-y[0];}),...b.sort((x,y) => {return x[1]-y[1];})];
