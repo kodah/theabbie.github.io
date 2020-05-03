@@ -272,7 +272,16 @@ h2 {
   bottom: -50px;
   transition: 0.3s;
   width: 100%;
+  animation: message 3s 1;
 }
+</style>
+<style amp-keyframes>
+   @keyframes message {
+      0%   {bottom: -50px;}
+      25%  {bottom: 0px;}
+      75%  {bottom: 0px;}
+      100% {bottom: -50px;}
+    }
 </style>
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
