@@ -201,6 +201,7 @@ button:active {
 <script>
   function loader(data) {
     window.data = Object.values(data);
+    counter(window.data.length);
   }
 </script>
 <script src="https://codrcrew.firebaseio.com/main/gender.json?callback=loader">
@@ -219,6 +220,7 @@ button:active {
 </head>
 <body>
 <h1>Guess My Gender</h1>
+<span class="counter"></span>
 <h2>Perform These 3 simple tasks</h2>
 <h3>Select any three</h3>
 <div class="first">
@@ -397,6 +399,10 @@ function message(x) {
      document.querySelector(".message").innerHTML = "";
      document.querySelector(".message").style.bottom = "-50px";
   },2000);
+}
+
+function counter(n) {
+   document.querySelector(".counter").innerHTML = "#"+n;
 }
 </script>
 </html>
