@@ -363,5 +363,9 @@ function compare(a,b,plist) {
    plist = [...plist.sort((x,y) => {return x[0]-y[0];}),...plist.sort((x,y) => {return x[1]-y[1];})];
    return math.sum(math.abs(math.subtract(a,plist)))-math.sum(math.abs(math.subtract(b,plist)));
 }
+
+window.onerror = function (errorMsg, url, lineNumber) {
+    message('Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber);
+}
 </script>
 </html>
