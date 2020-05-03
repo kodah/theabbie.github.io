@@ -246,6 +246,7 @@ data.y.push(e.touches[0].clientY-oh);
 art.setAttribute("points",art.getAttribute('points')+(e.touches[0].clientX-ol)+","+(e.touches[0].clientY-oh)+" ");
 },false);
 document.querySelector(".done").addEventListener('click', function(e) {
+document.querySelector(".done").disabled = true;
 frame.setAttribute("x",Math.min(...data.x));
 frame.setAttribute("y",Math.min(...data.y));
 frame.setAttribute("width",Math.max(...data.x)-Math.min(...data.x));
