@@ -232,5 +232,9 @@ function message(x) {
      document.querySelector(".message").style.bottom = "-50px";
   },2000);
 }
+
+window.onerror = function (errorMsg, url, lineNumber) {
+    message('Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber);
+}
 </script>
 </html>
