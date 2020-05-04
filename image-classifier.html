@@ -202,7 +202,7 @@ document.querySelector(".done").onclick = function() {
    document.body.appendChild(image);
    image.onload = function() {
     canvas.style.height = (canvas.clientWidth * (image.height / image.width)) + "px";
-    message(image.width + " , " + image.height + " , " + image.clientWidth + " , " + image.clientHeight + " , " + canvas.width + " , " + canvas.height + " , " + canvas.clientWidth + " , " + canvas.clientHeight);
+    //message(image.width + " , " + image.height + " , " + image.clientWidth + " , " + image.clientHeight + " , " + canvas.width + " , " + canvas.height + " , " + canvas.clientWidth + " , " + canvas.clientHeight);
     ctx.drawImage(image, 0, 0, image.width, image.height, 0, 0, canvas.width, canvas.height);
     var data = ctx.getImageData(0, 0, k, k);
     var x = {r:[0,0,0,0,0,0],g:[0,0,0,0,0,0],b:[0,0,0,0,0,0]}
