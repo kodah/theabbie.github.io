@@ -211,11 +211,16 @@ document.querySelector(".done").onclick = function() {
          x.g[(data.data[i+1]-data.data[i+1]%51)/51]++;
          x.b[(data.data[i+2]-data.data[i+2]%51)/51]++;
       }
-     if (document.querySelector("label").value != "") {firebase.database().ref('main/images').push([Object.values(x),document.querySelector("label").value]);}
+     if (document.querySelector("label").value != "") {firebase.database().ref('main/images').push([Object.values(x),document.querySelector("label").value.toLowerCase()]);}
      else {
-       predict(x);
+       predict(Object.values(x));
      }
    };
+}
+
+function predict(x) {
+   var guess = math.mode(data.sort(function(a,b) {return math.sum(math.abs(math.subtract(a,x))) - math.sum(math.abs(math.subtract(b,x)));}).map(x=>x[1]).slice(0,10));
+   message("I think it's " + guess);
 }
 
 function message(x) {
