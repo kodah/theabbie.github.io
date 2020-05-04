@@ -369,8 +369,8 @@ function score(x,plist) {
    var small = x.length<plist.length?x:plist;
    var big = x.length>plist.length?x:plist;
     small.forEach(function(p1) {
-      sc += math.add(big.sort(function(a,b) {
-         return math.add(math.abs(math.subtract(a,p1)))-math.add(math.abs(math.subtract(b,p1)));
+      sc += math.sum(big.sort(function(a,b) {
+         return math.sum(math.abs(math.subtract(a,p1)))-math.sum(math.abs(math.subtract(b,p1)));
      })[0]);
   });
   return sc;
