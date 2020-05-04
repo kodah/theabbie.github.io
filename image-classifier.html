@@ -193,6 +193,9 @@ document.querySelector(".done").onclick = function() {
    image.onload = function() {
     canvas.style.height = (canvas.clientWidth * (image.height / image.width)) + "px";
     message(image.width + " , " + image.height + " , " + image.clientWidth + " , " + image.clientHeight + " , " + canvas.width + " , " + canvas.height + " , " + canvas.clientWidth + " , " + canvas.clientHeight);
+    ctx.mozImageSmoothingEnabled = false;
+    ctx.webkitImageSmoothingEnabled = false;
+    ctx.msImageSmoothingEnabled = false;
     ctx.imageSmoothingEnabled = false;
     ctx.drawImage(image, 0, 0, image.width, image.height, 0, 0, canvas.width, canvas.height);
    };
