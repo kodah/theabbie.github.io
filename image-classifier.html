@@ -187,8 +187,7 @@ document.querySelector(".done").onclick = function() {
    var ctx = canvas.getContext("2d");
    var image = new Image();
    image.onload = function() {
-       image.style.width = image.style.height = canvas.clientWidth + "px";
-       ctx.drawImage(image, 0, 0, canvas.clientWidth, canvas.clientHeight, 0, 0, canvas.clientWidth, canvas.clientHeight);
+       ctx.drawImage(image, 0, 0, image.clientWidth, image.clientHeight, 0, 0, canvas.clientWidth, canvas.clientHeight);
      };
    image.src = url;
 }
