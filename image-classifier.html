@@ -1,1 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Image Classifier</title>
+<meta charset="utf-8" />
+<link rel="canonical" href="/image-classifier">
+<meta name="keywords" content="TheAbbie, Abhishek chaudhary, FCRIT, Fr conceicao rodrigues institute of technology">
+<meta property="og:locale" content="en_US" />
+<link rel="manifest" href="/manifest.json">
+<link rel="shortcut icon" type="image/x-icon" href="https://theabbie.github.io/files/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="description" content="This App Will Classify Image using Machine Learning" />
+<meta property="og:type" content="website">
+<meta property="og:title" content="Image Classifier">
+<meta property="og:description" content="This App Will Classify Image using Machine Learning">
+<meta property="og:image" content="https://theabbie.github.io/blog/assets/share.jpg">
+<meta property="og:url" content="https://theabbie.github.io">
+<meta property="twitter:url" content="https://theabbie.github.io/">
+<meta name="twitter:title" content="Image Classifier">
+<meta name="twitter:description" content="This App Will Classify Image using Machine Learning">
+<meta name="twitter:image" content="https://theabbie.github.io/blog/assets/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" sizes="180x180" href="/files/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/files/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="194x194" href="/files/favicons/favicon-194x194.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/files/favicons/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/files/favicons/favicon-16x16.png">
+<link rel="mask-icon" href="/files/favicons/safari-pinned-tab.svg" color="#000000">
+<link rel="shortcut icon" href="/files/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="/files/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="/files/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<style>
+@font-face {
+  font-family: 'Martel Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Martel Sans Regular'), local('MartelSans-Regular'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GsssGi7VdzDgKjM-4d8hjYx-4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
+* {
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 15px;
+  letter-spacing: 6px;
+  word-spacing: 12px;
+  line-height: 125%;
+}
+
+body {
+  margin: 0px;
+  padding: 20px;
+}
+
+*:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3 {
+  display: block;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 0px;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+svg {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+  border-radius: 18px;
+  display: block;
+  touch-action: none;
+}
+
+rect {
+  fill:transparent; 
+  stroke:rgb(50,50,50); 
+  stroke-width:0.5; 
+  opacity:1;
+}
+
+polyline {
+  stroke: rgb(0,0,0); 
+  stroke-width: 5px; 
+  fill: none;
+}
+
+.controls {
+  margin: 30px 7px 30px 15px;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 8px 12px 8px 12px;
+  background: purple;
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 8px;
+  transition: 0.25s;
+}
+
+button:active {
+  padding: 10px;
+}
+
+.message {
+  background: rgb(50,50,50);
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4px;
+  word-spacing: 9px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 15px 15px 15px 15px;
+  display: block;
+  position: fixed;
+  z-index: 2;
+  bottom: -50px;
+  transition: 0.3s;
+  width: 100%;
+  margin-left: -20px;
+}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mathjs@6.0.4/dist/math.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyBECQksrlWkWOTP4jriMmA9thfcKgbHyuE",
+    authDomain: "codrcrew.firebaseapp.com",
+    databaseURL: "https://codrcrew.firebaseio.com",
+    projectId: "codrcrew",
+    storageBucket: "codrcrew.appspot.com",
+    messagingSenderId: "517463115484",
+    appId: "1:517463115484:web:93ce55f61c78b015371619"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script>
+function loader(data) {
+    window.ldata = Object.values(data);
+}
+</script>
+<script src="https://codrcrew.firebaseio.com/main/letters.json?callback=loader">
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Image Classifier",
+    "description": "This App Will Classify Image using Machine Learning",
+    "publisher": {
+        "@type": "ProfilePage",
+        "name": "TheAbbie"
+    }
+}
+</script>
+</head>
+<body>
+<h1>Image Classifier</h1>
+<canvas></canvas>
+<button class="done" style="display: block; margin: 30px auto 30px auto;">DONE</button>
+<div class="message"></div>
+</body>
+<script>
+function message(x) {
+    document.querySelector(".message").innerHTML = x;
+    document.querySelector(".message").style.bottom = "0px";
+    setTimeout(function() {
+     document.querySelector(".message").innerHTML = "";
+     document.querySelector(".message").style.bottom = "-50px";
+  },2000);
+}
+</script>
+</html>
