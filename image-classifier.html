@@ -88,6 +88,12 @@ canvas {
   display: block;
   transition: 0.75s;
   touch-action: none;
+  image-rendering: optimizeSpeed;            
+  image-rendering: -moz-crisp-edges;         
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -o-crisp-edges;            
+  image-rendering: pixelated;        
+  -ms-interpolation-mode: nearest-neighbor;
 }
 
 button {
