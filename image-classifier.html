@@ -199,6 +199,7 @@ document.querySelector(".done").onclick = function() {
    ctx.imageSmoothingEnabled = false;
    var image = document.createElement("img");
    image.style.display = "none";
+   image.crossOrigin = "Anonymous";
    image.src = url;
    document.body.appendChild(image);
    image.onload = function() {
