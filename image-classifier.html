@@ -160,10 +160,10 @@ button:active {
 </script>
 <script>
 function loader(data) {
-    window.ldata = Object.values(data);
+    window.data = Object.values(data);
 }
 </script>
-<script src="https://codrcrew.firebaseio.com/main/letters.json?callback=loader">
+<script src="https://codrcrew.firebaseio.com/main/images.json?callback=loader">
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -211,7 +211,10 @@ document.querySelector(".done").onclick = function() {
          x.g[(data.data[i+1]-data.data[i+1]%51)/51]++;
          x.b[(data.data[i+2]-data.data[i+2]%51)/51]++;
       }
-     message(JSON.stringify(x));
+     if (document.querySelector("label").value != "") {firebase.database().ref('main/images').push([Object.values(x),document.querySelector("label").value]);}
+     else {
+       predict(x);
+     }
    };
 }
 
