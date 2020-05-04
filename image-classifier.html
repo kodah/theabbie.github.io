@@ -185,11 +185,13 @@ canvas.style.height = canvas.clientWidth + "px";
 document.querySelector(".done").onclick = function() {
    var url = txt.value;
    var ctx = canvas.getContext("2d");
-   var image = new Image();
-   image.onload = function() {
-       ctx.drawImage(image, 0, 0, image.clientWidth, image.clientHeight, 0, 0, canvas.clientWidth, canvas.clientHeight);
-     };
+   var image = document.createElement("img");
+   image.style.display = "none";
    image.src = url;
+   document.body.appendChild(image);
+   image.onload = function() {
+    ctx.drawImage(image, 0, 0, image.clientWidth, image.clientHeight, 0, 0, canvas.clientWidth, canvas.clientHeight);
+   };
 }
 
 function message(x) {
