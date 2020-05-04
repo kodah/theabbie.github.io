@@ -221,7 +221,7 @@ document.querySelector(".done").onclick = function() {
 }
 
 function predict(x) {
-   var guess = math.mode(data.sort(function(a,b) {return math.sum(math.abs(math.subtract(a,x))) - math.sum(math.abs(math.subtract(b,x)));}).map(x=>x[1]).slice(0,10));
+   var guess = math.mode(data.sort(function(a,b) {return math.sum(math.abs(math.subtract(a[0],x))) - math.sum(math.abs(math.subtract(b[0],x)));}).map(x=>x[1]).slice(0,10));
    message("I think it's " + guess);
 }
 
