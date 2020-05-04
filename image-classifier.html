@@ -123,6 +123,18 @@ button:active {
   width: 100%;
   margin-left: -20px;
 }
+
+.txt {
+  border: 1px solid rgba(0,0,0,0.25);
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto 20px auto;
+  width: 80%;
+  max-width: 700px;
+}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mathjs@6.0.4/dist/math.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
@@ -161,12 +173,24 @@ function loader(data) {
 <body>
 <h1>Image Classifier</h1>
 <canvas></canvas>
+<input type="text" class="txt">
 <button class="done" style="display: block; margin: 30px auto 30px auto;">DONE</button>
 <div class="message"></div>
 </body>
 <script>
 var canvas = document.querySelector("canvas");
+var txt = document.querySelector(".txt");
 canvas.style.height = canvas.clientWidth + "px";
+
+document.querySelector(".done").onclick = function() {
+   var url = txt.value;
+   var ctx = canvas.getContext("2d");
+   var image = new Image();
+   image.onload = function() {
+       ctx.drawImage(image, 0, 0);
+     };
+   image.src = url;
+}
 
 function message(x) {
     document.querySelector(".message").innerHTML = x;
