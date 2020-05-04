@@ -323,47 +323,6 @@ function message(x) {
   },2000);
 }
 
-function compare(a,b,plist) {
-    var l = Math.max(a.length, b.length, plist.length);
-    for (i=0; i<l-a.length; i++) {
-        var mdiff = math.add(math.abs(math.subtract(a[1],a[0])));
-        var k = 0;
-      for (j=0; j<a.length-1; j++) {
-        if (math.add(math.abs(math.subtract(a[j+1],a[j])))>mdiff) {
-          mdiff = math.add(math.abs(math.subtract(a[j+1],a[j])));
-          k = j;
-      }
-    }
-     a = [...a.slice(0,k+1), math.multiply(0.5,math.add(a[k],a[k+1])), ...a.slice(k+1,a.length)];
-   }
-   for (i=0; i<l-b.length; i++) {
-        var mdiff = math.add(math.abs(math.subtract(b[1],b[0])));
-        var k = 0;
-      for (j=0; j<b.length-1; j++) {
-        if (math.add(math.abs(math.subtract(b[j+1],b[j])))>mdiff) {
-          mdiff = math.add(math.abs(math.subtract(b[j+1],b[j])));
-          k = j;
-      }
-    }
-     b = [...b.slice(0,k+1), math.multiply(0.5,math.add(b[k],b[k+1])), ...b.slice(k+1,b.length)];
-   }
-   for (i=0; i<l-plist.length; i++) {
-        var mdiff = math.add(math.abs(math.subtract(plist[1],plist[0])));
-        var k = 0;
-      for (j=0; j<plist.length-1; j++) {
-        if (math.add(math.abs(math.subtract(plist[j+1],plist[j])))>mdiff) {
-          mdiff = math.add(math.abs(math.subtract(plist[j+1],plist[j])));
-          k = j;
-      }
-    }
-     plist = [...plist.slice(0,k+1), math.multiply(0.5,math.add(plist[k],plist[k+1])), ...plist.slice(k+1,plist.length)];
-   }
-   a = [...a.sort((x,y) => {return x[0]-y[0];}),...a.sort((x,y) => {return x[1]-y[1];})];
-   b = [...b.sort((x,y) => {return x[0]-y[0];}),...b.sort((x,y) => {return x[1]-y[1];})];
-   plist = [...plist.sort((x,y) => {return x[0]-y[0];}),...plist.sort((x,y) => {return x[1]-y[1];})];
-   return math.sum(math.abs(math.subtract(a,plist)))-math.sum(math.abs(math.subtract(b,plist)));
-}
-
 function score(x,plist) {
    var sc = 0;
    var small = x.length<plist.length?x:plist;
