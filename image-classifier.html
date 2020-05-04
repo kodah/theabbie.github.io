@@ -165,6 +165,9 @@ function loader(data) {
 <div class="message"></div>
 </body>
 <script>
+var canvas = document.querySelector("canvas");
+canvas.style.height = canvas.clientWidth + "px";
+
 function message(x) {
     document.querySelector(".message").innerHTML = x;
     document.querySelector(".message").style.bottom = "0px";
