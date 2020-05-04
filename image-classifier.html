@@ -190,7 +190,8 @@ document.querySelector(".done").onclick = function() {
    image.src = url;
    document.body.appendChild(image);
    image.onload = function() {
-    ctx.drawImage(image, 0, 0, image.clientWidth, image.clientHeight, 0, 0, canvas.clientWidth, canvas.clientHeight);
+    message(image.width + " , " + image.height + " , " + image.clientWidth + " , " + image.clientHeight);
+    //ctx.drawImage(image, 0, 0, image.clientWidth, image.clientHeight, 0, 0, canvas.clientWidth, canvas.clientHeight);
    };
 }
 
