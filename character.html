@@ -376,10 +376,8 @@ function score(x,plist) {
   return sc;
 }
 
-console.stdlog = console.log.bind(console);
-console.log = function(){
-    message(Array.from(arguments));
-    console.stdlog.apply(console, arguments);
+window.onerror = function (errorMsg, url, lineNumber) {
+    message('Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber);
 }
 </script>
 </html>
