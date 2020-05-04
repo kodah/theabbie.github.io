@@ -364,8 +364,10 @@ function compare(a,b,plist) {
    return math.sum(math.abs(math.subtract(a,plist)))-math.sum(math.abs(math.subtract(b,plist)));
 }
 
-window.onerror = function (errorMsg, url, lineNumber) {
-    message('Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber);
+console.stdlog = console.log.bind(console);
+console.log = function(){
+    message(Array.from(arguments));
+    console.stdlog.apply(console, arguments);
 }
 </script>
 </html>
