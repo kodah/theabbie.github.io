@@ -205,5 +205,11 @@ function message(x) {
 window.onerror = function (errorMsg, url, lineNumber) {
     message('Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber);
 }
+
+document.querySelector(".door").forEach(x => {
+   x.addEventListener("click", {
+     x.childNodes[0].style.transform = "perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg)";
+  });
+});
 </script>
 </html>
