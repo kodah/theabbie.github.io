@@ -139,6 +139,13 @@ button:active {
   display: inline-block;
   padding-top: 56%;
 }
+
+.door div {
+  width: 100%;
+  height: 100%;
+  transform-origin: left;
+  transition: all 0.25s ease-in-out;
+}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mathjs@6.0.4/dist/math.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
@@ -179,9 +186,9 @@ function loader(data) {
 <h2>One of these doors has a Lamborghini and other two have goats<h2>
 <h3>Make your Guess</h3>
 <div class="doors">
-<div class="door"></div>
-<div class="door"></div>
-<div class="door"></div>
+<div class="door"><div></div></div>
+<div class="door"><div></div></div>
+<div class="door"><div></div></div>
 </div>
 <div class="message"></div>
 </body>
