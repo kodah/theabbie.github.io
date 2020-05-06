@@ -157,6 +157,19 @@ document.querySelector(".login").onclick = function() {
   document.querySelector(".error").style.display = "none";
 
   if (document.querySelector(".txt")[0].value != "" && document.querySelector(".txt")[1].value != "") {
+    firebase.auth().signInWithEmailAndPassword(document.querySelector(".txt")[0].value, document.querySelector(".txt")[1].value).catch(function(error) {
+      message(error.message);
+    });
+ }
+  else {
+     message("fill all fields");
+ }
+}
+
+document.querySelector(".register").onclick = function() {
+  document.querySelector(".error").style.display = "none";
+
+  if (document.querySelector(".txt")[0].value != "" && document.querySelector(".txt")[1].value != "") {
     firebase.auth().createUserWithEmailAndPassword(document.querySelector(".txt")[0].value, document.querySelector(".txt")[1].value).catch(function(error) {
        message(error.message);
    });
