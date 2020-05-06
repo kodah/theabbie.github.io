@@ -101,6 +101,7 @@ button:active {
   border-top: 2px solid rgba(255,0,0,0.6);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  display: none;
 }
 .bar {
   margin: -20px -30px -10px -30px;
@@ -140,7 +141,7 @@ button:active {
 <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
 <script>
-  var firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyBECQksrlWkWOTP4jriMmA9thfcKgbHyuE",
     authDomain: "codrcrew.firebaseapp.com",
     databaseURL: "https://codrcrew.firebaseio.com",
@@ -148,9 +149,26 @@ button:active {
     storageBucket: "codrcrew.appspot.com",
     messagingSenderId: "517463115484",
     appId: "1:517463115484:web:93ce55f61c78b015371619"
-  };
-  firebase.initializeApp(firebaseConfig);
+};
+ 
+firebase.initializeApp(firebaseConfig);
 
+document.querySelector(".login").onclick = function() {
+  document.querySelector(".error").style.display = "none";
 
+  if (document.querySelector(".txt")[0].value != "" && document.querySelector(".txt")[1].value != "") {
+    firebase.auth().createUserWithEmailAndPassword(document.querySelector(".txt")[0].value, document.querySelector(".txt")[1].value).catch(function(error) {
+       message(error.message);
+   });
+ }
+  else {
+     message("fill all fields");
+ }
+}
+
+function message(x) {
+  document.querySelector(".error").innerHTML = x;
+  document.querySelector(".error").style.display = "block";
+}
 </script>
 </html>
