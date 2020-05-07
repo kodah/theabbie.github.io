@@ -3,6 +3,10 @@
   "name": "TheAbbie",
   "description": "TheAbbie is the collection of all my projects",
   "prefer_related_applications": false,
+  "developer": {
+    "name": "TheAbbie",
+    "url": "https://theabbie.github.io"
+  },
   "icons": [
         {
             "src": "/files/favicons/android-chrome-36x36.png",
