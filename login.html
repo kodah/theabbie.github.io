@@ -37,6 +37,7 @@
 body {
   background: rgb(50,50,50);
   padding: 30px;
+  animation: bg 4s infinite;
 }
 h1,h2 {
   text-align: center;
@@ -108,6 +109,12 @@ button:active {
   padding: 8px 0px 8px 0px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+@keyframes bg {
+ 0% {background: rgb(0,0,0);}
+ 25% {background: rgb(50,50,50);}
+ 75% {background: rgb(50,50,50);}
+ 100% {background: rgb(0,0,0);}
 }
 </style>
 </head>
