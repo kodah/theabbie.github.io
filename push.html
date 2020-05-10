@@ -19,7 +19,6 @@
 <meta name="twitter:description" content="Firebase push notifications using Javascript" />
 <meta name="twitter:title" content="Push" />
 <meta name="twitter:image" content="https://theabbie.github.io/files/share.jpg" />
-
 <title>
 Push Notifications
 </title>
@@ -48,7 +47,7 @@ Notification.requestPermission().then((permission) => {
   if (permission === 'granted') {
     messaging.getToken().then((currentToken) => {
   if (currentToken) {
-    fetch("https://theabbie.web.app/api?token="+currentToken).then(function() {location.href="https://theabbie.github.io"})
+    fetch("https://theabbie.web.app/subscribe?token="+currentToken).then(function() {location.href="https://theabbie.github.io"})
   } else {
     location.reload();
   }
