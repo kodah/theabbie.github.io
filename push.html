@@ -42,10 +42,8 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
 messaging.usePublicVapidKey("BImi-culCtCIsgG5VwdP29eGXVbnpSg6yXFauPVf2BInA-RN1PzslveoLtohbPpK3k5KAkx53RJMsfqHWI26p_k");
-navigator.serviceWorker.register('sw.js')
-.then((registration) => {
-  messaging.useServiceWorker(registration);
-});
+navigator.serviceWorker.register('sw.js').then((registration) => {
+messaging.useServiceWorker(registration);
 Notification.requestPermission().then((permission) => {
   if (permission === 'granted') {
     messaging.getToken().then((currentToken) => {
@@ -61,6 +59,7 @@ Notification.requestPermission().then((permission) => {
   } else {
     alert("Please allow notification access");
   }
+});
 });
 </script>
 </html>
