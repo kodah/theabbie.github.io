@@ -116,6 +116,7 @@ function loader(data) {
 }
 </script>
 <script src="https://codrcrew.firebaseio.com/notreddit.json?callback=loader">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -131,6 +132,7 @@ function loader(data) {
 </head>
 <body>
 <h1>NotReddit</h1>
+<button class="g-recaptcha" data-sitekey="6LdVTvUUAAAAAA4-2bAQZCfZoEh7Lxe7qHFAAUyC" data-callback='post'>Post</button>
 <div class="post">
 <div class="body">
 
@@ -143,6 +145,10 @@ function loader(data) {
 <div class="message"></div>
 </body>
 <script>
+function post(token) {
+  location.href = "https://theabbie.web.app?response="+token;
+}
+
 function message(x) {
     document.querySelector(".message").innerHTML = x;
     document.querySelector(".message").style.bottom = "0px";
