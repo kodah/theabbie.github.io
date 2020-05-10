@@ -56,7 +56,7 @@ Notification.requestPermission().then((permission) => {
     location.reload();
   }
 }).catch((err) => {
-  location.reload();
+  alert(err);
 });
   } else {
     alert("Please allow notification access");
