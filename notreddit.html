@@ -114,10 +114,6 @@ button:active {
 function loader(data) {
     window.data = Object.values(data);
 }
-function post(token) {
-  message(token);
-  //document.querySelector("#post").submit();
-}
 </script>
 <script src="https://codrcrew.firebaseio.com/notreddit.json?callback=loader">
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -137,8 +133,7 @@ function post(token) {
 <body>
 <h1>NotReddit</h1>
 <form id="post" action="https://theabbie.web.app/post" method="GET">
-<div class="g-recaptcha" data-sitekey="6LdVTvUUAAAAAA4-2bAQZCfZoEh7Lxe7qHFAAUyC" data-badge="inline" data-size="invisible" data-callback="post"></div><br>
-<input type="hidden" id="captcha-response" name="response" />
+<div class="g-recaptcha" data-sitekey="6LdHa8kUAAAAAGQAL3XynkQfHxP9xo1mRCKUn0BS"></div><br>
 <button type="submit">Post</button>
 </form>
 
