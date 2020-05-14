@@ -213,7 +213,7 @@ function nav() {
   nav+=`<li><a href="#${list[list.length-1].getAttribute("id")}">${list[list.length-1].innerHTML}</a></li>
     `
   nav += `</ul>
-      `.repeat(parseInt(list[list.length-1].tagName[1]))
+      `.repeat(parseInt(list[list.length-1].tagName[1])-1)
   paste(nav);
 }
 function refresh() {
