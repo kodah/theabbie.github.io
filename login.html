@@ -194,7 +194,7 @@ sbtns[0].onclick = function() {
   var provider = new firebase.auth.GoogleAuthProvider();
   provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
   firebase.auth().signInWithPopup(provider).then(function(result) {
-  message("Welcome " + JSON.stringify(result.user));
+  message("Welcome " + result.user.displayName);
   firebase.functions().httpsCallable('save')();
   }).catch(function(error) {
   measage(error.message);
