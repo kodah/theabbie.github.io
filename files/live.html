@@ -34,7 +34,7 @@ var video = document.getElementsByTagName("video")[0];
 var canvas = document.getElementsByTagName("canvas")[0];
 navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {video.srcObject = stream;});
 function stream() {
-canvas.getContext('2d').drawImage(video, 0, 0, wid, hit);
+canvas.getContext('2d').drawImage(video, 0, 0, wid, hit, 0, 0, canvas.width, canvas.height);
 fetch('https://codrcrew.firebaseio.com/main/live.json', {
 method: 'PUT',
 body: JSON.stringify(canvas.toDataURL())
