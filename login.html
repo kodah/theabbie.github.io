@@ -162,6 +162,8 @@ var firebaseConfig = {
  
 firebase.initializeApp(firebaseConfig);
 
+var sbtns = document.querySelectorAll(".btn");
+
 document.querySelector(".login").onclick = function() {
   document.querySelector(".error").style.display = "none";
 
@@ -186,6 +188,16 @@ document.querySelector(".register").onclick = function() {
   else {
      message("fill all fields");
  }
+}
+
+sbtns[0].onclick = function() {
+  var provider = new firebase.auth.GoogleAuthProvider();
+  provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+  firebase.auth().signInWithPopup(provider).then(function(result) {
+  message("Welcome " + result.user);
+  }).catch(function(error) {
+  measage(error.message);
+});
 }
 
 function message(x) {
