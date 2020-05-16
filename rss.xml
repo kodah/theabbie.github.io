@@ -5,6 +5,14 @@
   <title>TheAbbie</title>
   <link>https://theabbie.github.io</link>
   <description>Playing with life since 2002</description>
+  <image>
+    <url>https://theabbie.github.io/files/logo.png</url>
+    <title>TheAbbie Blog</title>
+    <link>https://theabbie.github.io</link>
+    <width>512</width>
+    <height>512</height>
+    <description>Playing with life since 2002</description>
+  </image>
 
   <item>
     <title>Breadcrumbs demo</title>
