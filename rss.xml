@@ -9,174 +9,264 @@
   <item>
     <title>Breadcrumbs demo</title>
     <link>https://theabbie.github.io/blog/Breadcrumbs-demo</link>
-    <description>Breadcrumbs demo</description>
+    <description>Breadcrumbs (or breadcrumb trail) is a secondary navigation system that shows a user's location in a site or web app. The term came from the Hansel and Gretel fairy tale in which the main characters create a trail of breadcrumbs in order to track back to their house.</description>
   </item>
   <item>
     <title>How to Mind Your Own Business</title>
     <link>https://theabbie.github.io/blog/How-to-Mind-Your-Own-Business</link>
-    <description>How to Mind Your Own Business</description>
+    <description>I was walking past the mental hospital the other day,
+and all the patients were shouting, ’13….13….13.’
+
+The fence was too high to see over, but I saw a
+little gap in the planks, so I looked through to see
+what was going on.
+
+Some idiot poked me in the eye with a stick!
+
+Then they all started shouting, ’14….14….14.’</description>
   </item>
   <item>
-    <title>Seedr cc Review</title>
+    <title>Seedr.cc Review</title>
     <link>https://theabbie.github.io/blog/Seedr-cc-Review</link>
-    <description>Seedr cc Review</description>
+    <description>Seedr.cc is an amazing tool, it makes it so easy to stream torrents online, it really is a boon to those with slow internet connection seedr.cc makes it possible to download torrents on cloud superfast and it can be streamed easily fake torrents are a huge problem and seedr.cc solves it by allowing you to check the torrent before downloading Do try this amazing tool, it's definitely worth it </description>
   </item>
   <item>
     <title>TheAbbie Gif Collection</title>
     <link>https://theabbie.github.io/blog/TheAbbie-Gif-Collection</link>
-    <description>TheAbbie Gif Collection</description>
+    <description></description>
   </item>
   <item>
     <title>bb ki vines</title>
     <link>https://theabbie.github.io/blog/bb-ki-vines</link>
-    <description>bb ki vines</description>
+    <description></description>
   </item>
   <item>
-    <title>best node js hosting platforms</title>
+    <title>Best Node.js Hosting Platforms</title>
     <link>https://theabbie.github.io/blog/best-node-js-hosting-platforms</link>
-    <description>best node js hosting platforms</description>
+    <description>
+Netlify is a web developer platform that multiplies productivity.
+By unifying the elements of the modern decoupled web, from local development to advanced edge logic, Netlify enables a 10x faster path to much more performant, secure, and scalable websites and apps.
+Our bet on the JAMstack is quickly coming true. The web is rapidly changing away from monolithic to decoupled apps, and web developers are storming ahead with more power than ever. Netlify is built to cater to that movement, and in just a few years we’ve on-boarded more than half a million businesses and developers, and are building and serving millions of web projects daily around the globe.
+Fun fact: in the time it took you to read the above, Netlify served over 350,000 requests.
+  
+  
+ 
+When Node.js receives a request, the body is in the format of a ReadableStream.
+To get the data from the stream, you need to listen to its data and end events. To do this requires a few lines of code which you would much rather not have to repeat.
+By using helper properties, the request is already parsed for you, allowing you to access the data immediately.
+  
+  
+ 
+RunKit notebooks are interactive javascript playgrounds connected to a complete node environment right in your browser. Every npm module is pre-installed.
+  
+  
+ 
+Auth0 Webtasks is a simple, lightweight, and secure way of running isolated backend code that removed or reduces the need for a backend.
+It is a secure and cost efficient solution to the challange of supporting extensibility through custom code in multi-tenant systems.
+It is an ideal companion for mobile or single page applications that need just a little bit of a backend.
+Finally, webtasks are a flexible and lightweight mechanism that supports a variety of integration scenarios.
+Auth0 Webtasks and the webtask.io service were created and are supported by Auth0, Inc. In fact, we are using Webtasks internally as a key element of our identity management platform.
+  
+  
+ 
+Coding on Glitch is like working together in Google Docs–multiple people can work on the same project at the same time. There’s no setup, and you can see changes live on the web as you type.
+  
+  
+ 
+Heroku makes it easy to deploy and scale Node.js applications. Run any recent version of Node.js. Deploy apps in seconds using dependency caching.
+  
+  
+</description>
   </item>
   <item>
     <title>best programmer in the world</title>
     <link>https://theabbie.github.io/blog/best-programmer-in-the-world</link>
-    <description>best programmer in the world</description>
+    <description>Gennady Korotkevich is a Belarusian sport programmer who has won major international competitions since age 11, as well as numerous national competitions. Korotkevich was born in Gomel (Homiel), southeastern Belarus. His parents, Vladimir and Lyudmila Korotkevich, are programmers in the mathematics department at Francysk Skaryna Homiel State University. At age 6, he became interested in his parents' work. When he was 8, his father designed a children's game he could use to learn programming. His mother consulted departmental colleague Mikhail Dolinsky, who gave Korotkevich a small book to read. Dolinsky, one of the top computer science teachers in Belarus, recalled, "A month went by, and then another one ... No news from Gena. Then suddenly Lyudmila comes by and brings me a programming notebook: when summer and football were over, her son sat at the computer. As a second-grader at a national competition, he took second place, which gained him an automatic entry into a technical university without taking any entrance exams. Somehow he solved the problem of a body immersed in water. At that time, Gena didn't even know about Archimedes' principle of buoyancy. Korotkevich first gained global attention when he qualified for the 2006 International Olympiad in Informatics (IOI) at the age of 11, a world record by a large margin. He took the silver medal at his first IOI event and received gold medals from 2007 to 2012. To date, he is the most successful competitor in IOI's history. Google Code Jam: 2014 champion At 21, Gennady Vladimirovich Korotkevich is already a legend. Tourist, as he's known online, is now the world's top sport programmer. He competes against other people to solve coding puzzles, and he's darn good at it</description>
   </item>
   <item>
     <title>circumference of ellipse</title>
     <link>https://theabbie.github.io/blog/circumference-of-ellipse</link>
-    <description>circumference of ellipse</description>
+    <description>Though, there is no exact formula for circumference of ellipse, like we have for circle, we have an approximate formula which works in most cases. There is no general formula for the circumference of an ellipse in terms of the semi-major and semi-minor axes of the ellipse that uses only elementary functions. However, there are approximate formulas in terms of these parameters. One such approximation, due to Euler (1773), for the canonical ellipse, The given formula is the most exact representatiin of circumference of ellipse till date 
+  
+  
+ An ellipse is described as a curve on a plane that surrounds two focal points such that the sum of the distances to the two focal points is constant for every point on the curve. Ellipse has two types of axis – Major Axis and Minor Axis. The longest chord of the ellipse is the major axis. The perpendicular chord to the major axis is the minor axis which bisects the major axis at the center. 
+Given the lengths of minor and major axis of an ellipse, the task is to find the perimeter of the Ellipse.</description>
   </item>
   <item>
     <title>codejam 2020 review</title>
     <link>https://theabbie.github.io/blog/codejam-2020-review</link>
-    <description>codejam 2020 review</description>
+    <description>I am a first-year engineering student and I participated in Codejam 2020 This was my first codejam and my first coding competition too I used Node.Js for the competition as I am pretty fluent in JavaScript Though JavaScript is a very popular programming language, within a few problems I realised that it's not very perfect for competitive programming the qualification round was extremely easy and anyone with decent programming knowledge would qualify easily since, this was my first attempt in competitive programming, I was not very prepared for algorithm stuff this, along with many other factors was the main reason of my failure</description>
   </item>
   <item>
     <title>estimate pi using random numbers</title>
     <link>https://theabbie.github.io/blog/estimate-pi-using-random-numbers</link>
-    <description>estimate pi using random numbers</description>
+    <description>pi is an    and it has infinite decimal places we will use the concept of probability and definition of pi to calculate the value of pi since we are randomly plotting points inside the square, the probability of it lying inside the circle is  since we are plotting many points, empirical probability says that  since we know the empirical probability we will use it to find value of pi ie. n/N = Pi/4  this is also know as Monte Carlo method, this works perfectly when number of pounts is fairly high   </description>
   </item>
   <item>
     <title>fcrit comps</title>
     <link>https://theabbie.github.io/blog/fcrit-comps</link>
-    <description>fcrit comps</description>
+    <description> : 04/05/2001  : 30/09/2000  : 03/10/2001  : 31/10/2001  : 02/11/2001  : 22/08/2001  : 08/08/2001  : 19/07/2002  : 03/05/2001  : 07/08/2001  : 11/01/2002  : 04/09/2001  : 23/03/2001  : 19/12/2000  : 25/02/2001  : 25/02/2000  : 12/12/2001  : 16/11/2001  : 02/28/2001  : 30/03/2001  : 15.08.2001  : 05/04/2001  : 22/5/2001  :   : 30/12/2001  : 04/02/2002  :   : 27.12.2000  : 16/04/2001  : 27/06/2001  : 06/10/2001  : 16/02/2002  : 03/09/2001  : 27/05/2001  : 29/06/2001  : 03/03/2001  : 08/01/2001  : 20/02/2001  : 12/02/2002  : 09/03/2001  : 20/10/2001  : 16/10/2001  : 14/09/2001  : 15/12/2001  : 01/12/2001  : 25/04/2001  : 18/02/2001  : 02/03/2000  : 24/04/2001  : 22/06/2001  : 08/11/2000  : 04/02/2001  : 22/07/2001  : 17/05/2001  : 01/09/2001  : 17/10/2001  : 6/10/2001  : 23/11/2001  : 02/04/2001  : 29/11/2001  : 22/02/2001  : 16/12/2001  : 23/08/2001  : 25/06/2001  : 22/12/2000  : 14/08/2000  : 12/10/2001  : 19/08/2001</description>
   </item>
   <item>
     <title>fcrit memes</title>
     <link>https://theabbie.github.io/blog/fcrit-memes</link>
-    <description>fcrit memes</description>
+    <description>Converting all your experiences into memes!
+Send in your content and feel the prison break with due credits </description>
   </item>
   <item>
     <title>foolproof gender predictor</title>
     <link>https://theabbie.github.io/blog/foolproof-gender-predictor</link>
-    <description>foolproof gender predictor</description>
+    <description>This tool uses psychological techniques to determine your gender in a fool proof way it uses psychological techniques, ie. it does not ask you silly questions like who is your favourite actor and all it is completely unbiased and independent of person's educational qualification it's similar to IQ or aptitude test It uses color choice as a determination method   is the creator of this superb app  please use it ethically and don't try to pretend like other gender or lie to it do the tasks normally and not in attempt to fool it, please</description>
   </item>
   <item>
     <title>happy birthday aaditee</title>
     <link>https://theabbie.github.io/blog/happy-birthday-aaditee</link>
-    <description>happy birthday aaditee</description>
+    <description>wishing a happy birthday to our beloved Aaditee Pate 🍰🎂🎉    </description>
   </item>
   <item>
-    <title>hasit nanda</title>
+    <title>Hasit Nanda: The Piano Prodigy</title>
     <link>https://theabbie.github.io/blog/hasit-nanda</link>
-    <description>hasit nanda</description>
+    <description>Hasit Nanda is the most popular Pianist in India, He has a huge fanbase on Youtube, He is considered to be a gifted pianist. Hasit Nanda, 23, is a self-taught Pianist from Delhi, India. He is known for his unique improvisation skills and has been uploading his music on YouTube for over 8 years. ... There's a big chance Hasit Nanda has been supported by artists you listen to everyday, be it Hardwell, Skrillex, KSHMR, Zedd or Tiesto.      </description>
   </item>
   <item>
     <title>how is tanmay bhat ruling youtube</title>
     <link>https://theabbie.github.io/blog/how-is-tanmay-bhat-ruling-youtube</link>
-    <description>how is tanmay bhat ruling youtube</description>
+    <description>The fat guy from AIB who was severely trolled for being a psychopath is ruling youtube right now All India Bakchod is a Mumbai-based comedy group, and was the name of their podcast, YouTube channel and production company. The name is a parody of All India Radio, with bakchod being Hindi slang for 'dumb fuck'. It began in 2012 as a humorous/pop-culture podcast by comedians Tanmay Bhat and Gursimran Khamba.  after being shut down by allegations, it lost it's charm and all the comedians went back to their usual life after being shutdown, Tanmay Bhat went into a phase of depression and did not come back until 1 year During the 1 year shutdown he introspected himself and his life, he wanted to do something but couldn't  He is just nailing it, other youtubers should be aware that he might one day steal their jobs as well</description>
   </item>
   <item>
     <title>how to sell your college</title>
     <link>https://theabbie.github.io/blog/how-to-sell-your-college</link>
-    <description>how to sell your college</description>
+    <description>Today I will show you how to sell your college
+My college is Fr. Conceicao Rodrigues institute of technology, Vashi go to olx.in select plot fill all necessary details Publish the ad create a youtube video write an article someone will waste his/her time watching that Happy April Fools</description>
   </item>
   <item>
-    <title>index</title>
+    <title>TheAbbie blog</title>
     <link>https://theabbie.github.io/blog/index</link>
-    <description>index</description>
+    <description>Hey guys, I am Abhishek Chaudhary Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podcasting</description>
   </item>
   <item>
-    <title>infinite non repeating sequence</title>
+    <title>infinite non-repeating sequence</title>
     <link>https://theabbie.github.io/blog/infinite-non-repeating-sequence</link>
-    <description>infinite non repeating sequence</description>
+    <description>We have a recursive function which generates infinite non-repeating sequence of numbers the function has been demonstrated here Pi to first 50 digits is   This continues forever and never repeats</description>
   </item>
   <item>
     <title>literacy is not equal to intelligence</title>
     <link>https://theabbie.github.io/blog/literacy-is-not-equal-to-intelligence</link>
-    <description>literacy is not equal to intelligence</description>
+    <description>literacy is having a certification that you have passed the basic education requirements, this is not related to intelligence Literacy rate in India is around    but intelligence rate might not even be   I am not saying intelligence is not related to literacy, most of the intelligent population is literate, intelligence is using your knowledge properly. The Indian education system along with our mentality is the main reason why India is dumb the main focus of indian education system is to teach as much as possible, without knowing how much is understood and applied. that's the biggest problem, if you know trigonometry but have no idea how to apply it, it's useless, you are not intelligent, and for me, illiterate too the focus of this post is not about following passion and why subjects are useless, they are pretty useful but only if we know how to </description>
   </item>
   <item>
     <title>most underrated bollywood movies</title>
     <link>https://theabbie.github.io/blog/most-underrated-bollywood-movies</link>
-    <description>most underrated bollywood movies</description>
+    <description>bollywood has a history of ignoring some superb movies and watching salman khan movies, this list will guide you to that. After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father's factory even though he wants to write. Rahul, a struggling actor, searches for his daughter, Kali, after she goes missing. Soon, he and Bose, her stepfather who is also a policeman, begin to accuse each other of kidnapping her. An experimental photographer, an ailing monk and a young stockbroker explore identity, justice, beauty and the meaning of life and death. In Varanasi, Devi struggles to shake off the social stigma of pre-marital sexual relations. Meanwhile, lovers Deepak and Shalu attempt to transcend the restrictions of their casteist society.</description>
   </item>
   <item>
-    <title>must watch bollywood movies</title>
+    <title>Must-Watch Bollywood Movies</title>
     <link>https://theabbie.github.io/blog/must-watch-bollywood-movies</link>
-    <description>must watch bollywood movies</description>
+    <description>
+Akash, a piano player pretending to be visually-impaired, unwittingly becomes entangled in a number of problems as he witnesses the murder of a former film actor.
+  
+  
+ 
+After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father's factory even though he wants to write.
+  
+  
+ 
+Rahul, a struggling actor, searches for his daughter, Kali, after she goes missing. Soon, he and Bose, her stepfather who is also a policeman, begin to accuse each other of kidnapping her.
+  
+  
+ 
+Mandar is a self-confessed sex addict who is only interested in sex and holds no regards for love or feelings. However, his life changes when he meets Tripti and wishes to settle down with her.
+  
+  
+ 
+In Varanasi, Devi struggles to shake off the social stigma of pre-marital sexual relations. Meanwhile, lovers Deepak and Shalu attempt to transcend the restrictions of their casteist society.
+  
+  
+ 
+An experimental photographer, an ailing monk and a young stockbroker explore identity, justice, beauty and the meaning of life and death.
+  
+  
+ 
+Raghu loses his wife and son when two bank robbers steal their car in a bid to run. Devastated by the incident, Raghu decides to take revenge on the culprits, Liak and Harman, for killing his family.
+  
+  
+</description>
   </item>
   <item>
-    <title>neal fun</title>
+    <title>neal.fun</title>
     <link>https://theabbie.github.io/blog/neal-fun</link>
-    <description>neal fun</description>
+    <description>Bringing back the weird web one post at a time. At 332 meters, this is the deepest any human has ever scuba dived. Set by Ahmed Gabr in 2014. No sunlight is able to reach this deep. Many deep-sea creatures cope ...  Explore the scale of the universe on this interactive page. Go from astronaut all the way to the observable universe!  What would you do with 90 billion dollars? Find out by spending all of Bill Gates' money!  Find out what's happened in your lifetime  Draw Logos From Memory. Draw the McDonalds logo. Reveal Logo. Draw the Nike logo. Reveal Logo. Draw the Apple logo. Reveal Logo. Draw the Starbucks logo. Reveal Logo.  Life Checklist. Be born. ‍ Take first steps. Say first words. ‍ Learn to read. 🤗 Make a friend. ‍ Learn to ride a bike. Read a book. ‍ Learn to swim. Finish elementary ...  Neal.fun. Printing Money. Made by Neal Agarwal. Minimum Wage ($7.25/hr). Teacher ($16/hr). Software Engineer ($45/ hr). Physician ($90/hr). Fortune 500 CEO ($4k/hr ...  Can you guess the price of these paintings?  Draw your favorite person. ClearErase. Draw a campfire. ClearErase. Draw smoke. ClearErase. Your Island. Your island is looking a little sparse. Try adding some more things.  Paper. 0 folds. You have a piece of paper. It is 0.1mm thick. Unfold Fold. Buy me a coffee! You may also like. The Deep Sea · Speed. Made with ❤️ by Neal Agarwal · Neal.fun.  Compared to neighboring stars, our sun is moving toward a local star called Vega at 43,000 mph! So that combined with the Earth spinning and the Earth traveling around the Sun ...  A visualization of who was alive during any given year! View history in a new and interesting way.  Progress. Next minute. 50 seconds left. Next hour. 15 minutes left. Next day. 22 hours left. Next month. 19 days left. Next year. 232 days left. Next Valentine's Day.  What is the future of the universe? Well, using some science we can make a few predictions... In 2061. Halley's Comet will return again. In 2178. Pluto will complete its first orbit ...  Baby Map. Flashes every time a baby is born in that country. Total Babies Born: 1. CountryBabies Born India1. You may also like. Life Checklist · Universe Forecast. Made with ❤️ by  ...  Do you ever wonder where your days are going? Supposedly there are 24 hours in a day, but some days seem to not even happen. Sleep takes up about 7 hours a day for most ...  Share This Page. Share with Link. Share with Screenshot. Share with Meme. Share with Email. Share with Printer. Share with Letter. Share with Text. Share with Facebook. Share ... </description>
   </item>
   <item>
     <title>not9gag</title>
     <link>https://theabbie.github.io/blog/not9gag</link>
-    <description>not9gag</description>
+    <description></description>
   </item>
   <item>
     <title>solution to grandfather paradox</title>
     <link>https://theabbie.github.io/blog/solution-to-grandfather-paradox</link>
-    <description>solution to grandfather paradox</description>
+    <description>A particular solution to grandfather paradox is simple you can only see the past, not change it that's because time is relative, we perceive time, the reflection we see in mirrors is past too, we see it, we can't change it after seeing it</description>
   </item>
   <item>
     <title>the most intelligent stand up comedian in India</title>
     <link>https://theabbie.github.io/blog/the-most-intelligent-stand-up-comedian-in-India</link>
-    <description>the most intelligent stand up comedian in India</description>
+    <description>Nitin Gupta A.K.A. Rivaldo is the most intelligent stand up comedian in India     his humor is not for everyone, if you are smart enough you will agree that his comedy is based on super intelligent observations, also, being an IITian, he is obviously smart, no doubt on that  </description>
   </item>
   <item>
     <title>theabbie random photo gallery</title>
     <link>https://theabbie.github.io/blog/theabbie-random-photo-gallery</link>
-    <description>theabbie random photo gallery</description>
+    <description></description>
   </item>
   <item>
     <title>truth of mumbai university</title>
     <link>https://theabbie.github.io/blog/truth-of-mumbai-university</link>
-    <description>truth of mumbai university</description>
+    <description>The University of Mumbai, informally known as Mumbai University is a collegiate public state university located in Mumbai, Maharashtra. It offers bachelors, masters and Doctoral courses, as well as diplomas and certificates in many disciplines like the Arts, Commerce, Science, Medical and Engineering See a boy spitting truth of mumbai university There was public outrage and students supported it in large numbers There was public outrage and students supported it in large numbers</description>
   </item>
   <item>
     <title>vashi central jail</title>
     <link>https://theabbie.github.io/blog/vashi-central-jail</link>
-    <description>vashi central jail</description>
+    <description>
+It Was a lovely place, it had a good atmosphere, It was clean, and most Important, It was well maintained, It was a nice experience overall, I would recommend this place to everyone, It was worth a visit, And I had some memorable time there, So, If you ever get a chance, do visit this place, It wouldn't dissappoint you, And, this place is beautiful, So, If I ever get a chance to visit again, I will, This Is really a good place, I want to tell more, but you will appreciate the beauty only If you see it
+ Father Conceicao Rodrigues Institute of Technology is a private engineering college affiliated to the University of Mumbai located in vashi, Navi Mumbai FCRIT was established in 1994 as a part of the Agnel Technical Education Complex at Vashi, which itself was established in 1984.[3] The institute is named after late Rev. Fr. Conceicao Rodrigues, who died in odor of sanctity. I was walking past the mental hospital the other day,
+and all the patients were shouting, ’13….13….13.’
+
+The fence was too high to see over, but I saw a
+little gap in the planks, so I looked through to see
+what was going on.
+
+Some idiot poked me in the eye with a stick!
+
+Then they all started shouting, ’14….14….14.’</description>
   </item>
   <item>
     <title>why do muslims explode</title>
     <link>https://theabbie.github.io/blog/why-do-muslims-explode</link>
-    <description>why do muslims explode</description>
+    <description>terrorism has been in practice ever since stupidity existed, suicide bombing is a new form of terrorism Modern suicide bombing has been defined as "involving explosives deliberately carried to the target either on the person or in a civilian vehicle and delivered by surprise". education, that's it  </description>
   </item>
   <item>
     <title>why does AMP not allow javascript</title>
     <link>https://theabbie.github.io/blog/why-does-AMP-not-allow-javascript</link>
-    <description>why does AMP not allow javascript</description>
+    <description>AMP does not allow Javascript for security reasons, since AMP cache is hosted on Google domains  allowing JavaScript would allow you to read google cookies, which is a major security concern allowing JavaScript would allow you to create identical phishing pages, it is very dangerous Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords. Cookies are data, stored in small text files, on your computer. When a web server has sent a web page to a browser, the connection is shut down, and the server forgets everything about the user. When a user visits a web page, his/her name can be stored in a cookie.
+Next time the user visits the page, the cookie "remembers" his/her name. google has taken several measures to reduce the dangers, they have limited use of javascript and inability to create identical phishing pages </description>
   </item>
   <item>
     <title>why is nepotism not bad</title>
     <link>https://theabbie.github.io/blog/why-is-nepotism-not-bad</link>
-    <description>why is nepotism not bad</description>
+    <description>There is no issue with nepotism, If your parents have done hard work to achieve name and fame, you are bound to get that for free, That's the rule, and nepotism helps only in debut, once you are on screen it's the audience who decides whether you would do further movies or not, I haven't seen any bad actor getting lots of movies because of nepotism, The problem is glamour not nepotism, glamour hides talent Jai Hemant "Tiger" Shroff is an Indian actor known for his roles in Hindi-language action films. The son of actor Jackie Shroff and producer Ayesha Dutt, he made his film debut in the 2014 commercially successful action film Heropanti Arjun Kapoor is an Indian actor who appears in Bollywood films. The son of film producers Boney Kapoor and Mona Shourie Kapoor, he initially worked an assistant director on his father's productions No Entry and Wanted. Nepotism is based on favoritism granted to relatives in various fields, including business, politics, entertainment, sports, religion and other activities. The term originated with the assignment of nephews to important positions by Catholic popes and bishops. Ranbir Kapoor is an Indian actor and film producer. He is one of the highest-paid actors of Hindi cinema and has featured in Forbes India's Celebrity 100 list since 2012. Kapoor is the recipient of several awards, including six Filmfare Awards. Nepotism is not always bad Hrithik Roshan is an Indian actor who appears in Bollywood films. He has portrayed a variety of characters and is known for his dancing skills. One of the highest-paid actors in India, he has won many awards, including six Filmfares, four for Best Actor and one each for Best Debut and Best Actor. There is no issue with nepotism, If your parents have done hard work to achieve name and fame, you are bound to get that for free, That's the rule, and nepotism helps only in debut, once you are on screen it's the audience who decides whether you would do further movies or not, I haven't seen any bad actor getting lots of movies because of nepotism, The problem is glamour not nepotism, glamour hides talent</description>
   </item>
   <item>
     <title>why pwa is the future</title>
     <link>https://theabbie.github.io/blog/why-pwa-is-the-future</link>
-    <description>why pwa is the future</description>
+    <description>PWAs are powerful, effective, fast and app-like. It's hard to imagine a mobile web property that could not be significantly improved via PWA implementation. They can also potentially eliminate the need for many “vanity” native apps that exist today. progressive web apps are for everyone, desktop and mobile users alike. I think it’s important to reiterate that there is no mobile web. Progressive web apps have taken functionality from both native and web apps. They can run fast regardless of mobile operating systems and device types also providing rich functionality as if they were developed for a specific device. Thanks to easy installation, discoverability, automated updates, slow network or even the offline work mode, PWAs can enhance user experience. PWAs do not require different versions for various devices; a single progressive app meets the requirements of all endpoints on which it operates. So, it significantly reduces the amount of efforts that developers provide, and as a result, the cost to create a PWA decreases. The cost is three or four times lower than that of a native mobile app. Nowadays, mobile users prefer apps to browsers as applications compare favorably with browsers, as they are more user-friendly, can operate offline and have a more attractive interface. Progressive web applications provide an advanced user experience by combining the look and feel of mobile applications and the best of website performance.  Unlike regular mobile applications, PWAs do not require a long and complex installation process, which significantly improves user experience. Users just download an app, quickly and directly to their devices, and they do not need to go to the App Store or Google Play. It streamlines the procedure and significantly reduces user abandonment. Since iOS 11.3, it’s been possible to run PWAs on Apple devices, but you can forget about compatibility with older devices. PWAs have been around for just a few years, so it shouldn’t come as a surprise that older mobile devices with outdated web browsers don’t support them too well. While this problem will inevitably solve itself in the future Their performance is also not as good as the performance of native apps, which has a lot to do with the fact that JavaScript is a single-threaded programming language. At the moment, access to certain important device features is still missing, including Bluetooth, proximity sensors, ambient light, advanced camera controls, and others. Progressive Web App (PWA) is a web app, developed with features which give it an app like experience while browsing. PWA improves the user experience to the extent that users can feel the same as they do while using native apps.</description>
   </item>
   <item>
     <title>why salman khan sucks</title>
     <link>https://theabbie.github.io/blog/why-salman-khan-sucks</link>
-    <description>why salman khan sucks</description>
-  </item>
-  
+    <description>Abdul Rashid Salim Salman Khan born on 27 December 1965 is an Indian film actor, producer, occasional singer and television personality. In a film career spanning over thirty years, Khan has received numerous awards, including two National Film Awards as a film producer, and two Filmfare Awards for acting. He has a significant following in Asia and the Indian diaspora worldwide 
+Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on to play the leading role in Sooraj R. Barjatya's romantic family drama Maine Pyar Kiya (1989), which become one of the highest-grossing Indian films at the time
+ Khan's off-screen life is marred by controversy and legal troubles. In 2015 he was convicted of culpable homicide for a negligent driving case in which he ran over five people with his car, killing one, but his conviction was set aside on appeal. Before Bhai fans start downvoting the answer just look at the reasons below for it ;. When Salman Khan was going through his worst phase his movies used to get bomb at the box Educated people don't watch his movies
+ The only reason for his success Don't watch his movies until he tries to improve These are some superb alternative s to salman khan Irrfan Khan, also credited as simply Irrfan, is an Indian film actor, known for his work predominantly in Hindi cinema, as well as his works in British films and Hollywoo Vicky Kaushal is an Indian actor who works in Hindi films. He is the recipient of a National Film Award and a Filmfare Award, and has appeared in Forbes India's Celebrity 100 list of 2019. Born to the action director Sham Kaushal, Kaushal pursued an engineering degree from the Rajiv Gandhi Institute of Technology. Rajkummar Rao, also known as Rajkumar Yadav, is an Indian actor. He has established a career in Hindi cinema and is the recipient of several awards, including a National Film Award, three Filmfare Awards, and an Asia Pacific Screen Award. he was a good actor, maybe it's because of circumstances He knows he is a bad actor, still he doesn't act nice, why?</description>
+  </item>  
 </channel>
 
 </rss>
