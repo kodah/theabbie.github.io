@@ -1,46 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
-	<channel>
-		<title>TheAbbie</title>
-		<description>Playing with life since 2002</description>
-		<link>https://theabbie.github.io</link>
-		<image>
-			<url>https://theabbie.github.io/files/logo.png</url>
-			<title>TheAbbie</title>
-			<link>https://theabbie.github.io</link>
-		</image>
-		<lastBuildDate>Fri, 03 Apr 2020 14:09:26 GMT</lastBuildDate>
-		<atom:link href="https://anchor.fm/s/1334a9a0/podcast/rss" rel="self" type="application/rss+xml"/>
-		<author><![CDATA[TheAbbie]]></author>
-		<copyright><![CDATA[TheAbbie]]></copyright>
-		<language><![CDATA[en-gb]]></language>
-		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-		<anchor:support>https://anchor.fm/theabbie/support</anchor:support>
-		<anchor:station>1334a9a0</anchor:station>
-		<itunes:author>TheAbbie</itunes:author>
-		<itunes:summary>Playing with life since 2002 Support this podcast: &lt;a href=&quot;https://anchor.fm/theabbie/support&quot; rel=&quot;payment&quot;&gt;https://anchor.fm/theabbie/support&lt;/a&gt;</itunes:summary>
-		<itunes:type>episodic</itunes:type>
-		<itunes:owner>
-			<itunes:name>TheAbbie</itunes:name>
-			<itunes:email>abhishek7gg7@gmail.com</itunes:email>
-		</itunes:owner>
-		<itunes:explicit>No</itunes:explicit>
-		<itunes:category text="Comedy"/>
-		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg"/>
-		<item>
-			<title><![CDATA[Guess The Song #10]]></title>
-			<description></description>
-			<link>https://anchor.fm/theabbie/episodes/Guess-The-Song-10-ecav1p</link>
-			<guid isPermaLink="false">e25597e0-cc9a-4915-a30c-9fcd6a792d28</guid>
-			<dc:creator><![CDATA[TheAbbie]]></dc:creator>
-			<pubDate>Fri, 03 Apr 2020 10:45:12 GMT</pubDate>
-			<enclosure url="https://anchor.fm/s/1334a9a0/podcast/play/11942393/sponsor/a1r9oh0/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-04-03%2F242229aa90c40a0848a2d6934037f2f2.m4a" length="3935299" type="audio/x-m4a"/>
-			<itunes:summary></itunes:summary>
-			<itunes:explicit>No</itunes:explicit>
-			<itunes:duration>243</itunes:duration>
-			<itunes:image href="https://theabbie.github.io/files/logo.png"/>
-			<itunes:season>1</itunes:season>
-			<itunes:episode>10</itunes:episode>
-			<itunes:episodeType>full</itunes:episodeType>
-		</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>TheAbbie</title>
+<link>https://theabbie.github.io</link>
+<language>en-us</language>
+<copyright>© TheAbbie</copyright>
+<itunes:author>TheAbbie</itunes:author>
+<description>Playing with life since 2002</description>
+<itunes:type>serial</itunes:type>
+<itunes:owner>
+<itunes:name>TheAbbie</itunes:name>
+<itunes:email>abhishek7gg7@gmail.com</itunes:email>
+</itunes:owner>
+<itunes:image href="https://theabbie.github.io/files/logo.png"/>
+<itunes:category text="Comedy">
+<itunes:category text="Stand-up comedy"/></itunes:category>
+<itunes:explicit>false</itunes:explicit>
+
+<item>
+<itunes:episodeType>trailer</itunes:episodeType>
+<itunes:title>TheAbbie Trailer</itunes:title>
+<description>
+Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podcasting
+</description>
+<enclosure
+length="498537"
+type="audio/mpeg"
+url="http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3"
+/>
+<guid>theabbie0</guid>
+<pubDate>Mon, 18 May 2020 00:00:00 GMT</pubDate>
+<itunes:duration>1079</itunes:duration>
+<itunes:explicit>false</itunes:explicit>
+</item>
+
+</channel>
+</rss
