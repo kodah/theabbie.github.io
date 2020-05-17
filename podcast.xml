@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
 	<channel>
-		<title><![CDATA[TheAbbie]]></title>
-		<description><![CDATA[Playing with life since 2002 Support this podcast: <a href="https://anchor.fm/theabbie/support" rel="payment">https://anchor.fm/theabbie/support</a>]]></description>
+		<title>TheAbbie</title>
+		<description>Playing with life since 2002</description>
 		<link>https://theabbie.github.io</link>
 		<image>
-			<url>https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3122184/3122184-1580216653831-108c66ac9d706.jpg</url>
+			<url>https://theabbie.github.io/files/logo.png</url>
 			<title>TheAbbie</title>
 			<link>https://theabbie.github.io</link>
 		</image>
