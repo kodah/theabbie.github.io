@@ -187,8 +187,10 @@ function table() {
 </tr>
 </thead>
 <tbody>
-${"<tr><td></td><td></td></tr>&#13;&#10".repeat(n)}
-</tbody>
+`+
+`<tr><td></td><td></td></tr>
+`.repeat(n)+
+`</tbody>
 </table>`);
 }
 function img() {
