@@ -179,7 +179,17 @@ function list() {
   paste(op);
 }
 function table() {
-  
+  var n = parseInt(prompt("number of rows?"));
+  paste(`<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+${"<tr><td></td><td></td></tr>&#13;&#10".repeat(n)}
+</tbody>
+</table>`);
 }
 function img() {
   var name = prompt("name");
