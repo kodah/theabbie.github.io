@@ -1,1 +1,8 @@
-
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>TheAbbie</ShortName>
+<Description>Playing with life since 2002</Description>
+<Url type="text/html" method="get" template="https://theabbie.github.io/s?q={searchTerms}"/>
+<Image width="16" height="16">https://theabbie.github.io/files/logo.png</Image>
+<InputEncoding>UTF-8</InputEncoding>
+<SearchForm>https://theabbie.github.io/</SearchForm>
+</OpenSearchDescription>
