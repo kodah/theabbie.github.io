@@ -21,7 +21,7 @@
 <item>
     <title>Breadcrumbs demo</title>
     <link>https://theabbie.github.io/blog/Breadcrumbs-demo</link>
-    <description>Breadcrumbs (or breadcrumb trail) is a secondary navigation system that shows a user's location in a site or web app. The term came from the Hansel and Gretel fairy tale in which the main characters create a trail of breadcrumbs in order to track back to their house.</description>
+    <description>Breadcrumbs (or breadcrumb trail) is a secondary navigation system that shows a user's location in a site or web app. The term came from the Hansel and Gretel fairy tale in which the main characters create a trail of breadcrumbs in order to track back to their house. </description>
     <guid>https://theabbie.github.io/blog/Breadcrumbs-demo</guid>
   </item>
   <item>
@@ -103,19 +103,25 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
     <guid>https://theabbie.github.io/blog/best-programmer-in-the-world</guid>
   </item>
   <item>
+    <title>brazen epiphany short film review: what's stopping you</title>
+    <link>https://theabbie.github.io/blog/brazen-epiphany-short-film-review</link>
+    <description> Jennifer, daughter of a single mother after claiming the position of the best journalist in india sat down for a interview. During this interview she is confronted with reasons to what does she owe her success. Throughout conversation we get to know that it is just not her love for the profession but her past, her fears and much more than that which lead to India giving birth to such a powerful journalist. This short film directed by Abhishek Chaudhary is an exceptionally brilliant depiction of a journalist who is caught in dilemma of what's stopping her. Theme of the film is What's stopping you, which explains why the protagonist, ie. journalist is worried about her future The short film addresses that it's not the society, the situations that stop us from rising, it's our own mentality, our laziness, that hinders our success</description>
+    <guid>https://theabbie.github.io/blog/brazen-epiphany-short-film-review</guid>
+  </item>
+  <item>
     <title>circumference of ellipse</title>
     <link>https://theabbie.github.io/blog/circumference-of-ellipse</link>
     <description>Though, there is no exact formula for circumference of ellipse, like we have for circle, we have an approximate formula which works in most cases. There is no general formula for the circumference of an ellipse in terms of the semi-major and semi-minor axes of the ellipse that uses only elementary functions. However, there are approximate formulas in terms of these parameters. One such approximation, due to Euler (1773), for the canonical ellipse, The given formula is the most exact representatiin of circumference of ellipse till date 
   
   
  An ellipse is described as a curve on a plane that surrounds two focal points such that the sum of the distances to the two focal points is constant for every point on the curve. Ellipse has two types of axis – Major Axis and Minor Axis. The longest chord of the ellipse is the major axis. The perpendicular chord to the major axis is the minor axis which bisects the major axis at the center. 
-Given the lengths of minor and major axis of an ellipse, the task is to find the perimeter of the Ellipse.</description>
+Given the lengths of minor and major axis of an ellipse, the task is to find the perimeter of the Ellipse.  </description>
     <guid>https://theabbie.github.io/blog/circumference-of-ellipse</guid>
   </item>
   <item>
     <title>codejam 2020 review</title>
     <link>https://theabbie.github.io/blog/codejam-2020-review</link>
-    <description>I am a first-year engineering student and I participated in Codejam 2020 This was my first codejam and my first coding competition too I used Node.Js for the competition as I am pretty fluent in JavaScript Though JavaScript is a very popular programming language, within a few problems I realised that it's not very perfect for competitive programming the qualification round was extremely easy and anyone with decent programming knowledge would qualify easily since, this was my first attempt in competitive programming, I was not very prepared for algorithm stuff this, along with many other factors was the main reason of my failure</description>
+    <description>I am a first-year engineering student and I participated in Codejam 2020 This was my first codejam and my first coding competition too I used Node.Js for the competition as I am pretty fluent in JavaScript Though JavaScript is a very popular programming language, within a few problems I realised that it's not very perfect for competitive programming the qualification round was extremely easy and anyone with decent programming knowledge would qualify easily since, this was my first attempt in competitive programming, I was not very prepared for algorithm stuff this, along with many other factors was the main reason of my failure </description>
     <guid>https://theabbie.github.io/blog/codejam-2020-review</guid>
   </item>
   <item>
@@ -177,7 +183,7 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi go to olx.i
   <item>
     <title>infinite non-repeating sequence</title>
     <link>https://theabbie.github.io/blog/infinite-non-repeating-sequence</link>
-    <description>We have a recursive function which generates infinite non-repeating sequence of numbers the function has been demonstrated here Pi to first 50 digits is   This continues forever and never repeats</description>
+    <description>We have a recursive function which generates infinite non-repeating sequence of numbers the function has been demonstrated here  Pi to first 50 digits is   This continues forever and never repeats  </description>
     <guid>https://theabbie.github.io/blog/infinite-non-repeating-sequence</guid>
   </item>
   <item>
@@ -197,32 +203,12 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi go to olx.i
     <link>https://theabbie.github.io/blog/must-watch-bollywood-movies</link>
     <description>
 Akash, a piano player pretending to be visually-impaired, unwittingly becomes entangled in a number of problems as he witnesses the murder of a former film actor.
-  
-  
- 
 After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father's factory even though he wants to write.
-  
-  
- 
 Rahul, a struggling actor, searches for his daughter, Kali, after she goes missing. Soon, he and Bose, her stepfather who is also a policeman, begin to accuse each other of kidnapping her.
-  
-  
- 
 Mandar is a self-confessed sex addict who is only interested in sex and holds no regards for love or feelings. However, his life changes when he meets Tripti and wishes to settle down with her.
-  
-  
- 
 In Varanasi, Devi struggles to shake off the social stigma of pre-marital sexual relations. Meanwhile, lovers Deepak and Shalu attempt to transcend the restrictions of their casteist society.
-  
-  
- 
 An experimental photographer, an ailing monk and a young stockbroker explore identity, justice, beauty and the meaning of life and death.
-  
-  
- 
 Raghu loses his wife and son when two bank robbers steal their car in a bid to run. Devastated by the incident, Raghu decides to take revenge on the culprits, Liak and Harman, for killing his family.
-  
-  
 </description>
     <guid>https://theabbie.github.io/blog/must-watch-bollywood-movies</guid>
   </item>
@@ -313,6 +299,7 @@ Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him pla
  The only reason for his success Don't watch his movies until he tries to improve These are some superb alternative s to salman khan Irrfan Khan, also credited as simply Irrfan, is an Indian film actor, known for his work predominantly in Hindi cinema, as well as his works in British films and Hollywoo Vicky Kaushal is an Indian actor who works in Hindi films. He is the recipient of a National Film Award and a Filmfare Award, and has appeared in Forbes India's Celebrity 100 list of 2019. Born to the action director Sham Kaushal, Kaushal pursued an engineering degree from the Rajiv Gandhi Institute of Technology. Rajkummar Rao, also known as Rajkumar Yadav, is an Indian actor. He has established a career in Hindi cinema and is the recipient of several awards, including a National Film Award, three Filmfare Awards, and an Asia Pacific Screen Award. he was a good actor, maybe it's because of circumstances He knows he is a bad actor, still he doesn't act nice, why?</description>
     <guid>https://theabbie.github.io/blog/why-salman-khan-sucks</guid>
   </item>
+  
 
 </channel>
 
