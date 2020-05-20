@@ -75,7 +75,13 @@ Editor
 
 </body>
 <script>
- 
+function refresh() {
+document.querySelector(".save").style.display="none";
+var title = document.querySelector("#title").value; 
+var turl = title.replace(/[^A-Z0-9]+/ig,"-");
+var desc = document.querySelector("#description").value;
+
+}
 </script>
 </html>
 
