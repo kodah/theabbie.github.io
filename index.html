@@ -105,29 +105,6 @@ h1 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-amp-accordion section div a {
-  display: block;
-  padding: 12px;
-  text-decoration: none;
-  color: black;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  transition: 0.1s;
-}
-
-amp-accordion section h2 {
-  font-size: 24px;
-  font-weight: 400;
-  margin: 0px;
-  padding: 15px 10px 10px 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: white;
-}
-
-amp-accordion section p {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 10px 10px 0px 10px;
-}
-
 a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -280,9 +257,22 @@ h2 {
   padding: 20px;
   font-size: 24px;
 }
+
+.scroll {
+  height: 200px;
+  overflow: auto;
+}
+
+.scroll a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  transition: 0.1s;
+}
 </style>
 <script async src="https://cdn.ampproject.org/v0.js"></script>
-<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
 <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
@@ -347,17 +337,13 @@ h2 {
 <li><a href="/gender">Gender</a></li>
 <li><a href="intent://truesdk/web_verify?requestNonce=42315342&partnerKey=l5qD09a76600b8afd49be8c04ea5e9329e952&partnerName=TheAbbie&lang=English&title=Default&skipOption=skip#Intent;scheme=truecallersdk;end" class="login">Log In</a></li>
 </ul>
-<amp-accordion animate>
-<section>
 <h2>About Me</h2>
 <p>
 Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podcasting
 <a href="mailto:abhishek7gg7@gmail.com" rel="me">abhishek7gg7@gmail.com</a>
 </p>
-</section>
-<section>
 <h2>Social Media Accounts</h2>
-<div>
+<div class="scroll">
 <a href="https://www.patreon.com/theabbie" rel="me"><i class="fa fa-patreon"></i>Become a Patron!</a>
 <a href="https://paypal.me/theabbie" rel="me"><i class="fa fa-paypal"></i>Paypal</a>
 <a href="https://www.buymeacoffee.com/theabbie" rel="me"><i class="fa fa-coffee"></i>Buy Me A Coffee</a>
@@ -1013,8 +999,6 @@ Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. C
 <a href="https://www.airbnb.co.in/users/show/326445894" rel="me"><i class="fa fa-airbnb"></i>AirBnB</a>
 <a href="https://stackoverflow.com/story/theabbie" rel="me"><i class="fa fa-code"></i>Story</a>
 </div>
-</section>
-</amp-accordion>
 
 <p>
 <amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-2455012527087318" data-ad-slot="2282099828" data-auto-format="rspv" data-full-width="">
