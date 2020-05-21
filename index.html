@@ -301,6 +301,19 @@ td {
 ul.jump li a {
   font-size: 20px;
 }
+
+a.card {
+  position: relative;
+}
+
+a.card h2 {
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%;
+  color: white;
+  background: rgba(50,50,50,0.6);
+}
 </style>
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
@@ -1083,8 +1096,16 @@ ul.jump li a {
 <h2 id="apps">Stuff That I Made</h2>
 
 <amp-carousel width="450" height="300" layout="responsive" type="slides">
-<a class="card" href="">
-<amp-img  src="assets/.jpg" width="160" height="90" layout="responsive" sizes="(min-width: 500px) 500px, 80vw" alt=""></amp-img>
+<a class="card" href="/gender">
+<amp-img  src="/blog/assets/genders.jpg" width="160" height="90" layout="responsive" sizes="(min-width: 350px) 350px, 80vw" alt="Guess My Gender"></amp-img>
+<h3>Guess My Gender</h3>
+</a>
+<a class="card" href="/gender">
+<amp-img  src="/blog/assets/genders.jpg" width="160" height="90" layout="responsive" sizes="(min-width: 350px) 350px, 80vw" alt="Guess My Gender"></amp-img>
+<h3>Guess My Gender</h3>
+</a>
+<a class="card" href="/gender">
+<amp-img  src="/blog/assets/genders.jpg" width="160" height="90" layout="responsive" sizes="(min-width: 350px) 350px, 80vw" alt="Guess My Gender"></amp-img>
 <h3>Guess My Gender</h3>
 </a>
 </amp-carousel>
