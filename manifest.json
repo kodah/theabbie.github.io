@@ -3,6 +3,7 @@
   "name": "TheAbbie",
   "description": "TheAbbie is the collection of all my projects",
   "prefer_related_applications": false,
+  "gcm_sender_id": "103953800507",
   "developer": {
     "name": "TheAbbie",
     "url": "https://theabbie.github.io"
