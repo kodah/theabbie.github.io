@@ -91,6 +91,7 @@ Editor
 <textarea id="description" placeholder="description"></textarea>
 <textarea id="keywords" placeholder="keywords"></textarea>
 <textarea id="url" placeholder="Custom URL"></textarea>
+<textarea id="cover" placeholder="Cover Image"></textarea>
 <button class="save" onclick="refresh()">SAVE</button>
 <textarea id="body" placeholder="Enter body of article"></textarea>
 <div class="button" onclick="show()"></div>
@@ -256,6 +257,8 @@ var title = document.querySelector("#title").value;
 var turl = document.querySelector("#url").value==""?title.replace(/[^A-Z0-9]+/ig,"-"):document.querySelector("#url").value;
 var desc = document.querySelector("#description").value;
 var kwds = document.querySelector("#keywords").value;
+var cover = document.querySelector("#cover").value;
+fetch("https://upload-r1hn185orrij.runkit.sh/?url="+cover+"&name="+turl+".jpg");
 var code = `<!doctype html>
 <html ⚡ lang="en">
 <head>
@@ -277,14 +280,14 @@ ${title}
 <meta property="article:published_time" content="2020-04-22T08:34:48+00:00" />
 <meta property="article:modified_time" content="2020-04-22T08:34:51+00:00" />
 <meta property="og:updated_time" content="2020-04-22T08:34:51+00:00" />
-<meta property="og:image" content="https://theabbie.github.io/files/collage.jpg" />
-<meta property="og:image:secure_url" content="https://theabbie.github.io/files/collage.jpg" />
+<meta property="og:image" content="https://theabbie.github.io/blog/assets/${turl}.jpg" />
+<meta property="og:image:secure_url" content="https://theabbie.github.io/blog/assets/${turl}.jpg" />
 <meta property="og:image:width" content="600" />
 <meta property="og:image:height" content="445" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:description" content="${desc}" />
 <meta name="twitter:title" content="${title}" />
-<meta name="twitter:image" content="https://theabbie.github.io/files/collage.jpg" />
+<meta name="twitter:image" content="https://theabbie.github.io/blog/assets/${turl}.jpg" />
 <link rel="alternate" type="application/rss+xml" title="TheAbbie Blog" href="https://theabbie.github.io/rss.xml" />
 <link rel="apple-touch-icon" sizes="180x180" href="/files/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/files/favicons/favicon-32x32.png">
@@ -395,7 +398,7 @@ td {
     "name" : "TheAbbie",
     "logo" : {
       "@type" : "ImageObject",
-      "url" : "https://theabbie.github.io/files/collage.jpg",
+      "url" : "https://theabbie.github.io/blog/assets/${turl}.jpg",
       "height" : 3000,
       "width" : 4000
     }
@@ -409,7 +412,7 @@ td {
     "@type" : "Person",
     "name" : "Abhishek Chaudhary"
   },
-  "image" : "https://theabbie.github.io/files/collage.jpg"
+  "image" : "https://theabbie.github.io/blog/assets/${turl}.jpg"
 },{
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
