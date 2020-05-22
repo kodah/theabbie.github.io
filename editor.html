@@ -89,6 +89,7 @@ Editor
 </h1>
 <input type="text" class="txt" id="title" placeholder="title">
 <textarea id="description" placeholder="description"></textarea>
+<textarea id="keywords" placeholder="keywords"></textarea>
 <button class="save" onclick="refresh()">SAVE</button>
 <textarea id="body" placeholder="Enter body of article"></textarea>
 <div class="button" onclick="show()"></div>
@@ -253,6 +254,7 @@ document.querySelector(".save").style.display="none";
 var title = document.querySelector("#title").value; 
 var turl = title.replace(/[^A-Z0-9]+/ig,"-");
 var desc = document.querySelector("#description").value;
+var kwds = document.querySelector("#keywords").value;
 var code = `<!doctype html>
 <html ⚡ lang="en">
 <head>
@@ -266,6 +268,8 @@ ${title}
 <meta property="og:type" content="article" />
 <meta property="og:title" content="${title}" />
 <meta property="og:description" content="${desc}" />
+<meta name="keywords" content="${kwds}" />
+<meta name="news_keywords" content="${kwds}" />
 <meta property="og:url" content="https://theabbie.github.io/blog/${turl}" />
 <meta property="og:site_name" content="TheAbbie" />
 <meta property="article:section" content="Review" />
