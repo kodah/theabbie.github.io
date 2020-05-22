@@ -407,28 +407,35 @@ td {
   },
   "url" : "https://theabbie.github.io/blog/${turl}"
 },{
-  "@context" : "http://schema.org",
-  "publisher" : {
-    "@type" : "Organization",
-    "name" : "TheAbbie",
-    "logo" : {
-      "@type" : "ImageObject",
-      "url" : "https://theabbie.github.io/blog/assets/${turl}.jpg",
-      "height" : 3000,
-      "width" : 4000
+ "@context": "https://schema.org", 
+ "@type": "Article",
+ "headline": "${title}",
+ "alternativeHeadline": "${title} | TheAbbie",
+ "image": "https://theabbie.github.io/blog/assets/${turl}.jpg",
+ "author": "Abhishek Chaudhary", 
+ "editor": "Abhishek Chaudhary", 
+ "genre": "Technology", 
+ "keywords": "${kwds}", 
+ "wordcount": "1120",
+ "publisher": {
+    "@type": "Organization",
+    "name": "TheAbbie",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://theabbie.github.io/files/logo.png"
     }
   },
-  "@type" : "Article",
-  "mainEntityOfPage" : "https://theabbie.github.io/blog/${turl}",
-  "headline" : "${title}",
-  "datePublished" : "2020-04-23T01:12:28+05:30",
-  "dateModified" : "2020-04-23T04:19:21+05:30",
-  "author" : {
-    "@type" : "Person",
-    "name" : "Abhishek Chaudhary"
+ "url": "https://theabbie.github.io/blog/${turl}",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://theabbie.github.io/blog/${turl}"
   },
-  "image" : "https://theabbie.github.io/blog/assets/${turl}.jpg"
-},{
+ "datePublished": "${new Date().toISOString()}",
+ "dateCreated": "${new Date().toISOString()}",
+ "dateModified": "${new Date().toISOString()}",
+ "description": "${desc}",
+ "articleBody": "${desc}"
+ },{
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [{
