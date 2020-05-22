@@ -90,6 +90,7 @@ Editor
 <input type="text" class="txt" id="title" placeholder="title">
 <textarea id="description" placeholder="description"></textarea>
 <textarea id="keywords" placeholder="keywords"></textarea>
+<textarea id="url" placeholder="Custom URL"></textarea>
 <button class="save" onclick="refresh()">SAVE</button>
 <textarea id="body" placeholder="Enter body of article"></textarea>
 <div class="button" onclick="show()"></div>
@@ -252,7 +253,7 @@ function nav() {
 function refresh() {
 document.querySelector(".save").style.display="none";
 var title = document.querySelector("#title").value; 
-var turl = title.replace(/[^A-Z0-9]+/ig,"-");
+var turl = document.querySelector("#url").value==""?title.replace(/[^A-Z0-9]+/ig,"-"):document.querySelector("#url").value;
 var desc = document.querySelector("#description").value;
 var kwds = document.querySelector("#keywords").value;
 var code = `<!doctype html>
