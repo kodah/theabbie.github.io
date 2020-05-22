@@ -392,6 +392,17 @@ td {
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"><`+`/script>
 <script type="application/ld+json">
 [{
+  "@context" : "https://schema.org",
+  "@type" : "WebPage",
+  "name" : "${title}",
+  "description" : "${desc}",
+  "keywords" : "${kwds}",
+  "speakable" : {
+    "@type" : "SpeakableSpecification",
+    "cssSelector" : "[${title}, ${desc}]"
+  },
+  "url" : "https://theabbie.github.io/blog/${turl}"
+},{
   "@context" : "http://schema.org",
   "publisher" : {
     "@type" : "Organization",
