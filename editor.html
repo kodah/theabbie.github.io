@@ -106,6 +106,7 @@ Editor
 <div class="choice" onclick="nav()">NAV</div>
 <div class="choice" onclick="table()">TABLE</div>
 <div class="choice" onclick="adv()">AD</div>
+<div class="choice" onclick="cont()">CONTENT</div>
 </body>
 <script>
   document.querySelector("#body").oninput = function() {
@@ -234,6 +235,14 @@ function adv() {
   <div overflow=""></div>
   </amp-ad>
   </p>`);
+}
+
+function cont() {
+  var parser = new DOMParser();
+  var page = parser.parseFromString(document.querySelector("#body").value, 'text/html');
+  var content = page.querySelectorAll("article").innerText;
+  paste(content);
+  alert(content.split(" ").length);
 }
 
 function nav() {
