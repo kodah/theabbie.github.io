@@ -63,6 +63,21 @@ h1 {
   border-radius: 8px;
   margin: 25px;
 }
+.message {
+  background: rgb(50,50,50);
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4px;
+  word-spacing: 9px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 15px 15px 15px 15px;
+  display: block;
+  position: fixed;
+  z-index: 2;
+  bottom: -50px;
+  transition: 0.3s;
+  width: 100%;
+}
 </style>
 </head>
 <body>
@@ -72,18 +87,27 @@ Editor
 <input type="password" class="txt" id="key" placeholder="password">
 <textarea id="a" placeholder="Input"></textarea>
 <textarea id="b" placeholder="output"></textarea>
+<div class="message"></div>
 </body>
 <script>
 function ssg(file) {
 var key = document.querySelector("#key").value; 
 var a = encodeURIComponent(document.querySelector("#a").value); 
 var b = encodeURIComponent(document.querySelector("#b").value);
-fetch("https://ssg-yof14lro2n0w.runkit.sh/?a="+a+"&b="+b+"&key="+key+"&file="+file);
+fetch("https://ssg-yof14lro2n0w.runkit.sh/?a="+a+"&b="+b+"&key="+key+"&file="+file).then(function() {message ("done "+file)});
 }
 function load(x) {
   x.data.forEach(function(p) {
     document.body.innerHTML += `<button class="save" onclick="ssg('${p.name}')">${p.name}</button>`;
   });
+}
+function message(x) {
+    document.querySelector(".message").innerHTML = x;
+    document.querySelector(".message").style.bottom = "0px";
+    setTimeout(function() {
+     document.querySelector(".message").innerHTML = "";
+     document.querySelector(".message").style.bottom = "-50px";
+  },2000);
 }
 </script>
 <script src="https://api.github.com/repos/theabbie/theabbie.github.io/contents/blog?callback=load"></script>
