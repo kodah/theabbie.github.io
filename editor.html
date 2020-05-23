@@ -231,7 +231,8 @@ function nav() {
   var parser = new DOMParser();
   var page = parser.parseFromString(document.querySelector("#body").value, 'text/html');
   var list = page.querySelectorAll(".heading");
-  var nav = `<ul>
+  var nav = `<nav aria-label="contents">
+  <ul>
   `;
   for (x=0; x<list.length-1; x++) {
     nav += `<li><a href="#${list[x].getAttribute("id")}">${list[x].innerHTML}</a>
@@ -252,7 +253,8 @@ function nav() {
   nav+=`<li><a href="#${list[list.length-1].getAttribute("id")}">${list[list.length-1].innerHTML}</a></li>
     `
   nav += `</ul>
-      `.repeat(parseInt(list[list.length-1].tagName[1])-1)
+      `.repeat(parseInt(list[list.length-1].tagName[1])-1);
+  nav += `</nav>`;
   paste(nav);
 }
 function refresh() {
