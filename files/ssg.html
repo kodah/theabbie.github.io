@@ -72,7 +72,6 @@ Editor
 <input type="password" class="txt" id="key" placeholder="password">
 <textarea id="a" placeholder="Input"></textarea>
 <textarea id="b" placeholder="output"></textarea>
-<button class="save" onclick="refresh()">SAVE</button>
 </body>
 <script>
 function ssg(file) {
@@ -81,6 +80,12 @@ var a = encodeURIComponent(document.querySelector("#a").value);
 var b = encodeURIComponent(document.querySelector("#b").value);
 fetch("https://ssg-yof14lro2n0w.runkit.sh/?a="+a+"&b="+b+"&key="+key+"&file="+file);
 }
+function load(x) {
+  x.data.forEach(function(p) {
+    document.body.innerHTML += `<button class="save" onclick="ssg('${p.name}')">${p.name}</button>`;
+  });
+}
 </script>
+<script src="https://api.github.com/repos/theabbie/theabbie.github.io/contents/blog?callback=load"></script>
 </html>
 
