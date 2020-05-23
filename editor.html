@@ -251,7 +251,7 @@ function adv() {
 function cont() {
   var parser = new DOMParser();
   var page = parser.parseFromString(document.querySelector("#body").value, 'text/html');
-  var content = page.querySelectorAll("article").innerText;
+  var content = page.querySelector("article").innerText;
   paste(content);
   alert(content.split(" ").length);
 }
