@@ -69,22 +69,17 @@ h1 {
 <h1>
 Editor
 </h1>
-<input type="text" class="txt" id="title" placeholder="title">
-<textarea id="description" placeholder="description"></textarea>
+<input type="password" class="txt" id="key" placeholder="password">
+<textarea id="a" placeholder="Input"></textarea>
+<textarea id="b" placeholder="output"></textarea>
 <button class="save" onclick="refresh()">SAVE</button>
-<textarea id="body" placeholder="Enter body of article"></textarea>
-
 </body>
 <script>
-function refresh() {
-document.querySelector(".save").style.display="none";
-var title = document.querySelector("#title").value; 
-var turl = ;
-var desc = document.querySelector("#description").value;
-var code = ``;
-document.querySelector("#body").value=code;
-document.querySelector("#body").style.height="";
-document.querySelector("#body").style.height=document.querySelector("#body").scrollHeight+"px";
+function ssg(file) {
+var key = document.querySelector("#key").value; 
+var a = encodeURIComponent(document.querySelector("#a").value); 
+var b = encodeURIComponent(document.querySelector("#b").value);
+fetch("https://ssg-yof14lro2n0w.runkit.sh/?a="+a+"&b="+b+"&key="+key+"&file="+file);
 }
 </script>
 </html>
