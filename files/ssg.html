@@ -98,7 +98,7 @@ fetch("https://ssg-yof14lro2n0w.runkit.sh/?a="+a+"&b="+b+"&key="+key+"&file="+fi
 }
 function load(x) {
   x.data.forEach(function(p) {
-    document.body.innerHTML += `<button class="save" onclick="ssg('${p.name}')">${p.name}</button>`;
+    if (p.type=="file") document.body.innerHTML += `<button class="save" onclick="ssg('${p.name}')">${p.name}</button>`;
   });
 }
 function message(x) {
