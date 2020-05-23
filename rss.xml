@@ -125,6 +125,14 @@ Given the lengths of minor and major axis of an ellipse, the task is to find the
     <guid>https://theabbie.github.io/blog/codejam-2020-review</guid>
   </item>
   <item>
+    <title>decoding the monty hall game</title>
+    <link>https://theabbie.github.io/blog/decoding-the-monty-hall-game</link>
+    <description>By     2020-05-23  A typical observation of the situation might suggest that the probability is 50%, you have two choices, you have no idea where car is, so probability must be 50%, right there are various factors while calculating probability we need to consider before calculating probability Any proficient mathematician, or a person with good knowledge of mathematics will be able to explain why the probability is not 50%. conditional probability is a concept of probability which deals with dependent events, ie. happening of one event affecting happening of other event, this is a really important concept as most of the events in real life are dependent events. 
+    
+   so, it turn out that the events are not equally likely, one is greater than other, what that means is, your chances of winning are greater if you switch rather than sticking to it. The probability of winning on switching is    while on sticking to choice is   , So, next time you are playing this game, act smart.</description>
+    <guid>https://theabbie.github.io/blog/decoding-the-monty-hall-game</guid>
+  </item>
+  <item>
     <title>estimate pi using random numbers</title>
     <link>https://theabbie.github.io/blog/estimate-pi-using-random-numbers</link>
     <description>pi is an    and it has infinite decimal places we will use the concept of probability and definition of pi to calculate the value of pi since we are randomly plotting points inside the square, the probability of it lying inside the circle is  since we are plotting many points, empirical probability says that  since we know the empirical probability we will use it to find value of pi ie. n/N = Pi/4  this is also know as Monte Carlo method, this works perfectly when number of pounts is fairly high   </description>
