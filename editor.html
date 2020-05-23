@@ -143,18 +143,27 @@ function paste(myValue) {
 }
 function h2() {
     var title = prompt("title");
-    paste(`<h2 id="${title.replace(/[^A-Z0-9]+/ig,"_")}" class="heading">${title}</h2>
+    paste(`<section>
+<h2 id="${title.replace(/[^A-Z0-9]+/ig,"_")}" class="heading">${title}</h2>
+
+</section>
     `);
 }
 function h3() {
     var title = prompt("title");
-    paste(`<h3 id="${title.replace(/[^A-Z0-9]+/ig,"_")}" class="heading">${title}</h3>
+    paste(`<section>
+<h3 id="${title.replace(/[^A-Z0-9]+/ig,"_")}" class="heading">${title}</h3>
+
+</section>
     `);
 }
 function hn() {
     var n = prompt("n");
     var title = prompt("title");
-    paste(`<h${n} id="${title.replace(/[^A-Z0-9]+/ig,"_")}" class="heading">${title}</h${n}>
+    paste(`<section>
+<h${n} id="${title.replace(/[^A-Z0-9]+/ig,"_")}" class="heading">${title}</h${n}>
+
+</section>
     `);
   }
 function text() {
