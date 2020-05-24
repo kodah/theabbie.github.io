@@ -300,11 +300,8 @@ h2 {
 }
 
 .scroll {
-  height: 400px;
   overflow: auto;
   margin: 15px;
-  width: auto;
-  max-width: 500px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 18px;
   border: 2px solid rgb(150,150,150);
@@ -574,8 +571,11 @@ p.donate a {
 </section>
 <section>
 <h2 id="social">Social Media Accounts</h2>
-<div class="scroll">
-</div>
+<amp-list width="100" height="100" layout="responsive" sizes="(min-width: 500px) 320px, 80vw" class="scroll" src="">
+<template type="amp-mustache">
+
+</template>
+</amp-list>
 </section>
 
 <p class="ad">
