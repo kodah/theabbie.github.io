@@ -300,7 +300,8 @@ h2 {
 }
 
 .scroll {
-  overflow: auto;
+  max-height: 400px;
+  overflow: scroll;
   margin: auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 18px;
@@ -571,7 +572,7 @@ p.donate a {
 </section>
 <section>
 <h2 id="social">Social Media Accounts</h2>
-<amp-list width="auto" height="400" layout="fixed-height" sizes="(min-width: 500px) 500px, 80vw" class="scroll" src="/list.json">
+<amp-list width="100" height="100" layout="responsive" sizes="(min-width: 500px) 500px, 85vw" class="scroll" src="/list.json">
 <template type="amp-mustache">
 <a href="{{url}}" rel="me" title="{{title}}"><i class="{{icon}}"></i>{{title}}</a>
 </template>
