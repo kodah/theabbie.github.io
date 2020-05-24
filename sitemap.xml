@@ -257,10 +257,6 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/css/style.css</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
     <loc>https://theabbie.github.io/custom/3d.html</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
@@ -357,34 +353,6 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/js/code.js</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/OUT.png</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/hi.txt</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/logo.png</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/logoalt.png</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/theabbie (1).png</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/userpic16.jpg</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
     <loc>https://theabbie.github.io/blog/Breadcrumbs-demo.html</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
@@ -402,6 +370,10 @@
   </url>
   <url>
     <loc>https://theabbie.github.io/blog/bb-ki-vines.html</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/beginners-guide-to-googling.html</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
@@ -549,11 +521,19 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/users/abhishek7gg7.txt</loc>
+    <loc>https://theabbie.github.io/js/code.js</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/users/admin.txt</loc>
+    <loc>https://theabbie.github.io/css/style.css</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/podcasts/hello-world.mp3</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/podcasts/joke-1.mp3</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
@@ -565,11 +545,35 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/podcasts/hello-world.mp3</loc>
+    <loc>https://theabbie.github.io/users/abhishek7gg7.txt</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/podcasts/joke-1.mp3</loc>
+    <loc>https://theabbie.github.io/users/admin.txt</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/OUT.png</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/hi.txt</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/logo.png</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/logoalt.png</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/theabbie (1).png</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/userpic16.jpg</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
@@ -933,6 +937,18 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
+    <loc>https://theabbie.github.io/articles/technology/technology first post</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/articles/technology/technology second post</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/articles/personal/About Me</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
     <loc>https://theabbie.github.io/articles/how to/how to first post</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
@@ -945,15 +961,19 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/articles/technology/technology first post</loc>
+    <loc>https://theabbie.github.io/files/armory/index.html</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/articles/technology/technology second post</loc>
+    <loc>https://theabbie.github.io/files/love/Cubano-Regular.otf</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/articles/personal/About Me</loc>
+    <loc>https://theabbie.github.io/files/love/Roboto-Light.ttf</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/love/index.html</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
@@ -2669,10 +2689,6 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/armory/index.html</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
     <loc>https://theabbie.github.io/files/favicons/android-chrome-144x144.png</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
@@ -2821,18 +2837,6 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/love/Cubano-Regular.otf</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/love/Roboto-Light.ttf</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/love/index.html</loc>
-    <lastmod>2020-05-24</lastmod>
-  </url>
-  <url>
     <loc>https://theabbie.github.io/files/website/Ubuntu-Regular.ttf</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
@@ -2969,6 +2973,10 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
+    <loc>https://theabbie.github.io/blog/assets/beginners-guide-to-googling.jpg</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
     <loc>https://theabbie.github.io/blog/assets/character-recognition.jpg</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
@@ -3021,6 +3029,14 @@
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
+    <loc>https://theabbie.github.io/blog/assets/don-t-be-a-boomer.jpg</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/assets/don-t-repost.jpg</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
     <loc>https://theabbie.github.io/blog/assets/draw-logos-from-memory.jpg</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
@@ -3030,6 +3046,10 @@
   </url>
   <url>
     <loc>https://theabbie.github.io/blog/assets/drawing-pad.jpg</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/assets/emma-is-the-queen-of-9gag.jpg</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
@@ -3110,6 +3130,10 @@
   </url>
   <url>
     <loc>https://theabbie.github.io/blog/assets/how-to-cure-sleeping-disorder.jpg</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/assets/how-to-frame-your-query.jpg</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
@@ -3338,6 +3362,10 @@
   </url>
   <url>
     <loc>https://theabbie.github.io/blog/assets/spend-bill-gates-money.jpg</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/assets/stackoverflow.jpg</loc>
     <lastmod>2020-05-24</lastmod>
   </url>
   <url>
