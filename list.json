@@ -1,0 +1,3284 @@
+{
+  "items":[
+    {
+      "title":"Become a Patron!",
+      "url":"https://www.patreon.com/theabbie",
+      "icon":"fa fa-patreon"
+    },
+    {
+      "title":"Paypal",
+      "url":"https://paypal.me/theabbie",
+      "icon":"fa fa-paypal"
+    },
+    {
+      "title":"Buy Me A Coffee",
+      "url":"https://www.buymeacoffee.com/theabbie",
+      "icon":"fa fa-coffee"
+    },
+    {
+      "title":"LiberPay",
+      "url":"https://en.liberapay.com/theabbie/",
+      "icon":"fa fa-rupee-sign"
+    },
+    {
+      "title":"DonorBox",
+      "url":"https://donorbox.org/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"IssueHunt",
+      "url":"https://issuehunt.io/u/theabbie",
+      "icon":"fa fa-crow"
+    },
+    {
+      "title":"SuperPay",
+      "url":"https://app.superpayit.com/pay/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Ko-fi",
+      "url":"https://ko-fi.com/theabbie",
+      "icon":"fa fa-mug-hot"
+    },
+    {
+      "title":"Open Collective",
+      "url":"https://opencollective.com/codrcrew",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Support link",
+      "url":"https://support.link/page/3684",
+      "icon":"fa fa-info"
+    },
+    {
+      "title":"Causes",
+      "url":"https://www.causes.com/theabbie",
+      "icon":"fa fa-bolt"
+    },
+    {
+      "title":"Resume",
+      "url":"https://resume.io/r/LrJqgvSn8",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Youtube",
+      "url":"https://youtube.com/c/theabbie?sub_confirmation=1",
+      "icon":"fa fa-youtube"
+    },
+    {
+      "title":"Dailymotion",
+      "url":"https://www.dailymotion.com/theabbie",
+      "icon":"fa fa-video"
+    },
+    {
+      "title":"Vimeo",
+      "url":"https://vimeo.com/theabbie",
+      "icon":"fa fa-vimeo"
+    },
+    {
+      "title":"Facebook",
+      "url":"https://facebook.com/abhishek.vice.versa",
+      "icon":"fa fa-facebook-square"
+    },
+    {
+      "title":"Qwant",
+      "url":"https://boards.qwant.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Instagram",
+      "url":"https://www.instagram.com/sasta_abbie/",
+      "icon":"fa fa-instagram"
+    },
+    {
+      "title":"Snapchat",
+      "url":"https://www.snapchat.com/add/abbie_shaikh",
+      "icon":"fa fa-snapchat"
+    },
+    {
+      "title":"Discord",
+      "url":"https://discord.gg/RPfQZvS",
+      "icon":"fa fa-discord"
+    },
+    {
+      "title":"Twitter",
+      "url":"https://twitter.com/TheAbbiee",
+      "icon":"fa fa-twitter"
+    },
+    {
+      "title":"About.me",
+      "url":"https://about.me/theabbie",
+      "icon":"fa fa-address-card"
+    },
+    {
+      "title":"Yummly",
+      "url":"https://www.yummly.com/profile/TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Telescope",
+      "url":"https://telescope.ac/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"LiveJournal",
+      "url":"https://theabbie.livejournal.com/",
+      "icon":"fa fa-rss"
+    },
+    {
+      "title":"FCRIT",
+      "url":"https://fcrit.almaconnect.com/profiles/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Tinder",
+      "url":"https://www.gotinder.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"My Profile",
+      "url":"https://www.myprofile.my/theabbie",
+      "icon":"fa fa-user-tie"
+    },
+    {
+      "title":"Tipee",
+      "url":"https://en.tipeee.com/theabbie",
+      "icon":"fa fa-meh"
+    },
+    {
+      "title":"ICQ",
+      "url":"https://icq.im/theabbie",
+      "icon":"fa fa-reply"
+    },
+    {
+      "title":"Jog.fm",
+      "url":"https://jog.fm/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"My Cause",
+      "url":"https://www.mycause.com.au/page/221520/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Google Group",
+      "url":"https://groups.google.com/d/forum/theabbie",
+      "icon":"fa fa-google"
+    },
+    {
+      "title":"Spreaker",
+      "url":"https://www.spreaker.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Pinterest",
+      "url":"https://in.pinterest.com/theabbie/",
+      "icon":"fa fa-pinterest"
+    },
+    {
+      "title":"ProductHunt",
+      "url":"https://www.producthunt.com/@abbie",
+      "icon":"fa fa-product-hunt"
+    },
+    {
+      "title":"Fandom",
+      "url":"https://community.fandom.com/wiki/User:Theabbie",
+      "icon":"fa fa-cubes"
+    },
+    {
+      "title":"Yumpu",
+      "url":"https://www.yumpu.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Github",
+      "url":"https://github.com/theabbie",
+      "icon":"fa fa-github"
+    },
+    {
+      "title":"GitLab",
+      "url":"https://gitlab.com/theabbie",
+      "icon":"fa fa-gitlab"
+    },
+    {
+      "title":"BitBucket",
+      "url":"https://bitbucket.org/theabbie/",
+      "icon":"fa fa-bitbucket"
+    },
+    {
+      "title":"Glitch",
+      "url":"https://glitch.com/@theabbie",
+      "icon":"fa fa-archive"
+    },
+    {
+      "title":"GitBook",
+      "url":"https://theabbie.gitbook.io/",
+      "icon":"fa fa-code-branch"
+    },
+    {
+      "title":"UniqueThis",
+      "url":"https://uniquethis.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Dev.to",
+      "url":"https://dev.to/theabbie",
+      "icon":"fa fa-dev"
+    },
+    {
+      "title":"23 HQ",
+      "url":"http://www.23hq.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ShareChat",
+      "url":"https://sharechat.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SPOJ",
+      "url":"https://www.spoj.com/users/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"UnityMix",
+      "url":"https://www.unitymix.com/theabbie",
+      "icon":"fa fa-dumbbell"
+    },
+    {
+      "title":"Linkedin",
+      "url":"https://www.linkedin.com/in/theabbie",
+      "icon":"fa fa-linkedin"
+    },
+    {
+      "title":"Udemy",
+      "url":"https://www.udemy.com/user/abhishek-choudhary/",
+      "icon":"fa fa-book"
+    },
+    {
+      "title":"Commaful",
+      "url":"https://commaful.com/play/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SteadyHQ",
+      "url":"https://steadyhq.com/en/theabbie",
+      "icon":"fa fa-infinity"
+    },
+    {
+      "title":"ORCID",
+      "url":"https://orcid.org/0000-0003-1526-9128",
+      "icon":"fa fa-orcid"
+    },
+    {
+      "title":"Hashnode blog",
+      "url":"https://theabbie.hashnode.dev/",
+      "icon":"fa fa-hashtag"
+    },
+    {
+      "title":"Flattr",
+      "url":"https://flattr.com/@theabbie",
+      "icon":"fa fa-sync-alt"
+    },
+    {
+      "title":"Clyp",
+      "url":"https://clyp.it/user/w1txixws",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"8b.io",
+      "url":"https://theabbie.8b.io/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Blubbry",
+      "url":"https://blubrry.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Ques10",
+      "url":"https://www.ques10.com/u/84392/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Gitstar",
+      "url":"https://gitstar-ranking.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Charity",
+      "url":"https://charity.gofundme.com/o/en/campaign/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GoFundMe",
+      "url":"https://www.gofundme.com/profile/abhishek-chaudhary-nb6a2",
+      "icon":"fa fa-external-link-alt"
+    },
+    {
+      "title":"AngelList",
+      "url":"https://angel.co/theabbie-1",
+      "icon":"fa fa-angellist"
+    },
+    {
+      "title":"Etsy",
+      "url":"https://www.etsy.com/in-en/people/o4ohjbf0",
+      "icon":"fa fa-etsy"
+    },
+    {
+      "title":"Google Podcasts",
+      "url":"https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xMzM0YTlhMC9wb2RjYXN0L3Jzcw==",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Pledge Me",
+      "url":"https://www.pledgeme.co.nz/profiles/160216",
+      "icon":"fa fa-comment-dollar"
+    },
+    {
+      "title":"Hacker Earth",
+      "url":"https://www.hackerearth.com/@theabbie",
+      "icon":"fa fa-hospital-symbol"
+    },
+    {
+      "title":"ManyStories",
+      "url":"https://www.manystories.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"HackerRank",
+      "url":"https://www.hackerrank.com/theabbie",
+      "icon":"fa fa-hackerrank"
+    },
+    {
+      "title":"CSAcademy",
+      "url":"https://csacademy.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GrowthHackers",
+      "url":"https://growthhackers.com/members/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MakeLight",
+      "url":"https://makelight.com/users/sasta_abbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"NPM",
+      "url":"https://www.npmjs.com/~theabbie",
+      "icon":"fa fa-npm"
+    },
+    {
+      "title":"Sessionize",
+      "url":"https://sessionize.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"RedCircle",
+      "url":"https://redcircle.com/shows/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"PubFacts",
+      "url":"https://www.pubfacts.com/author/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Libraries.io",
+      "url":"https://libraries.io/github/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Linktr",
+      "url":"https://linktr.ee/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"It's my URL's",
+      "url":"https://itsmyurls.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"E-olymp",
+      "url":"https://www.e-olymp.com/en/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Cent.co",
+      "url":"https://beta.cent.co/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BandLab",
+      "url":"https://www.bandlab.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Ello",
+      "url":"https://ello.co/theabbie",
+      "icon":"fa fa-ello"
+    },
+    {
+      "title":"Fundable",
+      "url":"https://www.fundable.com/abhishek-chaudhary",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CrunchyRoll",
+      "url":"https://www.crunchyroll.com/user/theabbie",
+      "icon":"fa fa-dice-two"
+    },
+    {
+      "title":"CGSociety",
+      "url":"https://theabbie.cgsociety.org/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Voice",
+      "url":"https://voice123.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Pipedream",
+      "url":"https://pipedream.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Periscope",
+      "url":"https://www.periscope.tv/theabbie",
+      "icon":"fa fa-periscope"
+    },
+    {
+      "title":"DreamWidth",
+      "url":"https://theabbie.dreamwidth.org/",
+      "icon":"fa fa-blog"
+    },
+    {
+      "title":"Listal",
+      "url":"https://theabbie.listal.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Storenvy",
+      "url":"https://theabbie.storenvy.com",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Atom.io",
+      "url":"https://atom.io/users/theabbie",
+      "icon":"fa fa-atom"
+    },
+    {
+      "title":"LetterBoxd",
+      "url":"https://letterboxd.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Scribd",
+      "url":"https://www.scribd.com/user/369398005/Abhishek-Chaudhary",
+      "icon":"fa fa-scribd"
+    },
+    {
+      "title":"BugCrowd",
+      "url":"https://bugcrowd.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"I Worked On",
+      "url":"https://iworkedon.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Wordpress",
+      "url":"https://profiles.wordpress.org/theabbie/",
+      "icon":"fa fa-wordpress"
+    },
+    {
+      "title":"Coda.io",
+      "url":"https://coda.io/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FanPop",
+      "url":"https://www.fanpop.com/fans/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"HuffDuffer",
+      "url":"https://huffduffer.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Blogger blog",
+      "url":"https://codrcrew.blogspot.com/",
+      "icon":"fa fa-blogger"
+    },
+    {
+      "title":"LomoGraphy",
+      "url":"https://www.lomography.com/homes/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"StartupStash",
+      "url":"https://startupstash.com/user/abhishek/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"awwwards",
+      "url":"https://www.awwwards.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Observable HQ",
+      "url":"https://observablehq.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Society6",
+      "url":"https://society6.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Hubhopper",
+      "url":"https://theabbie.hubhopper.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Steam",
+      "url":"https://steamcommunity.com/id/theabbie",
+      "icon":"fa fa-steam"
+    },
+    {
+      "title":"Maker log",
+      "url":"https://getmakerlog.com/@theabbie",
+      "icon":"fa fa-check-circle"
+    },
+    {
+      "title":"Seeking Alpha",
+      "url":"https://seekingalpha.com/user/51423812/comments",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Collect.chat",
+      "url":"https://links.collect.chat/5e7775c8fef17e422a58ed7d",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Deezer",
+      "url":"https://deezer.com/show/927982",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TopBuzz",
+      "url":"https://www.topbuzz.com/user/6809140462282015749",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Unity",
+      "url":"https://connect.unity.com/u/theabbie",
+      "icon":"fa fa-unity"
+    },
+    {
+      "title":"Untappd",
+      "url":"https://untappd.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TamTam",
+      "url":"https://tamtam.chat/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SoundCloud",
+      "url":"https://soundcloud.com/theabbiee",
+      "icon":"fa fa-soundcloud"
+    },
+    {
+      "title":"YourQuote",
+      "url":"https://www.yourquote.in/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"PyPi",
+      "url":"https://pypi.org/user/theabbie/",
+      "icon":"fa fa-python"
+    },
+    {
+      "title":"AllTop",
+      "url":"https://alltop.com/my/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GNome",
+      "url":"https://gitlab.gnome.org/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MovieRack",
+      "url":"https://www.mymovierack.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Hodinkee",
+      "url":"https://community.hodinkee.com/members/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Bandcamp",
+      "url":"https://bandcamp.com/theabbie",
+      "icon":"fa fa-bandcamp"
+    },
+    {
+      "title":"BandCamp site",
+      "url":"https://theabbie.bandcamp.com",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"HashNode",
+      "url":"https://hashnode.com/@theabbie",
+      "icon":"fa fa-hashtag"
+    },
+    {
+      "title":"Bitchute",
+      "url":"https://www.bitchute.com/channel/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Kit",
+      "url":"https://kit.co/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Eyeem",
+      "url":"https://www.eyeem.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Player.me",
+      "url":"https://player.me/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Codewars",
+      "url":"https://www.codewars.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FilmFreeway",
+      "url":"https://filmfreeway.com/TheAbbie",
+      "icon":"fa fa-film"
+    },
+    {
+      "title":"Picsart",
+      "url":"https://picsart.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"IndieHackers",
+      "url":"https://www.indiehackers.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FilmFed",
+      "url":"https://filmfed.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Xing",
+      "url":"https://www.xing.com/profile/Abhishek_Chaudhary6/cv",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Youth4work",
+      "url":"https://www.youth4work.com/y/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TrueLancer",
+      "url":"https://www.truelancer.com/freelancer/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GameJolt",
+      "url":"https://gamejolt.com/@TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Giphy",
+      "url":"https://giphy.com/channel/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GameJolt portfolio",
+      "url":"https://theabbie.gamejolt.io/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"LeetCode",
+      "url":"https://leetcode.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"IndieFolio",
+      "url":"https://www.indiefolio.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Liinks",
+      "url":"https://liinks.co/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Slides",
+      "url":"https://slides.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GetSatisfaction",
+      "url":"https://getsatisfaction.com/people/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Contently",
+      "url":"https://theabbie.contently.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Anilist",
+      "url":"https://anilist.co/user/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"8crafts",
+      "url":"https://8tracks.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Zest",
+      "url":"https://distilled.zest.is/zester/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Strikingly",
+      "url":"http://theabbie.mystrikingly.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Acclaim",
+      "url":"https://www.youracclaim.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Speaker Hub",
+      "url":"https://speakerhub.com/speaker/abhishek-choudhary",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Botlist",
+      "url":"https://botlist.co/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FibHub",
+      "url":"https://fibhubapp.com/w/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Mozillians",
+      "url":"https://mozillians.org/en-US/u/theabbie/",
+      "icon":"fa fa-firefox"
+    },
+    {
+      "title":"Jimdo",
+      "url":"https://theabbie.jimdofree.com/",
+      "icon":"fa fa-dice-one"
+    },
+    {
+      "title":"Apple podcasts",
+      "url":"https://podcasts.apple.com/in/podcast/theabbie/id1498376059",
+      "icon":"fa fa-itunes"
+    },
+    {
+      "title":"ComicVine",
+      "url":"https://comicvine.gamespot.com/profile/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Tellonym",
+      "url":"https://tellonym.me/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Typ.io",
+      "url":"http://typ.io/users/TheAbbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Lnky.in",
+      "url":"https://lnky.in/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Clarity.fm",
+      "url":"https://clarity.fm/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Funny or Die",
+      "url":"https://www.funnyordie.com/users/TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Sarahah",
+      "url":"https://theabbie.sarahah.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Qooh.me",
+      "url":"https://www.qooh.me/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Likee",
+      "url":"https://likee.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Hype Machine",
+      "url":"https://hypem.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Domestika",
+      "url":"https://www.domestika.org/en/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Sayat.me",
+      "url":"https://sayat.me/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Ravelry",
+      "url":"https://www.ravelry.com/people/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Picarto",
+      "url":"https://picarto.tv/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Rockstar games",
+      "url":"https://socialclub.rockstargames.com/member/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Kinja",
+      "url":"https://kinja.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Curious Cat",
+      "url":"https://curiouscat.me/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"OpenHub",
+      "url":"https://www.openhub.net/accounts/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Filmaster",
+      "url":"https://theabbie.filmaster.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Swipop",
+      "url":"https://swipop.co/@/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Symbaloo",
+      "url":"https://www.symbaloo.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Podyssey",
+      "url":"https://podyssey.fm/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"LikeWise",
+      "url":"https://likewise.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SmashCast",
+      "url":"https://www.smashcast.tv/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TipTopFace",
+      "url":"https://www.tiptopface.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Streamlabs",
+      "url":"https://streamlabs.com/abhishekchaudharyhome",
+      "icon":"fa fa-stream"
+    },
+    {
+      "title":"uDebug",
+      "url":"https://www.udebug.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"RubyGems",
+      "url":"https://rubygems.org/profiles/TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FaceFlow",
+      "url":"https://www.faceflow.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Docker",
+      "url":"https://hub.docker.com/u/theabbie",
+      "icon":"fa fa-docker"
+    },
+    {
+      "title":"DevFolio",
+      "url":"https://devfolio.co/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Blip.fm",
+      "url":"https://blip.fm/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SunShine",
+      "url":"https://sunshine.social/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Zedge",
+      "url":"https://www.zedge.net/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Findery",
+      "url":"https://findery.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"VentureCost",
+      "url":"https://venturecost.com/@abhishekchoudhary",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SKIO Music",
+      "url":"https://skiomusic.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Veripool",
+      "url":"https://www.veripool.org/users/1675",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"e27.co",
+      "url":"https://e27.co/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TasteDive",
+      "url":"https://tastedive.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Hackaday",
+      "url":"https://hackaday.io/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Startup Ranking",
+      "url":"https://www.startupranking.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Unacademy",
+      "url":"https://unacademy.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Canopy.co",
+      "url":"https://canopy.co/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Golden",
+      "url":"https://golden.com/profile/abhishek-chaudhary",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Podomatic",
+      "url":"https://www.podomatic.com/podcasts/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Viadeo",
+      "url":"https://www.viadeo.com/p/0021f9yo62rzv7hq",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"DevSkill",
+      "url":"http://www.devskill.com/Home/PublicProfile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"VideoHive",
+      "url":"https://videohive.net/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AuthorStream",
+      "url":"http://authorstream.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Sofurry",
+      "url":"https://theabbie.sofurry.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"gog",
+      "url":"https://www.gog.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Indi",
+      "url":"https://indi.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CMTY",
+      "url":"https://cmty.app/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Refer.codes",
+      "url":"https://refer.codes/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AskPlayBook",
+      "url":"https://askplaybook.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Disqus",
+      "url":"http://disqus.com/by/codrcrew",
+      "icon":"fa fa-comment"
+    },
+    {
+      "title":"Creative Mornings",
+      "url":"https://creativemornings.com/individuals/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TripAdvisor",
+      "url":"https://www.tripadvisor.co.uk/Profile/codrcrew",
+      "icon":"fa fa-tripadvisor"
+    },
+    {
+      "title":"Wall of text",
+      "url":"https://walloftext.co/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"StockWits",
+      "url":"https://stocktwits.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TalkShoe",
+      "url":"https://www.talkshoe.com/show/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"DeepAI",
+      "url":"https://deepai.org/profile/abhishek7gg7",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SiteJabber",
+      "url":"https://www.sitejabber.com/users/abhishekc19",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"VK",
+      "url":"https://vk.com/id569817292",
+      "icon":"fa fa-vk"
+    },
+    {
+      "title":"ClearVoice",
+      "url":"https://clearvoice.com/cv/AbhishekChaudhary",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CommonSenseMedia",
+      "url":"https://www.commonsensemedia.org/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"NerdFeedr",
+      "url":"https://www.nerdfeedr.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FurAffinity",
+      "url":"https://www.furaffinity.net/user/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Ecwid",
+      "url":"https://theabbie.ecwid.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BandMix",
+      "url":"https://www.bandmix.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MixCloud",
+      "url":"https://m.mixcloud.com/theabbie/",
+      "icon":"fa fa-mixcloud"
+    },
+    {
+      "title":"Jet TV",
+      "url":"https://jettv.co/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TopCharts",
+      "url":"https://www.topchart.io/users/87742-abhishek-choudhary",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Archive of our own",
+      "url":"https://archiveofourown.org/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Tippin.me",
+      "url":"https://tippin.me/@TheAbbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MOG",
+      "url":"https://matcomgrader.com/user/21437/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TiTo",
+      "url":"https://ti.to/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Trakt",
+      "url":"https://trakt.tv/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BestGore",
+      "url":"https://www.bestgore.com/members/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AtCoder",
+      "url":"https://atcoder.jp/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Depop",
+      "url":"https://www.depop.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Pixiv",
+      "url":"https://www.pixiv.net/en/users/50779273",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Chartable",
+      "url":"https://chartable.com/podcasts/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Brainly",
+      "url":"https://brainly.in/profile/theabbie-11579460",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Starter Story",
+      "url":"https://www.starterstory.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"HackerOne",
+      "url":"https://hackerone.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Clist",
+      "url":"https://clist.by/coder/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CoderByte",
+      "url":"https://coderbyte.com/profile/abhishekcoder",
+      "icon":"fa fa-terminal"
+    },
+    {
+      "title":"Notion",
+      "url":"https://www.notion.so/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AppDelivery",
+      "url":"https://theabbie.applivery.io/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Genius",
+      "url":"https://genius.com/TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Hypothesis",
+      "url":"https://hypothes.is/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Redef",
+      "url":"https://redef.com/profile/5e7354e08836475b315fb432",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Anchor.fm",
+      "url":"https://anchor.fm/theabbie",
+      "icon":"fa fa-podcast"
+    },
+    {
+      "title":"RadioPublic",
+      "url":"https://radiopublic.com/theabbie-GMrgo4",
+      "icon":"fa fa-radiation"
+    },
+    {
+      "title":"UrIndianConsumer",
+      "url":"https://urindianconsumer.in/user/3661/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"OnlyFans",
+      "url":"https://onlyfans.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"RateHouse",
+      "url":"https://rate.house/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Mix",
+      "url":"https://mix.com/theabbie",
+      "icon":"fa fa-mix"
+    },
+    {
+      "title":"Fancy",
+      "url":"https://fancy.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"HubPages",
+      "url":"https://hubpages.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Oheyo",
+      "url":"https://www.oheyo.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SpeakingTree",
+      "url":"https://www.speakingtree.in/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FollowmyTV",
+      "url":"https://followmy.tv/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Apple Community",
+      "url":"https://discussions.apple.com/profile/theabbie",
+      "icon":"fa fa-apple"
+    },
+    {
+      "title":"CoWriters",
+      "url":"https://cowriters.app/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GamePedia",
+      "url":"https://www.gamepedia.com/members/theabbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BitPatron",
+      "url":"https://bitpatron.co/theabbie.id.blockstack",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"DemoDrop",
+      "url":"https://demodrop.com/user/734279",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Goodfilms",
+      "url":"https://goodfil.ms/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Codementor",
+      "url":"https://www.codementor.io/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Himalaya",
+      "url":"https://www.himalaya.com/comedy-podcasts/theabbie-1724435",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Cadlab",
+      "url":"https://cadlab.io/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TrustPilot",
+      "url":"https://www.trustpilot.com/users/5e516ba9878fee2e32c64991",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ShutterStock",
+      "url":"https://www.shutterstock.com/g/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Expo.io",
+      "url":"https://expo.io/@abbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CookPad",
+      "url":"https://cookpad.com/us/users/22551169",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"IcoBench",
+      "url":"https://icobench.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Toph.co",
+      "url":"https://toph.co/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SoloLearn",
+      "url":"https://www.sololearn.com/Profile/17539823",
+      "icon":"fa fa-splotch"
+    },
+    {
+      "title":"Calendly",
+      "url":"https://calendly.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Bit.dev",
+      "url":"https://bit.dev/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Digital Podcast",
+      "url":"http://www.digitalpodcast.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"read.gift",
+      "url":"https://read.gift/u/theabbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Ludu",
+      "url":"https://www.ludu.co/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Nucode",
+      "url":"https://www.nucode.co/maker/theabbie-1584625254808x257626673695210620",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Mendeley",
+      "url":"https://www.mendeley.com/profiles/abhishek-chaudhary12/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"StopStalk",
+      "url":"https://www.stopstalk.com/user/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Freelancer",
+      "url":"https://www.freelancer.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Loudly",
+      "url":"https://www.loudly.com/profiles/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FanFiction",
+      "url":"https://www.fanfiction.net/u/13189348/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Gab",
+      "url":"https://gab.com/theabbie",
+      "icon":"fa fa-superpowers"
+    },
+    {
+      "title":"Carrd",
+      "url":"https://theabbie.carrd.co/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Symphony",
+      "url":"https://connect.symfony.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Swoot Podcast",
+      "url":"https://swoot.com/podcast/396662/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Padlets",
+      "url":"https://padlet.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BullHorn",
+      "url":"https://www.bullhorn.fm/theabbie48767",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Steepster",
+      "url":"https://steepster.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"hackster",
+      "url":"https://www.hackster.io/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Notist",
+      "url":"https://noti.st/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Minds",
+      "url":"https://www.minds.com/theabbie/",
+      "icon":"fa fa-lightbulb"
+    },
+    {
+      "title":"GoSpeak",
+      "url":"https://gospeak.io/speakers/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Dissenter",
+      "url":"https://dissenter.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Messy.fm",
+      "url":"https://www.messy.fm/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"StudentShow",
+      "url":"https://studentshow.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MouthShut",
+      "url":"https://www.mouthshut.com/theabbie",
+      "icon":"fa fa-smile"
+    },
+    {
+      "title":"TMDB",
+      "url":"https://www.themoviedb.org/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TheTVDB",
+      "url":"https://thetvdb.com/people/8162722",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"EthX",
+      "url":"https://forum.ethx.co/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"flat.io",
+      "url":"https://flat.io/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Issuu",
+      "url":"https://issuu.com/codrcrew",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Groups.io",
+      "url":"https://groups.io/g/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Scratch",
+      "url":"https://scratch.mit.edu/users/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Smedian",
+      "url":"https://www.smedian.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"School",
+      "url":"https://theabbie.thinkific.com",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"PaperCall",
+      "url":"https://www.papercall.io/speakers/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Glose",
+      "url":"https://glose.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"HearThis.At",
+      "url":"https://hearthis.at/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Audiomack",
+      "url":"https://audiomack.com/artist/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"DoSelect",
+      "url":"https://doselect.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"24 hour start-up",
+      "url":"https://24hrstartup.com/abhishek-chaudhary",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Podbean",
+      "url":"http://theabbie.podbean.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"asciinema",
+      "url":"https://asciinema.org/~theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ZenFolio",
+      "url":"https://theabbie.zenfolio.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Roblox",
+      "url":"https://www.roblox.com/users/1275357199/profile",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Discogs",
+      "url":"https://www.discogs.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"PearlTrees",
+      "url":"https://www.pearltrees.com/theabbie",
+      "icon":"fa fa-star"
+    },
+    {
+      "title":"IFunny",
+      "url":"https://ifunny.co/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"KickStarter",
+      "url":"https://www.kickstarter.com/profile/theabbie",
+      "icon":"fa fa-kickstarter"
+    },
+    {
+      "title":"Google Maps",
+      "url":"https://maps.app.goo.gl/TUk5SuDwqKbzK9Si8",
+      "icon":"fa fa-map-marker-alt"
+    },
+    {
+      "title":"PodTail",
+      "url":"https://podtail.com/en/user/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Thingiversa",
+      "url":"https://www.thingiverse.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Reddit",
+      "url":"https://www.reddit.com/user/theabbiee",
+      "icon":"fa fa-reddit"
+    },
+    {
+      "title":"Tilelook",
+      "url":"https://www.tilelook.com/en-GB/users/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Devpost",
+      "url":"https://devpost.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Kattis",
+      "url":"https://icpc.kattis.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"500px",
+      "url":"https://500px.com/theabbie",
+      "icon":"fa fa-500px"
+    },
+    {
+      "title":"GiantBomb",
+      "url":"https://www.giantbomb.com/profile/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TutorialsPoint",
+      "url":"https://www.tutorialspoint.com/videotutorials/profile/abhishek_chaudhary-1",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Kitsu",
+      "url":"https://kitsu.io/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SMB",
+      "url":"http://socialbusinesspedia.com/people/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Joomla",
+      "url":"http://theabbie.joomla.com/",
+      "icon":"fa fa-joomla"
+    },
+    {
+      "title":"Visual.ly",
+      "url":"https://visual.ly/users/theabbie/portfolio",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Hackr.io",
+      "url":"https://hackr.io/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Transfur",
+      "url":"https://www.transfur.com/Users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AudioBurst",
+      "url":"https://search.audioburst.com/station/TheAbbie/?id=18228",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CakeResume",
+      "url":"https://www.cakeresume.com/me/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Audeliver",
+      "url":"http://audeliver.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ListenNotes",
+      "url":"https://www.listennotes.com/@theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Launchaco",
+      "url":"https://theabbie.launchaco.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FreeSound",
+      "url":"https://freesound.org/people/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"EqualDex",
+      "url":"https://www.equaldex.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Smule",
+      "url":"https://www.smule.com/codrcrew",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Snapwire",
+      "url":"https://www.snapwi.re/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"DZone",
+      "url":"https://dzone.com/users/4247877/theabbie.html",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Many.link",
+      "url":"https://many.link/sasta_abbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Google Scholars",
+      "url":"https://scholar.google.com/citations?user=Ub-08hoAAAAJ&hl=en",
+      "icon":"fa fa-user-graduate"
+    },
+    {
+      "title":"Academia",
+      "url":"https://fcrit.academia.edu/theabbie",
+      "icon":"fa fa-font"
+    },
+    {
+      "title":"Swoot",
+      "url":"https://swoot.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Creative Pool",
+      "url":"https://creativepool.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Diff.blog",
+      "url":"https://diff.blog/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Heli",
+      "url":"https://heli.life/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TheVerge",
+      "url":"https://www.theverge.com/users/TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Imgur",
+      "url":"https://imgur.com/user/codrcrew",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"NoFilmSchool",
+      "url":"https://nofilmschool.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Drupal",
+      "url":"https://www.drupal.org/u/theabbie",
+      "icon":"fa fa-drupal"
+    },
+    {
+      "title":"Product Dork",
+      "url":"https://productdork.com/u/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Habr",
+      "url":"https://habr.com/en/users/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SongTradr",
+      "url":"https://www.songtradr.com/user/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Moodle",
+      "url":"https://moodle.org/user/profile.php?id=2862222",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AirText",
+      "url":"https://airtext.xyz/blog/theabbie.id.blockstack",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Mastodon",
+      "url":"https://mastodon.social/@theabbie",
+      "icon":"fa fa-mastodon"
+    },
+    {
+      "title":"MouseBreaker",
+      "url":"https://www.mousebreaker.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Slashdot",
+      "url":"https://slashdot.org/~theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Toot",
+      "url":"https://toot.cafe/@theabbie",
+      "icon":"fa fa-mastodon"
+    },
+    {
+      "title":"My opportunity",
+      "url":"https://myopportunity.com/en/profile/abhishek-chaudhary-4/dt",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Learneroo",
+      "url":"https://www.learneroo.com/users/41992",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SlidesLive",
+      "url":"https://slideslive.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SketchFab",
+      "url":"https://sketchfab.com/theabbie",
+      "icon":"fa fa-sketch"
+    },
+    {
+      "title":"UrbanPro",
+      "url":"https://www.urbanpro.com/mumbai/abhishek-chaudhary/17531276",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Nuget",
+      "url":"https://www.nuget.org/profiles/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Steller",
+      "url":"https://steller.co/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Figma",
+      "url":"https://www.figma.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CodeTrace",
+      "url":"https://codetrace.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Lbry.tv",
+      "url":"https://lbry.tv/@theabbie:d",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FilmWeb",
+      "url":"https://www.filmweb.pl/user/TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Unsplash",
+      "url":"https://unsplash.com/@theabbie",
+      "icon":"fa fa-image"
+    },
+    {
+      "title":"Designspiration",
+      "url":"https://www.designspiration.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BookShelf",
+      "url":"https://bookself.app/ocbcW19B95e9OG3M4aeFe2RrbRg2",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Maker.rocks",
+      "url":"https://maker.rocks/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"VSUAL",
+      "url":"https://www.vsual.co/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Quartz",
+      "url":"https://qz.com/user/919561/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AllMusic",
+      "url":"https://www.allmusic.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Creative market",
+      "url":"https://creativemarket.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Refind",
+      "url":"https://refind.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"IndieDB",
+      "url":"https://www.indiedb.com/members/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Webflow",
+      "url":"https://theabbie.webflow.io/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"WebFlow profile",
+      "url":"https://webflow.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MeAdd",
+      "url":"https://meadd.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Stage 32",
+      "url":"https://stage32.com/profile/757242",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Crowdin",
+      "url":"https://crowdin.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Clipicious",
+      "url":"https://clipicious.com/u/2691",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Algorithmia",
+      "url":"https://algorithmia.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Aus",
+      "url":"https://aus.social/@theabbie",
+      "icon":"fa fa-mastodon"
+    },
+    {
+      "title":"Fandom Wiki",
+      "url":"https://theabbie.fandom.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ReverbNation",
+      "url":"https://www.reverbnation.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Landr.me",
+      "url":"https://landr.me/theabbie.id.blockstack",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"WikiHow",
+      "url":"https://wikihow.com/User:Abhishek.C",
+      "icon":"fa fa-wikipedia-w"
+    },
+    {
+      "title":"TVMaze",
+      "url":"https://www.tvmaze.com/users/155923/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Fitbit",
+      "url":"https://www.fitbit.com/user/86TCZL",
+      "icon":"fa fa-heartbeat"
+    },
+    {
+      "title":"Flicks",
+      "url":"https://www.flicks.com.au/member/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Exercism",
+      "url":"https://exercism.io/profiles/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"UMG Gaming",
+      "url":"https://umggaming.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Researchr",
+      "url":"https://conf.researchr.org/profile/abhishek",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Teespring Store",
+      "url":"https://teespring.com/stores/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"EquipBoard",
+      "url":"https://equipboard.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SeenThis",
+      "url":"https://seenthis.net/people/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Historious",
+      "url":"https://theabbie.historio.us/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Plurk",
+      "url":"https://www.plurk.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"arc.dev",
+      "url":"https://arc.dev/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AllPoetry",
+      "url":"https://allpoetry.com/Theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Mulaa",
+      "url":"https://theabbie.mulaa.store/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Startus.cc",
+      "url":"https://www.startus.cc/people/abhishek_chaudhary",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Blog Talk Radio",
+      "url":"https://www.blogtalkradio.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Itch.io",
+      "url":"https://theabbie.itch.io/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Coolors",
+      "url":"https://coolors.co/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Meritnation",
+      "url":"https://www.meritnation.com/student/abhishek.ab",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GfyCat",
+      "url":"https://gfycat.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"IFTTT",
+      "url":"https://ifttt.com/p/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Gravatar",
+      "url":"https://en.gravatar.com/theabbiee",
+      "icon":"fa fa-user-tie"
+    },
+    {
+      "title":"Sweek",
+      "url":"https://sweek.com/profile/1461890/74088",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BioLinky",
+      "url":"https://biolinky.co/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ImgFlip",
+      "url":"https://imgflip.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"JavaScript Kicks",
+      "url":"http://javascriptkicks.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"YMGrad",
+      "url":"https://www.ymgrad.com/profile/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Penname",
+      "url":"https://www.penname.me/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Listography",
+      "url":"https://listography.com/theabbie",
+      "icon":"fa fa-list"
+    },
+    {
+      "title":"IconFinder",
+      "url":"https://www.iconfinder.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"WalletList",
+      "url":"https://walletlist.me/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"The Now Page",
+      "url":"https://thenow.page/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Byte.builders",
+      "url":"https://byte.builders/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"PeePeth",
+      "url":"https://peepeth.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Alternative to",
+      "url":"https://alternativeto.net/user/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Vivaldi",
+      "url":"https://theabbie.vivaldi.net/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Smoothcomp",
+      "url":"https://smoothcomp.com/en/profile/357614",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"LinkPot",
+      "url":"https://linkpot.io/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Quora",
+      "url":"https://www.quora.com/profile/TheAbbie",
+      "icon":"fa fa-quora"
+    },
+    {
+      "title":"Podhunt",
+      "url":"https://podhunt.app/@TheAbbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Postach.io",
+      "url":"https://theabbie.postach.io/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"WattPad",
+      "url":"https://www.wattpad.com/user/theabbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Coub",
+      "url":"https://coub.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Tempo Storm",
+      "url":"https://tempostorm.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Acast",
+      "url":"https://shows.acast.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"OpenStreetMap",
+      "url":"https://www.openstreetmap.org/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ShipStreams",
+      "url":"https://shipstreams.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Badoo",
+      "url":"https://bdo.to/u/8pttDx6jkj_0Xalh_Ck4y",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"InstaMojo",
+      "url":"https://www.instamojo.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"InstaMojo store",
+      "url":"https://www.instamojo.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Cracked",
+      "url":"https://www.cracked.com/members/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"NairaLand",
+      "url":"https://www.nairaland.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BoredPanda",
+      "url":"https://www.boredpanda.com/author/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Mewe",
+      "url":"https://mewe.com/i/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MyUTR",
+      "url":"https://www.myutr.com/profiles/1898179",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SlideServe",
+      "url":"https://www.slideserve.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FlipBoard",
+      "url":"https://flipboard.com/@TheAbbie",
+      "icon":"fa fa-flipboard"
+    },
+    {
+      "title":"ShowList",
+      "url":"https://showlist.io/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Wryt",
+      "url":"https://wrytin.com/theabbieundefined",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Strava",
+      "url":"https://www.strava.com/athletes/theabbie",
+      "icon":"fa fa-strava"
+    },
+    {
+      "title":"Dive.tv",
+      "url":"https://dlive.tv/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Drop",
+      "url":"https://drop.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Elink",
+      "url":"https://elink.io/p/9bb78c1",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TalentHouse",
+      "url":"https://www.talenthouse.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"EasyEDA",
+      "url":"https://easyeda.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Dribbble",
+      "url":"https://dribbble.com/theabbie",
+      "icon":"fa fa-dribbble"
+    },
+    {
+      "title":"CurseForge",
+      "url":"https://www.curseforge.com/members/theabbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GumRoad",
+      "url":"https://gumroad.com/theabbie",
+      "icon":"fa fa-shopping-cart"
+    },
+    {
+      "title":"StackOverflow",
+      "url":"https://stackoverflow.com/users/7946599/abhishek",
+      "icon":"fa fa-stack-overflow"
+    },
+    {
+      "title":"Elgg",
+      "url":"https://elgg.org/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"HelloPoetry",
+      "url":"https://hellopoetry.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"growth hub",
+      "url":"https://growth.org/users/9697941",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FreeCodeCamp",
+      "url":"https://www.freecodecamp.org/theabbie",
+      "icon":"fa fa-free-code-camp"
+    },
+    {
+      "title":"Movellas",
+      "url":"https://www.movellas.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TinyLetter",
+      "url":"https://tinyletter.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CodePen",
+      "url":"https://codepen.io/theabbie",
+      "icon":"fa fa-codepen"
+    },
+    {
+      "title":"MuckRack",
+      "url":"https://muckrack.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AlmaConnect",
+      "url":"https://theabbie.almaconnect.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Orfium",
+      "url":"https://www.orfium.com/profile/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SkillShare",
+      "url":"https://www.skillshare.com/user/theabbie",
+      "icon":"fa fa-brain"
+    },
+    {
+      "title":"HackerNoon",
+      "url":"https://hackernoon.com/@TheAbbie",
+      "icon":"fa fa-clock"
+    },
+    {
+      "title":"Yahoo",
+      "url":"https://in.answers.yahoo.com/activity/questions?show=KtTBxB9eaa",
+      "icon":"fa fa-yahoo"
+    },
+    {
+      "title":"PhotoBlog",
+      "url":"https://www.photoblog.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SpeakerDeck",
+      "url":"https://speakerdeck.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Behance",
+      "url":"https://www.behance.net/theabbie",
+      "icon":"fa fa-behance"
+    },
+    {
+      "title":"FStoppers",
+      "url":"https://fstoppers.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Alumni.net",
+      "url":"https://www.alumni.net/profile/33347857",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Tribe.so",
+      "url":"https://theabbie.tribe.so/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SetList",
+      "url":"https://www.setlist.fm/user/theabbie",
+      "icon":"fa fa-itunes-note"
+    },
+    {
+      "title":"HeadFone",
+      "url":"https://www.headfone.co.in/channel/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Savee",
+      "url":"https://savee.it/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ShaderToy",
+      "url":"https://www.shadertoy.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Career Cup",
+      "url":"https://careercup.com/user?id=5650986580836352",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CaringSite",
+      "url":"https://www.caringbridge.org/visit/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Proseful",
+      "url":"https://theabbie.proseful.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Stitcher",
+      "url":"https://www.stitcher.com/s?fid=508183&refid=stpr",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Tenor",
+      "url":"https://tenor.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Imprnt",
+      "url":"https://www.inprnt.com/profile/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"JioSaavn",
+      "url":"https://www.jiosaavn.com/u/a8a28bcad61e75971af4d7e83665ae71",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Travis CI",
+      "url":"https://travis-ci.community/u/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Repl.it",
+      "url":"https://repl.it/@TheAbbie",
+      "icon":"fa fa-tools"
+    },
+    {
+      "title":"TikTok",
+      "url":"https://tiktok.com/@codrcrew",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Groover",
+      "url":"https://groover.co/en/band/profile/1-theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"StackShare",
+      "url":"https://stackshare.io/theabbie",
+      "icon":"fa fa-layer-group"
+    },
+    {
+      "title":"Sourcerer.io",
+      "url":"https://sourcerer.io/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TravelMassive",
+      "url":"https://travelmassive.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GitConnected",
+      "url":"https://gitconnected.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Player.fm",
+      "url":"https://player.fm/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"DLike",
+      "url":"https://dlike.io/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TED",
+      "url":"https://www.ted.com/profiles/13537180",
+      "icon":"fa fa-microphone"
+    },
+    {
+      "title":"Unsorted",
+      "url":"http://unsorted.co/members/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Betapage",
+      "url":"https://betapage.co/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MeetMe",
+      "url":"https://www.meetme.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"9GaG",
+      "url":"https://9gag.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BetaList",
+      "url":"https://betalist.com/@TheAbbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Tagged",
+      "url":"http://www.tagged.com/theabbie",
+      "icon":"fa fa-tag"
+    },
+    {
+      "title":"SourceForge",
+      "url":"https://sourceforge.net/u/theabbie/profile/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Deviant Art",
+      "url":"https://www.deviantart.com/theabbiee",
+      "icon":"fa fa-deviantart"
+    },
+    {
+      "title":"SkinDex",
+      "url":"https://www.minecraftskins.com/profile/4215804/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Programmable web",
+      "url":"https://www.programmableweb.com/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Castro.fm",
+      "url":"https://castro.fm/podcast/ed8d5afa-0d65-42b8-83a2-2aa39d71096e",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"IPInit",
+      "url":"http://ipinit.in/user/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GyroScope",
+      "url":"https://gyrosco.pe/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GoodReads",
+      "url":"https://www.goodreads.com/user/show/104443822-abhishek-choudhary",
+      "icon":"fa fa-goodreads"
+    },
+    {
+      "title":"ElectroMaker",
+      "url":"https://www.electromaker.io/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Hacker News",
+      "url":"https://news.ycombinator.com/user?id=theabbie",
+      "icon":"fa fa-hacker-news"
+    },
+    {
+      "title":"Medium",
+      "url":"https://medium.com/@theabbie",
+      "icon":"fa fa-medium"
+    },
+    {
+      "title":"PodChaser",
+      "url":"https://www.podchaser.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Spotify",
+      "url":"https://open.spotify.com/user/31xdt4an4t2xgipjiq725bt3nmie",
+      "icon":"fa fa-spotify"
+    },
+    {
+      "title":"Spotify Podcasts",
+      "url":"https://open.spotify.com/show/3SQTmYQttwPc6TBmoiEZrH?si=E37EwfIWQCCvxRt9lsWt1w&nd=1",
+      "icon":"fa fa-spotify"
+    },
+    {
+      "title":"Spotify Playlist",
+      "url":"https://open.spotify.com/playlist/36beyhNLNne6fciTmwiznA?si=eB7EcxyVQwiZGJyugOOb8A",
+      "icon":"fa fa-spotify"
+    },
+    {
+      "title":"UID.me",
+      "url":"http://uid.me/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Skyrock",
+      "url":"https://theabbie.skyrock.mobi/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Belletristica",
+      "url":"https://belletristica.com/en/users/5088-theabbie#works",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Slack",
+      "url":"https://theabbie.slack.com",
+      "icon":"fa fa-slack"
+    },
+    {
+      "title":"Instructables",
+      "url":"https://www.instructables.com/member/theabbie/",
+      "icon":"fa fa-android"
+    },
+    {
+      "title":"IMDB",
+      "url":"https://imdb.com/user/ur96185357",
+      "icon":"fa fa-imdb"
+    },
+    {
+      "title":"IMDB Credits",
+      "url":"https://imdb.com/name/nm11351503/?ref_=m_ttfcd_wr1",
+      "icon":"fa fa-imdb"
+    },
+    {
+      "title":"TMDB credit",
+      "url":"https://www.themoviedb.org/person/2554222-abhishek-chaudhary",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Baaz",
+      "url":"https://www.baaz.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Yola",
+      "url":"https://theabbie.yolasite.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ManyLinks",
+      "url":"https://manylink.co/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Able",
+      "url":"https://able.bio/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"HappyShappy",
+      "url":"https://www.happyshappy.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"EverLink",
+      "url":"http://evrl.ink/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Qiita",
+      "url":"https://qiita.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Saidit",
+      "url":"https://saidit.net/user/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Skillbox",
+      "url":"https://www.skillboxes.com/artist/profile/theabbie58",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AppGrooves",
+      "url":"https://appgrooves.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Eskimi",
+      "url":"http://eskimi.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SecondHandSongs",
+      "url":"https://secondhandsongs.com/user/86973",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Devrant",
+      "url":"https://devrant.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"The Dots",
+      "url":"https://the-dots.com/users/abhishek-chaudhary-689829",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Write.as",
+      "url":"https://theabbie.write.as",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"thethingsnetwork",
+      "url":"https://www.thethingsnetwork.org/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SongBox",
+      "url":"https://songbox.rocks/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Kaggle",
+      "url":"https://www.kaggle.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Crunchbase",
+      "url":"https://www.crunchbase.com/organization/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Mirakee",
+      "url":"http://www.mirakee.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Tumblr",
+      "url":"https://codrcrew.tumblr.com/",
+      "icon":"fa fa-tumblr"
+    },
+    {
+      "title":"StartupGrind",
+      "url":"https://www.startupgrind.com/u/m8xj5g",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Trello",
+      "url":"https://trello.com/theabbie",
+      "icon":"fa fa-trello"
+    },
+    {
+      "title":"Uplabs",
+      "url":"https://www.uplabs.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"LeanPub",
+      "url":"https://leanpub.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TTTLink",
+      "url":"https://ttlink.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Noun Project",
+      "url":"https://thenounproject.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"has.lv",
+      "url":"https://has.lv/profile/9463-theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CastBox",
+      "url":"https://castbox.fm/ch/2595735",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Plumfund",
+      "url":"https://www.plumfund.com/crowdfunding/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Sounder",
+      "url":"https://theabbie.sounder.fm/show/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Devian Art",
+      "url":"https://www.deviantart.com/theabbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Pocket",
+      "url":"https://getpocket.com/@theabbie",
+      "icon":"fa fa-get-pocket"
+    },
+    {
+      "title":"Publons",
+      "url":"https://publons.com/researcher/3337025/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Apsense",
+      "url":"http://www.apsense.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MobCrush",
+      "url":"https://mobcrush.com/c/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GeeksForGeeks",
+      "url":"https://auth.geeksforgeeks.org/user/theabbie",
+      "icon":"fa fa-code"
+    },
+    {
+      "title":"Exposure.co",
+      "url":"https://theabbie.exposure.co/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Slant",
+      "url":"https://www.slant.co/users/TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Adfty",
+      "url":"https://adfty.biz/user/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Twilog",
+      "url":"https://twilog.org/TheAbbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"sheepdognation",
+      "url":"https://www.sheepdognation.com/members/2977028",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"TokenDaily",
+      "url":"https://www.tokendaily.co/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Are.na",
+      "url":"https://www.are.na/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Trell",
+      "url":"https://trell.co/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Ulule",
+      "url":"https://www.ulule.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Structured portfolio",
+      "url":"https://gitconnected.com/v1/portfolio/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BayT",
+      "url":"https://people.bayt.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CodeProject",
+      "url":"https://www.codeproject.com/Members/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Last.fm",
+      "url":"https://www.last.fm/user/theabbie",
+      "icon":"fa fa-lastfm"
+    },
+    {
+      "title":"ArtStation",
+      "url":"https://www.artstation.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ArtStation Blog",
+      "url":"https://theabbie.artstation.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FundSurfer",
+      "url":"https://www.fundsurfer.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Simkl",
+      "url":"https://simkl.com/3222785/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"We heart it",
+      "url":"https://weheartit.com/codrcrew",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"PasteBin",
+      "url":"https://pastebin.com/u/theabbie",
+      "icon":"fa fa-paste"
+    },
+    {
+      "title":"Mozilla",
+      "url":"https://discourse.mozilla.org/u/theabbie/",
+      "icon":"fa fa-firefox"
+    },
+    {
+      "title":"Pexels",
+      "url":"https://www.pexels.com/@abhishek-chaudhary-1373754",
+      "icon":"fa fa-camera"
+    },
+    {
+      "title":"Pictify",
+      "url":"http://pictify.saatchigallery.com/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"BootStrapped Community",
+      "url":"https://discuss.bootstrapped.fm/u/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Blogger",
+      "url":"https://draft.blogger.com/profile/10118759004451492133",
+      "icon":"fa fa-blogger"
+    },
+    {
+      "title":"Flickr",
+      "url":"https://www.flickr.com/people/theabbiee/",
+      "icon":"fa fa-flickr"
+    },
+    {
+      "title":"Criticker",
+      "url":"https://www.criticker.com/profile/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"F6s",
+      "url":"https://www.f6s.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Habbo",
+      "url":"https://www.habbo.com/profile/theabbie_",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CodeForces",
+      "url":"https://codeforces.com/profile/TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Beam",
+      "url":"https://beamstart.com/profile/297013/Abhishek_Chaudhary/r/297013",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Audius",
+      "url":"https://audius.co/theabbiee",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Posteezy",
+      "url":"https://posteezy.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Jamendo",
+      "url":"https://www.jamendo.com/user/7505658/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Mixer",
+      "url":"https://mixer.com/theabbie/mobile",
+      "icon":"fa fa-star-of-life"
+    },
+    {
+      "title":"LinkMarker",
+      "url":"http://www.linkmarker.ru/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Experiment",
+      "url":"https://experiment.com/users/theabbie",
+      "icon":"fa fa-flask"
+    },
+    {
+      "title":"WeFunder",
+      "url":"https://wefunder.com/theabbie",
+      "icon":"fa fa-business-time"
+    },
+    {
+      "title":"Spectrum.chat",
+      "url":"https://spectrum.chat/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"FourSquare",
+      "url":"https://foursquare.com/theabbiee",
+      "icon":"fa fa-foursquare"
+    },
+    {
+      "title":"dotshare",
+      "url":"http://dotshare.it/~theabbie/",
+      "icon":"fa fa-foursquare"
+    },
+    {
+      "title":"TopCoder",
+      "url":"https://www.topcoder.com/members/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Senscritique",
+      "url":"https://www.senscritique.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Sidebar.io",
+      "url":"https://sidebar.io/users/abhishek-1",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"CodeChef",
+      "url":"https://www.codechef.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Fiverr",
+      "url":"https://www.fiverr.com/theabbie",
+      "icon":"fa fa-external-link-alt"
+    },
+    {
+      "title":"Indeed",
+      "url":"https://my.indeed.com/p/abhishekc-189l19c/profile",
+      "icon":"fa fa-briefcase"
+    },
+    {
+      "title":"Wikipedia",
+      "url":"https://en.m.wikipedia.org/wiki/User:Theabbie",
+      "icon":"fa fa-wikipedia-w"
+    },
+    {
+      "title":"Galactic Talk",
+      "url":"https://galactictalk.org/u/theabbie",
+      "icon":"fa fa-galactic-republic"
+    },
+    {
+      "title":"Feed",
+      "url":"https://medium.com/feed/@theabbie",
+      "icon":"fa fa-rss"
+    },
+    {
+      "title":"Givey",
+      "url":"https://www.givey.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Launchpad",
+      "url":"https://launchpad.net/~theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Instapaper",
+      "url":"https://www.instapaper.com/p/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"SubStack",
+      "url":"https://theabbie.substack.com/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Pocket Casts",
+      "url":"https://pca.st/8174uwoh",
+      "icon":"fa fa-signal"
+    },
+    {
+      "title":"Breaker",
+      "url":"https://www.breaker.audio/u/codrcrew",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"MysicBrainz",
+      "url":"https://musicbrainz.org/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"PortFolium",
+      "url":"https://portfolium.com/TheAbbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"GitCoin",
+      "url":"https://gitcoin.co/theabbie",
+      "icon":"fa fa-git-alt"
+    },
+    {
+      "title":"NotePin",
+      "url":"https://theabbie.notepin.co/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Slideshare",
+      "url":"https://www.slideshare.net/abhishekchaudhary310",
+      "icon":"fa fa-slideshare"
+    },
+    {
+      "title":"Twitch",
+      "url":"https://twitch.tv/theabbiee",
+      "icon":"fa fa-twitch"
+    },
+    {
+      "title":"LottieFiles",
+      "url":"https://lottiefiles.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"ShareSome",
+      "url":"https://sharesome.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Good Tutorials",
+      "url":"http://www.good-tutorials.com/users/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Interpals",
+      "url":"https://www.interpals.net/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Musixmatch",
+      "url":"https://www.musixmatch.com/profile/3vUCAER30AbEg5-4obUnLECipgqEXydjufR3Hm72RZGsN2qrUlt620K-OPmPiQuIJfFpsumVa4ZO-vqWhfd-HsHLb3DyDojRnxJDji9i1B7RVV98hkZ-qhj0fsCrIv4hssCdEMb1G-J57r1zb3cGcZyN_TE",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Soup.io",
+      "url":"https://theabbie.soup.io/",
+      "icon":"fa fa-microsoft"
+    },
+    {
+      "title":"Plerb",
+      "url":"http://www.plerb.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"Rooster Teeth",
+      "url":"https://roosterteeth.com/g/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"AirBnB",
+      "url":"https://www.airbnb.co.in/users/show/326445894",
+      "icon":"fa fa-airbnb"
+    },
+    {
+      "title":"Story",
+      "url":"https://stackoverflow.com/story/theabbie",
+      "icon":"fa fa-code"
+    }
+  ]
+}
