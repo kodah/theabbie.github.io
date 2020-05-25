@@ -233,7 +233,7 @@ ul.nav li {
   transition: 0.5s;
 }
 
-.navbtn:focus~ul.nav li {
+ul.nav.open li {
   right: 25px;
 }
 
@@ -506,8 +506,8 @@ p.donate a {
 <form class="search" method="GET" action="/s" target="_top">
   <input type="search" placeholder="Search..." name="q">
 </form>
-<button class="navbtn"></button>
-<ul class="nav">
+<button class="navbtn" role="button" on="tap:nav.toggleClass(class='open')"></button>
+<ul class="nav" id="nav">
 <li><a href="/">Home</a></li>
 <li><a href="/blog">Blog</a></li>
 <li><a href="/story">Story</a></li>
