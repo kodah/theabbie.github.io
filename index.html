@@ -191,12 +191,21 @@ button {
   bottom: 25px;
   height: 25px;
   width: 25px;
+  font-size: 25px;
+  line-height: 25px;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
   background-color: purple;
-  padding: 30px;
+  padding: 15px;
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.2s;
   z-index: 3;
+}
+
+.navbtn:hover {
+  padding: 20px;
 }
 
 ul.nav { 
@@ -216,10 +225,6 @@ ul.nav li {
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.5s;
-}
-
-.navbtn:hover {
-  padding: 35px;
 }
 
 .navbtn:focus~ul.nav li {
@@ -496,7 +501,7 @@ p.donate a {
 <form class="search" method="GET" action="/s" target="_top">
   <input type="search" placeholder="Search..." name="q">
 </form>
-<button class="navbtn"></button>
+<button class="navbtn">&#9776;</button>
 <ul class="nav">
 <li><a href="/">Home</a></li>
 <li><a href="/blog">Blog</a></li>
