@@ -262,7 +262,7 @@ function nav() {
   var page = parser.parseFromString(document.querySelector("#body").value, 'text/html');
   var list = page.querySelectorAll(".heading");
   var nav = `<nav aria-label="contents">
-  <ul>
+<ul>
 `;
   for (x=0; x<list.length-1; x++) {
     nav += `<li><a href="#${list[x].getAttribute("id")}">${list[x].innerHTML}</a>`;
