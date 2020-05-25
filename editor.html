@@ -271,6 +271,9 @@ function nav() {
 `;
       nav += `</ul>
 `.repeat(parseInt(list[x].tagName[1])-parseInt(list[x+1].tagName[1]));
+nav += `
+</li>
+`;
     }
     if (parseInt(list[x].tagName[1])<parseInt(list[x+1].tagName[1])) {
       nav += `
