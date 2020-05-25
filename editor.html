@@ -207,7 +207,7 @@ function list() {
 function table() {
   var n = parseInt(prompt("number of rows?"));
   paste(`<table>
-<caption></caption>
+<caption align="bottom"></caption>
 <thead>
 <tr>
 <th colspan="2"></th>
@@ -435,6 +435,10 @@ td {
 }
 section {
   padding-right: 15px;
+}
+caption {
+  font-weight: bolder;
+  padding-top: 20px;
 }
 </style>
 <script async src="https://cdn.ampproject.org/v0.js"></`+`script>
