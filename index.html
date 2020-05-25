@@ -204,6 +204,10 @@ button {
   z-index: 3;
 }
 
+.navbtn:after {
+  content: '&#9776;';
+}
+
 .navbtn:hover {
   transform: rotate(360deg);
   color: transparent;
@@ -502,7 +506,7 @@ p.donate a {
 <form class="search" method="GET" action="/s" target="_top">
   <input type="search" placeholder="Search..." name="q">
 </form>
-<button class="navbtn">&#9776;</button>
+<button class="navbtn"></button>
 <ul class="nav">
 <li><a href="/">Home</a></li>
 <li><a href="/blog">Blog</a></li>
