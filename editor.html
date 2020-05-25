@@ -263,27 +263,28 @@ function nav() {
   var list = page.querySelectorAll(".heading");
   var nav = `<nav aria-label="contents">
   <ul>
-  `;
+`;
   for (x=0; x<list.length-1; x++) {
-    nav += `<li><a href="#${list[x].getAttribute("id")}">${list[x].innerHTML}</a>
-    `;
+    nav += `<li><a href="#${list[x].getAttribute("id")}">${list[x].innerHTML}</a>`;
     if (parseInt(list[x].tagName[1])>parseInt(list[x+1].tagName[1])) {
-      nav+=`</li>`;
+      nav+=`</li>
+`;
       nav += `</ul>
-      `.repeat(parseInt(list[x].tagName[1])-parseInt(list[x+1].tagName[1]));
+`.repeat(parseInt(list[x].tagName[1])-parseInt(list[x+1].tagName[1]));
     }
     if (parseInt(list[x].tagName[1])<parseInt(list[x+1].tagName[1])) {
       nav += `<ul>
-      `.repeat(parseInt(list[x+1].tagName[1])-parseInt(list[x].tagName[1]));
+`.repeat(parseInt(list[x+1].tagName[1])-parseInt(list[x].tagName[1]));
     }
     if (parseInt(list[x].tagName[1])==parseInt(list[x+1].tagName[1])) {
-      nav += `</li>`
+      nav += `</li>
+`
     }
   }
   nav+=`<li><a href="#${list[list.length-1].getAttribute("id")}">${list[list.length-1].innerHTML}</a></li>
-    `
+`
   nav += `</ul>
-      `.repeat(parseInt(list[list.length-1].tagName[1])-1);
+`.repeat(parseInt(list[list.length-1].tagName[1])-1);
   nav += `</nav>`;
   paste(nav);
 }
