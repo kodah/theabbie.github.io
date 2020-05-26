@@ -6,6 +6,19 @@ A pseudo-introvert, a web developer, and a Maker
 
 https://theabbie.github.io
 
+|Quick Info|
+|--- |
+|Abhishek Chaudhary|
+|11 January, 2002|
+|B.E.|
+|Fr C Rodrigues institute of technology|
+|Indian|
+|Web Developer|
+|HTML, CSS, JavaScript, Node.js, SEO|
+|TheAbbie|
+|CEO of TheAbbie|
+|TheAbbie|
+
 ## Donate
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K31DJFA)
