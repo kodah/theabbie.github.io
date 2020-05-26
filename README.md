@@ -1,6 +1,6 @@
 # TheAbbie
 
-<img src="https://theabbie.github.io/files/logo.png" alt="TheAbbie" width="75" height="75">
+<img src="https://theabbie.github.io/files/logo.png" alt="TheAbbie" width="100" height="100">
 
 * [About Me](#About-Me)
 * [10 Ways to contact me](#10-Ways-to-contact-me)
