@@ -1,6 +1,6 @@
 # TheAbbie
 
-![TheAbbie](https://theabbie.github.io/files/logo.png "TheAbbie")
+<img src="https://theabbie.github.io/files/logo.png" alt="TheAbbie" width="75" height="75">
 
 * [About Me](#About-Me)
 * [10 Ways to contact me](#10-Ways-to-contact-me)
