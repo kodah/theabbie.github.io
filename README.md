@@ -27,6 +27,21 @@ https://theabbie.github.io
 </tbody>
 </table>
 
+## 10 Ways to contact me
+
+<ul>
+<li><a href="mailto:abhishek7gg7@gmail.com" rel="me">Mail</a>
+<li><a href="https://www.instagram.com/sasta_abbie/" rel="me">Instagram DM</a>
+<li><a href="https://t.me/theabbie" rel="me">Telegram</a>
+<li><a href="https://wa.me/918928412138?text=Hi" rel="me">Whatsapp</a>
+<li><a href="https://linkedin.com/in/theabbie" rel="me">Linkedin</a>
+<li><a href="https://twitter.com/theabbiee" rel="me">Twitter</a>
+<li><a href="https://www.snapchat.com/add/abbie_shaikh" rel="me">Snapchat</a>
+<li><a href="https://icq.im/theabbie" rel="me">ICQ</a>
+<li><a href="https://www.facebook.com/abhishek.vice.versa" rel="me">Facebook</a>
+<li><a href="tel:+918928412138" rel="me">Call</a>
+</li>
+</ul>
 
 ## Donate
 
