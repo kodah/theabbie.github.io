@@ -8,6 +8,8 @@
 
 ## About Me
 
+<p align='center'>text</p>
+
 Hello World, I am Abhishek Chaudhary
 
 A pseudo-introvert, a web developer, and a Maker
