@@ -19,6 +19,27 @@ https://theabbie.github.io
 |Title|CEO of TheAbbie|
 |Known For|TheAbbie|
 
+<table>
+<caption>Abhishek Chaudhary</caption>
+<thead>
+<tr>
+<th colspan="2">Quick Info</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Name</th><td>Abhishek Chaudhary</td></tr>
+<tr><td>Born</th><td><time datetime="2002-01-11 08:00">11 January, 2002</time></td></tr>
+<tr><td>Education</th><td>B.E.</td></tr>
+<tr><td>Alma mater</th><td>Fr C Rodrigues institute of technology</td></tr>
+<tr><td>Nationality</th><td>Indian</td></tr>
+<tr><td>Occupation</th><td>Web Developer</td></tr>
+<tr><td>Skills</th><td>HTML, CSS, JavaScript, Node.js, SEO</td></tr>
+<tr><td>Other Name</th><td>TheAbbie</td></tr>
+<tr><td>Title</th><td>CEO of TheAbbie</td></tr>
+<tr><td>Known For</th><td>TheAbbie</td></tr>
+</tbody>
+</table>
+
 ## Donate
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K31DJFA)
