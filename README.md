@@ -1,5 +1,8 @@
 # TheAbbie
-> A web developer by passion
+
+Hello World, I am Abhishek Chaudhary
+
+A pseudo-introvert, a web developer, and a Maker
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K31DJFA)
 
