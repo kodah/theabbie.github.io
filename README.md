@@ -68,4 +68,6 @@ https://theabbie.github.io/blog
 
 [![Donor Box](https://d1iczxrky3cnb2.cloudfront.net/button-medium-blue.png)](https://donorbox.org/theabbie)
 
+[![Donate on opencollective](https://opencollective.com/webpack/donate/button@2x.png?color=blue)](https://opencollective.com/theabbie)
+
 [![Donate](https://button.flattr.com/button-compact-static-100x17.png)](https://flattr.com/@theabbie)
