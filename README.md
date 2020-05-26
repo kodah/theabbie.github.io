@@ -39,7 +39,7 @@ https://theabbie.github.io
 <li><a href="https://www.snapchat.com/add/abbie_shaikh" rel="me">Snapchat</a>
 <li><a href="https://icq.im/theabbie" rel="me">ICQ</a>
 <li><a href="https://www.facebook.com/abhishek.vice.versa" rel="me">Facebook</a>
-<li><a href="tel:+918928412138" rel="me">Call</a>
+<li>Call</li>
 </li>
 </ul>
 
