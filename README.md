@@ -16,7 +16,6 @@ https://theabbie.github.io
 
 [Resume](https://theabbie.github.io/resume.pdf)
 
-<p align='center'>
 <table>
 <caption>Abhishek Chaudhary</caption>
 <thead>
@@ -37,7 +36,6 @@ https://theabbie.github.io
 <tr><th scope='row'>Known For</th><td>TheAbbie</td></tr>
 </tbody>
 </table>
-</p>
 
 ## 10 Ways to contact me
 
