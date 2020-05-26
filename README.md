@@ -6,19 +6,6 @@ A pseudo-introvert, a web developer, and a Maker
 
 https://theabbie.github.io
 
-|Quick Info||
-|--- |--- |
-|Name|Abhishek Chaudhary|
-|Born|11 January, 2002|
-|Education|B.E.|
-|Alma mater|Fr C Rodrigues institute of technology|
-|Nationality|Indian|
-|Occupation|Web Developer|
-|Skills|HTML, CSS, JavaScript, Node.js, SEO|
-|Other Name|TheAbbie|
-|Title|CEO of TheAbbie|
-|Known For|TheAbbie|
-
 <table>
 <caption>Abhishek Chaudhary</caption>
 <thead>
@@ -27,18 +14,19 @@ https://theabbie.github.io
 </tr>
 </thead>
 <tbody>
-<tr><td>Name</th><td>Abhishek Chaudhary</td></tr>
-<tr><td>Born</th><td><time datetime="2002-01-11 08:00">11 January, 2002</time></td></tr>
-<tr><td>Education</th><td>B.E.</td></tr>
-<tr><td>Alma mater</th><td>Fr C Rodrigues institute of technology</td></tr>
-<tr><td>Nationality</th><td>Indian</td></tr>
-<tr><td>Occupation</th><td>Web Developer</td></tr>
-<tr><td>Skills</th><td>HTML, CSS, JavaScript, Node.js, SEO</td></tr>
-<tr><td>Other Name</th><td>TheAbbie</td></tr>
-<tr><td>Title</th><td>CEO of TheAbbie</td></tr>
-<tr><td>Known For</th><td>TheAbbie</td></tr>
+<tr><th scope='row'>Name</th><td>Abhishek Chaudhary</td></tr>
+<tr><th scope='row'>Born</th><td><time datetime="2002-01-11 08:00">11 January, 2002</time></td></tr>
+<tr><th scope='row'>Education</th><td>B.E.</td></tr>
+<tr><th scope='row'>Alma mater</th><td>Fr C Rodrigues institute of technology</td></tr>
+<tr><th scope='row'>Nationality</th><td>Indian</td></tr>
+<tr><th scope='row'>Occupation</th><td>Web Developer</td></tr>
+<tr><th scope='row'>Skills</th><td>HTML, CSS, JavaScript, Node.js, SEO</td></tr>
+<tr><th scope='row'>Other Name</th><td>TheAbbie</td></tr>
+<tr><th scope='row'>Title</th><td>CEO of TheAbbie</td></tr>
+<tr><th scope='row'>Known For</th><td>TheAbbie</td></tr>
 </tbody>
 </table>
+
 
 ## Donate
 
