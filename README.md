@@ -6,6 +6,8 @@ A pseudo-introvert, a web developer, and a Maker
 
 https://theabbie.github.io
 
+|||
+|--- |--- |
 |Name|Abhishek Chaudhary|
 |Born|11 January, 2002|
 |Education|B.E.|
