@@ -1,5 +1,11 @@
 # TheAbbie
 
+* [About Me](#About-Me)
+* [10 Ways to contact me](#10-Ways-to-contact-me)
+* [Donate](#Donate)
+
+## About Me
+
 Hello World, I am Abhishek Chaudhary
 
 A pseudo-introvert, a web developer, and a Maker
