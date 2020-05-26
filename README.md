@@ -7,7 +7,7 @@ A pseudo-introvert, a web developer, and a Maker
 https://theabbie.github.io
 
 <table>
-<caption align='bottom'>Abhishek Chaudhary</caption>
+<caption>Abhishek Chaudhary</caption>
 <thead>
 <tr>
 <th colspan="2">Quick Info</th>
