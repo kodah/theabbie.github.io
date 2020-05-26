@@ -133,13 +133,10 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
   <item>
     <title>circumference of ellipse</title>
     <link>https://theabbie.github.io/blog/circumference-of-ellipse</link>
-    <description>Though, there is no exact formula for circumference of ellipse, like we have for circle, we have an approximate formula which works in most cases. There is no general formula for the circumference of an ellipse in terms of the semi-major and semi-minor axes of the ellipse that uses only elementary functions. However, there are approximate formulas in terms of these parameters. One such approximation, due to Euler (1773), for the canonical ellipse, The given formula is the most exact representatiin of circumference of ellipse till date 
-  
-  
- An ellipse is described as a curve on a plane that surrounds two focal points such that the sum of the distances to the two focal points is constant for every point on the curve. Ellipse has two types of axis – Major Axis and Minor Axis. The longest chord of the ellipse is the major axis. The perpendicular chord to the major axis is the minor axis which bisects the major axis at the center. 
-Given the lengths of minor and major axis of an ellipse, the task is to find the perimeter of the Ellipse.   
+    <description>By     2020-05-26  There is no general formula for the circumference of an ellipse in terms of the semi-major and semi-minor axes of the ellipse that uses only elementary functions. However, there are approximate formulas in terms of these parameters. One such approximation, due to Euler (1773), for the canonical ellipse, 
     
-  </description>
+   The given formula is the most exact representatiin of circumference of ellipse till date  
+ An ellipse is described as a curve on a plane that surrounds two focal points such that the sum of the distances to the two focal points is constant for every point on the curve. Ellipse has two types of axis – Major Axis and Minor Axis. The longest chord of the ellipse is the major axis. The perpendicular chord to the major axis is the minor axis which bisects the major axis at the center. Given the lengths of minor and major axis of an ellipse, the task is to find the perimeter of the Ellipse.  </description>
     <guid>https://theabbie.github.io/blog/circumference-of-ellipse</guid>
   </item>
   <item>
@@ -194,9 +191,9 @@ Send in your content and feel the prison break with due credits
   <item>
     <title>happy birthday aaditee</title>
     <link>https://theabbie.github.io/blog/happy-birthday-aaditee</link>
-    <description>wishing a happy birthday to our beloved Aaditee Pate 🍰🎂🎉     
+    <description>By     2020-05-25  
     
-  </description>
+      </description>
     <guid>https://theabbie.github.io/blog/happy-birthday-aaditee</guid>
   </item>
   <item>
@@ -206,6 +203,14 @@ Send in your content and feel the prison break with due credits
     
   </description>
     <guid>https://theabbie.github.io/blog/hasit-nanda</guid>
+  </item>
+  <item>
+    <title>how I got my youtube channel deleted</title>
+    <link>https://theabbie.github.io/blog/how-I-got-my-youtube-channel-deleted</link>
+    <description>By     2020-05-26  I had a youtube channel (  ) which I had created along with my google account in 2015, I didn't upload stuff on it, I had uploaded 2-3 videos just to fun around. It was used by me only for watching videos, and other personal uses. around 1 year ago, I saw a youtube channel    which had around 625K videos, then I thought how was that possible, after some research I found that the videos where getting uploaded by a script. That was when I decided that I need to create a bot for myself, I had a little knowledge of Javascript by then, I started to learn stuff, It was my primary project then. 
+    
+   Fortunately, I discovered    which made it very easy to use google API's and thus I created the bot, but now I had a greater problem, How would I get my videos? I had initially thought of creating random videos using canvas API, but due to lack of resources and knowledge, It was very difficult to implement that, thus I went for the easy way, search random videos on youtube and upload the first result. It was very easy and I was successfully uploading 30-50 videos per day, I had thought of uploading 10000 videos, thus, Even if I get 1 view per video, It would be 10000 views, but things don't work that way. after uploading around 1000 videos, I realised that Majority of them had no views, of course, who would watch clickbait, but still. My bot was programmed to upload the first video that came in results, and, first video is always from a big youtube channel, thus, I had broken many copyright rules. most of them made copyright claims rather than copyright strikes, but, I had 2 copyright strikes and one more strike and my channel would get deleted automatically. Thus, I had to stop my bot for atleast 3 months till the strikes expire. After 3 months, when all the strikes expored, I decided to find a new source for my videos, I was experimenting on converting GIF to mp4 as getting random GIF is very easy, but unfortunately, one day, suddenly I realise that I was logged out of my youtube account, after some troubleshooting I realised that my account was deleted. I e-mailed YouTube and as expected, was informed that It was due to copyright violations, I explained (begged) them, but, they took their hands off the case. I was more sad not because of deleted YouTube channel, but my personal account, the watch history, my songs playlist, my popular comments, my awesome recommendations, all in Vain.  </description>
+    <guid>https://theabbie.github.io/blog/how-I-got-my-youtube-channel-deleted</guid>
   </item>
   <item>
     <title>how is tanmay bhat ruling youtube</title>
@@ -362,9 +367,9 @@ There might be dangerous side effects or drug interactions. Not every “sleep a
   <item>
     <title>the most intelligent stand up comedian in India</title>
     <link>https://theabbie.github.io/blog/the-most-intelligent-stand-up-comedian-in-India</link>
-    <description>Nitin Gupta A.K.A. Rivaldo is the most intelligent stand up comedian in India     his humor is not for everyone, if you are smart enough you will agree that his comedy is based on super intelligent observations, also, being an IITian, he is obviously smart, no doubt on that   
+    <description>By     2020-05-26  
     
-  </description>
+       his humor is not for everyone, if you are smart enough you will agree that his comedy is based on super intelligent observations, also, being an IITian, he is obviously smart, no doubt on that  </description>
     <guid>https://theabbie.github.io/blog/the-most-intelligent-stand-up-comedian-in-India</guid>
   </item>
   <item>
@@ -434,7 +439,7 @@ Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him pla
     
   </description>
     <guid>https://theabbie.github.io/blog/why-salman-khan-sucks</guid>
-  </item>  
+  </item>
 
 </channel>
 
