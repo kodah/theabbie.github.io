@@ -14,6 +14,8 @@ A pseudo-introvert, a web developer, and a Maker
 
 https://theabbie.github.io
 
+[Resume](https://theabbie.github.io/resume.pdf)
+
 <table>
 <caption>Abhishek Chaudhary</caption>
 <thead>
