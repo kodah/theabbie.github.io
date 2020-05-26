@@ -16,7 +16,7 @@ https://theabbie.github.io
 
 [Resume](https://theabbie.github.io/resume.pdf)
 
-<table>
+<table align='center'>
 <caption>Abhishek Chaudhary</caption>
 <thead>
 <tr>
