@@ -3,6 +3,7 @@
 <p align='center'><img src="https://theabbie.github.io/files/logo.png" alt="TheAbbie" width="100" height="100"></p>
 
 * [About Me](#About-Me)
+* [My Blog](#My-Blog)
 * [10 Ways to contact me](#10-Ways-to-contact-me)
 * [Donate](#Donate)
 
@@ -36,6 +37,10 @@ https://theabbie.github.io
 <tr><th scope='row'>Known For</th><td>TheAbbie</td></tr>
 </tbody>
 </table>
+
+## My Blog
+
+https://theabbie.github.io/blog
 
 ## 10 Ways to contact me
 
