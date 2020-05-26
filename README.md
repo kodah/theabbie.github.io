@@ -1,5 +1,7 @@
 # TheAbbie
 
+![TheAbbie](https://theabbie.github.io/files/logo.png "TheAbbie")
+
 * [About Me](#About-Me)
 * [10 Ways to contact me](#10-Ways-to-contact-me)
 * [Donate](#Donate)
