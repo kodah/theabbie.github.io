@@ -1,7 +1,5 @@
 # TheAbbie
 
-<input type="text" id="name" name="name"/>
-
 <img src="https://theabbie.github.io/files/logo.png" alt="TheAbbie" width="100" height="100">
 
 * [About Me](#About-Me)
