@@ -4,6 +4,7 @@
 
 * [About Me](#About-Me)
 * [My Blog](#My-Blog)
+* [Tasks](#Tasks)
 * [10 Ways to contact me](#10-Ways-to-contact-me)
 * [Donate](#Donate)
 
@@ -16,9 +17,6 @@ A pseudo-introvert, a web developer, and a Maker
 https://theabbie.github.io
 
 [Resume](https://theabbie.github.io/resume.pdf)
-
-- [x] This is a complete item
-- [ ] This is an incomplete item
 
 <table>
 <caption>Abhishek Chaudhary</caption>
@@ -44,6 +42,14 @@ https://theabbie.github.io
 ## My Blog
 
 https://theabbie.github.io/blog
+
+## Tasks
+
+- [x] Born
+- [ ] Got a job
+- [ ] Married
+- [ ] Have children
+- [ ] Die
 
 ## 10 Ways to contact me
 
