@@ -17,6 +17,9 @@ https://theabbie.github.io
 
 [Resume](https://theabbie.github.io/resume.pdf)
 
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
 <table>
 <caption>Abhishek Chaudhary</caption>
 <thead>
