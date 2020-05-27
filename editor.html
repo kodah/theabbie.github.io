@@ -514,6 +514,53 @@ caption {
         "name": "${title}"
       }]
     },{
+  "@context":"http://schema.org",
+   "@type":"NewsArticle",
+   "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"https://theabbie.github.io/blog/${turl}"
+   },
+   "isPartOf":{
+      "@type":"CreativeWork",
+      "name":"TheAbbie Blog",
+      "url":"https://theabbie.github.io/blog/"
+   },
+   "inLanguage":"en",
+   "headline":"${title}",
+   "description":"${desc}",
+   "keywords":"${kwds}",
+   "articleSection":"Blog",
+   "url":"https://theabbie.github.io/blog/${turl}",
+   "image":"https://theabbie.github.io/blog/assets/${turl}.jpg",
+   "datePublished":"${new Date().toISOString()}",
+   "dateModified":"${new Date().toISOString()}",
+   "articleBody":"${desc}",
+   "author":{
+      "@type":"Person",
+      "name":"Abhishek Chaudhary",
+      "image":"https://theabbie.github.io/files/abhishek-chaudhary.jpg",
+     "url":"https://theabbie.github.io/abhishek-chaudhary"
+   },
+   "publisher":{
+      "@type":"NewsMediaOrganization",
+      "name":"TheAbbie Blog",
+      "url":"https://theabbie.github.io/",
+      "logo":{
+           "@type":"ImageObject",
+           "url":"https://theabbie.github.io/files/logo.png",
+         "width":512,
+         "height":512
+      }
+   },
+   "associatedMedia":{
+      "@type":"imageObject",
+      "url":"https://theabbie.github.io/blog/assets/${turl}.jpg",
+      "caption":"${title}",
+      "description":"${desc}",
+      "height":"600",
+      "width":"445"
+   }
+},{
     "@context": "https://schema.org",
     "@type":"SiteNavigationElement",
       "name":["home","blog"],
