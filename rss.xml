@@ -49,13 +49,13 @@ Then they all started shouting, &#x2019;14&#x2026;.14&#x2026;.14.&#x2019;</p>]]>
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-28</p>
 <p><i><a href="https://pointerpointer.com" title="pointerpointer">pointerpointer</a> is a website that shows pictures of people pointing to your pointer.</i></p>
-<img src="https://theabbie.github.io/blog/assets/PointerPointer-points-to-your-pointer.jpg" alt="PointerPointer points to your pointer">
+<img src="assets/PointerPointer-points-to-your-pointer.jpg" alt="PointerPointer points to your pointer">
 <p>It was created by Studio Moniker in Amsterdam the site offers no redeeming value except for a bit of pure comedic relief. The project is described as an experiment in pointer retrieval and it&#x2019;s not quite as smart as it looks.</p>
-<img src="https://theabbie.github.io/blog/assets/pointerpointer-example.jpg" alt="pointerpointer example">
+<img src="assets/pointerpointer-example.jpg" alt="pointerpointer example">
 <p>What it does is locate your cursor and find a picture with people pointing towards that location on the screen. We&apos;ve been playing with it for a while now, and have never seen the same picture twice.</p>
-<img src="https://theabbie.github.io/blog/assets/another-pointerpointer-example.jpg" alt="another pointerpointer example">
+<img src="assets/another-pointerpointer-example.jpg" alt="another pointerpointer example">
 <p>But you&#x2019;ll notice Pointer Pointer doesn&#x2019;t move so fast. In fact, you have to wait a few seconds, which feels like eons, after you move your cursor to see a photo, and the lag is intentional. &#x201C;The first version of Pointer Pointer ran at lightning speed. Whenever you dragged the mouse, you would directly see a photo of someone pointing there. </p>
-<img src="https://theabbie.github.io/blog/assets/one-more-pointerpointer-example.jpg" alt="one more pointerpointer example">
+<img src="assets/one-more-pointerpointer-example.jpg" alt="one more pointerpointer example">
 <p>Internet is weird, Isn&apos;t it?</p>]]></description>
     <guid>https://theabbie.github.io/blog/PointerPointer-points-to-your-pointer</guid>
   </item>
@@ -65,14 +65,14 @@ Then they all started shouting, &#x2019;14&#x2026;.14&#x2026;.14.&#x2019;</p>]]>
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-23</p>
 <p><i>Seedr.cc is an amazing tool, it makes it so easy to stream torrents online, it really is a boon to those with slow internet connection.</i></p>
-<img src="https://theabbie.github.io/blog/assets/Seedr-cc-Review.jpg" alt="Seedr.cc Review">
+<img src="assets/Seedr-cc-Review.jpg" alt="Seedr.cc Review">
 <h2>features</h2>
 <h3>superfast torrent download</h3>
 <p>seedr.cc makes it possible to download torrents on cloud superfast and it can be streamed easily</p>
-<img src="https://theabbie.github.io/blog/assets/streaming.jpg" alt="streaming">
+<img src="assets/streaming.jpg" alt="streaming">
 <h3>checking torrents before downloading</h3>
 <p>fake torrents are a huge problem and seedr.cc solves it by allowing you to check the torrent before downloading</p>
-<img src="https://theabbie.github.io/blog/assets/fake-torrents.jpg" alt="fake torrents">
+<img src="assets/fake-torrents.jpg" alt="fake torrents">
 <h2>try the amazing tool</h2>
 <p>Do try this amazing tool, it&apos;s definitely worth it</p>
 <p><a href="https://seedr.cc" title="seedr.cc">seedr.cc</a></p>]]></description>
@@ -96,15 +96,15 @@ Then they all started shouting, &#x2019;14&#x2026;.14&#x2026;.14.&#x2019;</p>]]>
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-24</p>
 <p><i>though it may seem pointless but googling stuff is an art, there is no question unanswered on the internet but finding the answer requires mastering the art of googling, this guide will help you become a googling expert, let&apos;s see how.</i></p>
-<img src="https://theabbie.github.io/blog/assets/beginners-guide-to-googling.jpg" alt="beginners guide to googling">
+<img src="assets/beginners-guide-to-googling.jpg" alt="beginners guide to googling">
 <h2>what is googling</h2>
 <p>googling is the art of searching answers on google, though google is popular for giving the best answers, still, Internet is very huge and not all answers are optimised for SEO, thus googling becomes very important</p>
 <h2>how to search for programming related questions</h2>
-<img src="https://theabbie.github.io/blog/assets/stackoverflow.jpg" alt="stackoverflow">
+<img src="assets/stackoverflow.jpg" alt="stackoverflow">
 <p>you might not notice but 90% of programming related questions are answered on stackoverflow, there is a very little chance of not finding an answer on stackoverflow</p>
 <p>This is also because they are very strict about framing questions, ie. <strong>You must frame your question in a way such that person searching for it may use</strong></p>
 <h2>how to frame your query</h2>
-<img src="https://theabbie.github.io/blog/assets/how-to-frame-your-query.jpg" alt="how to frame your query">
+<img src="assets/how-to-frame-your-query.jpg" alt="how to frame your query">
 <p>this is the most important skill in googling, google is trained to understand your question no matter how badly you ask it, but still, if you have a specific question, effective framing will definitely help</p>
 <p>you must frame your question in few words, and they should be rich with keywords, most prior keywords first and then rest of the question.</p>]]></description>
     <guid>https://theabbie.github.io/blog/beginners-guide-to-googling</guid>
@@ -169,7 +169,7 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
   <item>
     <title>best programmer in the world</title>
     <link>https://theabbie.github.io/blog/best-programmer-in-the-world</link>
-    <description><![CDATA[<img src="https://theabbie.github.io/blog/assets/Gennady-Korotkevich.jpg" alt="Gennady Korotkevich">
+    <description><![CDATA[<img src="assets/Gennady-Korotkevich.jpg" alt="Gennady Korotkevich">
 <p>Gennady Korotkevich is a Belarusian sport programmer who has won major international competitions since age 11, as well as numerous national competitions.</p>
 <h2>history</h2>
 <p>Korotkevich was born in Gomel (Homiel), southeastern Belarus. His parents, Vladimir and Lyudmila Korotkevich, are programmers in the mathematics department at Francysk Skaryna Homiel State University. At age 6, he became interested in his parents&apos; work. When he was 8, his father designed a children&apos;s game he could use to learn programming.</p>
@@ -189,8 +189,8 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
     <li>Google Code Jam: 2018 champion</li>
     </ul>
 <h2>Some images</h2>
-<img src="https://theabbie.github.io/blog/assets/gennady-korotkevich-codejam.jpg" alt="gennady korotkevich codejam">
-<img src="https://theabbie.github.io/blog/assets/gennady-korotkevich-teaching.jpg" alt="gennady korotkevich teaching">
+<img src="assets/gennady-korotkevich-codejam.jpg" alt="gennady korotkevich codejam">
+<img src="assets/gennady-korotkevich-teaching.jpg" alt="gennady korotkevich teaching">
 <h2>gennady korotkevich videos</h2>
 <h2>conclusion</h2>
 <p>At 21, Gennady Vladimirovich Korotkevich is already a legend. Tourist, as he&apos;s known online, is now the world&apos;s top sport programmer. He competes against other people to solve coding puzzles, and he&apos;s darn good at it</p>
@@ -207,7 +207,7 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
     <title>brazen epiphany short film review: what's stopping you</title>
     <link>https://theabbie.github.io/blog/brazen-epiphany-short-film-review</link>
     <description><![CDATA[<p><i>This short film directed by Abhishek Chaudhary is an exceptionally brilliant depiction of a journalist who is caught in dilemma of what&apos;s stopping her.</i></p>
-<img src="https://theabbie.github.io/blog//files/brazen-epiphany.jpg" alt="brazen epiphany poster">
+<img src="/files/brazen-epiphany.jpg" alt="brazen epiphany poster">
 <h2>plot</h2>
 <p>Jennifer, daughter of a single mother after claiming the position of the best journalist in india sat down for a interview. During this interview she is confronted with reasons to what does she owe her success. Throughout conversation we get to know that it is just not her love for the profession but her past, her fears and much more than that which lead to India giving birth to such a powerful journalist.</p>
 <h2>review</h2>
@@ -215,7 +215,7 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
 <h2>Theme of the film</h2>
 <p>Theme of the film is What&apos;s stopping you, which explains why the protagonist, ie. journalist is worried about her future</p>
 <h2>cast details</h2>
-<img src="https://theabbie.github.io/blog//files/share.jpg" alt="brazen epiphany cast">
+<img src="/files/share.jpg" alt="brazen epiphany cast">
 <h2>summary</h2>
 <p>The short film addresses that it&apos;s not the society, the situations that stop us from rising, it&apos;s our own mentality, our laziness, that hinders our success</p>]]></description>
     <guid>https://theabbie.github.io/blog/brazen-epiphany-short-film-review</guid>
@@ -226,10 +226,10 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-26</p>
 <p><i>Though, there is no exact formula for circumference of ellipse, like we have for circle, we have an approximate formula which works in most cases.</i></p>
-<img src="https://theabbie.github.io/blog/assets/circumference-of-ellipse.jpg" alt="circumference of ellipse">
+<img src="assets/circumference-of-ellipse.jpg" alt="circumference of ellipse">
 <h2>difficulty in finding exact formula</h2>
 <p>There is no general formula for the circumference of an ellipse in terms of the semi-major and semi-minor axes of the ellipse that uses only elementary functions. However, there are approximate formulas in terms of these parameters. One such approximation, due to Euler (1773), for the canonical ellipse,</p>
-<img src="https://theabbie.github.io/blog/assets/formula-for-circumference-of-ellipse.jpg" alt="formula for circumference of ellipse">
+<img src="assets/formula-for-circumference-of-ellipse.jpg" alt="formula for circumference of ellipse">
 <h2>approximate formula for circumference of ellipse</h2>
 <p>The given formula is the most exact representatiin of circumference of ellipse till date</p>
 <p><amp-mathml layout="container" data-formula="`\frac{4ab\pi}{\left(a+b\right)\sin\left(\frac{a\pi}{a+b}\right)}`">
@@ -250,18 +250,18 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
     <link>https://theabbie.github.io/blog/codejam-2020-review</link>
     <description><![CDATA[<p>I am a first-year engineering student and I participated in Codejam 2020</p>
 <p>This was my first codejam and my first coding competition too</p>
-<img src="https://theabbie.github.io/blog/assets/google-codejam.jpg" alt="google codejam">
+<img src="assets/google-codejam.jpg" alt="google codejam">
 <h2>my review</h2>
 <h3>choice of programming language</h3>
 <p>I used Node.Js for the competition as I am pretty fluent in JavaScript</p>
-<img src="https://theabbie.github.io/blog/assets/node-js.jpg" alt="node js">
+<img src="assets/node-js.jpg" alt="node js">
 <p>Though JavaScript is a very popular programming language, within a few problems I realised that it&apos;s not very perfect for competitive programming</p>
 <h3>quality of problems</h3>
 <p>the qualification round was extremely easy and anyone with decent programming knowledge would qualify easily</p>
-<img src="https://theabbie.github.io/blog/assets/competitive-programming.jpg" alt="competitive programming">
+<img src="assets/competitive-programming.jpg" alt="competitive programming">
 <h2>why did I quit</h2>
 <p>since, this was my first attempt in competitive programming, I was not very prepared for algorithm stuff</p>
-<img src="https://theabbie.github.io/blog/assets/algorithm.jpg" alt="algorithm">
+<img src="assets/algorithm.jpg" alt="algorithm">
 <p>this, along with many other factors was the main reason of my failure</p>
 <h2>lessons learned</h2>
 <ul>
@@ -283,18 +283,18 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-23</p>
 <p><i>The Monty Hall Game Show A.K.A. Let&apos;s make a deal was a Television game show, it had three doors, with a sports car behind one of them and goats behind others, you make a choice, the host opens some other door which will turn out to be a goat, now you have a choice, either stick to previous choice or switch, simple, isn&apos;t it?</i></p>
-<img src="https://theabbie.github.io/blog/assets/decoding-the-monty-hall-game.jpg" alt="decoding the monty hall game">
+<img src="assets/decoding-the-monty-hall-game.jpg" alt="decoding the monty hall game">
 <h2>Is the probability 50%?</h2>
 <p>A typical observation of the situation might suggest that the probability is 50%, you have two choices, you have no idea where car is, so probability must be 50%, right</p>
-<img src="https://theabbie.github.io/blog/assets/monty-hall-probability.jpg" alt="monty hall probability">
+<img src="assets/monty-hall-probability.jpg" alt="monty hall probability">
 <p>there are various factors while calculating probability we need to consider before calculating probability</p>
 <h2>explanation of the biased probability</h2>
 <p>Any proficient mathematician, or a person with good knowledge of mathematics will be able to explain why the probability is not 50%.</p>
-<img src="https://theabbie.github.io/blog/assets/conditional-probability.jpg" alt="conditional probability">
+<img src="assets/conditional-probability.jpg" alt="conditional probability">
 <h3>conditional probability</h3>
 <p>conditional probability is a concept of probability which deals with dependent events, ie. happening of one event affecting happening of other event, this is a really important concept as most of the events in real life are dependent events.</p>
 <h2>actual probability of monty hall game</h2>
-<img src="https://theabbie.github.io/blog/assets/monty-hall-actual-probability.jpg" alt="monty hall actual probability">
+<img src="assets/monty-hall-actual-probability.jpg" alt="monty hall actual probability">
 <p>so, it turn out that the events are not equally likely, one is greater than other, what that means is, your chances of winning are greater if you switch rather than sticking to it.</p>
 <p>The probability of winning on switching is <strong>66%</strong> while on sticking to choice is <strong>33%</strong>, So, next time you are playing this game, act smart.</p>
 <h2>references</h2>]]></description>
@@ -305,20 +305,20 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
     <link>https://theabbie.github.io/blog/estimate-pi-using-random-numbers</link>
     <description><![CDATA[<p>pi is an <b>irrational number</b> and it has infinite decimal places</p>
 <p>we will use the concept of probability and definition of pi to calculate the value of pi</p>
-<img src="https://theabbie.github.io/blog/assets/estimate-pi-using-random-numbers.jpg" alt="estimate pi using random numbers">
+<img src="assets/estimate-pi-using-random-numbers.jpg" alt="estimate pi using random numbers">
 <h2>steps to do so</h2>
 <h3>make a unit circle enclosed within square touching its boundaries</h3>
-<img src="https://theabbie.github.io/blog/assets/make-a-unit-circle-enclosed-within-square-touching-its-boundaries.jpg" alt="make a unit circle enclosed within square touching its boundaries">
+<img src="assets/make-a-unit-circle-enclosed-within-square-touching-its-boundaries.jpg" alt="make a unit circle enclosed within square touching its boundaries">
 <h3>randomly plot points inside the square</h3>
-<img src="https://theabbie.github.io/blog/assets/randomly-plot-points-inside-the-square.jpg" alt="randomly plot points inside the square">
+<img src="assets/randomly-plot-points-inside-the-square.jpg" alt="randomly plot points inside the square">
 <h3>count the number of points that lie inside the circle and total number of points</h3>
-<img src="https://theabbie.github.io/blog/assets/count-the-number-of-points-that-lie-inside-the-circle-and-total-number-of-points.jpg" alt="count the number of points that lie inside the circle and total number of points">
+<img src="assets/count-the-number-of-points-that-lie-inside-the-circle-and-total-number-of-points.jpg" alt="count the number of points that lie inside the circle and total number of points">
 <h2>calculation of Pi</h2>
 <h3>how probability works</h3>
 <p>since we are randomly plotting points inside the square, the probability of it lying inside the circle is</p>
 <p><b> area of circle / area of square </b></p>
 <h2>how does counting help</h2>
-<img src="https://theabbie.github.io/blog/assets/how-does-counting-help.jpg" alt="how does counting help">
+<img src="assets/how-does-counting-help.jpg" alt="how does counting help">
 <p>since we are plotting many points, empirical probability says that</p>
 <p><b> P = number of points inside circle / Total number of points </b></p>
 <h2>using this to find Pi</h2>
@@ -492,16 +492,16 @@ Send in your content and feel the prison break with due credits</p>
   <item>
     <title>foolproof gender predictor</title>
     <link>https://theabbie.github.io/blog/foolproof-gender-predictor</link>
-    <description><![CDATA[<img src="https://theabbie.github.io/blog/assets/foolproof-gender-predictor.jpg" alt="foolproof gender predictor">
+    <description><![CDATA[<img src="assets/foolproof-gender-predictor.jpg" alt="foolproof gender predictor">
 <p>This tool uses psychological techniques to determine your gender in a fool proof way</p>
 <h2>how it works</h2>
 <p>it uses psychological techniques, ie. it does not ask you silly questions like who is your favourite actor and all</p>
 <p>it is completely unbiased and independent of person&apos;s educational qualification</p>
-<img src="https://theabbie.github.io/blog/assets/unbiased-gender-prediction.jpg" alt="unbiased gender prediction">
+<img src="assets/unbiased-gender-prediction.jpg" alt="unbiased gender prediction">
 <p>it&apos;s similar to IQ or aptitude test</p>
 <h2>but still, how it works</h2>
 <p>It uses color choice as a determination method</p>
-<img src="https://theabbie.github.io/blog/assets/color-choice.jpg" alt="color choice">
+<img src="assets/color-choice.jpg" alt="color choice">
 <h2>who made it</h2>
 <p><a href="https://theabbie.github.io/abhishek-chaudhary" title="Abhishek Chaudhary A.K.A TheAbbie">Abhishek Chaudhary A.K.A TheAbbie</a> is the creator of this superb app</p>
 <h2>where can I find it</h2>
@@ -523,7 +523,7 @@ Send in your content and feel the prison break with due credits</p>
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-25</p>
 <p><i>wishing a happy birthday to our beloved Aaditee Pate &#x1F370;&#x1F382;&#x1F389;</i></p>
-<img src="https://theabbie.github.io/blog/assets/happy-birthday-aaditee.jpg" alt="happy birthday aaditee">
+<img src="assets/happy-birthday-aaditee.jpg" alt="happy birthday aaditee">
 <h2>Artwork Credits</h2>
 <h2>wish her a happy birthday</h2>
 <h3>quora</h3>
@@ -539,7 +539,7 @@ Send in your content and feel the prison break with due credits</p>
   <item>
     <title>Hasit Nanda: The Piano Prodigy</title>
     <link>https://theabbie.github.io/blog/hasit-nanda</link>
-    <description><![CDATA[<img src="https://theabbie.github.io/blog/assets/hasit-nanda.jpg" alt="hasit nanda">
+    <description><![CDATA[<img src="assets/hasit-nanda.jpg" alt="hasit nanda">
 <p>Hasit Nanda is the most popular Pianist in India, He has a huge fanbase on Youtube, He is considered to be a gifted pianist.</p>
 <h2>biography</h2>
 <p>Hasit Nanda, 23, is a self-taught Pianist from Delhi, India. He is known for his unique improvisation skills and has been uploading his music on YouTube for over 8 years. ... There&apos;s a big chance Hasit Nanda has been supported by artists you listen to everyday, be it Hardwell, Skrillex, KSHMR, Zedd or Tiesto.</p>
@@ -569,36 +569,36 @@ Send in your content and feel the prison break with due credits</p>
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-26</p>
 <p><i>Youtube recently deleted my youtube channel for possible copyright violations which I completely deserved but not in such an unexpected way, This post will explain how it happened</i></p>
-<img src="https://theabbie.github.io/blog/assets/how-I-got-my-youtube-channel-deleted.jpg" alt="how I got my youtube channel deleted">
+<img src="assets/how-I-got-my-youtube-channel-deleted.jpg" alt="how I got my youtube channel deleted">
 <h2>my youtube channel</h2>
 <p>I had a youtube channel (<a href="https://youtube.com/theabbie" title="theabbie">theabbie</a>) which I had created along with my google account in 2015, I didn&apos;t upload stuff on it, I had uploaded 2-3 videos just to fun around.</p>
-<img src="https://theabbie.github.io/blog/assets/my-youtube-channel.jpg" alt="my youtube channel">
+<img src="assets/my-youtube-channel.jpg" alt="my youtube channel">
 <p>It was used by me only for watching videos, and other personal uses.</p>
 <h2>youtube uploading bot</h2>
 <p>around 1 year ago, I saw a youtube channel <a href="https://youtube.com/channel/UCsLiV4WJfkTEHH0b9PmRklw" title="webdriver torso">webdriver torso</a> which had around 625K videos, then I thought how was that possible, after some research I found that the videos where getting uploaded by a script.</p>
-<img src="https://theabbie.github.io/blog/assets/youtube-uploading-bot.jpg" alt="youtube uploading bot">
+<img src="assets/youtube-uploading-bot.jpg" alt="youtube uploading bot">
 <p>That was when I decided that I need to create a bot for myself, I had a little knowledge of Javascript by then, I started to learn stuff, It was my primary project then.</p>
 <h2>difficulty in creating the bot</h2>
 <p>Fortunately, I discovered <a href="https://developers.google.com/apps-script" title="Google apps script">Google apps script</a> which made it very easy to use google API&apos;s and thus I created the bot, but now I had a greater problem, How would I get my videos?</p>
-<img src="https://theabbie.github.io/blog/assets/youtube-copyright.jpg" alt="youtube copyright">
+<img src="assets/youtube-copyright.jpg" alt="youtube copyright">
 <p>I had initially thought of creating random videos using canvas API, but due to lack of resources and knowledge, It was very difficult to implement that, thus I went for the easy way, search random videos on youtube and upload the first result.</p>
 <h3>results</h3>
 <p>It was very easy and I was successfully uploading 30-50 videos per day, I had thought of uploading 10000 videos, thus, Even if I get 1 view per video, It would be 10000 views, but things don&apos;t work that way.</p>
-<img src="https://theabbie.github.io/blog/assets/stonks.jpg" alt="stonks">
+<img src="assets/stonks.jpg" alt="stonks">
 <p>after uploading around 1000 videos, I realised that Majority of them had no views, of course, who would watch clickbait, but still.</p>
 <h2>series of copyright strikes and claims</h2>
-<img src="https://theabbie.github.io/blog/assets/copyright-strikes.jpg" alt="copyright strikes">
+<img src="assets/copyright-strikes.jpg" alt="copyright strikes">
 <p>My bot was programmed to upload the first video that came in results, and, first video is always from a big youtube channel, thus, I had broken many copyright rules.</p>
 <p>most of them made copyright claims rather than copyright strikes, but, I had 2 copyright strikes and one more strike and my channel would get deleted automatically.</p>
 <p>Thus, I had to stop my bot for atleast 3 months till the strikes expire.</p>
 <h2>result</h2>
-<img src="https://theabbie.github.io/blog/assets/how-was-my-channel-deleted.jpg" alt="how was my channel deleted">
+<img src="assets/how-was-my-channel-deleted.jpg" alt="how was my channel deleted">
 <p>After 3 months, when all the strikes expored, I decided to find a new source for my videos, I was experimenting on converting GIF to mp4 as getting random GIF is very easy, but unfortunately, one day, suddenly I realise that I was logged out of my youtube account, after some troubleshooting I realised that my account was deleted.</p>
-<img src="https://theabbie.github.io/blog/assets/facepalm.jpg" alt="facepalm">
+<img src="assets/facepalm.jpg" alt="facepalm">
 <p>I e-mailed YouTube and as expected, was informed that It was due to copyright violations, I explained (begged) them, but, they took their hands off the case.</p>
 <p>I was more sad not because of deleted YouTube channel, but my personal account, the watch history, my songs playlist, my popular comments, my awesome recommendations, all in Vain.</p>
 <h2>moral of the story</h2>
-<img src="https://theabbie.github.io/blog/assets/moral-of-the-story.jpg" alt="moral of the story">
+<img src="assets/moral-of-the-story.jpg" alt="moral of the story">
 <p><i>Don&apos;t mess with copyright</i></p>
 <p><i>&#x2014; With <span style="color: transparent; text-shadow: 0 0 0 #8b0000; font-size: 25px;">&#x2665;&#xFE0F;</span> From an unsuccessful YouTuber</i></p>]]></description>
     <guid>https://theabbie.github.io/blog/how-I-got-my-youtube-channel-deleted</guid>
@@ -607,18 +607,18 @@ Send in your content and feel the prison break with due credits</p>
     <title>how is tanmay bhat ruling youtube</title>
     <link>https://theabbie.github.io/blog/how-is-tanmay-bhat-ruling-youtube</link>
     <description><![CDATA[<p>The fat guy from AIB who was severely trolled for being a psychopath is ruling youtube right now</p>
-<img src="https://theabbie.github.io/blog/assets/all-india-bakchod.jpg" alt="all india bakchod">
+<img src="assets/all-india-bakchod.jpg" alt="all india bakchod">
 <h2>history</h2>
 <p>All India Bakchod is a Mumbai-based comedy group, and was the name of their podcast, YouTube channel and production company. The name is a parody of All India Radio, with bakchod being Hindi slang for &apos;dumb fuck&apos;. It began in 2012 as a humorous/pop-culture podcast by comedians Tanmay Bhat and Gursimran Khamba. </p>
 <h2>fate of AIB</h2>
 <p>after being shut down by allegations, it lost it&apos;s charm and all the comedians went back to their usual life</p>
 <h2>phase of depression</h2>
 <p>after being shutdown, Tanmay Bhat went into a phase of depression and did not come back until 1 year</p>
-<img src="https://theabbie.github.io/blog/assets/tanmay-bhat.jpg" alt="tanmay bhat">
+<img src="assets/tanmay-bhat.jpg" alt="tanmay bhat">
 <h3>events</h3>
 <p>During the 1 year shutdown he introspected himself and his life, he wanted to do something but couldn&apos;t </p>
 <h2>comeback</h2>
-<img src="https://theabbie.github.io/blog/assets/tanmay-bhat-youtube.jpg" alt="tanmay bhat youtube">
+<img src="assets/tanmay-bhat-youtube.jpg" alt="tanmay bhat youtube">
 <h3>popular videos</h3>
 <h4>CAA NRC Protests and Students | Stand Up Comedy by Tanmay Bhat</h4>
 <h4>V-13 | 4 AIRLINES BANNED HIM: The @Kunal Kamra Vlog feat. @Varun Thakur</h4>
@@ -640,30 +640,30 @@ Send in your content and feel the prison break with due credits</p>
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-24</p>
 <p><i>9gag is a place for stuff, and they are pretty serious about that, 9gaggers are known to be really funny in comments while really lonely in real life. This is a beginner&apos;s guide on how to become a 9gagger.</i></p>
-<img src="https://theabbie.github.io/blog/assets/how-to-become-a-9gagger.jpg" alt="how to become a 9gagger">
+<img src="assets/how-to-become-a-9gagger.jpg" alt="how to become a 9gagger">
 <h2>be single</h2>
-<img src="https://theabbie.github.io/blog/assets/be-single.jpg" alt="be single">
+<img src="assets/be-single.jpg" alt="be single">
 <p>If you are a guy this must be the first step, 9gaggers are known to be single, we crave for girls, If you see a girl picture you have to zoom her tiddies and post it in comments.</p>
 <h2>be funny in comments</h2>
-<img src="https://theabbie.github.io/blog/assets/be-funny-in-comments.jpg" alt="be funny in comments">
+<img src="assets/be-funny-in-comments.jpg" alt="be funny in comments">
 <p>the only thing that distinguishes 9gag from other meme platforms is that the comment section is not hidden, they are a place to show your funny nature, there are upvotes and downvotes on comments, so you will get an idea on how funny you are</p>
 <h2>hate tiktok</h2>
-<img src="https://theabbie.github.io/blog/assets/hate-tiktok.jpg" alt="hate tiktok">
+<img src="assets/hate-tiktok.jpg" alt="hate tiktok">
 <p>tiktok is the most hated thing on 9gag, not because it&apos;s chinese, but, because it&apos;s cringe, no matter how good the video is, if it&apos;s tiktok, downvoting is mandatory.</p>
 <h2>never appreciate OP</h2>
-<img src="https://theabbie.github.io/blog/assets/never-appreciate-OP.jpg" alt="never appreciate OP">
+<img src="assets/never-appreciate-OP.jpg" alt="never appreciate OP">
 <p>There is a culture in 9gag that OP should never be appreciated, there is no source as to who started this culture but it has been there and everyone has to follow it.</p>
 <h2>use memes properly</h2>
-<img src="https://theabbie.github.io/blog/assets/use-memes-properly.jpg" alt="use memes properly">
+<img src="assets/use-memes-properly.jpg" alt="use memes properly">
 <p>It is very important to use memes properly, each meme has a specific situation where it leaves best impact, memes are real life situations in funny format, finding the best format is an art that you have master to become a good 9gagger</p>
 <h2>don&apos;t be a boomer</h2>
-<img src="https://theabbie.github.io/blog/assets/don-t-be-a-boomer.jpg" alt="don&apos;t be a boomer">
+<img src="assets/don-t-be-a-boomer.jpg" alt="don&apos;t be a boomer">
 <p>boomer jokes are a big no on 9gag, because they are lame, predictable, overused and not usually funny, some creative jokes that appear to be boomer are there but you should not use them as examples</p>
 <h2>don&apos;t repost</h2>
-<img src="https://theabbie.github.io/blog/assets/don-t-repost.jpg" alt="don&apos;t repost">
+<img src="assets/don-t-repost.jpg" alt="don&apos;t repost">
 <p>reposting on 9gag for a few upvotes may seem fine but it&apos;s not appreciated, there is actually a report option if meme is reposted, they want to keep the platform clean, reposts are unnecessary and shouldn&apos;t be done.</p>
 <h2>emma is the queen of 9gag</h2>
-<img src="https://theabbie.github.io/blog/assets/emma-is-the-queen-of-9gag.jpg" alt="emma is the queen of 9gag">
+<img src="assets/emma-is-the-queen-of-9gag.jpg" alt="emma is the queen of 9gag">
 <p>this is the only fact that every 9gagger will agree upon that she is the one and only queen of 9gag, though Emilia is loved too but Emma remains the queen, she is worshipped and will be.</p>]]></description>
     <guid>https://theabbie.github.io/blog/how-to-become-a-9gagger</guid>
   </item>
@@ -693,7 +693,7 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi</p>
   <item>
     <title>TheAbbie blog</title>
     <link>https://theabbie.github.io/blog/index</link>
-    <description><![CDATA[<img src="https://theabbie.github.io/blog//files/collage.jpg" alt="theabbie blog">
+    <description><![CDATA[<img src="/files/collage.jpg" alt="theabbie blog">
 <p>Hey guys, I am Abhishek Chaudhary</p>
 <p>Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podcasting.</p>
 <h2>Who is TheAbbie?</h2>
@@ -755,7 +755,7 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi</p>
     <title>5 essential tips for promoting your indie film</title>
     <link>https://theabbie.github.io/blog/indie-film-promotion</link>
     <description><![CDATA[<h2>When making indie films, promotion is an essential part as you don&apos;t have a high budget for promotion, these 5 essential tips will help you promote your indie film using various online and offline tools.</h2>
-<img src="https://theabbie.github.io/blog/assets/indie-film-promotion.jpg" alt="indie film promotion">
+<img src="assets/indie-film-promotion.jpg" alt="indie film promotion">
 <p>Indie films stand for independent films, ie. <strong>films that are made by independent fimmakers without any connection to prominent studio</strong></p>
 <h2>Promotion of indie film</h2>
 <p>while promoting indie film there are various factors to keep in mind</p>
@@ -767,29 +767,29 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi</p>
     </ul>
 <h2>Create an IMDB page</h2>
 <p>an IMDB page will allow anyone who&apos;s searching for the film online to know about the film, this will ensure that your promotion doesn&apos;t go vain.</p>
-<img src="https://theabbie.github.io/blog/assets/imdb.jpg" alt="imdb">
+<img src="assets/imdb.jpg" alt="imdb">
 <p>also, IMDB page will help you to get a knowledge panel graph if your film is searched by significant amount of people online.</p>
 <h2>create a FilmFreeway account</h2>
 <p><a href="https://filmfreeway.com/" title="FilmFreeway">FilmFreeway</a> is like a portfolio for filmmakers, you can create projects there and keep all the information there.</p>
-<img src="https://theabbie.github.io/blog/assets/FilmFreeway.jpg" alt="FilmFreeway">
+<img src="assets/FilmFreeway.jpg" alt="FilmFreeway">
 <p>additionally, it has an amazing feature of submitting to various film festivals , directly from the website.</p>
 <h3>importance of film festivals</h3>
 <p>film festivals are organised for indie filmmakers so that they can display there art to a wide variety of intersted audience, it is beneficial to both filmmakers and audience.</p>
-<img src="https://theabbie.github.io/blog/assets/film-festivals.jpg" alt="film festivals">
+<img src="assets/film-festivals.jpg" alt="film festivals">
 <p>FilmFreeway will allow you to take part in many film festivals, some free and some paid.</p>
 <h2>create a brand for your indie film</h2>
-<img src="https://theabbie.github.io/blog/assets/ship-of-theseus-movie-still.jpg" alt="ship of theseus movie still">
+<img src="assets/ship-of-theseus-movie-still.jpg" alt="ship of theseus movie still">
 <p>If you observe some popular indie films, you will find that most of them have created a brand out of their films, this is a crucial part of indie film promotion.</p>
 <h3>designing a poster</h3>
 <p>a well-formed movie poster is like a pitch, people will judge your movie out of it.</p>
-<img src="https://theabbie.github.io/blog/assets/movie-poster-format.jpg" alt="movie poster format">
+<img src="assets/movie-poster-format.jpg" alt="movie poster format">
 <p>thus a good movie poster must be a priority.</p>
 <h3>movie trailer</h3>
 <p>similar to a poster, a movie trailer encourages people to watch your movie, the more consideration you make to design it, greater will be your audience.</p>
 <p>successful indie films have high quality trailers which create a urge to watch the movie.</p>
 <h2>ask popular movie reviewers to review your film</h2>
 <p>as useful as it may seem, movie reviews are a huge part of indie film promotion.</p>
-<img src="https://theabbie.github.io/blog/assets/movie-review.jpg" alt="movie review">
+<img src="assets/movie-review.jpg" alt="movie review">
 <p>if you observe, big budget films spend large part of their promotion budget on movie reviwers, big and small, this will ensure that your movie appears if people search for it.</p>]]></description>
     <guid>https://theabbie.github.io/blog/indie-film-promotion</guid>
   </item>
@@ -797,9 +797,9 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi</p>
     <title>infinite non-repeating sequence</title>
     <link>https://theabbie.github.io/blog/infinite-non-repeating-sequence</link>
     <description><![CDATA[<p>We have a recursive function which generates infinite non-repeating sequence of numbers</p>
-<img src="https://theabbie.github.io/blog/assets/infinite-non-repeating-sequence.jpg" alt="infinite non-repeating sequence">
+<img src="assets/infinite-non-repeating-sequence.jpg" alt="infinite non-repeating sequence">
 <h2>expression for the function</h2>
-<img src="https://theabbie.github.io/blog/assets/expression-for-the-function.jpg" alt="expression for the function">
+<img src="assets/expression-for-the-function.jpg" alt="expression for the function">
 <p>the function has been demonstrated here</p>
 <h3>view live example</h3>
 <p><a href="https://theabbie.github.io/files/random" title="infinite non-repeating sequence">infinite non-repeating sequence</a></p>
@@ -817,22 +817,22 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi</p>
   <item>
     <title>literacy is not equal to intelligence</title>
     <link>https://theabbie.github.io/blog/literacy-is-not-equal-to-intelligence</link>
-    <description><![CDATA[<img src="https://theabbie.github.io/blog/assets/literacy-is-not-equal-to-intelligence.jpg" alt="literacy is not equal to intelligence">
+    <description><![CDATA[<img src="assets/literacy-is-not-equal-to-intelligence.jpg" alt="literacy is not equal to intelligence">
 <p>literacy is having a certification that you have passed the basic education requirements, this is not related to intelligence</p>
 <h2>examples</h2>
 <h3>Indians</h3>
 <p>Literacy rate in India is around <b>65%</b> but intelligence rate might not even be <b>30%</b></p>
-<img src="https://theabbie.github.io/blog/assets/illiteracy-in-India.jpg" alt="illiteracy in India">
+<img src="assets/illiteracy-in-India.jpg" alt="illiteracy in India">
 <h2>what is intelligence</h2>
 <p>I am not saying intelligence is not related to literacy, most of the intelligent population is literate, intelligence is using your knowledge properly.</p>
-<img src="https://theabbie.github.io/blog/assets/what-is-intelligence.jpg" alt="what is intelligence">
+<img src="assets/what-is-intelligence.jpg" alt="what is intelligence">
 <h2>Indian education system</h2>
 <p>The Indian education system along with our mentality is the main reason why India is dumb</p>
-<img src="https://theabbie.github.io/blog/assets/indian-education-system.jpg" alt="indian education system">
+<img src="assets/indian-education-system.jpg" alt="indian education system">
 <h2>solution</h2>
 <h3>focus on applying knowledge</h3>
 <p>the main focus of indian education system is to teach as much as possible, without knowing how much is understood and applied.</p>
-<img src="https://theabbie.github.io/blog/assets/applying-knowledge.jpg" alt="applying knowledge">
+<img src="assets/applying-knowledge.jpg" alt="applying knowledge">
 <p>that&apos;s the biggest problem, if you know trigonometry but have no idea how to apply it, it&apos;s useless, you are not intelligent, and for me, illiterate too</p>
 <h2>conclusion</h2>
 <p>the focus of this post is not about following passion and why subjects are useless, they are pretty useful but only if we know how to</p>
@@ -845,9 +845,9 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi</p>
     <title>most underrated bollywood movies</title>
     <link>https://theabbie.github.io/blog/most-underrated-bollywood-movies</link>
     <description><![CDATA[<p>bollywood has a history of ignoring some superb movies and watching salman khan movies, this list will guide you to that.</p>
-<img src="https://theabbie.github.io/blog/assets/most-underrated-bollywood-movies.jpg" alt="most underrated bollywood movies">
+<img src="assets/most-underrated-bollywood-movies.jpg" alt="most underrated bollywood movies">
 <h2>udaan</h2>
-<img src="https://theabbie.github.io/blog/assets/udaan-movie.jpg" alt="udaan movie">
+<img src="assets/udaan-movie.jpg" alt="udaan movie">
 <h3>udaan plot</h3>
 <p>After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father&apos;s factory even though he wants to write.</p>
 <h3>udaan cast</h3>
@@ -859,7 +859,7 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi</p>
     </ul>
 <h3>udaan trailer</h3>
 <h2>ugly</h2>
-<img src="https://theabbie.github.io/blog/assets/ugly-movie.jpg" alt="ugly movie">
+<img src="assets/ugly-movie.jpg" alt="ugly movie">
 <h3>ugly plot</h3>
 <p>Rahul, a struggling actor, searches for his daughter, Kali, after she goes missing. Soon, he and Bose, her stepfather who is also a policeman, begin to accuse each other of kidnapping her.</p>
 <h3>ugly cast</h3>
@@ -871,7 +871,7 @@ My college is Fr. Conceicao Rodrigues institute of technology, Vashi</p>
     </ul>
 <h3>ugly trailer</h3>
 <h2>ship of theseus</h2>
-<img src="https://theabbie.github.io/blog/assets/ship-of-theseus-movie.jpg" alt="ship of theseus movie">
+<img src="assets/ship-of-theseus-movie.jpg" alt="ship of theseus movie">
 <h3>ship of theseus plot</h3>
 <p>An experimental photographer, an ailing monk and a young stockbroker explore identity, justice, beauty and the meaning of life and death.</p>
 <h3>ship of theseus cast</h3>
@@ -953,73 +953,73 @@ Raghu loses his wife and son when two bank robbers steal their car in a bid to r
     <link>https://theabbie.github.io/blog/neal-fun</link>
     <description><![CDATA[<p>Bringing back the weird web one post at a time.</p>
 <p><a href="https://neal.fun/" title="Neal.fun">neal.fun</a></p>
-<img src="https://theabbie.github.io/blog/assets/Neal-Agarwal.jpg" alt="Neal Agarwal">
+<img src="assets/Neal-Agarwal.jpg" alt="Neal Agarwal">
 <h2>The Deep Sea</h2>
-<img src="https://theabbie.github.io/blog/assets/deep-sea.jpg" alt="deep sea">
+<img src="assets/deep-sea.jpg" alt="deep sea">
 <p>At 332 meters, this is the deepest any human has ever scuba dived. Set by Ahmed Gabr in 2014. No sunlight is able to reach this deep. Many deep-sea creatures cope ...</p>
 <p><a href="https://neal.fun/deep-sea/" title="deep sea">deep sea</a></p>
 <h2>the size of space</h2>
-<img src="https://theabbie.github.io/blog/assets/the-size-of-space.jpg" alt="the size of space">
+<img src="assets/the-size-of-space.jpg" alt="the size of space">
 <p>Explore the scale of the universe on this interactive page. Go from astronaut all the way to the observable universe!</p>
 <p><a href="https://neal.fun/size-of-space/" title="size of space">size of space</a></p>
 <h2>Spend Bill gates money</h2>
-<img src="https://theabbie.github.io/blog/assets/spend-bill-gates-money.jpg" alt="spend bill gates money">
+<img src="assets/spend-bill-gates-money.jpg" alt="spend bill gates money">
 <p>What would you do with 90 billion dollars? Find out by spending all of Bill Gates&apos; money!</p>
 <p><a href="https://neal.fun/spend/" title="Spend Bill gates money">Spend Bill gates money</a></p>
 <h2>Life stats</h2>
-<img src="https://theabbie.github.io/blog/assets/life-stats.jpg" alt="life stats">
+<img src="assets/life-stats.jpg" alt="life stats">
 <p>Find out what&apos;s happened in your lifetime</p>
 <p><a href="https://neal.fun/life-stats/" title="life stats">life stats</a></p>
 <h2>draw logos from memory</h2>
-<img src="https://theabbie.github.io/blog/assets/draw-logos-from-memory.jpg" alt="draw logos from memory">
+<img src="assets/draw-logos-from-memory.jpg" alt="draw logos from memory">
 <p>Draw Logos From Memory. Draw the McDonalds logo. Reveal Logo. Draw the Nike logo. Reveal Logo. Draw the Apple logo. Reveal Logo. Draw the Starbucks logo. Reveal Logo.</p>
 <p><a href="https://neal.fun/logos-from-memory/" title="Draw logos from memory">Draw logos from memory</a></p>
 <h2>life checklist</h2>
-<img src="https://theabbie.github.io/blog/assets/life-checklist.jpg" alt="life checklist">
+<img src="assets/life-checklist.jpg" alt="life checklist">
 <p>Life Checklist. Be born. &#x200D; Take first steps. Say first words. &#x200D; Learn to read. &#x1F917; Make a friend. &#x200D; Learn to ride a bike. Read a book. &#x200D; Learn to swim. Finish elementary ...</p>
 <p><a href="https://neal.fun/life-checklist/" title="life checklist">life checklist</a></p>
 <h2>printing money</h2>
-<img src="https://theabbie.github.io/blog/assets/printing-money.jpg" alt="printing money">
+<img src="assets/printing-money.jpg" alt="printing money">
 <p>Neal.fun. Printing Money. Made by Neal Agarwal. Minimum Wage ($7.25/hr). Teacher ($16/hr). Software Engineer ($45/ hr). Physician ($90/hr). Fortune 500 CEO ($4k/hr ...</p>
 <p><a href="https://neal.fun/printing-money/" title="print money">print money</a></p>
 <h2>the auction game</h2>
-<img src="https://theabbie.github.io/blog/assets/the-auction-game.jpg" alt="the auction game">
+<img src="assets/the-auction-game.jpg" alt="the auction game">
 <p>Can you guess the price of these paintings?</p>
 <p><a href="https://neal.fun/auction-game/" title="the auction game">the auction game</a></p>
 <h2>draw your island</h2>
-<img src="https://theabbie.github.io/blog/assets/draw-your-island.jpg" alt="draw your island">
+<img src="assets/draw-your-island.jpg" alt="draw your island">
 <p>Draw your favorite person. ClearErase. Draw a campfire. ClearErase. Draw smoke. ClearErase. Your Island. Your island is looking a little sparse. Try adding some more things.</p>
 <p><a href="https://neal.fun/draw-your-island/" title="draw your island">draw your island</a></p>
 <h2>paper</h2>
-<img src="https://theabbie.github.io/blog/assets/paper.jpg" alt="paper">
+<img src="assets/paper.jpg" alt="paper">
 <p>Paper. 0 folds. You have a piece of paper. It is 0.1mm thick. Unfold Fold. Buy me a coffee! You may also like. The Deep Sea &#xB7; Speed. Made with &#x2764;&#xFE0F; by Neal Agarwal &#xB7; Neal.fun.</p>
 <p><a href="https://neal.fun/paper/" title="paper">paper</a></p>
 <h2>speed</h2>
-<img src="https://theabbie.github.io/blog/assets/neal-fun-speed.jpg" alt="neal fun speed">
+<img src="assets/neal-fun-speed.jpg" alt="neal fun speed">
 <p>Compared to neighboring stars, our sun is moving toward a local star called Vega at 43,000 mph! So that combined with the Earth spinning and the Earth traveling around the Sun ...</p>
 <p><a href="https://neal.fun/speed/" title="neal fun speed">neal fun speed</a></p>
 <h2>who was alive</h2>
-<img src="https://theabbie.github.io/blog/assets/who-was-alive.jpg" alt="who was alive">
+<img src="assets/who-was-alive.jpg" alt="who was alive">
 <p>A visualization of who was alive during any given year! View history in a new and interesting way.</p>
 <p><a href="https://neal.fun/who-was-alive/" title="who was alive">who was alive</a></p>
 <h2>progress</h2>
-<img src="https://theabbie.github.io/blog/assets/neal-fun-progress.jpg" alt="neal fun progress">
+<img src="assets/neal-fun-progress.jpg" alt="neal fun progress">
 <p>Progress. Next minute. 50 seconds left. Next hour. 15 minutes left. Next day. 22 hours left. Next month. 19 days left. Next year. 232 days left. Next Valentine&apos;s Day.</p>
 <p><a href="https://neal.fun/progress/" title="progress">progress</a></p>
 <h2>universe forecast</h2>
-<img src="https://theabbie.github.io/blog/assets/universe-forecast.jpg" alt="universe forecast">
+<img src="assets/universe-forecast.jpg" alt="universe forecast">
 <p>What is the future of the universe? Well, using some science we can make a few predictions... In 2061. Halley&apos;s Comet will return again. In 2178. Pluto will complete its first orbit ...</p>
 <p><a href="https://neal.fun/universe-forecast/" title="universe forecast">universe forecast</a></p>
 <h2>baby map</h2>
-<img src="https://theabbie.github.io/blog/assets/baby-map.jpg" alt="baby map">
+<img src="assets/baby-map.jpg" alt="baby map">
 <p>Baby Map. Flashes every time a baby is born in that country. Total Babies Born: 1. CountryBabies Born India1. You may also like. Life Checklist &#xB7; Universe Forecast. Made with &#x2764;&#xFE0F; by  ...</p>
 <p><a href="https://neal.fun/baby-map/" title="baby map">baby map</a></p>
 <h2>where does the day go</h2>
-<img src="https://theabbie.github.io/blog/assets/where-does-the-day-go.jpg" alt="where does the day go">
+<img src="assets/where-does-the-day-go.jpg" alt="where does the day go">
 <p>Do you ever wonder where your days are going? Supposedly there are 24 hours in a day, but some days seem to not even happen. Sleep takes up about 7 hours a day for most ...</p>
 <p><a href="https://neal.fun/where-does-the-day-go/" title="where does the day go">where does the day go</a></p>
 <h2>share this page</h2>
-<img src="https://theabbie.github.io/blog/assets/share-this-page.jpg" alt="share this page">
+<img src="assets/share-this-page.jpg" alt="share this page">
 <p>Share This Page. Share with Link. Share with Screenshot. Share with Meme. Share with Email. Share with Printer. Share with Letter. Share with Text. Share with Facebook. Share ...</p>
 <p><a href="https://neal.fun/share-this-page/" title="share this page">share this page</a></p>]]></description>
     <guid>https://theabbie.github.io/blog/neal-fun</guid>
@@ -1284,10 +1284,10 @@ Raghu loses his wife and son when two bank robbers steal their car in a bid to r
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-24</p>
 <p><i>This is the official whatsapp background used by dark mode, it has a lot of hidden messages, let&apos;s find out</i></p>
-<img src="https://theabbie.github.io/blog/assets/official-whatsapp-background.jpg" alt="official whatsapp background">
+<img src="assets/official-whatsapp-background.jpg" alt="official whatsapp background">
 <h2>what is the official whatsapp background image</h2>
 <p>The image given below is the official whatsapp background image.</p>
-<img src="https://theabbie.github.io/blog/assets/official-whatsapp-background-image.jpg" alt="official whatsapp background image">
+<img src="assets/official-whatsapp-background-image.jpg" alt="official whatsapp background image">
 <h2>hidden messages in the image</h2>
 <p>Do you now notice that there are lots of emoji and icons?
 
@@ -1297,19 +1297,19 @@ Let&#x2019;s start the treasure hunt:</p>
 <h2>theory of the image</h2>
 <p>If we take the number 9,2 and 8 and convert them into letters, we get I, B and H. So, what is IBH? IBH stands for Inclusion Body Hepatitis. IBH outbreaks are found primarily in chicken&#x2019;s flesh, most commonly at the age of 3&#x2013;8 weeks.</p>
 <p>Though, I don&#x2019;t find any connection of this infection with the messaging application, the article suggest that the tech giant WhatsApp wants to promote chicken health and our consumption. 09:28 may be their secret code about care for Chickens?</p>
-<img src="https://theabbie.github.io/blog/assets/alternate-whatsapp.jpg" alt="alternate whatsapp">
+<img src="assets/alternate-whatsapp.jpg" alt="alternate whatsapp">
 <p>If we take the time 09:28, and convert them into date we get September, 28th. The zodiac sign Libra falls between September 23 to October 22. Libra are known for their cleverness and being organized. But there&#x2019;s one trait we can&#x2019;t overlook which is they are hard to make a decision. This is what makes the alarm similar to being a Libra. As said in the above article, when alarms are loud, they want to be dismissed and wake up right away or be snoozed to sleep again similar to how WhatsApp make us anxious whenever we receive a notification from someone we love, to be opened and replied or ignored and be focused on what we are doing.</p>]]></description>
     <guid>https://theabbie.github.io/blog/official-whatsapp-background</guid>
   </item>
   <item>
     <title>solution to grandfather paradox</title>
     <link>https://theabbie.github.io/blog/solution-to-grandfather-paradox</link>
-    <description><![CDATA[<img src="https://theabbie.github.io/blog/assets/solution-to-grandfather-paradox.jpg" alt="solution to grandfather paradox">
+    <description><![CDATA[<img src="assets/solution-to-grandfather-paradox.jpg" alt="solution to grandfather paradox">
 <p>A particular solution to grandfather paradox is simple</p>
 <p>you can only see the past, not change it</p>
 <h2>why cant we change the past</h2>
 <p>that&apos;s because time is relative, we perceive time, the reflection we see in mirrors is past too, we see it, we can&apos;t change it after seeing it</p>
-<img src="https://theabbie.github.io/blog/assets/why-cant-we-change-the-past.jpg" alt="why cant we change the past">
+<img src="assets/why-cant-we-change-the-past.jpg" alt="why cant we change the past">
 <h2>similar paradoxes</h2>
 <h3>ship of theseus paradox</h3>
 <h3>liar paradox</h3>
@@ -1322,11 +1322,11 @@ Let&#x2019;s start the treasure hunt:</p>
     <title>the last time you slept peacefully</title>
     <link>https://theabbie.github.io/blog/the-last-time-you-slept-peacefully</link>
     <description><![CDATA[<h2>Sleeping is an essential activity, but, do we sleep peacefully, many would agree that they don&apos;t have good sleep at night and feel tired whole day, what causes this sleepiness during day and sleeplessness at night?</h2>
-<img src="https://theabbie.github.io/blog/assets/the-last-time-you-slept-peacefully.jpg" alt="the last time you slept peacefully">
+<img src="assets/the-last-time-you-slept-peacefully.jpg" alt="the last time you slept peacefully">
 <p>studies show that most of the adults have sleeping disorders, these are mainly caused due to stress, but, there are various other factors which affect our sleeping schedule.</p>
 <h2>what causes lack of sleep</h2>
 <p>Although insomnia is the most common sleep complaint, it is not a single sleep disorder. It&#x2019;s more accurate to think of insomnia as a symptom of another problem. The problem causing the insomnia differs from person to person. It could be something as simple as drinking too much caffeine during the day or a more complex issue like an underlying medical condition or feeling overloaded with responsibilities.</p>
-<img src="https://theabbie.github.io/blog/assets/what-causes-lack-of-sleep.jpg" alt="what causes lack of sleep">
+<img src="assets/what-causes-lack-of-sleep.jpg" alt="what causes lack of sleep">
 <p>adults usually face greater lack of sleep, this is obvious as they are more prone to stress</p>
 <h3>causes of insomnia</h3>
 <ul>
@@ -1343,7 +1343,7 @@ Let&#x2019;s start the treasure hunt:</p>
     </ul>
 <p>Talk with your doctor before using any medications or supplements to treat your insomnia.
 There might be dangerous side effects or drug interactions. Not every &#x201C;sleep aid&#x201D; is appropriate for everyone. Get more information on insomnia medications.</p>
-<img src="https://theabbie.github.io/blog/assets/how-to-cure-sleeping-disorder.jpg" alt="how to cure sleeping disorder">
+<img src="assets/how-to-cure-sleeping-disorder.jpg" alt="how to cure sleeping disorder">
 <h2>sources</h2>
 <ul>
   <li><a href="https://www.helpguide.org/articles/sleep/insomnia-causes-and-cures.htm" title="what is Insomnia?">what is Insomnia?</a></li>
@@ -1358,7 +1358,7 @@ There might be dangerous side effects or drug interactions. Not every &#x201C;sl
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-26</p>
 <p><i>Nitin Gupta A.K.A. Rivaldo is the most intelligent stand up comedian in India</i></p>
-<img src="https://theabbie.github.io/blog/assets/nitin-gupta-rivaldo.jpg" alt="nitin gupta rivaldo">
+<img src="assets/nitin-gupta-rivaldo.jpg" alt="nitin gupta rivaldo">
 <h2>popular videos</h2>
 <h3>Nitin Gupta (Rivaldo) on 2G, CWG and Madam G</h3>
 <h3>Nitin Gupta (Rivaldo) - Delhi Rapes and Rape of Reason</h3>
@@ -2385,7 +2385,7 @@ There might be dangerous side effects or drug interactions. Not every &#x201C;sl
     <title>truth of mumbai university</title>
     <link>https://theabbie.github.io/blog/truth-of-mumbai-university</link>
     <description><![CDATA[<p>The University of Mumbai, informally known as Mumbai University is a collegiate public state university located in Mumbai, Maharashtra. It offers bachelors, masters and Doctoral courses, as well as diplomas and certificates in many disciplines like the Arts, Commerce, Science, Medical and Engineering</p>
-<img src="https://theabbie.github.io/blog/assets/truth-of-mumbai-university.jpg" alt="truth of mumbai university">
+<img src="assets/truth-of-mumbai-university.jpg" alt="truth of mumbai university">
 <p>See a boy spitting truth of mumbai university</p>
 <h2>truth of mumbai university part 1</h2>
 <h3>reaction</h3>
@@ -2403,28 +2403,28 @@ There might be dangerous side effects or drug interactions. Not every &#x201C;sl
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-23</p>
 <p><i>Fr Conceicao Rodrigues institute of technology A.K.A. Vashi Central Jail is an engineering college in Navi Mumbai, It is famous for treating its prisoners like students, They serve 4 years in the prison wherein they are made to do various menial tasks, such as completing assignments and giving re-tests, re-prelims etc.</i></p>
-<img src="https://theabbie.github.io/blog/assets/vashi-central-jail.jpg" alt="vashi central jail">
+<img src="assets/vashi-central-jail.jpg" alt="vashi central jail">
 <h2>introduction</h2>
 <p>Fr Conceicao Rodrigues institute of technology A.K.A. vashi central jail was <strong>founded in the year 1996</strong></p>
-<img src="https://theabbie.github.io/blog/assets/horrific-scenes-from-vashi-central-jail.jpg" alt="horrific scenes from vashi central jail">
+<img src="assets/horrific-scenes-from-vashi-central-jail.jpg" alt="horrific scenes from vashi central jail">
 <p>since then, various students, (ironic, eh?) have completed their 4 years sentence and are now living their life.</p>
 <p>they seem to be happy with their life, but are they? Let us know.</p>
 <h2>Conditions of prisoners</h2>
 <p>these photos show the conditions of students in vashi central jail</p>
-<img src="https://theabbie.github.io/blog/assets/prison-cells.jpg" alt="prison cells">
-<img src="https://theabbie.github.io/blog/assets/one-day-freedom-once-a-year.jpg" alt="one day freedom once a year">
-<img src="https://theabbie.github.io/blog/assets/poor-students.jpg" alt="poor students">
-<img src="https://theabbie.github.io/blog/assets/the-jailer.jpg" alt="the jailer">
+<img src="assets/prison-cells.jpg" alt="prison cells">
+<img src="assets/one-day-freedom-once-a-year.jpg" alt="one day freedom once a year">
+<img src="assets/poor-students.jpg" alt="poor students">
+<img src="assets/the-jailer.jpg" alt="the jailer">
 <h2>methods of torture</h2>
 <p>the following methods of torture are employed to ensure students don&apos;t enjoy by mistake.</p>
 <h2>list of prisoners</h2>
 <p>the following prisoners have been identified so far, they are currently serving their 4 years sentence in vashi central jail.</p>
 <h2>meet christu David</h2>
-<img src="https://theabbie.github.io/blog/assets/christu-david.jpg" alt="christu david">
+<img src="assets/christu-david.jpg" alt="christu david">
 <p>she is the HOD of humanities section, she is famous for being strict in funniest situations, she laughs only once a semester.</p>
 <h2>conclusion</h2>
 <p>As you may have understood why it is known as vashi central jail, my motive was just to let you know that we are humans too, we too deserve some love, we are not machines, forgive us.</p>
-<img src="https://theabbie.github.io/blog/assets/peace.jpg" alt="peace">
+<img src="assets/peace.jpg" alt="peace">
 <p><i>&#x2014; With <span style="color: transparent; text-shadow: 0 0 0 #8b0000; font-size: 25px;">&#x2665;&#xFE0F;</span> From a prisoner of <strong>Vashi Central Jail</strong></i></p>]]></description>
     <guid>https://theabbie.github.io/blog/vashi-central-jail</guid>
   </item>
@@ -2434,7 +2434,7 @@ There might be dangerous side effects or drug interactions. Not every &#x201C;sl
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-05-27</p>
 <p><i>A new research on words shows that there is only one three letter word in the English dictionary that starts with r ends with d and has e in the middle, this has been proved by various experts, so, what is that word?</i></p>
-<img src="https://theabbie.github.io/blog/assets/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle.jpg" alt="which three letter word starts with r ends with d and has e in the middle">
+<img src="assets/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle.jpg" alt="which three letter word starts with r ends with d and has e in the middle">
 <p>Well, you guessed it right, the word is <strong>RED</strong></p>
 <p>This riddle can only be solved by top 0.5% of adults and is super viral on Internet right now.</p>]]></description>
     <guid>https://theabbie.github.io/blog/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle</guid>
@@ -2442,11 +2442,11 @@ There might be dangerous side effects or drug interactions. Not every &#x201C;sl
   <item>
     <title>why do muslims explode</title>
     <link>https://theabbie.github.io/blog/why-do-muslims-explode</link>
-    <description><![CDATA[<img src="https://theabbie.github.io/blog/assets/why-do-muslims-explode.jpg" alt="why do muslims explode">
+    <description><![CDATA[<img src="assets/why-do-muslims-explode.jpg" alt="why do muslims explode">
 <p>terrorism has been in practice ever since stupidity existed, suicide bombing is a new form of terrorism</p>
 <h2>suicide bombing</h2>
 <p>Modern suicide bombing has been defined as &quot;involving explosives deliberately carried to the target either on the person or in a civilian vehicle and delivered by surprise&quot;.</p>
-<img src="https://theabbie.github.io/blog/assets/suicide-bombing.jpg" alt="suicide bombing">
+<img src="assets/suicide-bombing.jpg" alt="suicide bombing">
 <h2>how to stop it</h2>
 <p>education, that&apos;s it</p>
 <h2>sources</h2>
@@ -2459,24 +2459,24 @@ There might be dangerous side effects or drug interactions. Not every &#x201C;sl
   <item>
     <title>why does AMP not allow javascript</title>
     <link>https://theabbie.github.io/blog/why-does-AMP-not-allow-javascript</link>
-    <description><![CDATA[<img src="https://theabbie.github.io/blog/assets/accelerated-mobile-pages.jpg" alt="accelerated mobile pages">
+    <description><![CDATA[<img src="assets/accelerated-mobile-pages.jpg" alt="accelerated mobile pages">
 <p>AMP does not allow Javascript for security reasons, since AMP cache is hosted on Google domains </p>
 <p>allowing JavaScript would allow you to read google cookies, which is a major security concern</p>
 <h2>malicious things you could do</h2>
-<img src="https://theabbie.github.io/blog/assets/malicious-things-you-could-do.jpg" alt="malicious things you could do">
+<img src="assets/malicious-things-you-could-do.jpg" alt="malicious things you could do">
 <h3>create identical phishing pages</h3>
 <p>allowing JavaScript would allow you to create identical phishing pages, it is very dangerous</p>
-<img src="https://theabbie.github.io/blog/assets/phishing-pages.jpg" alt="phishing pages">
+<img src="assets/phishing-pages.jpg" alt="phishing pages">
 <p>Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords.</p>
 <h3>read google cookies</h3>
 <p>Cookies are data, stored in small text files, on your computer.</p>
 <p>When a web server has sent a web page to a browser, the connection is shut down, and the server forgets everything about the user.</p>
-<img src="https://theabbie.github.io/blog/assets/javascript-cookies.jpg" alt="javascript cookies">
+<img src="assets/javascript-cookies.jpg" alt="javascript cookies">
 <p>When a user visits a web page, his/her name can be stored in a cookie.
 Next time the user visits the page, the cookie &quot;remembers&quot; his/her name.</p>
 <h2>conclusion</h2>
 <p>google has taken several measures to reduce the dangers, they have limited use of javascript and inability to create identical phishing pages</p>
-<img src="https://theabbie.github.io/blog/assets/amp-phishing.jpg" alt="amp phishing">
+<img src="assets/amp-phishing.jpg" alt="amp phishing">
 <h2>sources</h2>
 <h3>AMP official site</h3>
 <p><a href="https://amp.dev" title="AMP official site">AMP official site</a></p>]]></description>
@@ -2486,10 +2486,10 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
     <title>why is nepotism not bad</title>
     <link>https://theabbie.github.io/blog/why-is-nepotism-not-bad</link>
     <description><![CDATA[<p>There is no issue with nepotism, If your parents have done hard work to achieve name and fame, you are bound to get that for free, That&apos;s the rule, and nepotism helps only in debut, once you are on screen it&apos;s the audience who decides whether you would do further movies or not, I haven&apos;t seen any bad actor getting lots of movies because of nepotism, The problem is glamour not nepotism, glamour hides talent</p>
-<img src="https://theabbie.github.io/blog/assets/why-is-nepotism-not-bad.jpg" alt="why is nepotism not bad">
+<img src="assets/why-is-nepotism-not-bad.jpg" alt="why is nepotism not bad">
 <h2>examples of nepotism</h2>
 <h3>tiger shroff</h3>
-<img src="https://theabbie.github.io/blog/assets/tiger-shroff-nepotism.jpg" alt="tiger shroff nepotism">
+<img src="assets/tiger-shroff-nepotism.jpg" alt="tiger shroff nepotism">
 <p>Jai Hemant &quot;Tiger&quot; Shroff is an Indian actor known for his roles in Hindi-language action films. The son of actor Jackie Shroff and producer Ayesha Dutt, he made his film debut in the 2014 commercially successful action film Heropanti</p>
 <h4>movies</h4>
 <ul>
@@ -2499,7 +2499,7 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
     <li>Student of the year 2</li>
     </ul>
 <h3>arjun kapoor</h3>
-<img src="https://theabbie.github.io/blog/assets/arjun-kapoor-nepotism.jpg" alt="arjun kapoor nepotism">
+<img src="assets/arjun-kapoor-nepotism.jpg" alt="arjun kapoor nepotism">
 <p>Arjun Kapoor is an Indian actor who appears in Bollywood films. The son of film producers Boney Kapoor and Mona Shourie Kapoor, he initially worked an assistant director on his father&apos;s productions No Entry and Wanted.</p>
 <h4>movies</h4>
 <ul>
@@ -2511,7 +2511,7 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
 <p>Nepotism is based on favoritism granted to relatives in various fields, including business, politics, entertainment, sports, religion and other activities. The term originated with the assignment of nephews to important positions by Catholic popes and bishops.</p>
 <h3>Ranbir Kapoor</h3>
 <h4>biography</h4>
-<img src="https://theabbie.github.io/blog/assets/ranbir-kapoor-nepotism.jpg" alt="ranbir kapoor nepotism">
+<img src="assets/ranbir-kapoor-nepotism.jpg" alt="ranbir kapoor nepotism">
 <p>Ranbir Kapoor is an Indian actor and film producer. He is one of the highest-paid actors of Hindi cinema and has featured in Forbes India&apos;s Celebrity 100 list since 2012. Kapoor is the recipient of several awards, including six Filmfare Awards.</p>
 <h4>movies</h4>
 <ul>
@@ -2525,7 +2525,7 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
 <h3>Hrithik Roshan</h3>
 <h4>biography</h4>
 <p>Hrithik Roshan is an Indian actor who appears in Bollywood films. He has portrayed a variety of characters and is known for his dancing skills. One of the highest-paid actors in India, he has won many awards, including six Filmfares, four for Best Actor and one each for Best Debut and Best Actor.</p>
-<img src="https://theabbie.github.io/blog/assets/hrithik-roshan-nepotism.jpg" alt="hrithik roshan nepotism">
+<img src="assets/hrithik-roshan-nepotism.jpg" alt="hrithik roshan nepotism">
 <h2>impact on bollywood</h2>
 <p>There is no issue with nepotism, If your parents have done hard work to achieve name and fame, you are bound to get that for free, That&apos;s the rule, and nepotism helps only in debut, once you are on screen it&apos;s the audience who decides whether you would do further movies or not, I haven&apos;t seen any bad actor getting lots of movies because of nepotism, The problem is glamour not nepotism, glamour hides talent</p>
 <h2>sources</h2>
@@ -2542,7 +2542,7 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
     <title>why pwa is the future</title>
     <link>https://theabbie.github.io/blog/why-pwa-is-the-future</link>
     <description><![CDATA[<p>PWAs are powerful, effective, fast and app-like. It&apos;s hard to imagine a mobile web property that could not be significantly improved via PWA implementation. They can also potentially eliminate the need for many &#x201C;vanity&#x201D; native apps that exist today.</p>
-<img src="https://theabbie.github.io/blog/assets/why-pwa-is-the-future.jpg" alt="why pwa is the future">
+<img src="assets/why-pwa-is-the-future.jpg" alt="why pwa is the future">
 <p>progressive web apps are for everyone, desktop and mobile users alike. I think it&#x2019;s important to reiterate that there is no mobile web.</p>
 <h2>features</h2>
 <ul>
@@ -2552,10 +2552,10 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
     <li>Push notifications</li>
     <li>Self-updates</li>
     </ul>
-<img src="https://theabbie.github.io/blog/assets/features-of-pwa.jpg" alt="features of pwa">
+<img src="assets/features-of-pwa.jpg" alt="features of pwa">
 <p>Progressive web apps have taken functionality from both native and web apps. They can run fast regardless of mobile operating systems and device types also providing rich functionality as if they were developed for a specific device. Thanks to easy installation, discoverability, automated updates, slow network or even the offline work mode, PWAs can enhance user experience.</p>
 <h2>advantages</h2>
-<img src="https://theabbie.github.io/blog/assets/advantages-of-pwa.jpg" alt="advantages of pwa">
+<img src="assets/advantages-of-pwa.jpg" alt="advantages of pwa">
 <h3>Low Development Costs</h3>
 <p>PWAs do not require different versions for various devices; a single progressive app meets the requirements of all endpoints on which it operates. So, it significantly reduces the amount of efforts that developers provide, and as a result, the cost to create a PWA decreases. The cost is three or four times lower than that of a native mobile app.</p>
 <h3>App-Like Look and Feel</h3>
@@ -2563,7 +2563,7 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
 <h3>Fast Installation</h3>
 <p>Unlike regular mobile applications, PWAs do not require a long and complex installation process, which significantly improves user experience. Users just download an app, quickly and directly to their devices, and they do not need to go to the App Store or Google Play. It streamlines the procedure and significantly reduces user abandonment.</p>
 <h2>disadvantages</h2>
-<img src="https://theabbie.github.io/blog/assets/disadvantages-of-pwa.jpg" alt="disadvantages of pwa">
+<img src="assets/disadvantages-of-pwa.jpg" alt="disadvantages of pwa">
 <h3>Compatibility with iOS</h3>
 <p>Since iOS 11.3, it&#x2019;s been possible to run PWAs on Apple devices, but you can forget about compatibility with older devices.</p>
 <h3>Issues with legacy devices</h3>
@@ -2582,16 +2582,16 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
   <item>
     <title>why salman khan sucks</title>
     <link>https://theabbie.github.io/blog/why-salman-khan-sucks</link>
-    <description><![CDATA[<img src="https://theabbie.github.io/blog/assets/salman-khan.jpg" alt="salman khan">
+    <description><![CDATA[<img src="assets/salman-khan.jpg" alt="salman khan">
 <p>Abdul Rashid Salim Salman Khan born on 27 December 1965 is an Indian film actor, producer, occasional singer and television personality. In a film career spanning over thirty years, Khan has received numerous awards, including two National Film Awards as a film producer, and two Filmfare Awards for acting. He has a significant following in Asia and the Indian diaspora worldwide</p>
 <h2>career</h2>
-<img src="https://theabbie.github.io/blog/assets/salman-khan-career.jpg" alt="salman khan career">
+<img src="assets/salman-khan-career.jpg" alt="salman khan career">
 <p>
 Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on to play the leading role in Sooraj R. Barjatya&apos;s romantic family drama Maine Pyar Kiya (1989), which become one of the highest-grossing Indian films at the time
 </p>
 <h2>controversies</h2>
 <p>Khan&apos;s off-screen life is marred by controversy and legal troubles. In 2015 he was convicted of culpable homicide for a negligent driving case in which he ran over five people with his car, killing one, but his conviction was set aside on appeal.</p>
-<img src="https://theabbie.github.io/blog/assets/salman-khan-controversies.jpg" alt="salman khan controversies">
+<img src="assets/salman-khan-controversies.jpg" alt="salman khan controversies">
 <h2>fanbase</h2>
 <p>Before Bhai fans start downvoting the answer just look at the reasons below for it ;. When Salman Khan was going through his worst phase his movies used to get bomb at the box</p>
 <h3>educated</h3>
@@ -2601,11 +2601,11 @@ Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him pla
 <p>The only reason for his success</p>
 <h2>so what to do</h2>
 <p>Don&apos;t watch his movies until he tries to improve</p>
-<img src="https://theabbie.github.io/blog/assets/salman-khan-fanbase.jpg" alt="salman khan fanbase">
+<img src="assets/salman-khan-fanbase.jpg" alt="salman khan fanbase">
 <h2>alternatives to salman khan</h2>
 <p>These are some superb alternative s to salman khan</p>
 <h3>irrfan khan</h3>
-<img src="https://theabbie.github.io/blog/assets/irrfan-khan.jpg" alt="irrfan khan">
+<img src="assets/irrfan-khan.jpg" alt="irrfan khan">
 <p>Irrfan Khan, also credited as simply Irrfan, is an Indian film actor, known for his work predominantly in Hindi cinema, as well as his works in British films and Hollywoo</p>
 <h4>hit movies</h4>
 <ul>
@@ -2615,10 +2615,10 @@ Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him pla
     </ul>
 <h3>vicky kaushal</h3>
 <p>Vicky Kaushal is an Indian actor who works in Hindi films. He is the recipient of a National Film Award and a Filmfare Award, and has appeared in Forbes India&apos;s Celebrity 100 list of 2019. Born to the action director Sham Kaushal, Kaushal pursued an engineering degree from the Rajiv Gandhi Institute of Technology.</p>
-<img src="https://theabbie.github.io/blog/assets/vicky-.jpg" alt="vicky ">
+<img src="assets/vicky-.jpg" alt="vicky ">
 <h3>rajkumar rao</h3>
 <p>Rajkummar Rao, also known as Rajkumar Yadav, is an Indian actor. He has established a career in Hindi cinema and is the recipient of several awards, including a National Film Award, three Filmfare Awards, and an Asia Pacific Screen Award.</p>
-<img src="https://theabbie.github.io/blog/assets/rajkumar-rao.jpg" alt="rajkumar rao">
+<img src="assets/rajkumar-rao.jpg" alt="rajkumar rao">
 <h2>videos supporting my point</h2>
 <h2>conclusion</h2>
 <h3>positive</h3>
