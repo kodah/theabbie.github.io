@@ -169,36 +169,25 @@ Heroku makes it easy to deploy and scale Node.js applications. Run any recent ve
   <item>
     <title>best programmer in the world</title>
     <link>https://theabbie.github.io/blog/best-programmer-in-the-world</link>
-    <description><![CDATA[<img src="assets/Gennady-Korotkevich.jpg" alt="Gennady Korotkevich">
-<p>Gennady Korotkevich is a Belarusian sport programmer who has won major international competitions since age 11, as well as numerous national competitions.</p>
+    <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
+<p><strong>Published</strong> 2020-05-28</p>
+<p><i>Gennady Korotkevich is a Belarusian sport programmer who has won major international competitions since age 11, as well as numerous national competitions.</i></p>
+<img src="assets/gennady-korotkevich.jpg" alt="gennady korotkevich">
 <h2>history</h2>
 <p>Korotkevich was born in Gomel (Homiel), southeastern Belarus. His parents, Vladimir and Lyudmila Korotkevich, are programmers in the mathematics department at Francysk Skaryna Homiel State University. At age 6, he became interested in his parents&apos; work. When he was 8, his father designed a children&apos;s game he could use to learn programming.</p>
-<h3>education</h3>
+<h2>education</h2>
 <p>His mother consulted departmental colleague Mikhail Dolinsky, who gave Korotkevich a small book to read. Dolinsky, one of the top computer science teachers in Belarus, recalled, &quot;A month went by, and then another one ... No news from Gena. Then suddenly Lyudmila comes by and brings me a programming notebook: when summer and football were over, her son sat at the computer. As a second-grader at a national competition, he took second place, which gained him an automatic entry into a technical university without taking any entrance exams. Somehow he solved the problem of a body immersed in water. At that time, Gena didn&apos;t even know about Archimedes&apos; principle of buoyancy.</p>
 <h2>success</h2>
 <p>Korotkevich first gained global attention when he qualified for the 2006 International Olympiad in Informatics (IOI) at the age of 11, a world record by a large margin.</p>
 <p>He took the silver medal at his first IOI event and received gold medals from 2007 to 2012. To date, he is the most successful competitor in IOI&apos;s history.</p>
-<h2>google codejam</h2>
-<p>Google Code Jam: 2014 champion</p>
-<h3>list of competition won</h3>
-<ul>
-  <li>Google Code Jam: 2014 champion</li>
-    <li>Google Code Jam: 2015 champion</li>
-    <li>Google Code Jam: 2016 champion</li>
-    <li>Google Code Jam: 2017 champion</li>
-    <li>Google Code Jam: 2018 champion</li>
-    </ul>
-<h2>Some images</h2>
-<img src="assets/gennady-korotkevich-codejam.jpg" alt="gennady korotkevich codejam">
-<img src="assets/gennady-korotkevich-teaching.jpg" alt="gennady korotkevich teaching">
-<h2>gennady korotkevich videos</h2>
+<h2>list of competitions won</h2>
 <h2>conclusion</h2>
 <p>At 21, Gennady Vladimirovich Korotkevich is already a legend. Tourist, as he&apos;s known online, is now the world&apos;s top sport programmer. He competes against other people to solve coding puzzles, and he&apos;s darn good at it</p>
 <h2>sources</h2>
 <h3>Wikipedia</h3>
 <p><a href="https://en.wikipedia.org/wiki/Gennady_Korotkevich" title="gennady korotkevich wikipedia">gennady korotkevich wikipedia</a></p>
 <h3>Bloomberg</h3>
-<p><a href="https://www.bloomberg.com/news/features/2015-09-25/the-jocks-of-computer-code-do-it-for-the-job-offers" title="bloomberg">bloomberg</a></p>
+<p><a href="https://www.bloomberg.com/news/features/2015-09-25/the-jocks-of-computer-code-do-it-for-the-job-offers" title="Bloomberg">Bloomberg</a></p>
 <h3>quora</h3>
 <p><a href="https://www.quora.com/How-did-Gennady-Korotkevich-become-better-than-other-programmers" title="gennady korotkevich quora">gennady korotkevich quora</a></p>]]></description>
     <guid>https://theabbie.github.io/blog/best-programmer-in-the-world</guid>
@@ -2541,17 +2530,11 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
   <item>
     <title>why pwa is the future</title>
     <link>https://theabbie.github.io/blog/why-pwa-is-the-future</link>
-    <description><![CDATA[<p>PWAs are powerful, effective, fast and app-like. It&apos;s hard to imagine a mobile web property that could not be significantly improved via PWA implementation. They can also potentially eliminate the need for many &#x201C;vanity&#x201D; native apps that exist today.</p>
+    <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
+<p><strong>Published</strong> 2020-05-28</p>
+<p><i>PWAs are powerful, effective, fast and app-like. It&apos;s hard to imagine a mobile web property that could not be significantly improved via PWA implementation. They can also potentially eliminate the need for many vanity native apps that exist today. progressive web apps are for everyone, desktop and mobile users alike. I think it&#x2019;s important to reiterate that there is no mobile web.</i></p>
 <img src="assets/why-pwa-is-the-future.jpg" alt="why pwa is the future">
-<p>progressive web apps are for everyone, desktop and mobile users alike. I think it&#x2019;s important to reiterate that there is no mobile web.</p>
 <h2>features</h2>
-<ul>
-  <li>Full responsiveness and browser compatibility</li>
-    <li>Connectivity independence</li>
-    <li>App-like interface.</li>
-    <li>Push notifications</li>
-    <li>Self-updates</li>
-    </ul>
 <img src="assets/features-of-pwa.jpg" alt="features of pwa">
 <p>Progressive web apps have taken functionality from both native and web apps. They can run fast regardless of mobile operating systems and device types also providing rich functionality as if they were developed for a specific device. Thanks to easy installation, discoverability, automated updates, slow network or even the offline work mode, PWAs can enhance user experience.</p>
 <h2>advantages</h2>
@@ -2559,12 +2542,12 @@ Next time the user visits the page, the cookie &quot;remembers&quot; his/her nam
 <h3>Low Development Costs</h3>
 <p>PWAs do not require different versions for various devices; a single progressive app meets the requirements of all endpoints on which it operates. So, it significantly reduces the amount of efforts that developers provide, and as a result, the cost to create a PWA decreases. The cost is three or four times lower than that of a native mobile app.</p>
 <h3>App-Like Look and Feel</h3>
-<p>Nowadays, mobile users prefer apps to browsers as applications compare favorably with browsers, as they are more user-friendly, can operate offline and have a more attractive interface. Progressive web applications provide an advanced user experience by combining the look and feel of mobile applications and the best of website performance. </p>
+<p>Nowadays, mobile users prefer apps to browsers as applications compare favorably with browsers, as they are more user-friendly, can operate offline and have a more attractive interface. Progressive web applications provide an advanced user experience by combining the look and feel of mobile applications and the best of website performance.</p>
 <h3>Fast Installation</h3>
 <p>Unlike regular mobile applications, PWAs do not require a long and complex installation process, which significantly improves user experience. Users just download an app, quickly and directly to their devices, and they do not need to go to the App Store or Google Play. It streamlines the procedure and significantly reduces user abandonment.</p>
 <h2>disadvantages</h2>
 <img src="assets/disadvantages-of-pwa.jpg" alt="disadvantages of pwa">
-<h3>Compatibility with iOS</h3>
+<h3>compatibility with iOS</h3>
 <p>Since iOS 11.3, it&#x2019;s been possible to run PWAs on Apple devices, but you can forget about compatibility with older devices.</p>
 <h3>Issues with legacy devices</h3>
 <p>PWAs have been around for just a few years, so it shouldn&#x2019;t come as a surprise that older mobile devices with outdated web browsers don&#x2019;t support them too well. While this problem will inevitably solve itself in the future</p>
