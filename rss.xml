@@ -18,7 +18,7 @@
   <language>en-us</language>
   <atom:link href="https://theabbie.github.io/rss.xml" rel="self" type="application/rss+xml" />
 
-<item>
+ <item>
     <title>Breadcrumbs demo</title>
     <link>https://theabbie.github.io/blog/Breadcrumbs-demo</link>
     <description><![CDATA[<p>Breadcrumbs (or breadcrumb trail) is a secondary navigation system that shows a user&apos;s location in a site or web app. The term came from the Hansel and Gretel fairy tale in which the main characters create a trail of breadcrumbs in order to track back to their house.</p>
@@ -42,6 +42,22 @@ Some idiot poked me in the eye with a stick!
 
 Then they all started shouting, &#x2019;14&#x2026;.14&#x2026;.14.&#x2019;</p>]]></description>
     <guid>https://theabbie.github.io/blog/How-to-Mind-Your-Own-Business</guid>
+  </item>
+  <item>
+    <title>PointerPointer points to your pointer</title>
+    <link>https://theabbie.github.io/blog/PointerPointer-points-to-your-pointer</link>
+    <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
+<p><strong>Published</strong> 2020-05-28</p>
+<p><i><a href="https://pointerpointer.com" title="pointerpointer">pointerpointer</a> is a website that shows pictures of people pointing to your pointer.</i></p>
+<img src="https://theabbie.github.io/blog/assets/PointerPointer-points-to-your-pointer.jpg" alt="PointerPointer points to your pointer">
+<p>It was created by Studio Moniker in Amsterdam the site offers no redeeming value except for a bit of pure comedic relief. The project is described as an experiment in pointer retrieval and it&#x2019;s not quite as smart as it looks.</p>
+<img src="https://theabbie.github.io/blog/assets/pointerpointer-example.jpg" alt="pointerpointer example">
+<p>What it does is locate your cursor and find a picture with people pointing towards that location on the screen. We&apos;ve been playing with it for a while now, and have never seen the same picture twice.</p>
+<img src="https://theabbie.github.io/blog/assets/another-pointerpointer-example.jpg" alt="another pointerpointer example">
+<p>But you&#x2019;ll notice Pointer Pointer doesn&#x2019;t move so fast. In fact, you have to wait a few seconds, which feels like eons, after you move your cursor to see a photo, and the lag is intentional. &#x201C;The first version of Pointer Pointer ran at lightning speed. Whenever you dragged the mouse, you would directly see a photo of someone pointing there. </p>
+<img src="https://theabbie.github.io/blog/assets/one-more-pointerpointer-example.jpg" alt="one more pointerpointer example">
+<p>Internet is weird, Isn&apos;t it?</p>]]></description>
+    <guid>https://theabbie.github.io/blog/PointerPointer-points-to-your-pointer</guid>
   </item>
   <item>
     <title>Seedr.cc Review</title>
@@ -2466,7 +2482,7 @@ Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him pla
 <p>He knows he is a bad actor, still he doesn&apos;t act nice, why?</p>]]></description>
     <guid>https://theabbie.github.io/blog/why-salman-khan-sucks</guid>
   </item>
-    
+     
 
 </channel>
 
