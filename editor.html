@@ -252,7 +252,7 @@ function adv() {
 function cont() {
   var parser = new DOMParser();
   var page = parser.parseFromString(document.querySelector("#body").value, 'text/html');
-  var content = page.querySelector("article").innerText;
+  var content = page.querySelector("article").innerText.replace(/\r\n/g, '\n').split('\n').filter(x => /\w/.test(x)).join(' ');
   paste(content);
   alert(content.split(" ").length);
 }
