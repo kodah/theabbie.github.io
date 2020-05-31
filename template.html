@@ -55,23 +55,28 @@ body {
 }
 
 header {
-  width: 100%;
-  padding-top: 20px;
+  padding: 20px;
+  overflow: hidden;
 }
 
 header amp-img {
-  margin: auto;
-  padding: 15px;
+  float: left;
+  padding: 35px;
 }
 
-nav.breadcrumb {
-  background: white;
-  width: 100%;
-}
-
-nav.breadcrumb a {
+header a {
+  float: right;
   text-decoration: none;
+  padding: 7px;
   font-size: 24px;
+  font-weight: bolder;
+  color: black;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+header a:hover {
+  background-color: rgba(0,0,0,0.1)
 }
 </style>
 <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -100,8 +105,10 @@ nav.breadcrumb a {
 </head>
 <body>
 <header>
-<amp-img src="https://theabbie.github.io/files/logo.png" width="512" height="512" sizes="(min-width: 300px) 75px, 25vw" layout="responsive" alt="AMP Template"></amp-img>
-<nav class="breadcrumb"><a href="/">&#8962;</a></nav>
+<amp-img src="https://theabbie.github.io/files/logo.png" width="512" height="512" sizes="(min-width: 300px) 50px, 20vw" layout="responsive" alt="AMP Template"></amp-img>
+<nav>
+<a href="#">home</a>
+</nav>
 </header>
 <main>
 
