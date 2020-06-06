@@ -317,6 +317,10 @@
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
+    <loc>https://theabbie.github.io/blog/del-dog-dogbin-review.html</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
     <loc>https://theabbie.github.io/blog/estimate-pi-using-random-numbers.html</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
@@ -465,6 +469,10 @@
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
+    <loc>https://theabbie.github.io/css/style.css</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
     <loc>https://theabbie.github.io/custom/3d.html</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
@@ -565,7 +573,55 @@
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/css/style.css</loc>
+    <loc>https://theabbie.github.io/users/abhishek7gg7.txt</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/users/admin.txt</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/podcasts/hello-world.mp3</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/podcasts/joke-1.mp3</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/podcasts/sound.mp3</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/web/index.html</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/web/sw.js</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/OUT.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/hi.txt</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/logo.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/logoalt.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/theabbie (1).png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/uploads/userpic16.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
@@ -917,55 +973,11 @@
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/podcasts/hello-world.mp3</loc>
+    <loc>https://theabbie.github.io/.github/workflows/blank.yml</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/podcasts/joke-1.mp3</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/podcasts/sound.mp3</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/OUT.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/hi.txt</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/logo.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/logoalt.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/theabbie (1).png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/uploads/userpic16.jpg</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/users/abhishek7gg7.txt</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/users/admin.txt</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/web/index.html</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/web/sw.js</loc>
+    <loc>https://theabbie.github.io/articles/personal/About Me</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
@@ -973,11 +985,15 @@
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/.github/workflows/blank.yml</loc>
+    <loc>https://theabbie.github.io/.well-known/amphtml/apikey.pub</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/.well-known/amphtml/apikey.pub</loc>
+    <loc>https://theabbie.github.io/articles/technology/technology first post</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/articles/technology/technology second post</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
@@ -993,23 +1009,19 @@
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/articles/technology/technology first post</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/articles/technology/technology second post</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/articles/personal/About Me</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
     <loc>https://theabbie.github.io/blog/assets/3d-cube.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
+    <loc>https://theabbie.github.io/blog/assets/API-usage.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
     <loc>https://theabbie.github.io/blog/assets/Brazen-Epiphany.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/assets/Custom-URL.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
@@ -1165,7 +1177,27 @@
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
+    <loc>https://theabbie.github.io/blog/assets/del-dog-dogbin-review.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/assets/del-dog-logo.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/assets/del-dog-privacy.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/assets/del-dog-text-editing.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
     <loc>https://theabbie.github.io/blog/assets/disadvantages-of-pwa.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/blog/assets/dogbin.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
@@ -1757,75 +1789,223 @@
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_0.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/android-chrome-144x144.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_1.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/android-chrome-192x192.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_10.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/android-chrome-256x256.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_11.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/android-chrome-36x36.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_12.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/android-chrome-384x384.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_13.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/android-chrome-48x48.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_14.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/android-chrome-512x512.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_15.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/android-chrome-72x72.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_16.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/android-chrome-96x96.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_17.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-114x114-precomposed.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_2.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-114x114.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_3.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-120x120-precomposed.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_4.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-120x120.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_5.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-144x144-precomposed.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_6.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-144x144.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_7.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-152x152-precomposed.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_8.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-152x152.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/certs/TM9714_9.jpg</loc>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-180x180-precomposed.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-180x180.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-57x57-precomposed.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-57x57.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-60x60-precomposed.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-60x60.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-72x72-precomposed.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-72x72.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-76x76-precomposed.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-76x76.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-precomposed.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/browserconfig.xml</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/favicon-16x16.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/favicon-194x194.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/favicon-32x32.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/favicon.ico</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/mstile-144x144.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/mstile-150x150.png</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/favicons/safari-pinned-tab.svg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/Ubuntu-Regular.ttf</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/abhishek.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/banner1.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/banner2.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/banner3.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/banner4.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/banner5.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/favicon.ico</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/index.html</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/logback.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/logo-about.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/monika.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/naveen.JPG</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/pratik.JPG</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/raw.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/sahil.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/user.jpg</loc>
+    <lastmod>2020-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://theabbie.github.io/files/website/user.png</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
@@ -3541,223 +3721,75 @@
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/Ubuntu-Regular.ttf</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_0.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/abhishek.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_1.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/banner1.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_10.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/banner2.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_11.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/banner3.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_12.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/banner4.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_13.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/banner5.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_14.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/favicon.ico</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_15.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/index.html</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_16.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/logback.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_17.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/logo-about.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_2.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/monika.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_3.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/naveen.JPG</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_4.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/pratik.JPG</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_5.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/raw.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_6.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/sahil.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_7.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/user.jpg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_8.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
-    <loc>https://theabbie.github.io/files/website/user.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/android-chrome-144x144.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/android-chrome-192x192.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/android-chrome-256x256.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/android-chrome-36x36.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/android-chrome-384x384.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/android-chrome-48x48.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/android-chrome-512x512.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/android-chrome-72x72.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/android-chrome-96x96.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-114x114-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-114x114.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-120x120-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-120x120.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-144x144-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-144x144.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-152x152-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-152x152.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-180x180-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-180x180.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-57x57-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-57x57.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-60x60-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-60x60.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-72x72-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-72x72.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-76x76-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-76x76.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon-precomposed.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/apple-touch-icon.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/browserconfig.xml</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/favicon-16x16.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/favicon-194x194.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/favicon-32x32.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/favicon.ico</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/mstile-144x144.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/mstile-150x150.png</loc>
-    <lastmod>2020-06-06</lastmod>
-  </url>
-  <url>
-    <loc>https://theabbie.github.io/files/favicons/safari-pinned-tab.svg</loc>
+    <loc>https://theabbie.github.io/files/certs/TM9714_9.jpg</loc>
     <lastmod>2020-06-06</lastmod>
   </url>
   <url>
