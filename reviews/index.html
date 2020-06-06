@@ -150,14 +150,30 @@ main {
   max-width: 700px;
 }
 hr {
-border: 0;
-height: 1px;
-background: rgb(204,204,204);
+  border: 0;
+  height: 1px;
+  background: rgb(204,204,204);
+}
+input[type="text"] {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 7px 20px 5px 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 450px;
+  -webkit-appearance: none;
+  letter-spacing: 6px;
+  word-spacing: 12px;
 }
 </style>
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
 <script type="application/ld+json">
 [{
   "@context": "https://schema.org/", 
@@ -223,6 +239,13 @@ TheAbbie Reviews
 <amp-img src="/files/reviews.jpg" width="804" height="381" layout="responsive" sizes="(min-width: 500px) 500px, 80vw" alt="TheAbbie Reviews"></amp-img>
 <figcaption>TheAbbie Reviews</figcaption>
 </figure>
+<form method="GET" action="http://httpbin.org/get" target="_top">
+  <select name="category">
+  
+  </select>
+  <input type="text" placeholder="Title" name="title">
+  <input type="text" placeholder="url" name="url">
+</form>
 <nav aria-label="contents">
 <ul>
 <li><a href="#Automotive">Automotive</a></li>
