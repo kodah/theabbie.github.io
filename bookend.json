@@ -3,6 +3,13 @@
 "shareProviders": [
   "facebook",
   "twitter",
-  "email"
+  "email",
+  "system",
+  "linkedin",
+  "pinterest",
+  "tumblr",
+  "whatsapp",
+  "line",
+  "sms"
 ]
 }
