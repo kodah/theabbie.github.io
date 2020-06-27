@@ -791,6 +791,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"Tapas",
+      "url":"https://tapas.io/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Mozillians",
       "url":"https://mozillians.org/en-US/u/theabbie/",
       "icon":"fa fa-firefox"
