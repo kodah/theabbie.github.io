@@ -22,6 +22,16 @@
       <news:title>How to Mind Your Own Business</news:title>
     </news:news>
   </url><url>
+ <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/I-Can-Has-Cheezburger</loc>
+    <news:news>
+    <news:publication>
+      <news:name>TheAbbie Blog</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2020-04-22</news:publication_date>
+      <news:title>I Can Has Cheezburger</news:title>
+    </news:news>
+  </url><url>
  <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/PointerPointer-points-to-your-pointer</loc>
     <news:news>
     <news:publication>
@@ -312,6 +322,16 @@
       <news:title>infinite non-repeating sequence</news:title>
     </news:news>
   </url><url>
+ <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/kun-faya-kun</loc>
+    <news:news>
+    <news:publication>
+      <news:name>TheAbbie Blog</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2020-04-22</news:publication_date>
+      <news:title>Kun Faya Kun: The song that can fight Depression</news:title>
+    </news:news>
+  </url><url>
  <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/literacy-is-not-equal-to-intelligence</loc>
     <news:news>
     <news:publication>
@@ -320,6 +340,16 @@
     </news:publication>
     <news:publication_date>2020-04-22</news:publication_date>
       <news:title>literacy is not equal to intelligence</news:title>
+    </news:news>
+  </url><url>
+ <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/metakgp</loc>
+    <news:news>
+    <news:publication>
+      <news:name>TheAbbie Blog</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2020-04-22</news:publication_date>
+      <news:title>metakgp</news:title>
     </news:news>
   </url><url>
  <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/most-underrated-bollywood-movies</loc>
@@ -410,6 +440,16 @@
     </news:publication>
     <news:publication_date>2020-04-22</news:publication_date>
       <news:title>official whatsapp background</news:title>
+    </news:news>
+  </url><url>
+ <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/rasbhari-amazon-prime-review</loc>
+    <news:news>
+    <news:publication>
+      <news:name>TheAbbie Blog</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2020-04-22</news:publication_date>
+      <news:title>Review: Rasbhari Swara Bhaskar Amazon prime</news:title>
     </news:news>
   </url><url>
  <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/solution-to-grandfather-paradox</loc>
@@ -532,6 +572,16 @@
       <news:title>why salman khan sucks</news:title>
     </news:news>
   </url><url>
+ <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/wwyd-john-quinones-effect</loc>
+    <news:news>
+    <news:publication>
+      <news:name>TheAbbie Blog</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2020-04-22</news:publication_date>
+      <news:title>the john quinones effect - WWYD</news:title>
+    </news:news>
+  </url><url>
  <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/xkcd</loc>
     <news:news>
     <news:publication>
@@ -540,6 +590,16 @@
     </news:publication>
     <news:publication_date>2020-04-22</news:publication_date>
       <news:title>xkcd</news:title>
+    </news:news>
+  </url><url>
+ <loc>http://www.example.org/business/ahttps://theabbie.github.io/blog/yeetable</loc>
+    <news:news>
+    <news:publication>
+      <news:name>TheAbbie Blog</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2020-04-22</news:publication_date>
+      <news:title>Yeetable</news:title>
     </news:news>
   </url>
 </urlset>
