@@ -456,6 +456,11 @@
       "icon":"fa fa-blog"
     },
     {
+      "title":"Front Page",
+      "url":"https://front.page/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Listal",
       "url":"https://theabbie.listal.com/",
       "icon":"fa fa-globe"
