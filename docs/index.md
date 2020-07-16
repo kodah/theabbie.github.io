@@ -14,7 +14,7 @@ Hello World, I am Abhishek Chaudhary
 
 A pseudo-introvert, a web developer, and a Maker
 
-https://theabbie.github.io
+[theabbie.github.io](https://theabbie.github.io)
 
 [Resume](https://theabbie.github.io/resume.pdf)
 
