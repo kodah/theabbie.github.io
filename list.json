@@ -476,6 +476,11 @@
       "icon":"fa fa-atom"
     },
     {
+      "title":"wt.social",
+      "url":"https://wt.social/u/theabbie",
+      "icon":"fa fa-atom"
+    },
+    {
       "title":"LetterBoxd",
       "url":"https://letterboxd.com/theabbie/",
       "icon":"fa fa-globe"
