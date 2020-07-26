@@ -18,6 +18,8 @@ https://theabbie.github.io
 
 [Resume](https://theabbie.github.io/resume.pdf)
 
+<img src="http://www.hackthebox.eu/badge/image/370240" alt="Hack The Box">
+
 <table>
 <caption>Abhishek Chaudhary</caption>
 <thead>
