@@ -856,6 +856,11 @@
       "icon":"fa fa-firefox"
     },
     {
+      "title":"WakaTime",
+      "url":"https://wakatime.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Jimdo",
       "url":"https://theabbie.jimdofree.com/",
       "icon":"fa fa-dice-one"
