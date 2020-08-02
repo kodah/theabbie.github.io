@@ -4,7 +4,7 @@
 <channel>
   <title>TheAbbie</title>
   <link>https://theabbie.github.io</link>
-  <description>Playing with life since 2002</description>
+  <description>a pseudo-introvert, a web developer, and a maker</description>
   <image>
     <url>https://theabbie.github.io/files/logo.png</url>
     <title>TheAbbie</title>
@@ -33,6 +33,8 @@
     <description><![CDATA[<p>By <a href="mailto:abhishek7gg7@gmail.com" rel="author">Abhishek Chaudhary</a></p>
 <p><strong>Published</strong> 2020-08-02</p>
 <p><i>CryptoCRIT is an open-source Cryptocurrency project for making automated payments, The associated Cryptocurrency is called CritCoin</i></p>
+<p><a href="https://github.com/rgab1508/CryptoCRIT" title="CryptoCRIT GitHub">CryptoCRIT GitHub</a></p>
+<p><a href="https://www.npmjs.com/package/cryptocrit" title="CryptoCRIT NPM">CryptoCRIT NPM</a></p>
 <img src="https://theabbie.github.io/files/CryptoCRIT.png" alt="CryptoCRIT">
 <p>This System Is Currently Used In <a href="https://www.fcrit.ac.in">Fr. conceicao Rodrigues Institute of Technology</a>
 </p>]]></description>
