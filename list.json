@@ -826,6 +826,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"sourcehut",
+      "url":"https://sr.ht/~theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Zest",
       "url":"https://distilled.zest.is/zester/theabbie",
       "icon":"fa fa-globe"
