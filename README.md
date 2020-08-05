@@ -2,8 +2,6 @@
 
 <p align='center'><img src="https://theabbie.github.io/files/logo.png" alt="TheAbbie" width="100" height="100"></p>
 
-[![codecov](https://codecov.io/gh/theabbie/theabbie.github.io/branch/master/graph/badge.svg)](https://codecov.io/gh/theabbie/theabbie.github.io)
-
 * [About Me](#About-Me)
 * [My Blog](#My-Blog)
 * [Tasks](#Tasks)
@@ -21,6 +19,8 @@ https://theabbie.github.io
 [Resume](https://theabbie.github.io/resume.pdf)
 
 <img src="http://www.hackthebox.eu/badge/image/370240" alt="Hack The Box">
+
+[![codecov](https://codecov.io/gh/theabbie/theabbie.github.io/branch/master/graph/badge.svg)](https://codecov.io/gh/theabbie/theabbie.github.io)
 
 <table>
 <caption>Abhishek Chaudhary</caption>
