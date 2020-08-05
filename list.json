@@ -481,6 +481,11 @@
       "icon":"fa fa-atom"
     },
     {
+      "title":"Bintray",
+      "url":"https://bintray.com/theabbie",
+      "icon":"fa fa-atom"
+    },
+    {
       "title":"LetterBoxd",
       "url":"https://letterboxd.com/theabbie/",
       "icon":"fa fa-globe"
