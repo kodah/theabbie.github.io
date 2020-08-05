@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/theabbie
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://theabbie.github.io
+  * I am theabbie (https://keybase.io/theabbie) on keybase.
+  * I have a public key ASC48kHwNzQ0ZXr8Y8ZBzNSMJdAcI1uhhT32oKaQ8exCeAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b8f241f0373434657afc63c641ccd48c25d01c235ba1853df6a0a690f1ec42780a",
+      "host": "keybase.io",
+      "kid": "0120b8f241f0373434657afc63c641ccd48c25d01c235ba1853df6a0a690f1ec42780a",
+      "uid": "cc1e5781045e0d8e8c507cacc390b619",
+      "username": "theabbie"
+    },
+    "merkle_root": {
+      "ctime": 1596645229,
+      "hash": "1c5d04e1777a811d2f6e1395a1e0bfc482978a7d69d55e704f7031c457107f4f8f0fdf0630ee83c08037763f6c48e24108176d8ae6901be147105bd47970fb0e",
+      "hash_meta": "75431a30476dcce5d597e0649827030322782f70925913bdbec2a1ea1188303c",
+      "seqno": 17192343
+    },
+    "service": {
+      "entropy": "CPnxb54rdcvA96RDsLmPKCHf",
+      "hostname": "theabbie.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1596645240,
+  "expire_in": 504576000,
+  "prev": "d0ee4344325a256d85d7984130fce1b14ebbf6b7c0d049ff585ef6350350ea43",
+  "seqno": 47,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEguPJB8Dc0NGV6/GPGQczUjCXQHCNboYU99qCmkPHsQngKp3BheWxvYWTESpcCL8Qg0O5DRDJaJW2F15hBMPzhsU679rfA0En/WF72NQNQ6kPEIGppjcPTth7Q/T+aKzaroVNH4dj0NGxz6UaJ1Enqi6hjAgHCo3NpZ8RAVYGC+JvYREBmhbzd1ybZt4ksxp8YlfqtMyoEuCzaGNAIXLabEmtGD2fEkmqt/Qxy3DK7Cr7w12QzYHtkLN01BqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKX05Av2io4EWC6YzIG4QZkNaxmPW3iDZ6uKifX/5KcOo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/theabbie
+
+==================================================================
