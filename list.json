@@ -446,9 +446,14 @@
       "icon":"fa fa-globe"
     },
     {
-      "title":"Periscope",
-      "url":"https://www.periscope.tv/theabbie",
-      "icon":"fa fa-periscope"
+      "title":"Pipedream",
+      "url":"https://pipedream.com/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"WaveRadio",
+      "url":"http://waveradio.co/@theabbie",
+      "icon":"fa fa-globe"
     },
     {
       "title":"DreamWidth",
