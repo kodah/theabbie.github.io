@@ -576,6 +576,11 @@
       "icon":"fa fa-check-circle"
     },
     {
+      "title":"CodeBerg",
+      "url":"https://codeberg.org/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Seeking Alpha",
       "url":"https://seekingalpha.com/user/51423812/comments",
       "icon":"fa fa-globe"
