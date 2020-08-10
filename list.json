@@ -911,6 +911,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"FList",
+      "url":"https://fliist.com/en/profile/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Mozillians",
       "url":"https://mozillians.org/en-US/u/theabbie/",
       "icon":"fa fa-firefox"
