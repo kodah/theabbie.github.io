@@ -426,6 +426,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"Chocolatey",
+      "url":"https://chocolatey.org/profiles/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"CrunchyRoll",
       "url":"https://www.crunchyroll.com/user/theabbie",
       "icon":"fa fa-dice-two"
