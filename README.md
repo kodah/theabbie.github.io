@@ -3,6 +3,7 @@
 <p align='center'><img src="https://theabbie.github.io/files/logo.png" alt="TheAbbie" width="100" height="100"></p>
 
 * [About Me](#About-Me)
+* [My Octocat](#my-octocat)
 * [My Blog](#My-Blog)
 * [Tasks](#Tasks)
 * [10 Ways to contact me](#10-Ways-to-contact-me)
@@ -44,6 +45,10 @@ https://theabbie.github.io
 <tr><th scope='row'>Known For</th><td>TheAbbie</td></tr>
 </tbody>
 </table>
+
+## my octocat
+
+<img src="https://theabbie.github.io/files/octocat.png" alt="TheAbbie" width="200" height="200">
 
 ## My Blog
 
