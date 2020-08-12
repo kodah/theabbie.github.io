@@ -606,6 +606,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"lgtm",
+      "url":"https://lgtm.com/people/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Superfeedr",
       "url":"https://theabbie.superfeedr.com/",
       "icon":"fa fa-globe"
