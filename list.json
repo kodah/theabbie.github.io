@@ -641,6 +641,11 @@
       "icon":"fa fa-unity"
     },
     {
+      "title":"Codex",
+      "url":"https://codex.so/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Untappd",
       "url":"https://untappd.com/user/theabbie",
       "icon":"fa fa-globe"
