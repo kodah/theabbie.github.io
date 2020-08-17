@@ -506,6 +506,11 @@
       "icon":"fa fa-scribd"
     },
     {
+      "title":"Answers",
+      "url":"https://www.answers.com/u/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"BugCrowd",
       "url":"https://bugcrowd.com/theabbie",
       "icon":"fa fa-globe"
