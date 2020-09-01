@@ -1,0 +1,682 @@
+{
+  "1": {
+    "Roll No.": 1019101,
+    "Name": "Aditya Unnikrishnan",
+    "DOB": "04/05/2001",
+    "Gender": "M",
+    "Current Address": "D-1201,Bhagwati Eleganza , Sec-11 ,Ghansoli , Navi Mumbai",
+    "Permanent Address": "D-1201,Bhagwati Eleganza , Sec-11 ,Ghansoli , Navi Mumbai",
+    "Mobile No.": 8850903457,
+    "Email Id": "adiunni@hotmail.com"
+  },
+  "2": {
+    "Roll No.": 1019102,
+    "Name": "Rishika Agarwal",
+    "DOB": "30/09/2000",
+    "Gender": "F",
+    "Current Address": "FLAT-C7, TATA ELECTRIC OFFICER'S CHS,PLOT-16,SEC-16,KOPARKHAIRANE",
+    "Permanent Address": "FLAT-C7, TATA ELECTRIC OFFICER'S CHS,PLOT-16,SEC-16,KOPARKHAIRANE",
+    "Mobile No.": 8291064672,
+    "Email Id": "rishuanj2000@gmail.com"
+  },
+  "3": {
+    "Roll No.": 1019103,
+    "Name": "Christopher john alappatt",
+    "DOB": "03/10/2001",
+    "Gender": "M",
+    "Current Address": "B 1404 Prathamesh view residency oppo Ceat tyre village road Nahur mumbai 400078",
+    "Permanent Address": "B 1404 Prathamesh view residency oppo Ceat tyre village road Nahur mumbai 400078",
+    "Mobile No.": 8329652772,
+    "Email Id": "ajchristopher2001@gmail.com"
+  },
+  "4": {
+    "Roll No.": 1019104,
+    "Name": "Anushka Amte",
+    "DOB": "31/10/2001",
+    "Gender": "F",
+    "Current Address": "C/207 Riddhi Siddhi CHS Louiswadi Thane West 400604",
+    "Permanent Address": "C/207 Riddhi Siddhi CHS Louiswadi Thane West 400604",
+    "Mobile No.": 7506282132,
+    "Email Id": "anushkaamte@gmail.com"
+  },
+  "5": {
+    "Roll No.": 1019105,
+    "Name": "Anna Jojo",
+    "DOB": "02/11/2001",
+    "Gender": "F",
+    "Current Address": "A-404, National Park, Takka, Panvel, Navi Mumbai - 410206",
+    "Permanent Address": "A-404, National Park, Takka, Panvel, Navi Mumbai - 410206",
+    "Mobile No.": 8928033998,
+    "Email Id": "annajoy010@gmail.com"
+  },
+  "6": {
+    "Roll No.": 1019106,
+    "Name": "Antony Bush Sahaya Raj",
+    "DOB": "22/08/2001",
+    "Gender": "M",
+    "Current Address": "Z-275/5,M.P.Nagar,Kambhadevi Road,Dharavi,Mumbai-17",
+    "Permanent Address": "Z-275/5,M.P.Nagar,Kambhadevi Road,Dharavi,Mumbai-17",
+    "Mobile No.": 7506750350,
+    "Email Id": "antonybush95@gmail.com"
+  },
+  "7": {
+    "Roll No.": 1019107,
+    "Name": "Divya Bajeriya",
+    "DOB": "08/08/2001",
+    "Gender": "F",
+    "Current Address": "JN-1/23 B-6,Sector-9, Vashi,Navi Mumbai",
+    "Permanent Address": "JN-1/23 B-6,Sector-9, Vashi,Navi Mumbai",
+    "Mobile No.": 8828442023,
+    "Email Id": "divyabajeriya@gmail.com"
+  },
+  "8": {
+    "Roll No.": 1019108,
+    "Name": "Najuka Borse",
+    "DOB": "19/07/2002",
+    "Gender": "F",
+    "Current Address": "Guruprasad society, plot no.5, room no.A/3,Veer Sawarkar Nagar,Thane(w).",
+    "Permanent Address": "Guruprasad society, plot no.5, room no.A/3, Veer Sawarkar Nagar,Thane(w)",
+    "Mobile No.": 8693008687,
+    "Email Id": "najikaborse@gmail.com"
+  },
+  "9": {
+    "Roll No.": 1019109,
+    "Name": "Bryan francis",
+    "DOB": "03/05/2001",
+    "Gender": "M",
+    "Current Address": "b-2204 G.E Gardens Lbs marg Kanjurmarg West Mumbai 400078",
+    "Permanent Address": "b-2204 G.E Gardens Lbs marg Kanjurmarg West Mumbai 400078",
+    "Mobile No.": 919833298508,
+    "Email Id": "bryanfrancis619@gmail.com"
+  },
+  "10": {
+    "Roll No.": 1019110,
+    "Name": "Rachel Peter Carvalho",
+    "DOB": "07/08/2001",
+    "Gender": "F",
+    "Current Address": "Singh Paradise , Sahyadri apartment,502. opp Fr Agnel school khojgaon Ambernath west",
+    "Permanent Address": "Singh Paradise , Sahyadri apartment,502. opp Fr Agnel school khojgaon Ambernath west",
+    "Mobile No.": 8369218916,
+    "Email Id": "carvalhorachel2001@gmail.com"
+  },
+  "11": {
+    "Roll No.": 1019111,
+    "Name": "Abhishek Choudhary",
+    "DOB": "11/01/2002",
+    "Gender": "M",
+    "Current Address": "11/6, Artist Village, Sector 8, CBD belapur, Navi Mumbai-400614",
+    "Permanent Address": "11/6, Artist Village, Sector 8, CBD belapur, Navi Mumbai-400614",
+    "Mobile No.": 8928412138,
+    "Email Id": "abhishek7gg7@gmail.com"
+  },
+  "12": {
+    "Roll No.": 1019112,
+    "Name": "Trevor Aaron Robert Dcosta",
+    "DOB": "04/09/2001",
+    "Gender": "M",
+    "Current Address": "Kalpana srushti, plot no99, flat no 104, 'B' wing, Tilak Nagar, Chembur (w), Mumbai - 400089",
+    "Permanent Address": "Kalpana srushti, bldg 99, flat no 104, 'B' wing, Tilak Nagar, Chembur (w), Mumbai - 400089",
+    "Mobile No.": 9833932078,
+    "Email Id": "dcostat4@gmail.com"
+  },
+  "13": {
+    "Roll No.": 1019113,
+    "Name": "Shriya Sunil Deshmukh",
+    "DOB": "23/03/2001",
+    "Gender": "F",
+    "Current Address": "C-6 Jai Bhavani CHS Plot no. 18 Sector 11, Kharghar",
+    "Permanent Address": "39 Sai Prasad, Chaitanya Housing Society,Madhav Nagar,Gorakshan Road Akola",
+    "Mobile No.": 8793715119,
+    "Email Id": "shriyad2303@gmail.com"
+  },
+  "14": {
+    "Roll No.": 1019114,
+    "Name": "Rishi Santosh Devanpalli",
+    "DOB": "19/12/2000",
+    "Gender": "M",
+    "Current Address": "Everest gardens, D/404, near Laxmi nagar, ghatkopar (E)",
+    "Permanent Address": "Everest gardens, D/404, near Laxmi nagar, ghatkopar (E)",
+    "Mobile No.": 7039863435,
+    "Email Id": ""
+  },
+  "15": {
+    "Roll No.": 1019115,
+    "Name": "Pratik snake Dhumal",
+    "DOB": "25/02/2001",
+    "Gender": "M",
+    "Current Address": "Om Bhairavnath Society,R.hNo-4,Plot no:15,sector 10,Vashi,Navi Mumbai",
+    "Permanent Address": "Om Bhairavnath Society,R.hNo-4,Plot no:15,sector 10,Vashi,Navi Mumbai",
+    "Mobile No.": 9594023491,
+    "Email Id": "dhumalpratik151@gmail.com"
+  },
+  "16": {
+    "Roll No.": 1019116,
+    "Name": "Flavia Tina D'sa",
+    "DOB": "25/02/2000",
+    "Gender": "F",
+    "Current Address": "F-03, Nilgiri Gardens , Sector :24 , CBD Belapur, Navi Mumbai- 400614",
+    "Permanent Address": "F-03, Nilgiri Gardens , Sector :24 , CBD Belapur, Navi Mumbai- 400614",
+    "Mobile No.": 9920375120,
+    "Email Id": "dsaflavia7@gmail.com"
+  },
+  "17": {
+    "Roll No.": 1019117,
+    "Name": "Akash U D",
+    "DOB": "12/12/2001",
+    "Gender": "M",
+    "Current Address": "Akash Communication, Sanjay Nagar, Kamani, Kurla (W), Mumbai - 400070",
+    "Permanent Address": "Akash Communication, Sanjay Nagar, Kamani, Kurla (W), Mumbai - 400070",
+    "Mobile No.": 9930197046,
+    "Email Id": "akashudsouza12@gmail.com"
+  },
+  "18": {
+    "Roll No.": 1019118,
+    "Name": "Laurel Dsouza",
+    "DOB": "16/11/2001",
+    "Gender": "M",
+    "Current Address": "B-34 Nagraj CHS Gavanpada Mulund East Mumbai 400081",
+    "Permanent Address": "B-34 Nagraj CHS Gavanpada Mulund East Mumbai 400081",
+    "Mobile No.": 8369284458,
+    "Email Id": "laurelld@gmail.com"
+  },
+  "19": {
+    "Roll No.": 1019119,
+    "Name": "Edwin Vincent",
+    "DOB": "02/28/2001",
+    "Gender": "M",
+    "Current Address": "702, Pratham Dharshan, Plot no E/25, Sector 6 , New panvel",
+    "Permanent Address": "702, Pratham Dharshan, Plot no E/25, Sector 6 , New panvel",
+    "Mobile No.": 8928572970,
+    "Email Id": "edwinvincent.evt@gmail.com"
+  },
+  "20": {
+    "Roll No.": 1019120,
+    "Name": "Febeeta Alex",
+    "DOB": "30/03/2001",
+    "Gender": "F",
+    "Current Address": "B/03, PARTH CHS, P&T Colony, Gandhinagar, Dombivli (East).",
+    "Permanent Address": "B/03, PARTH CHS, P&T Colony, Gandhinagar, Dombivli (East).",
+    "Mobile No.": 8879347390,
+    "Email Id": "febeeta.alex@gmail.com"
+  },
+  "21": {
+    "Roll No.": 1019121,
+    "Name": "Gabriel Rajendran",
+    "DOB": "15.08.2001",
+    "Gender": "M",
+    "Current Address": "2/4 madan cottage, lake road, bhandup(west), mumbai-78",
+    "Permanent Address": "2/4 madan cottage, lake road, bhandup(west), mumbai-78",
+    "Mobile No.": 7304848496,
+    "Email Id": "rgabriel1508@gmail.com"
+  },
+  "22": {
+    "Roll No.": 1019122,
+    "Name": "Gregory B. Geevarghese",
+    "DOB": "05/04/2001",
+    "Gender": "M",
+    "Current Address": "A-3/202, Happy Valley, Manpada, Thane (W)",
+    "Permanent Address": "A-3/202, Happy Valley, Manpada, Thane (W)",
+    "Mobile No.": 9819206026,
+    "Email Id": "greghpy@gmail.com"
+  },
+  "23": {
+    "Roll No.": 1019123,
+    "Name": "Shweta Dhanyakumar Ghodake",
+    "DOB": "22/5/2001",
+    "Gender": "F",
+    "Current Address": "Navchaitanya soc bldg no 14 room no 101 sec-5 kalamboli navi mumbai-410218",
+    "Permanent Address": "Navchaitanya soc bldg no 14 room no 101 sec-5 kalamboli navi mumbai-410218",
+    "Mobile No.": 8287898299,
+    "Email Id": ""
+  },
+  "24": {
+    "Roll No.": 1019124,
+    "Name": "Dhinakar Gogi",
+    "DOB": "",
+    "Gender": "",
+    "Current Address": "",
+    "Permanent Address": "",
+    "Mobile No.": "",
+    "Email Id": ""
+  },
+  "25": {
+    "Roll No.": 1019125,
+    "Name": "DARREN SANTAN GONSALVES",
+    "DOB": "30/12/2001",
+    "Gender": "M",
+    "Current Address": "201,ICCHAPURTI CHS, PLOT NO. 110,ROAD NO. 16, SECTOR-4 , NEW PANVEL-410206",
+    "Permanent Address": "201,ICCHAPURTI CHS, PLOT NO. 110,ROAD NO. 16, SECTOR-4 , NEW PANVEL-410206",
+    "Mobile No.": 9820160434,
+    "Email Id": "darrengons3001@gmail.com"
+  },
+  "26": {
+    "Roll No.": 1019126,
+    "Name": "ELISHA HALONA EDWIN GRAS",
+    "DOB": "04/02/2002",
+    "Gender": "F",
+    "Current Address": "C-603,OM ARCADE CHS LTD ,SEC-7,PLOT NO-22,AIROLI ,NAVI MUMBAI",
+    "Permanent Address": "",
+    "Mobile No.": 8454818974,
+    "Email Id": "elishahalonagras@gmail.com"
+  },
+  "27": {
+    "Roll No.": 1019127,
+    "Name": "Tushar Gupta",
+    "DOB": "",
+    "Gender": "",
+    "Current Address": "",
+    "Permanent Address": "",
+    "Mobile No.": "",
+    "Email Id": ""
+  },
+  "28": {
+    "Roll No.": 1019128,
+    "Name": "MD. Farhan Aqeel Ahmed Hyderabadwale",
+    "DOB": "27.12.2000",
+    "Gender": "M",
+    "Current Address": "204,konark plaza2, bandar road kachhi maholla, panvel",
+    "Permanent Address": "204,konark plaza2, bandar road kachhi maholla, panvel",
+    "Mobile No.": 9403952867,
+    "Email Id": "mfarhanhyd5@gmail.com"
+  },
+  "29": {
+    "Roll No.": 1019129,
+    "Name": "Jaydip Pravin Indap",
+    "DOB": "16/04/2001",
+    "Gender": "M",
+    "Current Address": "204, New Rajshree, Opp. Dr. Rajphatak Dispensary, pakhadi, Kharegaon, Kalwa (West), Thane,400605",
+    "Permanent Address": "204, New Rajshree, Opp. Dr. Rajphatak Dispensary, pakhadi, Kharegaon, Kalwa (West), Thane,400605",
+    "Mobile No.": 9405264771,
+    "Email Id": "jaydipindap@gmail.com"
+  },
+  "30": {
+    "Roll No.": 1019130,
+    "Name": "Abhisheik Jadhav",
+    "DOB": "27/06/2001",
+    "Gender": "M",
+    "Current Address": "D-126 Raghunath Vihar Kharghar Sector-14 410210",
+    "Permanent Address": "D-126 Raghunath Vihar Kharghar Sector-14 410210",
+    "Mobile No.": 9820623963,
+    "Email Id": "abhisheikj@gmail.com"
+  },
+  "31": {
+    "Roll No.": 1019131,
+    "Name": "Aditya Jadhav",
+    "DOB": "06/10/2001",
+    "Gender": "M",
+    "Current Address": "A-1,401, Basant bldg., Kavyadhara, Kolshet rd., Dhokali Naka, Thane(W), 400607",
+    "Permanent Address": "A-1,401, Basant bldg., Kavyadhara, Kolshet rd., Dhokali Naka, Thane(W), 400607",
+    "Mobile No.": 9987735562,
+    "Email Id": "adijad0610@gmail.com"
+  },
+  "32": {
+    "Roll No.": 1019132,
+    "Name": "Nabhya  Jha",
+    "DOB": "16/02/2002",
+    "Gender": "F",
+    "Current Address": "102,Padmapriya CHS,plot-27,sector-11,New panvel,Navi Mumbai",
+    "Permanent Address": "102,Padmapriya CHS,plot-27,sector-11,New panvel,Navi Mumbai",
+    "Mobile No.": 9323490781,
+    "Email Id": "nabhyajha05@gmail.com"
+  },
+  "33": {
+    "Roll No.": 1019133,
+    "Name": "Joel Thomas",
+    "DOB": "03/09/2001",
+    "Gender": "M",
+    "Current Address": "Sector 10,Plot 36 khanda colony,New panvel(w)",
+    "Permanent Address": "Sector 10,Plot 36 khanda colony,New panvel(w)",
+    "Mobile No.": 7045236115,
+    "Email Id": "Jt03092001@gmail.com"
+  },
+  "34": {
+    "Roll No.": 1019134,
+    "Name": "Aftab Khan",
+    "DOB": "27/05/2001",
+    "Gender": "M",
+    "Current Address": "406, Amit Society, Plot no. 9, Sector 8-E, Kalamboli",
+    "Permanent Address": "406, Amit Society, Plot no. 9, Sector 8-E, Kalamboli",
+    "Mobile No.": 9867223581,
+    "Email Id": "aftabkhanak12346@gmail.com"
+  },
+  "35": {
+    "Roll No.": 1019135,
+    "Name": "Kington Churchill",
+    "DOB": "29/06/2001",
+    "Gender": "M",
+    "Current Address": "Room No : 13, Rajabali Ismail Compound No :15,Near 'T' Junction Bus stop, Bandra-Sion Link Road,Mumbai 400 017",
+    "Permanent Address": "",
+    "Mobile No.": 8369513538,
+    "Email Id": "kingtonchurchill@gmail.com"
+  },
+  "36": {
+    "Roll No.": 1019136,
+    "Name": "Konikkara Francis Anthony",
+    "DOB": "03/03/2001",
+    "Gender": "M",
+    "Current Address": "C2/302,Akash Lok  Rachna ,Amar nagar , Mulund west, Mumbai 400082",
+    "Permanent Address": "C2/302,Akash Lok Rachna ,Amar nagar , Mulund west, Mumbai 400082",
+    "Mobile No.": 9833493269,
+    "Email Id": "francisanthony331@gmail.com"
+  },
+  "37": {
+    "Roll No.": 1019137,
+    "Name": "Lalruatmawia Tochhawng",
+    "DOB": "08/01/2001",
+    "Gender": "M",
+    "Current Address": "Fr. Coencaeco Rodrigues Institute of Technology Boy's Hostel, Room No: 29",
+    "Permanent Address": "MV-140; Near GCS; Mission Veng, Aizawl",
+    "Mobile No.": 8132951600,
+    "Email Id": "lruatmawia18@gmail.com"
+  },
+  "38": {
+    "Roll No.": 1019138,
+    "Name": "Leo Raju Joseph",
+    "DOB": "20/02/2001",
+    "Gender": "M",
+    "Current Address": "NL6, 16/6, Saptarshi Association, Sector-08, Nerul, Navi Mumbai",
+    "Permanent Address": "NL6, 16/6, Saptarshi Association, Sector-08, Nerul, Navi Mumbai",
+    "Mobile No.": 9702684747,
+    "Email Id": "leorjjj1@gmail.com"
+  },
+  "39": {
+    "Roll No.": 1019139,
+    "Name": "Yashraj Mane",
+    "DOB": "12/02/2002",
+    "Gender": "M",
+    "Current Address": "302-GEM CHS, PLOT NO.224,225,ROAD NO. 10, SECTOR-4,NEW PANVEL",
+    "Permanent Address": "302-GEM CHS, PLOT NO.224,225,ROAD NO. 10, SECTOR-4,NEW PANVEL",
+    "Mobile No.": 8080788818,
+    "Email Id": "yashrajmane000@gmail.com"
+  },
+  "40": {
+    "Roll No.": 1019140,
+    "Name": "Pranit Moghe",
+    "DOB": "09/03/2001",
+    "Gender": "M",
+    "Current Address": "A-203 Norita, Pride Park Complex ,Opp Lawkim co.,next to R-Mall ,Chitalsar, Manpada ,Thane (W)",
+    "Permanent Address": "",
+    "Mobile No.": 9820068547,
+    "Email Id": "pranitmoghe9@gmail.com"
+  },
+  "41": {
+    "Roll No.": 1019141,
+    "Name": "Achsha Robinson Nadar",
+    "DOB": "20/10/2001",
+    "Gender": "F",
+    "Current Address": "22/A/101,Vande Mataram,Chandivalie Mhada,Sakinaka,Mumbai-72",
+    "Permanent Address": "",
+    "Mobile No.": 9152293836,
+    "Email Id": "achsha01@gmail.com"
+  },
+  "42": {
+    "Roll No.": 1019142,
+    "Name": "Abhilasa Nayak",
+    "DOB": "16/10/2001",
+    "Gender": "F",
+    "Current Address": "602, Indra Vihar CHS, Plot no. 20/21, Sector 20, Koperkhairane, Navi mumbai.",
+    "Permanent Address": "",
+    "Mobile No.": 7506846968,
+    "Email Id": "abhilasanayak@gmail.com"
+  },
+  "43": {
+    "Roll No.": 1019143,
+    "Name": "Nimal Nainan Palathingal",
+    "DOB": "14/09/2001",
+    "Gender": "M",
+    "Current Address": "Permanent address: 602, Indra Vihar CHS, Plot no. 20/21, Sector 20, Koperkhairane, Navi mumbai.",
+    "Permanent Address": "E-1003, 10th floor, Majestica E, Palava, Dombivli East",
+    "Mobile No.": 9323102863,
+    "Email Id": "nimalnainan@gmail.com"
+  },
+  "44": {
+    "Roll No.": 1019144,
+    "Name": "Arvita pandita",
+    "DOB": "15/12/2001",
+    "Gender": "F",
+    "Current Address": "father agnel girls hostel Vashi Navi Mumbai",
+    "Permanent Address": "father agnel girls hostel Vashi Navi Mumbai",
+    "Mobile No.": 6006192849,
+    "Email Id": "arvitapandita111@gmail.com"
+  },
+  "45": {
+    "Roll No.": 1019145,
+    "Name": "Pappachan Silvia Joy",
+    "DOB": "01/12/2001",
+    "Gender": "F",
+    "Current Address": "D/304, Nikki Nagar CHS LTD, Adharwadi, Kalyan West",
+    "Permanent Address": "D/304, Nikki Nagar CHS LTD, Adharwadi, Kalyan West",
+    "Mobile No.": 9619856996,
+    "Email Id": "silviajoy2001@gmail.com"
+  },
+  "46": {
+    "Roll No.": 1019146,
+    "Name": "Aaditee Deepak Pate",
+    "DOB": "25/04/2001",
+    "Gender": "F",
+    "Current Address": "A202,Sai Shastra Chs,Plot No 27,Sector11, Kharghar,Navi Mumbai 410210",
+    "Permanent Address": "A202,Sai shastra chs,plot no 27, Sector 11,Kharghar,Navi mumbai 410210",
+    "Mobile No.": 8888849497,
+    "Email Id": "aadupate@gmail.com"
+  },
+  "47": {
+    "Roll No.": 1019147,
+    "Name": "Yogant Chandrakant Patil",
+    "DOB": "18/02/2001",
+    "Gender": "M",
+    "Current Address": "Room no.602 staff quarter, Fr. Conceicao Rodriguez Institute Of Technology Boys Hostel , Vashi",
+    "Permanent Address": "03 Sadhana Row House,Kalpatru Nagar,Ashoka Marg,Nashik 422011",
+    "Mobile No.": 9404343788,
+    "Email Id": "yogant.patil2001@gmail.com"
+  },
+  "48": {
+    "Roll No.": 1019148,
+    "Name": "R. Zorinpuii",
+    "DOB": "02/03/2000",
+    "Gender": "F",
+    "Current Address": "Room no. 201, Plot no. 322, Tulip Shine Building , Vashi Gaon, Navi Mumbai 400703",
+    "Permanent Address": "H.No Y-II B-II, Chaltlang Dingdi Veng, Aizawl, Mizoram",
+    "Mobile No.": 7005578018,
+    "Email Id": "zzzorin32@gmail.com"
+  },
+  "49": {
+    "Roll No.": 1019149,
+    "Name": "Loukik Raina",
+    "DOB": "24/04/2001",
+    "Gender": "M",
+    "Current Address": "Room No: 06, Fr. Conceicao Rodrigues Institute of Technology Boy's Hostel, Vashi",
+    "Permanent Address": "H.No.-46,Lane No.-23/C,Bhawani nagar, Janipur, Jammu, J&K",
+    "Mobile No.": 9149897293,
+    "Email Id": "loukik2001@gmail.com"
+  },
+  "50": {
+    "Roll No.": 1019150,
+    "Name": "Shashwat Prasad Reshme",
+    "DOB": "22/06/2001",
+    "Gender": "M",
+    "Current Address": "4B,Saudamini Building, Govt colony, Mahalakshmi, Haji Ali ,Mumbai",
+    "Permanent Address": "Govt colony, Mahalakshmi, Haji Ali ,Mumbai",
+    "Mobile No.": 9307747341,
+    "Email Id": "reshmeshashwat@gmail.com"
+  },
+  "51": {
+    "Roll No.": 1019151,
+    "Name": "Rosmi George",
+    "DOB": "08/11/2000",
+    "Gender": "F",
+    "Current Address": "Flat no: 12, Sai Palace, Plot no: 35, Sector 10A, Vashi, Navi Mumbai, 400703",
+    "Permanent Address": "Flat no: 12, Sai Palace, Plot no: 35, Sector 10A, Vashi, Navi Mumbai, 400703",
+    "Mobile No.": 9987601842,
+    "Email Id": "rosmigeorge27@gmail.com"
+  },
+  "52": {
+    "Roll No.": 1019152,
+    "Name": "Aniruddha Ajay Salunke",
+    "DOB": "04/02/2001",
+    "Gender": "M",
+    "Current Address": "302/01 Sai CHS ,Vaishali Nagar, K.K Marg, Jacob Circle,Mahalaxmi ,Mumbai-400011",
+    "Permanent Address": "302/01, Sai CHS , Vaishali Nagar, K.K Marg, Jacob Circle, Mahalaxmi , Mumbai-400011",
+    "Mobile No.": 7620747207,
+    "Email Id": "anicompscience@gmail.com"
+  },
+  "53": {
+    "Roll No.": 1019153,
+    "Name": "Akshata Abhay Sangwai",
+    "DOB": "22/07/2001",
+    "Gender": "F",
+    "Current Address": "C-6,Jai Bhavani CHS, plot no. 18, Sec 11,Kharghar",
+    "Permanent Address": "C-6,Jai Bhavani CHS,  plot no. 18, Sec 11, Kharghar",
+    "Mobile No.": 9769907909,
+    "Email Id": "akshatasangwai1234@gmail.com"
+  },
+  "54": {
+    "Roll No.": 1019154,
+    "Name": "Shreya Sushil Sapale",
+    "DOB": "17/05/2001",
+    "Gender": "F",
+    "Current Address": "Pl-6/15 Room no.11, Sector-17, New Panvel-410206",
+    "Permanent Address": "64, At post- Vighawali, Tal-Mangaon, Dist-Raigad, 402112",
+    "Mobile No.": 8928172284,
+    "Email Id": "shreyasapale17@gmail.com"
+  },
+  "55": {
+    "Roll No.": 1019155,
+    "Name": "Vardaan Kiran sathe",
+    "DOB": "01/09/2001",
+    "Gender": "M",
+    "Current Address": "Iqbal heights B wing 4th floor room no.402 near mahskar hospital rambaug 6 Kalyan west",
+    "Permanent Address": "Iqbal heights B wing 4th floor room no.402 near mahskar hospital rambaug 6 Kalyan west",
+    "Mobile No.": 9082121991,
+    "Email Id": "vardaansathe@gmail.com"
+  },
+  "56": {
+    "Roll No.": 1019156,
+    "Name": "Selva Leander",
+    "DOB": "17/10/2001",
+    "Gender": "M",
+    "Current Address": "Room no.4, Row-D block 9 transit camp , Sion mumbai",
+    "Permanent Address": "Room no.4, Row-D block 9 transit camp , Sion mumbai",
+    "Mobile No.": 9137053432,
+    "Email Id": "leanderjohn2001@gmail.com"
+  },
+  "57": {
+    "Roll No.": 1019157,
+    "Name": "Alroy Serrao",
+    "DOB": "6/10/2001",
+    "Gender": "M",
+    "Current Address": "C-12,BMC Bldg,SION Agarwada,Sion East,Mumbai-400022",
+    "Permanent Address": "C-12,BMC Bldg,SION Agarwada,Sion East,Mumbai-400022",
+    "Mobile No.": 8369153002,
+    "Email Id": "alroy.a.serrao@gmail.com"
+  },
+  "58": {
+    "Roll No.": 1019158,
+    "Name": "Shalom Jose Jesurajan",
+    "DOB": "23/11/2001",
+    "Gender": "M",
+    "Current Address": "Room No: 100 1/3, Rjav Gandhi Chawl, M.P. Nagar, Dhorwada, Dharavi, Mumbai-400017",
+    "Permanent Address": "Room No: 100 1/3, Rjav Gandhi Chawl, M.P. Nagar, Dhorwada, Dharavi, Mumbai-400017",
+    "Mobile No.": 8976713385,
+    "Email Id": "shalomjose2023@gmail.com"
+  },
+  "59": {
+    "Roll No.": 1019159,
+    "Name": "Shrestha Sharma",
+    "DOB": "02/04/2001",
+    "Gender": "F",
+    "Current Address": "A 303 Sai Saaj Chs,Sector-5, Plot No 3 New Panvel",
+    "Permanent Address": "A 303 Sai Saaj Chs,Sector-5, Plot No 3 New Panvel",
+    "Mobile No.": 8108605093,
+    "Email Id": "shrestha.sharma.4@gmail.com"
+  },
+  "60": {
+    "Roll No.": 1019160,
+    "Name": "Nayan Shingare",
+    "DOB": "29/11/2001",
+    "Gender": "M",
+    "Current Address": "60/311/b-wing/mahalaxmi society/tilaknagar/chembur",
+    "Permanent Address": "60/311/b-wing/mahalaxmi society/tilaknagar/chembur",
+    "Mobile No.": 9082599655,
+    "Email Id": "nayanshingare93@gmail.com"
+  },
+  "61": {
+    "Roll No.": 1019161,
+    "Name": "Harshvardhan Singh",
+    "DOB": "22/02/2001",
+    "Gender": "M",
+    "Current Address": "flat no 272, Cini Homes, Sector-21, Nerul(E), Navi Mumbai",
+    "Permanent Address": "flat no 272, Cini Homes, Sector-21, Nerul(E), Navi Mumbai",
+    "Mobile No.": 9920886820,
+    "Email Id": "captainstormshadow07@gmail.com"
+  },
+  "62": {
+    "Roll No.": 1019162,
+    "Name": "Sini Anna Reji",
+    "DOB": "16/12/2001",
+    "Gender": "F",
+    "Current Address": "1408,Trilok Heights ,90ft road ,Thakurli(E)",
+    "Permanent Address": "1408,Trilok Heights ,90ft road ,Thakurli(E)",
+    "Mobile No.": 7710843788,
+    "Email Id": "siniannareji@gmail.com"
+  },
+  "63": {
+    "Roll No.": 1019163,
+    "Name": "Snehal Sunil Tagalpallewar",
+    "DOB": "23/08/2001",
+    "Gender": "F",
+    "Current Address": "C-5/2/0:4 ,Panchasheel Apartment ,Sec -1A ,CBD Belapur ,Navi Mumbai ,400614",
+    "Permanent Address": "C-5/2/0:4 ,Panchasheel Apartment ,Sec -1A ,CBD Belapur ,Navi Mumbai ,400614",
+    "Mobile No.": 8879335747,
+    "Email Id": "snehaltagal23@gmail.com"
+  },
+  "64": {
+    "Roll No.": 1019164,
+    "Name": "Atharva Tembhe",
+    "DOB": "25/06/2001",
+    "Gender": "M",
+    "Current Address": "B3-10/2,Millenium Towers, Sec9, Sanpada, Navi Mumbai, 400705",
+    "Permanent Address": "B3-10/2,Millenium Towers, Sec9, Sanpada, Navi Mumbai, 400705",
+    "Mobile No.": 8879412312,
+    "Email Id": "atharvatembhe1234@gmail.com"
+  },
+  "65": {
+    "Roll No.": 1019165,
+    "Name": "Richie Kishan",
+    "DOB": "22/12/2000",
+    "Gender": "M",
+    "Current Address": "104-Bldg No.5-Amarante CHS, Sector 9E, Kalamboli Navi Mumbai, 410218",
+    "Permanent Address": "104-Bldg No.5-Amarante CHS, Sector 9E, Kalamboli Navi Mumbai, 410218",
+    "Mobile No.": 8828744058,
+    "Email Id": "richiekishan9@gmail.com"
+  },
+  "66": {
+    "Roll No.": 1019166,
+    "Name": "Vikas Varak",
+    "DOB": "14/08/2000",
+    "Gender": "M",
+    "Current Address": "Laxmi-CHS plot no. 298, room no. 676, sector 1, Ghansoli Navi Mumbai",
+    "Permanent Address": "Laxmi-CHS plot no. 298, room no. 676, sector 1, Ghansoli Navi Mumbai",
+    "Mobile No.": 7038292239,
+    "Email Id": "vikasvarak2000@gmail.com"
+  },
+  "67": {
+    "Roll No.": 1019167,
+    "Name": "Aakash Vikas Yadav",
+    "DOB": "12/10/2001",
+    "Gender": "M",
+    "Current Address": "Plot no A-46,Sai Gayatri Niwas,Sec-12,Row House,kharghar,Navi mumbai ,410210",
+    "Permanent Address": "Plot no A-46,Sai Gayatri Niwas,Sec-12,Row House,kharghar,Navi mumbai ,410210",
+    "Mobile No.": 9372886194,
+    "Email Id": "aakashsp7ecial@gmail.com"
+  },
+  "68": {
+    "Roll No.": 1019168,
+    "Name": "Kaliappan Sudalai Yadav",
+    "DOB": "19/08/2001",
+    "Gender": "M",
+    "Current Address": "NL-2 Bldg no. 15, room no. B1 Sector 3, Nerul, Navi Mumbai 400706",
+    "Permanent Address": "NL-2 Bldg no. 15, room no. B1 Sector 3, Nerul, Navi Mumbai 400706",
+    "Mobile No.": 8828259594,
+    "Email Id": "skaliappan1908@gmail.com"
+  }
+}
