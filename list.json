@@ -1363,7 +1363,8 @@
       "title":"JustForFans",
       "url":"https://justfor.fans/theabbie",
       "icon":"fa fa-globe"
-    },{
+    },
+    {
       "title":"VK",
       "url":"https://vk.com/id569817292",
       "icon":"fa fa-vk"
@@ -1451,6 +1452,11 @@
     {
       "title":"Depop",
       "url":"https://www.depop.com/theabbie/",
+      "icon":"fa fa-globe"
+    },
+    {
+      "title":"laracasts",
+      "url":"https://laracasts.com/@theabbie",
       "icon":"fa fa-globe"
     },
     {
