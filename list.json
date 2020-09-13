@@ -756,6 +756,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"devdojo",
+      "url":"https://devdojo.com/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"HashNode",
       "url":"https://hashnode.com/@theabbie",
       "icon":"fa fa-hashtag"
