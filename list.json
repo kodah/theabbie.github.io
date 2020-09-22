@@ -796,6 +796,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"bibsonomy",
+      "url":"https://www.bibsonomy.org/user/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Codewars",
       "url":"https://www.codewars.com/users/theabbie",
       "icon":"fa fa-globe"
