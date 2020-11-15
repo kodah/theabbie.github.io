@@ -1456,6 +1456,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"Velog",
+      "url":"https://velog.io/@theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"HasGeek",
       "url":"https://hasgeek.com/theabbie",
       "icon":"fa fa-globe"
