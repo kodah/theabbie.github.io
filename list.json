@@ -1566,6 +1566,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"Solo.to",
+      "url":"https://solo.to/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"CoderByte",
       "url":"https://coderbyte.com/profile/abhishekcoder",
       "icon":"fa fa-terminal"
