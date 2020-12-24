@@ -204,9 +204,9 @@ else {p[3].style.display="block";p[4].style.display="block";}
 if (button[2]!=undefined) {button[2].addEventListener("click", function() {if (userinfo[userdata[0].value]!=undefined && userinfo[userdata[0].value][2]==userdata[2].value) {swal("Logged in succesfully");localStorage.userdata=userinfo[userdata[0].value][0];;p[1].innerHTML="LogOut"; nav[2].innerHTML="<img src='user.png' class='user'><h1>"+userinfo[userdata[0].value][0]+"</h1><br><button onclick='logout()'>LogOut</button>";p[3].style.display="block";p[4].style.display="block";} else {swal("Error","Incorrect Credentials","error")}});}
 function user() {if (localStorage.userdata!=undefined) {p[1].innerHTML="LogOut"; nav[2].innerHTML="<img src='user.png' class='user'><h1>"+localStorage.userdata+"</h1><br><button onclick='logout()'>LogOut</button>";}}
 function logout() {localStorage.removeItem("userdata");document.location.reload();}
-i[0].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/abbie_shaikh/")});
+i[0].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/sasta_abbie/")});
 i[1].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/pratik_ugale0262001/")});
-i[2].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/the.mr.insane/")});
+i[2].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/naveenmurugan.jr/")});
 i[3].addEventListener("click", function() {window.open().location.assign("https://plus.google.com/u/0/105527202098604501739")});
 i[4].addEventListener("click", function() {window.open().location.assign("https://www.instagram.com/")});
 if (localStorage.chats!=undefined) {chatbox.innerHTML=localStorage.chats;}
