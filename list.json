@@ -1061,6 +1061,11 @@
       "icon":"fa fa-firefox"
     },
     {
+      "title":"Mozilla",
+      "url":"https://people.mozilla.org/p/theabbie",
+      "icon":"fa fa-firefox"
+    },
+    {
       "title":"WakaTime",
       "url":"https://wakatime.com/@theabbie",
       "icon":"fa fa-globe"
