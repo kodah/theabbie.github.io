@@ -221,6 +221,11 @@
       "icon":"fa fa-globe"
     },
     {
+      "title":"FlowCV",
+      "url":"https://flowcv.me/theabbie",
+      "icon":"fa fa-globe"
+    },
+    {
       "title":"Dev.to",
       "url":"https://dev.to/theabbie",
       "icon":"fa fa-dev"
