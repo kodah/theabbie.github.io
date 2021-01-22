@@ -420,6 +420,7 @@ caption {
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 <script custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js" async></script>
 <script custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js" async></script>
+<script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-0.1.js"></script>
 <!-- <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script> -->
 <script type="application/ld+json">
 {
@@ -619,7 +620,7 @@ caption {
 </section>
 
 <p class="ad">
-<amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-2455012527087318" data-ad-slot="2282099828" data-auto-format="rspv" data-full-width="">
+<amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-2455012527087318" data-ad-slot="2282099828" data-auto-format="rspv" data-full-width="" data-block-on-consent>
 <div overflow=""></div>
 </amp-ad>
 </p>
@@ -812,6 +813,21 @@ caption {
 </section>
 
 </main>
+
+<amp-consent layout="nodisplay" id="consent-element">
+  <script type="application/json">
+    {
+      "consentInstanceId": "my-consent",
+      "consentRequired": true,
+      "promptUI": "consent-ui"
+    }
+  </script>
+  <div id="consent-ui">
+    <button on="tap:consent-element.accept" role="button">Accept</button>
+    <button on="tap:consent-element.reject" role="button">Reject</button>
+    <button on="tap:consent-element.dismiss" role="button">Dismiss</button>
+  </div>
+</amp-consent>
 
 <amp-install-serviceworker src="https://theabbie.github.io/sw.js" layout="nodisplay"></amp-install-serviceworker>
 <amp-analytics type="gtag" data-credentials="include">
